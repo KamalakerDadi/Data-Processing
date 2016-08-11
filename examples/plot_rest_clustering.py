@@ -58,7 +58,7 @@ params_masker = get_params(masker, input_data.MultiNiftiMasker)
 from sklearn.externals.joblib import Memory
 
 # Import class/object names as Clustering
-from clustering import Clustering
+from cluster import Clustering
 # Parameters
 n_clusters = 100
 
