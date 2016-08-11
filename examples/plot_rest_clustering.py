@@ -64,8 +64,8 @@ n_clusters = 100
 
 # kmeans
 kmeans = Clustering(algorithm='minibatchkmeans', n_clusters=n_clusters,
-                    init='k-means++', memory='nilearn_cache', memory_level=1,
-                    random_state=0, verbose=1)
+                    mask=masker, init='k-means++', memory='nilearn_cache',
+                    memory_level=1, random_state=0, verbose=1)
 print("Perform KMeans clustering")
 kmeans.fit(dataset.func)
 masker = kmeans.masker_
@@ -73,8 +73,8 @@ kmeans_labels_img = masker.inverse_transform(kmeans.kmeans_labels_)
 
 # ward
 ward = Clustering(algorithm='featureagglomeration', n_clusters=n_clusters,
-                  linkage='ward', memory='nilearn_cache', memory_level=1,
-                  random_state=0, verbose=1)
+                  mask=masker, linkage='ward', memory='nilearn_cache',
+                  memory_level=1, random_state=0, verbose=1)
 print("Perform Ward Agglomeration")
 ward.fit(dataset.func)
 masker = ward.masker_
