@@ -209,7 +209,7 @@ class Clustering(BaseDecomposition, CacheMixin):
         data = self.masker_.fit_transform(imgs)
         data_ = np.vstack(data)
         if self.verbose:
-            print("--- Fitting the data with Clustering algorithms ---")
+            print("[Clustering] Learning the data")
         self._fit_method(data_)
 
         return self
@@ -217,9 +217,11 @@ class Clustering(BaseDecomposition, CacheMixin):
     def _fit_method(self, data):
         """Helper function which applies clustering method on the masked data
         """
-        mask_img = self.masker_.mask_img_
+        mask_img_ = self.masker_.mask_img_
 
         if self.algorithm == 'minibatchkmeans':
+            if self.verbose:
+                print("[MiniBatchKMeans] Learning")
             labels = self._cache(_minibatch_kmeans_fit_method,
                                  func_memory_level=1)(
                 data.T, self.n_clusters, self.init, self.random_state,
@@ -227,11 +229,13 @@ class Clustering(BaseDecomposition, CacheMixin):
             self.kmeans_labels_ = labels
 
         elif self.algorithm == 'featureagglomeration':
-            mask = mask_img.get_data().astype(np.bool)
-            shape = mask.shape
+            if self.verbose:
+                print("[Feature Agglomeration] Learning")
+            mask_ = mask_img_.get_data().astype(np.bool)
+            shape = mask_.shape
             if self.connectivity is None:
                 self.connectivity = image.grid_to_graph(n_x=shape[0], n_y=shape[1],
-                                                        n_z=shape[2], mask=mask)
+                                                        n_z=shape[2], mask=mask_)
             labels = self._cache(_feature_agglomeration_fit_method,
                                  func_memory_level=1)(
                 data, self.n_clusters, self.connectivity, self.linkage)
