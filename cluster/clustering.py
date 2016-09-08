@@ -206,6 +206,18 @@ class Clustering(BaseDecomposition, CacheMixin):
         BaseDecomposition.fit(self, imgs)
         if not hasattr(imgs, '__iter__'):
             imgs = [imgs]
+
+        if isinstance(self.mask, (NiftiMasker, MultiNiftiMasker)):
+            if self.memory is None and self.mask.memory is not None:
+                self.memory = self.mask.memory
+
+            if self.memory_level is None and \
+                    self.mask.memory_level is not None:
+                self.memory_level = self.mask.memory_level
+
+            if self.n_jobs is None and self.mask.n_jobs is not None:
+                self.n_jobs = self.mask.n_jobs
+
         data = self.masker_.fit_transform(imgs)
         data_ = np.vstack(data)
         if self.verbose:
