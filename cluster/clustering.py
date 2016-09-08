@@ -84,8 +84,8 @@ def _feature_agglomeration_fit_method(data, n_clusters, connectivity, linkage):
     return ward.labels_
 
 
-class Clustering(BaseDecomposition, CacheMixin):
-    """CLustering techniques to decompose fMRI data into brain clusters.
+class Parcellations(BaseDecomposition, CacheMixin):
+    """Parcellation techniques to decompose fMRI data into brain clusters.
 
     More specifically, MiniBatchKMeans and Feature Agglomeration algorithms
     can be used to learn parcellations from rs brain data. The alogrithms
@@ -194,7 +194,7 @@ class Clustering(BaseDecomposition, CacheMixin):
             Data from which clusters will be returned.
         """
         if self.algorithm is None:
-            raise ValueError("Clustering algorithm must be specified in "
+            raise ValueError("Parcellation algorithm must be specified in "
                              "['minibatchkmeans', 'featureagglomeration'].")
 
         valid_algorithms = self.VALID_ALGORITHMS
@@ -221,7 +221,7 @@ class Clustering(BaseDecomposition, CacheMixin):
         data = self.masker_.fit_transform(imgs)
         data_ = np.vstack(data)
         if self.verbose:
-            print("[Clustering] Learning the data")
+            print("[Parcellations] Learning the data")
         self._fit_method(data_)
 
         return self

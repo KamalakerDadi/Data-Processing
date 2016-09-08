@@ -1,3 +1,3 @@
 """Module for clustering algorithms/packages
 """
-from .clustering import Clustering
+from .clustering import Parcellations

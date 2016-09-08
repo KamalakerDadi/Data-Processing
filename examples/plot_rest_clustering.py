@@ -50,31 +50,31 @@ from nilearn._utils.class_inspect import get_params
 params_masker = get_params(masker, input_data.MultiNiftiMasker)
 
 ######################################################################
-# Perform Clustering
-# ------------------
+# Perform Parcellations on the brain data
+# ---------------------------------------
 # KMeans & Ward
 
 # Memory/ Cache
 from sklearn.externals.joblib import Memory
 
 # Import class/object names as Clustering
-from cluster import Clustering
+from cluster import Parcellations
 # Parameters
 n_clusters = 100
 
 # kmeans
-kmeans = Clustering(algorithm='minibatchkmeans', n_clusters=n_clusters,
-                    mask=masker, init='k-means++', memory='nilearn_cache',
-                    memory_level=1, random_state=0, verbose=1)
+kmeans = Parcellations(algorithm='minibatchkmeans', n_clusters=n_clusters,
+                       mask=masker, init='k-means++', memory='nilearn_cache',
+                       memory_level=1, random_state=0, verbose=1)
 print("Perform KMeans clustering")
 kmeans.fit(dataset.func)
 masker = kmeans.masker_
 kmeans_labels_img = masker.inverse_transform(kmeans.kmeans_labels_)
 
 # ward
-ward = Clustering(algorithm='featureagglomeration', n_clusters=n_clusters,
-                  mask=masker, linkage='ward', memory='nilearn_cache',
-                  memory_level=1, random_state=0, verbose=1)
+ward = Parcellations(algorithm='featureagglomeration', n_clusters=n_clusters,
+                     mask=masker, linkage='ward', memory='nilearn_cache',
+                     memory_level=1, random_state=0, verbose=1)
 print("Perform Ward Agglomeration")
 ward.fit(dataset.func)
 masker = ward.masker_
