@@ -203,7 +203,6 @@ class Parcellations(BaseDecomposition, CacheMixin):
                              "among them {1}".format(self.algorithm,
                                                      valid_algorithms))
 
-        BaseDecomposition.fit(self, imgs)
         if not hasattr(imgs, '__iter__'):
             imgs = [imgs]
 
@@ -217,6 +216,8 @@ class Parcellations(BaseDecomposition, CacheMixin):
 
             if self.n_jobs is None and self.mask.n_jobs is not None:
                 self.n_jobs = self.mask.n_jobs
+
+        BaseDecomposition.fit(self, imgs)
 
         data = self.masker_.fit_transform(imgs)
         data_ = np.vstack(data)
