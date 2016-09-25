@@ -12,6 +12,38 @@ from nilearn.input_data import NiftiMasker, MultiNiftiMasker
 from nilearn._utils.cache_mixin import CacheMixin
 
 
+def _shelve_data(imgs, shelve, masker):
+    """ Return masked data with shelving
+
+    Parameters
+    ----------
+    imgs : NiftiImages
+        Images to be masked
+
+    shelve : bool
+        If True, shelving will be done
+
+    masker: instance of NiftiMasker or MultiNiftiMasker
+        masker to be applied on data
+
+    Returns
+    -------
+    shelved_data: numpy.ndarray
+        If images provided are list then shelved data will be list
+
+    masker : instance of NiftiMasker/MultiNiftiMasker
+        If masker._shelving has False, then parameter will be overrided
+        as True and returned the same with only change in _shelving
+        parameter.
+    """
+    if shelve and not masker._shelving:
+        masker._shelving = True
+
+    shelved_data = masker.fit_transform(imgs)
+
+    return shelved_data, masker
+
+
 def _minibatch_kmeans_fit_method(data, n_clusters, init, random_state,
                                  verbose):
     """MiniBatchKMeans algorithm
@@ -155,6 +187,11 @@ class Parcellations(BaseDecomposition, CacheMixin):
     verbose : integer, optional
         Indicate the level of verbosity. By default, nothing is printed.
 
+    shelve : bool, default is False
+        joblib.call_and_shelve whether to use it or not. If True, shelving
+        will be used while Nifti/Multi maskers fit_transform level in this
+        API.
+
     Returns
     -------
     kmeans_labels_ : ndarray
@@ -173,7 +210,8 @@ class Parcellations(BaseDecomposition, CacheMixin):
                  low_pass=None, high_pass=None, t_r=None,
                  smoothing_fwhm=None, standardize=False,
                  detrend=False, memory=Memory(cachedir=None),
-                 memory_level=0, n_jobs=1, verbose=1):
+                 memory_level=0, n_jobs=1, verbose=1,
+                 shelve=False):
         self.algorithm = algorithm
         self.n_clusters = n_clusters
         self.linkage = linkage
@@ -185,6 +223,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
         self.memory_level = memory_level
         self.n_jobs = n_jobs
         self.verbose = verbose
+        self.shelve = shelve
 
     def fit(self, imgs, y=None, confounds=None):
         """ Fit the clustering technique to fmri images
@@ -219,7 +258,18 @@ class Parcellations(BaseDecomposition, CacheMixin):
 
         BaseDecomposition.fit(self, imgs)
 
-        data = self.masker_.fit_transform(imgs)
+        if self.shelve and not self.masker_._shelving:
+            if self.verbose:
+                print("Shelving data given shelve=True")
+            shelved_data, masker = _shelve_data(imgs, self.shelve, self.masker_)
+            self.masker_ = masker
+            data = []
+            for index in range(len(shelved_data)):
+                shelved_iterate_data = shelved_data[index].get()
+                data.append(shelved_iterate_data)
+        else:
+            data = self.masker_.fit_transform(imgs)
+
         data_ = np.vstack(data)
         if self.verbose:
             print("[Parcellations] Learning the data")

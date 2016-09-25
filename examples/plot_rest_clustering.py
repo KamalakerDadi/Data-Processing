@@ -45,10 +45,6 @@ masker = input_data.MultiNiftiMasker(mask_img=gm_mask, smoothing_fwhm=4.,
                                      target_shape=shape, target_affine=affine,
                                      standardize=True, detrend=True,
                                      mask_strategy='epi')
-
-from nilearn._utils.class_inspect import get_params
-params_masker = get_params(masker, input_data.MultiNiftiMasker)
-
 ######################################################################
 # Perform Parcellations on the brain data
 # ---------------------------------------
@@ -65,7 +61,8 @@ n_clusters = 100
 # kmeans
 kmeans = Parcellations(algorithm='minibatchkmeans', n_clusters=n_clusters,
                        mask=masker, init='k-means++', memory='nilearn_cache',
-                       memory_level=1, random_state=0, verbose=1)
+                       memory_level=2, n_jobs=2, random_state=0,
+                       verbose=1, shelve=True)
 print("Perform KMeans clustering")
 kmeans.fit(dataset.func)
 masker = kmeans.masker_
@@ -74,7 +71,8 @@ kmeans_labels_img = masker.inverse_transform(kmeans.kmeans_labels_)
 # ward
 ward = Parcellations(algorithm='featureagglomeration', n_clusters=n_clusters,
                      mask=masker, linkage='ward', memory='nilearn_cache',
-                     memory_level=1, random_state=0, verbose=1)
+                     memory_level=2, n_jobs=2, random_state=0,
+                     verbose=1, shelve=True)
 print("Perform Ward Agglomeration")
 ward.fit(dataset.func)
 masker = ward.masker_
