@@ -345,7 +345,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         if self.regions_extract:
             if self.verbose > 0:
                 print("[Region Extraction] Preparing images")
-                self._regions_extract(masker_)
+            self._regions_extract(masker_)
 
         return self
 
