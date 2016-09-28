@@ -8,6 +8,7 @@ from sklearn.feature_extraction import image
 from sklearn.externals.joblib import Memory, delayed, Parallel
 
 from nilearn.decomposition.base import BaseDecomposition
+from nilearn.input_data.masker_validation import check_embedded_nifti_masker
 from nilearn.input_data import NiftiMasker, MultiNiftiMasker
 from nilearn._utils.cache_mixin import CacheMixin
 
@@ -256,7 +257,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
             if self.n_jobs is None and self.mask.n_jobs is not None:
                 self.n_jobs = self.mask.n_jobs
 
-        BaseDecomposition.fit(self, imgs)
+        self.masker_ = check_embedded_nifti_masker(self)
 
         if self.shelve and not self.masker_._shelving:
             if self.verbose:
