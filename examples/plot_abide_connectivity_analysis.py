@@ -81,7 +81,7 @@ def draw_predictions(imgs=None, labels=None, index=None,
 from nilearn import datasets
 
 abide_data = datasets.fetch_abide_pcp(pipeline='cpac')
-func_imgs = abide_data.func
+func_imgs = abide_data.func_preproc
 phenotypic = abide_data.phenotypic
 
 # class type for each subject is different
