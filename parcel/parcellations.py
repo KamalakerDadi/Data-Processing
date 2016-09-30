@@ -45,7 +45,7 @@ def _shelve_data(imgs, shelve, masker):
     return shelved_data, masker
 
 
-def _minibatch_kmeans_fit_method(data, n_clusters, init, random_state,
+def _minibatch_kmeans_fit_method(data, n_parcels, init, random_state,
                                  verbose):
     """MiniBatchKMeans algorithm
 
@@ -54,8 +54,8 @@ def _minibatch_kmeans_fit_method(data, n_clusters, init, random_state,
     data : array_like, shape=(n_samples, n_voxels)
         Masked subjects data
 
-    n_clusters : int
-        Number of clusters to parcellate.
+    n_parcels : int
+        Number of parcels to parcellate.
 
     init : {'k-means++', 'random'}, default 'k-means++'
         Method for initialization
@@ -64,7 +64,7 @@ def _minibatch_kmeans_fit_method(data, n_clusters, init, random_state,
         details.
         random choose k observations (rows) at random from data for the initial
         centroids. If an ndarray is passed, it should be of shape
-        (n_clusters, n_features) and gives the initial centers.
+        (n_parcels, n_features) and gives the initial centers.
 
     random_state : integer or numpy.RandomState, optional
         The generator used to initialize the centers. If an integer is given,
@@ -77,7 +77,7 @@ def _minibatch_kmeans_fit_method(data, n_clusters, init, random_state,
     -------
     labels : Labels of each point
     """
-    kmeans = MiniBatchKMeans(n_clusters=n_clusters, init=init,
+    kmeans = MiniBatchKMeans(n_clusters=n_parcels, init=init,
                              random_state=random_state, verbose=verbose)
     kmeans.fit(data)
     labels = kmeans.labels_
@@ -85,7 +85,7 @@ def _minibatch_kmeans_fit_method(data, n_clusters, init, random_state,
     return labels
 
 
-def _feature_agglomeration_fit_method(data, n_clusters, connectivity, linkage):
+def _feature_agglomeration_fit_method(data, n_parcels, connectivity, linkage):
     """Feature Agglomeration algorithm to fit on the data.
 
     Parameters
@@ -93,8 +93,8 @@ def _feature_agglomeration_fit_method(data, n_clusters, connectivity, linkage):
     data : array_like, shape=(n_samples, n_voxels)
         Masked subjects data
 
-    n_clusters : int
-        Number of clusters to parcellate.
+    n_parcels : int
+        Number of parcels to parcellate.
 
     connectivity : ndarray
         Connectivity matrix
@@ -110,7 +110,7 @@ def _feature_agglomeration_fit_method(data, n_clusters, connectivity, linkage):
     labels : ndarray
         Labels to the data
     """
-    ward = FeatureAgglomeration(n_clusters=n_clusters, connectivity=connectivity,
+    ward = FeatureAgglomeration(n_clusters=n_parcels, connectivity=connectivity,
                                 linkage=linkage)
     ward.fit(data)
 
@@ -118,7 +118,7 @@ def _feature_agglomeration_fit_method(data, n_clusters, connectivity, linkage):
 
 
 class Parcellations(BaseDecomposition, CacheMixin):
-    """Parcellation techniques to decompose fMRI data into brain clusters.
+    """Parcellation techniques to decompose fMRI data into brain parcellations.
 
     More specifically, MiniBatchKMeans and Feature Agglomeration algorithms
     can be used to learn parcellations from rs brain data. The alogrithms
@@ -130,7 +130,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
     algorithm : str, {'minibatchkmeans', 'featureagglomeration'}
         An algorithm to choose between for brain parcellations.
 
-    n_clusters : int, default=50
+    n_parcels : int, default=50
         Number of parcellations to divide the brain data into.
 
     linkage : str, {'ward', 'complete', 'average'}, default is 'ward'
@@ -205,7 +205,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
     """
     VALID_ALGORITHMS = ["minibatchkmeans", "featureagglomeration"]
 
-    def __init__(self, algorithm, n_clusters=50, linkage='ward',
+    def __init__(self, algorithm, n_parcels=50, linkage='ward',
                  init='k-means++', connectivity=None, random_state=0,
                  mask=None, target_affine=None, target_shape=None,
                  low_pass=None, high_pass=None, t_r=None,
@@ -214,7 +214,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
                  memory_level=0, n_jobs=1, verbose=1,
                  shelve=False):
         self.algorithm = algorithm
-        self.n_clusters = n_clusters
+        self.n_parcels = n_parcels
         self.linkage = linkage
         self.init = init
         self.connectivity = connectivity
@@ -231,7 +231,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
         Parameters
         ----------
         X : List of Niimg-like objects
-            Data from which clusters will be returned.
+            Data from which parcellations will be returned.
         """
         if self.algorithm is None:
             raise ValueError("Parcellation algorithm must be specified in "
@@ -288,7 +288,7 @@ class Parcellations(BaseDecomposition, CacheMixin):
                 print("[MiniBatchKMeans] Learning")
             labels = self._cache(_minibatch_kmeans_fit_method,
                                  func_memory_level=1)(
-                data.T, self.n_clusters, self.init, self.random_state,
+                data.T, self.n_parcels, self.init, self.random_state,
                 self.verbose)
             self.kmeans_labels_ = labels
 
@@ -302,6 +302,6 @@ class Parcellations(BaseDecomposition, CacheMixin):
                                                         n_z=shape[2], mask=mask_)
             labels = self._cache(_feature_agglomeration_fit_method,
                                  func_memory_level=1)(
-                data, self.n_clusters, self.connectivity, self.linkage)
+                data, self.n_parcels, self.connectivity, self.linkage)
 
             self.ward_labels_ = labels

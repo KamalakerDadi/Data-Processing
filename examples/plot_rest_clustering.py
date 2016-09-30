@@ -6,7 +6,7 @@ We use KMeans and spatially-constrained Ward-clustering to create a set of
 parcels. These parcels are particularly interesting for learning functional
 connectomes and discriminate between controls and disease targets.
 
-NOTE: clustering.py should be in the same path to run this example.
+NOTE: parcellations.py should be in the same path to run this example.
 """
 
 ##################################################################
@@ -54,26 +54,26 @@ masker = input_data.MultiNiftiMasker(mask_img=gm_mask, smoothing_fwhm=4.,
 from sklearn.externals.joblib import Memory
 
 # Import class/object names as Clustering
-from cluster import Parcellations
+from parcel import Parcellations
 # Parameters
-n_clusters = 100
+n_parcels = 100
 
 # kmeans
-kmeans = Parcellations(algorithm='minibatchkmeans', n_clusters=n_clusters,
+kmeans = Parcellations(algorithm='minibatchkmeans', n_parcels=n_parcels,
                        mask=masker, init='k-means++', memory='nilearn_cache',
                        memory_level=2, n_jobs=2, random_state=0,
                        verbose=1, shelve=True)
-print("Perform KMeans clustering")
+print("Perform KMeans brain parcellations")
 kmeans.fit(dataset.func)
 masker = kmeans.masker_
 kmeans_labels_img = masker.inverse_transform(kmeans.kmeans_labels_)
 
 # ward
-ward = Parcellations(algorithm='featureagglomeration', n_clusters=n_clusters,
+ward = Parcellations(algorithm='featureagglomeration', n_parcels=n_parcels,
                      mask=masker, linkage='ward', memory='nilearn_cache',
                      memory_level=2, n_jobs=2, random_state=0,
                      verbose=1, shelve=True)
-print("Perform Ward Agglomeration")
+print("Perform Ward Agglomeration based brain parcellations")
 ward.fit(dataset.func)
 masker = ward.masker_
 ward_labels_img = masker.inverse_transform(ward.ward_labels_ + 1)
@@ -84,7 +84,7 @@ ward_labels_img = masker.inverse_transform(ward.ward_labels_ + 1)
 #
 # First we display the labels of the kmeans clustering in the brain.
 #
-# To visualize results, we need to transform the clustering's labels back
+# To visualize results, we need to transform the parcellation's labels back
 # to a neuroimaging volume. For this, we use the NiftiMasker's
 # inverse_transform method.
 from nilearn.plotting import plot_roi, plot_epi, show

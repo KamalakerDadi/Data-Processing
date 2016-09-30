@@ -25,7 +25,7 @@ from nilearn._utils.compat import _basestring, izip, get_affine
 from nilearn._utils.class_inspect import get_params
 from nilearn._utils.niimg_conversions import _check_same_fov
 
-from cluster import Parcellations
+from parcel import Parcellations
 from nilearn_regions import (_region_extractor_cache,
                              _region_extractor_labels_image)
 from nilearn_utils import data_info
@@ -132,8 +132,8 @@ def _cluster_model_fit(imgs, model):
 class LearnBrainRegions(BaseEstimator, TransformerMixin):
     """Learn brain regions on brain parcellations coming from data driven methods
 
-    Data driven methods such as clustering techniques (kmeans, ward) or
-    decomposition methods such as CanICA, DictLearning.
+    Data driven parcellation methods such as (kmeans, ward) or decomposition
+    methods such as CanICA, DictLearning.
 
     Parameters
     ----------
@@ -169,7 +169,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
     n_comp : int, default to 10
         Number of components to decompose. Used for 'dictlearn' or 'ica'
 
-    n_clusters : int, default to 30
+    n_parcels : int, default to 30
         Number of clusters/parcellations. Used for 'kmeans' or 'ward'
 
     smoothing_fwhm : float, default to 4.
@@ -216,7 +216,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
 
     def __init__(self, model, masker, atlases=None, connectome_convert=True,
                  connectome_measure=None, connectome_confounds=None,
-                 n_comp=10, n_clusters=30,
+                 n_comp=10, n_parcels=30,
                  smoothing_fwhm=4., regions_extract=True,
                  min_region_size=2500, threshold=1.,
                  thresholding_strategy='ratio_n_voxels',
@@ -230,7 +230,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         self.connectome_convert = connectome_convert
         self.connectome_confounds = connectome_confounds
         self.n_comp = n_comp
-        self.n_clusters = n_clusters
+        self.n_parcels = n_parcels
         self.smoothing_fwhm = smoothing_fwhm
         self.regions_extract = regions_extract
         self.min_region_size = min_region_size
@@ -315,7 +315,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                     if self.verbose > 0:
                         print("[MiniBatchKMeans] Fitting the model")
                     kmeans = Parcellations(
-                        algorithm='minibatchkmeans', n_clusters=self.n_clusters,
+                        algorithm='minibatchkmeans', n_parcels=self.n_parcels,
                         mask=masker, init='k-means++', verbose=masker.verbose,
                         memory=masker.memory, memory_level=masker.memory_level,
                         n_jobs=masker.n_jobs, random_state=0)
@@ -330,7 +330,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                         print("[Feature Agglomeration] Fitting the model")
                     ward = Parcellations(
                         algorithm='featureagglomeration',
-                        n_clusters=self.n_clusters, mask=masker, linkage='ward',
+                        n_parcels=self.n_parcels, mask=masker, linkage='ward',
                         verbose=masker.verbose, memory=masker.memory,
                         memory_level=masker.memory_level, random_state=0)
                     # Fit Feature Agglomeration ward linkage model

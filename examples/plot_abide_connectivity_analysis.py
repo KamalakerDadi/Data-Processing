@@ -48,7 +48,7 @@ def draw_predictions(imgs=None, labels=None, index=None,
         connectome_measure=connectomes,
         connectome_confounds=connectome_regress_confounds,
         n_comp=40,
-        n_clusters=120,
+        n_parcels=120,
         compute_confounds='compcor_10',
         compute_not_mask_confounds=None,
         verbose=2)
