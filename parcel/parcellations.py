@@ -7,7 +7,7 @@ from sklearn.cluster import MiniBatchKMeans, FeatureAgglomeration
 from sklearn.feature_extraction import image
 from sklearn.externals.joblib import Memory, delayed, Parallel
 
-from nilearn.decomposition.base import BaseDecomposition
+from nilearn.decomposition.multi_pca import MultiPCA
 from nilearn.input_data.masker_validation import check_embedded_nifti_masker
 from nilearn.input_data import NiftiMasker, MultiNiftiMasker
 from nilearn._utils.cache_mixin import CacheMixin
@@ -117,13 +117,16 @@ def _feature_agglomeration_fit_method(data, n_parcels, connectivity, linkage):
     return ward.labels_
 
 
-class Parcellations(BaseDecomposition, CacheMixin):
+class Parcellations(MultiPCA, CacheMixin):
     """Parcellation techniques to decompose fMRI data into brain parcellations.
 
     More specifically, MiniBatchKMeans and Feature Agglomeration algorithms
     can be used to learn parcellations from rs brain data. The alogrithms
     and its parameters are leveraged from scikit-learn. Parameters such as
     `linkage` for Feature Agglomeration, `init` for MiniBatchKMeans.
+
+    NOTE: This object performs Multi Subject Principal Component Analysis first
+    for better initialization to parcellations and dimensionality reduction.
 
     Parameters
     ----------
@@ -132,6 +135,9 @@ class Parcellations(BaseDecomposition, CacheMixin):
 
     n_parcels : int, default=50
         Number of parcellations to divide the brain data into.
+
+    n_components : int, default=20
+        Number of components to extract with MultiPCA.
 
     linkage : str, {'ward', 'complete', 'average'}, default is 'ward'
         Which linkage criterion to use.
@@ -205,9 +211,10 @@ class Parcellations(BaseDecomposition, CacheMixin):
     """
     VALID_ALGORITHMS = ["minibatchkmeans", "featureagglomeration"]
 
-    def __init__(self, algorithm, n_parcels=50, linkage='ward',
-                 init='k-means++', connectivity=None, random_state=0,
-                 mask=None, target_affine=None, target_shape=None,
+    def __init__(self, algorithm, n_parcels=50, n_components=20,
+                 linkage='ward', init='k-means++', connectivity=None,
+                 random_state=0, mask=None, target_affine=None,
+                 target_shape=None,
                  low_pass=None, high_pass=None, t_r=None,
                  smoothing_fwhm=None, standardize=False,
                  detrend=False, memory=Memory(cachedir=None),
@@ -218,13 +225,14 @@ class Parcellations(BaseDecomposition, CacheMixin):
         self.linkage = linkage
         self.init = init
         self.connectivity = connectivity
-        self.random_state = random_state
-        self.mask = mask
-        self.memory = memory
-        self.memory_level = memory_level
-        self.n_jobs = n_jobs
-        self.verbose = verbose
         self.shelve = shelve
+
+        MultiPCA.__init__(self, n_components=n_components,
+                          random_state=random_state,
+                          mask=mask, memory=memory,
+                          memory_level=memory_level,
+                          n_jobs=n_jobs,
+                          verbose=verbose)
 
     def fit(self, imgs, y=None, confounds=None):
         """ Fit the clustering technique to fmri images
@@ -257,24 +265,11 @@ class Parcellations(BaseDecomposition, CacheMixin):
             if self.n_jobs is None and self.mask.n_jobs is not None:
                 self.n_jobs = self.mask.n_jobs
 
-        self.masker_ = check_embedded_nifti_masker(self)
+        MultiPCA.fit(self, imgs)
 
-        if self.shelve and not self.masker_._shelving:
-            if self.verbose:
-                print("Shelving data given shelve=True")
-            shelved_data, masker = _shelve_data(imgs, self.shelve, self.masker_)
-            self.masker_ = masker
-            data = []
-            for index in range(len(shelved_data)):
-                shelved_iterate_data = shelved_data[index].get()
-                data.append(shelved_iterate_data)
-        else:
-            data = self.masker_.fit_transform(imgs)
-
-        data_ = np.vstack(data)
         if self.verbose:
             print("[Parcellations] Learning the data")
-        self._fit_method(data_)
+        self._fit_method(self.components_)
 
         return self
 

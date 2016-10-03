@@ -41,7 +41,7 @@ from nilearn import input_data
 
 # Fetch grey matter mask from nilearn shipped from ICBM templates
 gm_mask = datasets.fetch_icbm152_brain_gm_mask(threshold=0.2)
-masker = input_data.MultiNiftiMasker(mask_img=gm_mask, smoothing_fwhm=4.,
+masker = input_data.MultiNiftiMasker(mask_img=gm_mask, smoothing_fwhm=6.,
                                      target_shape=shape, target_affine=affine,
                                      standardize=True, detrend=True,
                                      mask_strategy='epi')
@@ -60,9 +60,10 @@ n_parcels = 100
 
 # kmeans
 kmeans = Parcellations(algorithm='minibatchkmeans', n_parcels=n_parcels,
+                       n_components=100,
                        mask=masker, init='k-means++', memory='nilearn_cache',
                        memory_level=2, n_jobs=2, random_state=0,
-                       verbose=1, shelve=True)
+                       verbose=1)
 print("Perform KMeans brain parcellations")
 kmeans.fit(dataset.func)
 masker = kmeans.masker_
@@ -70,9 +71,10 @@ kmeans_labels_img = masker.inverse_transform(kmeans.kmeans_labels_)
 
 # ward
 ward = Parcellations(algorithm='featureagglomeration', n_parcels=n_parcels,
+                     n_components=100,
                      mask=masker, linkage='ward', memory='nilearn_cache',
                      memory_level=2, n_jobs=2, random_state=0,
-                     verbose=1, shelve=True)
+                     verbose=1)
 print("Perform Ward Agglomeration based brain parcellations")
 ward.fit(dataset.func)
 masker = ward.masker_
