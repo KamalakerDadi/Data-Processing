@@ -40,7 +40,7 @@ ESTIMATOR_CATALOG = dict(
     ridge=RidgeClassifier())
 
 
-def compute_confounds(imgs, mask_img, n_confounds=5, randomized_svd=False,
+def compute_confounds(imgs, mask_img, n_confounds=5, get_randomized_svd=False,
                       compute_not_mask=False):
     """
     """
@@ -63,8 +63,10 @@ def compute_confounds(imgs, mask_img, n_confounds=5, randomized_svd=False,
 
     if compute_not_mask:
         print("Non mask based confounds extraction")
-        mask_data = np.logical_not(mask_img.get_data().astype(np.int))
-        mask_img = new_img_like(mask_img, mask_data, affine)
+        not_mask_data = np.logical_not(mask_img.get_data().astype(np.int))
+        whole_brain_mask = masking.compute_multi_epi_mask(imgs)
+        not_mask = np.logical_and(not_mask_data, whole_brain_mask.get_data())
+        mask_img = new_img_like(img, not_mask.astype(np.int), affine)
 
     for img in imgs:
         print("[Confounds Extraction] {0}".format(img))
@@ -72,7 +74,7 @@ def compute_confounds(imgs, mask_img, n_confounds=5, randomized_svd=False,
         print("[Confounds Extraction] high ariance confounds computation]")
         high_variance = high_variance_confounds(img, mask_img=mask_img,
                                                 n_confounds=n_confounds)
-        if randomized_svd:
+        if compute_not_mask and get_randomized_svd:
             signals = masking.apply_mask(img, mask_img)
             non_constant = np.any(np.diff(signals, axis=0) != 0, axis=0)
             signals = signals[:, non_constant]
