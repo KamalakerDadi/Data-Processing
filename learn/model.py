@@ -11,6 +11,7 @@ from sklearn.cross_validation import cross_val_score
 from sklearn.linear_model import RidgeClassifier
 from sklearn.covariance import LedoitWolf
 from sklearn.utils.extmath import randomized_svd
+from sklearn.externals.joblib import Memory, Parallel, delayed
 
 from nilearn import masking
 from nilearn import signal
@@ -91,6 +92,16 @@ def compute_confounds(imgs, mask_img, n_confounds=5, get_randomized_svd=False,
         confounds.append(confound_)
 
     return confounds
+
+
+def _atlas_masker_extraction(img, masker, confound):
+    """
+    """
+    print("Confound found:{0} for subject:{1}".format(confound,
+                                                      img))
+    signals = masker.fit_transform(img, confounds=confound)
+
+    return signals
 
 
 def _model_fit(imgs, model):
@@ -500,13 +511,9 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                                                  img=atlas_img, t_r=2.53,
                                                  low_pass=0.1, high_pass=0.01)
 
-            for img, confound in izip(imgs, confounds):
-                if self.verbose > 0:
-                    print("Confound found:{0} for subject:{1}".format(confound,
-                                                                      img))
-
-                signals = masker.fit_transform(img, confounds=confound)
-                subjects_timeseries.append(signals)
+            subjects_timeseries = Parallel(n_jobs=self.masker.n_jobs)(
+                delayed(_atlas_masker_extraction)(img, masker, confound)
+                for img, confound in zip(imgs, confounds))
 
             if subjects_timeseries is not None:
                 SUBJECTS_TIMESERIES[model] = subjects_timeseries
