@@ -156,7 +156,7 @@ for model in models:
     for i, meta_result_ in enumerate(meta_results):
         # This needs to be changed according to connectomes and classifiers
         # selected in the analysis.
-        gather_results = _append_results(gather_results, meta_results)
+        gather_results = _append_results(gather_results, meta_result_)
 
 ##############################################################################
 # Frame the results into pandas Data Frame
