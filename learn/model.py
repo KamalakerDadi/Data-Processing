@@ -25,6 +25,7 @@ from nilearn import _utils
 from nilearn._utils.compat import _basestring, izip, get_affine
 from nilearn._utils.class_inspect import get_params
 from nilearn._utils.niimg_conversions import _check_same_fov
+from nilearn._utils.numpy_conversions import csv_to_array
 
 from parcel import Parcellations
 from nilearn_regions import (_region_extractor_cache,
@@ -234,7 +235,10 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                  min_region_size=2500, threshold=1.,
                  thresholding_strategy='ratio_n_voxels',
                  extractor='local_regions', compute_confounds=None,
-                 compute_not_mask_confounds=None, verbose=0,
+                 compute_confounds_mask_img=None,
+                 compute_not_mask_confounds=None,
+                 compute_confounds_non_mask_img=None,
+                 verbose=0,
                  output_file=None):
         self.model = model
         self.masker = masker
@@ -251,7 +255,9 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         self.thresholding_strategy = thresholding_strategy
         self.extractor = extractor
         self.compute_confounds = compute_confounds
+        self.compute_confounds_mask_img = compute_confounds_mask_img
         self.compute_not_mask_confounds = compute_not_mask_confounds
+        self.compute_confounds_non_mask_img = compute_confounds_non_mask_img
         self.verbose = verbose
         self.output_file = output_file
 
@@ -265,6 +271,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         y : None
             Fit for nothing. only for scikit learn compatibility
         """
+        models = []
         PARCELLATIONS = dict()
         if imgs is None or len(imgs) == 0:
             raise ValueError("You should provide a list of data e.g. Nifti1Image"
@@ -292,6 +299,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
 
         if isinstance(self.model, collections.Iterable):
             for model in self.model:
+                models.append(model)
                 if model not in valid_models:
                     raise ValueError("Invalid model='{0}' is chosen. Please "
                                      "choose one or more among them {1} "
@@ -352,6 +360,22 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                     PARCELLATIONS[model] = ward_img
                     if self.verbose > 0:
                         print("[Feature Agglomeration (Ward)] Learning Done")
+
+        if self.atlases is not None and isinstance(self.atlases, dict):
+            raise ValueError("If 'atlases' are provided, it should be given as "
+                             "a dict. Example, atlases={'name': your atlas image}")
+
+        if self.atlases is not None and isinstance(self.atlases, dict):
+            if self.model is None:
+                masker_ = None
+            for key in self.atlases.keys():
+                if self.verbose > 0:
+                    print("Found Predefined atlases of name:{0}. Added to "
+                          "set of models".format(key))
+                PARCELLATIONS[key] = self.atlases[key]
+                models.append(key)
+
+        self.models_ = models
         # Gather all parcellation results into attribute parcellations_
         self.parcellations_ = PARCELLATIONS
         # If regions need to be extracted
@@ -366,41 +390,45 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         """Region Extraction
         """
         ROIS = dict()
-        if not hasattr(self, 'model'):
-            raise ValueError("Model selection is missing in Region Extraction")
 
         if hasattr(self, 'parcellations_'):
             parcellations = self.parcellations_
         else:
             raise ValueError("Could not find attribute 'parcellations_' "
                              "for fitting [Region Extraction]")
+        if self.model is not None:
+            for model in self.model:
+                if self.verbose > 0:
+                    print("Model selected '{0}' for Region Extraction "
+                          .format(model))
+                parcel_img = parcellations[model]
 
-        for model in self.model:
-            if self.verbose > 0:
-                print("Model selected '{0}' for Region Extraction "
-                      .format(model))
+                if model == 'kmeans' or model == 'ward':
+                    ROIS[model] = parcel_img
+                else:
+                    try:
+                        regions_img_ = _region_extractor_cache(
+                            parcel_img, mask_img=masker.mask_img_,
+                            min_region_size=self.min_region_size,
+                            threshold=self.threshold,
+                            thresholding_strategy=self.thresholding_strategy,
+                            extractor=self.extractor)
+                    except:
+                        print("Excepted as error. Running with 'connected_comp'")
+                        regions_img_ = _region_extractor_cache(
+                            parcel_img, mask_img=masker.mask_img_,
+                            min_region_size=self.min_region_size,
+                            threshold=self.threshold,
+                            thresholding_strategy=self.thresholding_strategy,
+                            extractor='connected_components')
+                    ROIS[model] = regions_img_
 
-            parcel_img = parcellations[model]
-
-            if model == 'kmeans' or model == 'ward':
-                ROIS[model] = parcel_img
-            else:
-                try:
-                    regions_img_ = _region_extractor_cache(
-                        parcel_img, mask_img=masker.mask_img_,
-                        min_region_size=self.min_region_size,
-                        threshold=self.threshold,
-                        thresholding_strategy=self.thresholding_strategy,
-                        extractor=self.extractor)
-                except:
-                    print("Excepted as error. Running with 'connected_comp'")
-                    regions_img_ = _region_extractor_cache(
-                        parcel_img, mask_img=masker.mask_img_,
-                        min_region_size=self.min_region_size,
-                        threshold=self.threshold,
-                        thresholding_strategy=self.thresholding_strategy,
-                        extractor='connected_components')
-                ROIS[model] = regions_img_
+        if self.atlases is not None and isinstance(self.atlases, dict):
+            for key in self.atlases.keys():
+                if self.verbose > 0:
+                    print("Found Predefined atlases of name:{0}. Added to "
+                          "attribute `rois_`".format(key))
+                    ROIS[key] = self.atlases[key]
 
         # Gather all ROIS results into attribute rois_
         self.rois_ = ROIS
@@ -408,16 +436,16 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
     def _check_fitted(self):
         """Checks if fit() method is executed or not
         """
-        if hasattr(self, 'rois_') and hasattr(self, 'model'):
-            if len(self.rois_) == len(self.model):
-                for model in self.model:
+        if hasattr(self, 'rois_') and hasattr(self, 'models_'):
+            if len(self.rois_) == len(self.models_):
+                for model in self.models_:
                     if self.rois_[model] is None:
                         raise ValueError("{0} image from attribute rois_ is "
                                          "missing from the fit estimator. "
                                          "You must call fit() with list of fMRI"
                                          " images".format(model))
         else:
-            raise ValueError("Could not find attribute 'rois_' or 'model'")
+            raise ValueError("Could not find attribute 'rois_' or 'models_'")
 
     def transform(self, imgs, confounds=None):
         """Signal extraction from regions learned on the images.
@@ -431,10 +459,9 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
             white matter, csf. This is passed to signal.clean
         """
         self._check_fitted()
+        confounds1_ = None
+        confounds2_ = None
         SUBJECTS_TIMESERIES = dict()
-        models = []
-        for model in self.model:
-            models.append(model)
 
         # Getting Masker to transform fMRI images in Nifti to timeseries signals
         # based on atlas learning
@@ -444,8 +471,6 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         if not isinstance(imgs, collections.Iterable) or \
                 isinstance(imgs, _basestring):
             imgs = [imgs, ]
-
-        mask_img = self.masker.mask_img
 
         if self.compute_confounds not in ['compcor_5', 'compcor_10', None]:
             warnings.warn("Given invalid input compute_confounds={0}. Given "
@@ -463,18 +488,74 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                 self.compute_not_mask_confounds is None:
             confounds = [None] * len(imgs)
 
+        if self.compute_confounds is None and \
+                self.compute_not_mask_confounds is None:
+            confounds_ = None
+
         if self.compute_confounds is not None:
-            if self.compute_confounds == 'compcor_5':
+            if self.compute_confounds_mask_img is None:
+                raise ValueError("Parameter `compute_confounds` is given as {0} but "
+                                 "`compute_confounds_mask_img` is given as None. "
+                                 .format(self.compute_confounds))
+            if not isinstance(self.compute_confounds_mask_img, collections.Iterable) or \
+                    isinstance(self.compute_confounds_mask_img, _basestring):
+                mask_imgs1 = [self.compute_confounds_mask_img]
+
+            if self.compute_confounds is not None:
+                if self.compute_confounds == 'compcor_5':
+                    n_confounds = 5
+                elif self.compute_confounds == 'compcor_10':
+                    n_confounds = 10
+
+            confounds1_ = []
+
+            for mask_img1 in mask_imgs1:
+                conf1_ = self.masker.memory.cache(compute_confounds)(
+                    imgs, mask_img1, n_confounds=n_confounds)
+                confounds1_.append(conf1_)
+
+            confounds1_ = np.hstack(confounds1_)
+
+        if self.compute_not_mask_confounds is not None:
+            if self.compute_confounds_non_mask_img is None:
+                raise ValueError("Parameter `compute_not_mask_confounds` is given as {0}"
+                                 " but `compute_confounds_non_mask_img` is given as None."
+                                 .format(self.compute_not_mask_confounds))
+            if not isinstance(self.compute_confounds_non_mask_img, collections.Iterable) or \
+                    isinstance(self.compute_confounds_non_mask_img, _basestring):
+                mask_imgs2 = [self.compute_confounds_non_mask_img]
+
+            if self.compute_not_mask_confounds == 'compcor_5':
                 n_confounds = 5
-            elif self.compute_confounds == 'compcor_10':
+            elif self.compute_not_mask_confounds == 'compcor_10':
                 n_confounds = 10
 
-            confounds_ = self.masker.memory.cache(compute_confounds)(
-                imgs, mask_img, n_confounds=n_confounds)
+            confounds2_ = []
+
+            for mask_img2 in mask_imgs2:
+                conf2_ = self.masker.memory.cache(compute_confounds)(
+                    imgs, mask_img2, n_confounds=n_confounds, compute_not_mask=True)
+                confounds2_.append(conf2_)
+
+        if confounds1_ is not None and confounds2_ is not None:
+            confounds_ = np.hstack((confounds1_, confounds2_))
+
+        if confounds1_ is not None and confounds2_ is None:
+            confounds_ = confounds1_
+
+        if confounds1_ is None and confounds2_ is not None:
+            confounds_ = confounds2_
 
         if confounds_ is not None:
             if confounds is not None:
-                confounds = np.hstack((confounds, confounds_))
+                confs_ = []
+                if isinstance(confounds, collections.Iterable):
+                    for conf_gen, conf_given in zip(confounds_, confounds):
+                        if isinstance(conf_given, _basestring):
+                            conf_given = csv_to_array(conf_given)
+                        stack_confounds = np.hstack((conf_gen, conf_given))
+                        confs_.append(stack_confounds)
+                confounds = confs_
             else:
                 confounds = confounds_
 
@@ -483,23 +564,6 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                 raise ValueError("Number of confounds given doesnot match with "
                                  "the given number of subjects. Add missing "
                                  "confound in a list.")
-
-        if self.atlases is not None and not \
-                isinstance(self.atlases, dict):
-            raise ValueError("If 'atlases' are provided, it should be given as "
-                             "a dict. Example, atlases={'name': your atlas image}")
-
-        if self.atlases is not None and \
-                isinstance(self.atlases, dict):
-            for key in self.atlases.keys():
-                if self.verbose > 0:
-                    print("Found Predefined atlases of name:{0}. Added to "
-                          "set of models".format(key))
-                self.parcellations_[key] = self.atlases[key]
-                self.rois_[key] = self.atlases[key]
-                models.append(key)
-
-        self.models_ = models
 
         for model in self.models_:
             subjects_timeseries = []

@@ -50,6 +50,7 @@ def draw_predictions(imgs=None, labels=None, index=None,
         n_comp=40,
         n_parcels=120,
         compute_confounds='compcor_10',
+        compute_confounds_mask_img=gm_mask,
         compute_not_mask_confounds=None,
         verbose=2)
     print("Processing index={0}".format(index))
