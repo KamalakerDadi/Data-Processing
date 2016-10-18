@@ -49,7 +49,40 @@ def _categorize_data(data, columns):
     return data
 
 
-def analyze_effects(data, formula, model='ols'):
+def _generate_formula(dep_variable, effect1, effect2, effect3,
+                      target_in_effect1):
+    """Generate formula for ols or mixedlm stats model
+
+    Parameters
+    ----------
+    dep_variable : str
+        First variable in the model
+
+    effect1 : str
+        First variable in the formula denoting the categorical effect against
+        dep_variable.
+
+    effect2 : str
+        Second effect in the formula
+
+    effect3 : str
+        Third effect in the formula
+
+    target_in_effect1 : str
+        model name with respect to test_effect1.
+
+    Returns
+    -------
+    formula : str
+        Formula generated with given dependent and categorical variables.
+    """
+    formula = ("%s ~ C(%s, Sum('%s')) + " % (dep_variable, effect1, target_in_effect1)
+               + " C(%s, Sum) " % effect2 + "+ C(%s, Sum) " % effect3)
+
+    return formula
+
+
+def analyze_effects(data, formula, model='ols', groups=None):
     """Measure the effects size of each categorical variables given in
     formula against dependent variable.
 
@@ -65,6 +98,10 @@ def analyze_effects(data, formula, model='ols'):
 
     model : str, {'ols', 'mixedlm'}
         Imported from statsmodels.formula.api
+
+    groups : str
+        keyword argument passed to mixedlm model. Required specificall when
+        you do mixedlm model tests.
 
     Returns
     -------
@@ -85,6 +122,7 @@ def analyze_effects(data, formula, model='ols'):
     if model == 'ols':
         model_fit = ols(formula=formula, data=data).fit()
     elif model == 'mixedlm':
-        model_fit = mixedlm(formula=formula, data=data).fit()
+        model_fit = mixedlm(formula=formula, data=data,
+                            groups=groups).fit()
 
     return model_fit
