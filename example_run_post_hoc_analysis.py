@@ -16,8 +16,11 @@ path_to_csvs = glob.glob('results_csv/*.csv')
 betas_list = []
 conf_int_list = []
 p_values_list = []
+labels = []
 
 for csv in path_to_csvs:
+    label = csv.split('/')[1].split('_')[1].split('.csv')[0]
+    labels.append(label)
     data = pd.read_csv(csv)
 
     betas = {}
@@ -133,7 +136,6 @@ from post_hoc_analysis2 import plot_multiple_data
 import matplotlib.pyplot as plt
 
 colormapper = ['r', 'b', 'g']
-labels = ['acpi', 'cobre', 'adni']
 categories = [('atlas', ['aal_spm12', 'basc_scale122',
                          'ho_cort_symm_split',
                          'kmeans', 'ward', 'ica',
