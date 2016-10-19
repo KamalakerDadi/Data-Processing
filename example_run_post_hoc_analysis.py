@@ -133,7 +133,7 @@ from post_hoc_analysis2 import plot_multiple_data
 import matplotlib.pyplot as plt
 
 colormapper = ['r', 'b', 'g']
-labels = ['acpi', 'cobre']
+labels = ['acpi', 'cobre', 'adni']
 categories = [('atlas', ['aal_spm12', 'basc_scale122',
                          'ho_cort_symm_split',
                          'kmeans', 'ward', 'ica',
@@ -141,5 +141,5 @@ categories = [('atlas', ['aal_spm12', 'basc_scale122',
               ('classifier', ['svc_l2', 'svc_l1', 'ridge']),
               ('measure', ['correlation', 'partial correlation', 'tangent'])]
 bars = plot_multiple_data(categories, betas_list, conf_int_list,
-                          colormapper, labels=labels, mode='boxplot')
+                          colormapper, labels=labels, mode='barplot')
 plt.show()
