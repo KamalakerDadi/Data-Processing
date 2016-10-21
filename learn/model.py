@@ -361,7 +361,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                     if self.verbose > 0:
                         print("[Feature Agglomeration (Ward)] Learning Done")
 
-        if self.atlases is not None and isinstance(self.atlases, dict):
+        if self.atlases is not None and not isinstance(self.atlases, dict):
             raise ValueError("If 'atlases' are provided, it should be given as "
                              "a dict. Example, atlases={'name': your atlas image}")
 
