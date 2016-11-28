@@ -383,6 +383,11 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
             if self.verbose > 0:
                 print("[Region Extraction] Preparing images")
             self._regions_extract(masker_)
+        else:
+            # when analysis should be run on only networks (ica, dictlearn)
+            # without region extraction by keeping regions_extract=False
+            # Then this else will help
+            self.rois_ = PARCELLATIONS
 
         return self
 

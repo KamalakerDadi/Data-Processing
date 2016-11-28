@@ -6,7 +6,7 @@ import pandas as pd
 
 from post_hoc_analysis import _categorize_data
 
-path_to_csvs = glob.glob('results_csv/*.csv')
+path_to_csvs = sorted(glob.glob('results_csv/results_*.csv'))
 data_list = []
 
 for csv in path_to_csvs:
