@@ -12,7 +12,7 @@ categories['atlas'] = ['aal_spm12', 'basc_scale122', 'ho_cort_symm_split',
 categories['measure'] = ['correlation', 'partial correlation', 'tangent']
 categories['classifier'] = ['svc_l1', 'svc_l2', 'ridge']
 
-path_to_csvs = sorted(glob.glob('results_csv/results_*.csv'))
+path_to_csvs = sorted(glob.glob('../results_csv/results_*.csv'))
 betas_list = []
 conf_int_list = []
 p_values_list = []
@@ -166,7 +166,8 @@ categories = [('atlas', ['aal_spm12', 'basc_scale122',
               ('measure', ['correlation', 'partial correlation', 'tangent']),
               ('classifier', ['svc_l2', 'svc_l1', 'ridge'])]
 bars = plot_multiple_data(categories, betas_list, conf_int_list,
-                          colormapper, mode='barplot', alias=alias, bg=True)
+                          colors=colormapper, mode='barplot',
+                          alias=alias, bg=True)
 plt.legend([i[0] for i in bars],
            [alias.get(i, i) for i in labels],
            loc=(0.05, 0.7), )

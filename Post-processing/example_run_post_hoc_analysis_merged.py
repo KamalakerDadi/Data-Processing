@@ -12,7 +12,7 @@ categories['atlas'] = ['aal_spm12', 'basc_scale122', 'ho_cort_symm_split',
 categories['measure'] = ['correlation', 'partial correlation', 'tangent']
 categories['classifier'] = ['svc_l1', 'svc_l2', 'ridge']
 
-path_to_csv = 'results_csv/merged_scores.csv'
+path_to_csv = '../results_csv/merged_scores.csv'
 
 data = pd.read_csv(path_to_csv)
 
