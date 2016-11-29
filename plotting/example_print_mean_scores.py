@@ -4,7 +4,7 @@ import glob
 
 import pandas as pd
 
-path_to_csvs = sorted(glob.glob('results_csv/results_*.csv'))
+path_to_csvs = sorted(glob.glob('../results_csv/results_*.csv'))
 labels = []
 mean_scores = []
 
