@@ -1,8 +1,8 @@
 """Example to demonstrate linear relationship through regression
-using seaborn regplot between parameters 'n_regions' as x variable
+using seaborn regplot between parameters 'dimensionality' as x variable
 and 'scores' as y variable in regplot. Then using striplot
 we choose hue='atlas' to demonstrate visual comparisons of behaviour
-of regression plot across atlas extraction methods (ica vs dictlearn)
+of regression plot across atlas extraction methods (kmeans vs ward)
 """
 
 import seaborn as sns
