@@ -45,3 +45,29 @@ def _pandas_data_frame_list(paths):
         data.append(_pandas_data_frame(path_))
 
     return data
+
+
+def _pandas_data_frame_list_of_paths_concat(paths):
+    """Concat list of paths. Order of concat will be same as
+    given order in paths as a list
+
+    Parameters
+    ----------
+    paths : list of str
+        List of csv file paths
+
+    Returns
+    -------
+    data : pd.DataFrame
+        Concatenated data
+    """
+    if not isinstance(paths, (list, tuple)):
+        raise ValueError("You are looking for a wrong function."
+                         "This function works only for given paths as"
+                         "list to concat into pandas data frame.")
+
+    data = _pandas_data_frame_list(paths)
+
+    data = pd.concat(data)
+
+    return data
