@@ -6,7 +6,7 @@ of regression plot across atlas extraction methods (kmeans vs ward)
 """
 
 import seaborn as sns
-import matplotlib
+from matplotlib import pyplot as plt
 
 import load_data
 
@@ -17,25 +17,38 @@ paths = [path_kmeans, path_ward]
 text_name = 'KMeans vs Ward'
 data = load_data._pandas_data_frame_list_of_paths_concat(paths)
 
+sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
 sns.set_palette('dark')
-sns.set(color_codes=True)
-scatter_kws = {'s': 5, 'c': ['g', 'b']}
-line_kws = {'lw': 2, 'color': 'r'}
-matplotlib.rc("legend", fontsize=10)
 
-fig, ax = matplotlib.pyplot.subplots(figsize=(4, 3.5), squeeze=True)
+scatter_kws = {'s': 5}
+line_kws = {'lw': 2}
 
-sns.regplot(x='dimensionality', y='scores', data=data, lowess=True,
-            ax=ax, label=['kmeans', 'ward'],
-            scatter_kws=scatter_kws,
-            line_kws=line_kws)
-ax.legend(scatterpoints=2)
-# ax.legend(loc="upper right")
+fig, ax = plt.subplots(figsize=(4, 3.5), squeeze=True)
+
+NAMES = {'kmeans': 'KMeans',
+         'ward': 'Ward',
+         }
+
+for label in ['kmeans', 'ward']:
+    this_data = data[(data['atlas'] == label) &
+                     (data['classifier'] == 'svc_l2') &
+                     (data['measure'] == 'tangent')]
+    sns.regplot(x='dimensionality', y='scores', data=this_data, lowess=True,
+                ax=ax, label=NAMES[label],
+                scatter_kws=scatter_kws,
+                line_kws=line_kws)
+
+ax = plt.gca()
+ax.axis('tight')
+ax.set_ylim(.53, 1)
+
+ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=3,
+          borderaxespad=0, handletextpad=.2)
+
 ax.set_ylabel('Prediction scores', size=15)
 ax.set_xlabel('Number of increase in clusters', size=15)
-matplotlib.pyplot.text(.5, 1., text_name, transform=ax.transAxes,
-                       size=15, ha='center')
-matplotlib.pyplot.tight_layout(rect=[0, .05, 1, 1])
-matplotlib.pyplot.savefig('clusters_vs_scores.pdf')
-matplotlib.pyplot.close()
+
+plt.tight_layout(pad=.1)
+plt.savefig('clusters_vs_scores.pdf')
+plt.close()

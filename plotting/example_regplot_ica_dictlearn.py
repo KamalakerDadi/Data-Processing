@@ -24,7 +24,7 @@ sns.set_palette('dark')
 scatter_kws = {'s': 5}
 line_kws = {'lw': 2}
 
-fig, ax = matplotlib.pyplot.subplots(figsize=(4, 3.5), squeeze=True)
+fig, ax = plt.subplots(figsize=(4, 3.5), squeeze=True)
 
 NAMES = {'ica': 'ICA',
          'dictlearn': 'Dict-learning',
