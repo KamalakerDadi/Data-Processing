@@ -11,6 +11,7 @@ from matplotlib import pyplot as plt
 # Gather data
 
 import load_data
+from my_palette import atlas_palette
 
 # COBRE
 path_cobre_kmeans = '../Experiments/COBRE/KMeans/scores_kmeans.csv'
@@ -35,6 +36,10 @@ for name in dataset_names:
 data = pd.concat(data_list)
 data = data.drop('Unnamed: 0', axis=1)
 
+## Average over all the folds:
+#columns = ['atlas', 'dataset', 'measure', 'classifier', 'dimensionality']
+#data = data.groupby(columns).mean().reset_index()
+
 sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
 sns.set_palette('dark')
@@ -58,9 +63,13 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
         sns.regplot(x='dimensionality', y='scores', data=this_data,
                     lowess=True, ax=ax, label=NAMES[label],
                     scatter_kws=scatter_kws,
-                    line_kws=line_kws)
+                    line_kws=line_kws,
+                    color=atlas_palette[label],
+                    )
         if i == 0:
             ax.set_ylabel('Prediction scores', size=15)
+            ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=3,
+                    borderaxespad=0, handletextpad=.2, loc='lower right')
         else:
             ax.set_ylabel('')
         ax.set_xlabel('')
@@ -68,11 +77,9 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
 
         ax.axis('tight')
         ax.set_ylim(.5, 1)
-        ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=3,
-                  borderaxespad=0, handletextpad=.2)
 
 plt.text(.6, 0.03, 'Number of clusters', transform=fig.transFigure,
          size=15, ha='center')
-plt.tight_layout(rect=[0, .05, 1, 1])
+plt.tight_layout(rect=[0, .1, 1, .96], pad=.1, w_pad=1)
 plt.savefig('clusters_vs_scores_merged.pdf')
 plt.close()
