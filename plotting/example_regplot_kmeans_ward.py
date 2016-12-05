@@ -47,7 +47,7 @@ ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=3,
           borderaxespad=0, handletextpad=.2)
 
 ax.set_ylabel('Prediction scores', size=15)
-ax.set_xlabel('Number of increase in clusters', size=15)
+ax.set_xlabel('Number of clusters', size=15)
 
 plt.tight_layout(pad=.1)
 plt.savefig('clusters_vs_scores.pdf')
