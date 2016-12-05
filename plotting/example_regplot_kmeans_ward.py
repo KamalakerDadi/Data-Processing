@@ -10,8 +10,8 @@ import matplotlib
 
 import load_data
 
-path_kmeans = 'Experiments/COBRE/KMeans/scores_kmeans.csv'
-path_ward = 'Experiments/COBRE/Ward/scores_ward.csv'
+path_kmeans = '../Experiments/COBRE/KMeans/scores_kmeans.csv'
+path_ward = '../Experiments/COBRE/Ward/scores_ward.csv'
 
 paths = [path_kmeans, path_ward]
 text_name = 'KMeans vs Ward'
