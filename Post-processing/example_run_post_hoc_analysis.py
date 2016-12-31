@@ -19,7 +19,8 @@ p_values_list = []
 labels = []
 
 for csv in path_to_csvs:
-    label = csv.split('/')[1].split('_')[1].split('.csv')[0]
+    label = csv.split('/')[2].split('_')[1].split('.csv')[0]
+    print(label)
     print(" === Running ANOVA analysis on %s dataset scores === " % label)
     labels.append(label)
     data = pd.read_csv(csv)
@@ -137,7 +138,7 @@ from post_hoc_analysis2 import plot_multiple_data
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
-colormapper = cm.Set3([0.27, 0.36, 0.81])
+colormapper = cm.Set3([0.27, 0.36, 0.81, 0.9])
 margin = 0.01
 space = 0.06
 bs = 0.05
@@ -157,7 +158,6 @@ alias = {
     'svc_l1': 'SVC-$\ell_1$',
     'ridge': 'Ridge',
 }
-
 
 categories = [('atlas', ['aal_spm12', 'basc_scale122',
                          'ho_cort_symm_split',
