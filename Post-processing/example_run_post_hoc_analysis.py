@@ -138,10 +138,24 @@ from post_hoc_analysis2 import plot_multiple_data
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
-colormapper = cm.Set3([0.27, 0.36, 0.81, 0.9])
+
+class EmptyDict(object):
+
+    def get(self, value, default):
+        return ''
+
+empty_alias = EmptyDict()
+
+fig = plt.figure(figsize=(14, 6))
+colormapper = cm.Set3([0.45])
 margin = 0.01
 space = 0.06
 bs = 0.05
+
+ax1 = fig.add_axes([margin,
+                    margin + bs,
+                    0.5 - 2 * margin - space / 2,
+                    1. - bs - 2 * margin])
 
 alias = {
     'aal_spm12': 'AAL',
@@ -165,10 +179,25 @@ categories = [('atlas', ['aal_spm12', 'basc_scale122',
                          'dictlearn']),
               ('measure', ['correlation', 'partial correlation', 'tangent']),
               ('classifier', ['svc_l2', 'svc_l1', 'ridge'])]
-bars = plot_multiple_data(categories, betas_list, conf_int_list,
-                          colors=colormapper, mode='barplot',
-                          alias=alias, bg=True)
-plt.legend([i[0] for i in bars],
-           [alias.get(i, i) for i in labels],
-           loc=(0.05, 0.7), )
-plt.show()
+bars1 = plot_multiple_data(categories, [betas], [conf_int],
+                           colors=colormapper, mode='barplot',
+                           axis=ax1, alias=empty_alias, bg=True,
+                           bar_width=3)
+ax2 = fig.add_axes([0.5 + margin + space / 2.,
+                    margin + bs,
+                    0.5 - 2 * margin - space / 2,
+                    1. - bs - 2 * margin])
+colormapper = cm.Set3([0.27, 0.36, 0.81, 0.9])
+bars2 = plot_multiple_data(categories, betas_list, conf_int_list,
+                           colors=colormapper, mode='barplot',
+                           alias=alias, bg=True, bar_width=5,
+                           axis=ax2)
+text_options = dict(ha='center', fontsize=16, rotation='vertical')
+ax1.text(-0.04, 11., 'Atlas', **text_options)
+ax1.text(-0.08, 32.5, 'Measure', **text_options)
+ax1.text(-0.08, 49., 'Classifier', **text_options)
+
+ax1.legend([i[0] for i in bars1 + bars2],
+           ['ALL'] + [alias.get(i, i) for i in labels],
+           loc=(0.05, 0.52), )
+plt.savefig('pipeline_impact.pdf')

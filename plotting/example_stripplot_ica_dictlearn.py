@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 
 import load_data
 
-path_ica = '../Experiments/COBRE/ICA/scores_ica.csv'
-path_dict = '../Experiments/COBRE/DictLearn/scores_dictlearn.csv'
+path_ica = '../Experiments/ADNI/ICA/scores_ica.csv'
+path_dict = '../Experiments/ADNI/DictLearn/scores_dictlearn.csv'
 
 paths = [path_ica, path_dict]
 names = ['ICA', 'Dict-learning']
@@ -36,6 +36,6 @@ plt.text(.6, .025, 'Number of components', transform=fig.transFigure,
 
 plt.tight_layout(rect=[0, .05, 1, 1])
 
-plt.savefig('n_regions_vs_dimensionality.pdf')
+plt.savefig('n_regions_vs_dimensionality_adni.pdf')
 plt.close()
 
