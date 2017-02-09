@@ -1,4 +1,3 @@
-# Data-Processing
-Scripts for resting state (rs) fMRI data processing
+# resting state (rs) fMRI data study
 
-Updation and Testing in progress
+Code, Papers, etc
