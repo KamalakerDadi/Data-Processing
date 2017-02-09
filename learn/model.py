@@ -7,7 +7,7 @@ import numpy as np
 
 from sklearn.base import clone, BaseEstimator, TransformerMixin
 from sklearn.svm import LinearSVC
-from sklearn.cross_validation import cross_val_score
+from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import RidgeClassifier
 from sklearn.covariance import LedoitWolf
 from sklearn.utils.extmath import randomized_svd
