@@ -9,7 +9,7 @@ from sklearn.base import clone, BaseEstimator, TransformerMixin
 from sklearn.svm import LinearSVC
 from sklearn.model_selection import cross_val_score
 from sklearn.linear_model import RidgeClassifier
-from sklearn.covariance import LedoitWolf
+from sklearn.covariance import LedoitWolf, GraphLassoCV
 from sklearn.utils.extmath import randomized_svd
 from sklearn.externals.joblib import Memory, Parallel, delayed
 
@@ -27,12 +27,11 @@ from nilearn._utils.class_inspect import get_params
 from nilearn._utils.niimg_conversions import _check_same_fov
 from nilearn._utils.numpy_conversions import csv_to_array
 
-from parcel import Parcellations
-from nilearn_regions import (_region_extractor_cache,
-                             _region_extractor_labels_image)
-from nilearn_utils import data_info
-from base_atlas_masker import check_embedded_atlas_masker
-from nilearn_connectome import ConnectivityMeasure
+from parcellations import Parcellations
+from region_extractor import _region_extractor_cache
+from atlas_masker import check_embedded_atlas_masker
+from connectome_matrices import ConnectivityMeasure
+
 
 MODELS_CATALOG = ["dictlearn", "ica", "kmeans", "ward"]
 
@@ -224,6 +223,10 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         These confounds will then be stacked with additional confounds if given
         and are used at transform() level for confounds signal cleaning.
 
+    covariance_estimator : {'LedoitWolf', 'GraphLassoCV'}
+        By default pipeline used LedoitWolf estimator from sklearn. Used
+        while computing connectivity matrices with ConnectomeMeasure.
+
     output_file : str
         Path name to store the accuracy scores onto csv file
     """
@@ -238,6 +241,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                  compute_confounds_mask_img=None,
                  compute_not_mask_confounds=None,
                  compute_confounds_non_mask_img=None,
+                 covariance_estimator='LedoitWolf',
                  verbose=0,
                  output_file=None):
         self.model = model
@@ -258,6 +262,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         self.compute_confounds_mask_img = compute_confounds_mask_img
         self.compute_not_mask_confounds = compute_not_mask_confounds
         self.compute_confounds_non_mask_img = compute_confounds_non_mask_img
+        self.covariance_estimator = covariance_estimator
         self.verbose = verbose
         self.output_file = output_file
 
@@ -294,7 +299,8 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         masker = clone(self.masker)
 
         valid_models = MODELS_CATALOG
-        if isinstance(self.model, _basestring):
+
+        if self.model is not None and isinstance(self.model, _basestring):
             self.model = [self.model]
 
         if isinstance(self.model, collections.Iterable):
@@ -307,31 +313,31 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                 if model == 'dictlearn':
                     if self.verbose > 0:
                         print("[Dictionary Learning] Fitting the model")
-                        dict_learn = DictLearning(
-                            mask=masker, n_components=self.n_comp,
-                            random_state=0, n_epochs=1,
-                            memory=masker.memory, memory_level=masker.memory_level,
-                            n_jobs=masker.n_jobs, verbose=masker.verbose)
-                        # Fit Dict Learning model
-                        dict_learn_img, masker_ = _model_fit(imgs, dict_learn)
-                        # Gather results
-                        PARCELLATIONS[model] = dict_learn_img
-                        if self.verbose > 0:
-                            print("[Dictionary Learning] Done")
+                    dict_learn = DictLearning(
+                        mask=masker, n_components=self.n_comp,
+                        random_state=0, n_epochs=1,
+                        memory=masker.memory, memory_level=masker.memory_level,
+                        n_jobs=masker.n_jobs, verbose=masker.verbose)
+                    # Fit Dict Learning model
+                    dict_learn_img, masker_ = _model_fit(imgs, dict_learn)
+                    # Gather results
+                    PARCELLATIONS[model] = dict_learn_img
+                    if self.verbose > 0:
+                        print("[Dictionary Learning] Done")
                 elif model == 'ica':
                     if self.verbose > 0:
                         print("[CanICA] Fitting the model")
-                        canica = CanICA(n_components=self.n_comp, mask=masker,
-                                        threshold=3., verbose=masker.verbose,
-                                        random_state=0, memory=masker.memory,
-                                        memory_level=masker.memory_level,
-                                        n_jobs=masker.n_jobs)
-                        # Fit CanICA model
-                        canica_img, masker_ = _model_fit(imgs, canica)
-                        # Gather results
-                        PARCELLATIONS[model] = canica_img
-                        if self.verbose > 0:
-                            print("[CanICA Learning] Done")
+                    canica = CanICA(n_components=self.n_comp, mask=masker,
+                                    threshold=3., verbose=masker.verbose,
+                                    random_state=0, memory=masker.memory,
+                                    memory_level=masker.memory_level,
+                                    n_jobs=masker.n_jobs)
+                    # Fit CanICA model
+                    canica_img, masker_ = _model_fit(imgs, canica)
+                    # Gather results
+                    PARCELLATIONS[model] = canica_img
+                    if self.verbose > 0:
+                        print("[CanICA Learning] Done")
                 elif model == 'kmeans':
                     if self.verbose > 0:
                         print("[MiniBatchKMeans] Fitting the model")
@@ -376,6 +382,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                 models.append(key)
 
         self.models_ = models
+
         # Gather all parcellation results into attribute parcellations_
         self.parcellations_ = PARCELLATIONS
         # If regions need to be extracted
@@ -401,6 +408,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
         else:
             raise ValueError("Could not find attribute 'parcellations_' "
                              "for fitting [Region Extraction]")
+
         if self.model is not None:
             for model in self.model:
                 if self.verbose > 0:
@@ -506,11 +514,10 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                     isinstance(self.compute_confounds_mask_img, _basestring):
                 mask_imgs1 = [self.compute_confounds_mask_img]
 
-            if self.compute_confounds is not None:
-                if self.compute_confounds == 'compcor_5':
-                    n_confounds = 5
-                elif self.compute_confounds == 'compcor_10':
-                    n_confounds = 10
+            if self.compute_confounds == 'compcor_5':
+                n_confounds = 5
+            elif self.compute_confounds == 'compcor_10':
+                n_confounds = 10
 
             confounds1_ = []
 
@@ -675,10 +682,16 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                 for measure in catalog:
                     if self.verbose > 0:
                         print("[Connectivity Measure] kind='{0}'".format(measure))
-                    # By default Ledoit Wolf covariance estimator
-                    connections = ConnectivityMeasure(
-                        cov_estimator=LedoitWolf(assume_centered=True),
-                        kind=measure)
+
+                    if self.covariance_estimator == 'LedoitWolf':
+                        # Ledoit Wolf covariance estimator
+                        connections = ConnectivityMeasure(
+                            cov_estimator=LedoitWolf(assume_centered=True),
+                            kind=measure)
+                    elif self.covariance_estimator == 'GraphLassoCV':
+                        # GraphLassoCV
+                        connections = ConnectivityMeasure(cov_estimator=GraphLassoCV(verbose=2),
+                                                          kind=measure)
                     # By default vectorize is True
                     if self.connectome_confounds is not None and self.verbose > 0:
                         print("[Connectivity Coefficients] Regression")
@@ -695,7 +708,8 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
 
         return self
 
-    def classify(self, labels, cv, estimators=None, scoring='roc_auc'):
+    def classify(self, labels, cv, estimators=None, groups=None,
+                 scoring='roc_auc'):
         """Prediction scores with estimators, LinearSVC, Ridge
 
         In LinearSVC, we use two penalities 'l1' and 'l2'.
@@ -753,6 +767,7 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                         cv_scores = cross_val_score(estimator,
                                                     connectivity_coefs,
                                                     labels,
+                                                    groups=groups,
                                                     scoring=scoring,
                                                     cv=cv,
                                                     n_jobs=self.masker.n_jobs)

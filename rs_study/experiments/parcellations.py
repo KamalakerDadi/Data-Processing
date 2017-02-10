@@ -211,7 +211,7 @@ class Parcellations(MultiPCA, CacheMixin):
     """
     VALID_ALGORITHMS = ["minibatchkmeans", "featureagglomeration"]
 
-    def __init__(self, algorithm, n_parcels=50, n_components=20,
+    def __init__(self, algorithm, n_parcels=50, n_components=100,
                  linkage='ward', init='k-means++', connectivity=None,
                  random_state=0, mask=None, target_affine=None,
                  target_shape=None,
