@@ -5,13 +5,19 @@ we choose hue='atlas' to demonstrate visual comparisons of behaviour
 of regression plot across atlas extraction methods (kmeans vs ward)
 """
 
+import os
 import seaborn as sns
 from matplotlib import pyplot as plt
 
 import load_data
 
-path_kmeans = '../Experiments/COBRE/KMeans/scores_kmeans.csv'
-path_ward = '../Experiments/COBRE/Ward/scores_ward.csv'
+# Covariance estimator used to build connectomes
+covariance_estimator = 'LedoitWolf'
+dataset = 'COBRE'
+
+base_path = os.path.join('../prediction_scores', covariance_estimator, dataset)
+path_kmeans = base_path + '/KMeans/scores_kmeans.csv'
+path_ward = base_path + '/Ward/scores_ward.csv'
 
 paths = [path_kmeans, path_ward]
 text_name = 'KMeans vs Ward'

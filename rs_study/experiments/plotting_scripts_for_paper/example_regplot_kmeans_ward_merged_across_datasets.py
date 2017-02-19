@@ -3,7 +3,7 @@ using seaborn regplot between parameters 'dimensionality' as x variable
 and 'scores' as y variable in regplot. Looking at the consistency in the
 linear relationship across datasets.
 """
-
+import os
 import seaborn as sns
 import pandas as pd
 from matplotlib import pyplot as plt
@@ -13,18 +13,20 @@ from matplotlib import pyplot as plt
 import load_data
 from my_palette import atlas_palette
 
-# COBRE
-path_cobre_kmeans = '../Experiments/COBRE/KMeans/scores_kmeans.csv'
-path_cobre_ward = '../Experiments/COBRE/Ward/scores_ward.csv'
-paths_cobre = [path_cobre_kmeans, path_cobre_ward]
+# Covariance estimator used in connectomes
+covariance_estimator = 'LedoitWolf'
 
-# ADNI
-path_adni_kmeans = '../Experiments/ADNI/KMeans/scores_kmeans.csv'
-path_adni_ward = '../Experiments/ADNI/Ward/scores_ward.csv'
-paths_adni = [path_adni_kmeans, path_adni_ward]
-
-dataset_paths = {'COBRE': paths_cobre, 'ADNI': paths_adni}
+dataset_paths = dict()
 dataset_names = ['COBRE', 'ADNI']
+
+base_path = os.path.join('../prediction_scores', covariance_estimator)
+
+for dataset in dataset_names:
+    path = os.path.join(base_path, dataset)
+    path_ward = path + '/Ward/scores_ward.csv'
+    path_kmeans = path + '/KMeans/scores_kmeans.csv'
+    paths_appended = [path_ward, path_kmeans]
+    dataset_paths[dataset] = paths_appended
 
 data_list = []
 for name in dataset_names:

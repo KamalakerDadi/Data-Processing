@@ -4,15 +4,19 @@ and 'scores' as y variable in regplot. Then using striplot
 we choose hue='atlas' to demonstrate visual comparisons of behaviour
 of regression plot across atlas extraction methods (ica vs dictlearn)
 """
-
+import os
 import seaborn as sns
 import matplotlib
 from matplotlib import pyplot as plt
 
 import load_data
 
-path_ica = '../Experiments/COBRE/ICA/scores_ica.csv'
-path_dict = '../Experiments/COBRE/DictLearn/scores_dictlearn.csv'
+covariance_estimator = 'LedoitWolf'
+dataset = 'COBRE'
+
+base_path = os.path.join('../prediction_scores', covariance_estimator, dataset)
+path_ica = base_path + '/ICA/scores_ica.csv'
+path_dict = base_path + '/DictLearn/scores_dictlearn.csv'
 
 paths = [path_ica, path_dict]
 data = load_data._pandas_data_frame_list_of_paths_concat(paths)
