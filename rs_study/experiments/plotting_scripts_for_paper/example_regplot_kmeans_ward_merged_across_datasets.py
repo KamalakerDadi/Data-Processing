@@ -48,8 +48,8 @@ sns.set_palette('dark')
 
 scatter_kws = {'s': 5}
 line_kws = {'lw': 2}
-
-fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(4, 3.5), squeeze=True,
+ncols = len(dataset_names)
+fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(4, 3.5), squeeze=True,
                          sharey=True)
 axes = axes.reshape(-1)
 
@@ -78,7 +78,7 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
         plt.text(.5, 1.02, name, transform=ax.transAxes, size=15, ha='center')
 
         ax.axis('tight')
-        ax.set_ylim(.5, 1)
+        ax.set_ylim(.4, 1)
 
 plt.text(.6, 0.03, 'Number of clusters', transform=fig.transFigure,
          size=15, ha='center')
