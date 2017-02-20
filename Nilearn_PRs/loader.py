@@ -42,7 +42,7 @@ def fetch_fsl_atlases(fsl_dir, atlas_header, atlas_name):
             label_file = 'HarvardOxford-Cortical-Lateralized.xml'
         elif 'sub' in atlas_name:
             label_file = 'HarvardOxford-Subcortical.xml'
-        elif 'cortl' in atlas_name:
+        elif 'cort' in atlas_name:
             label_file = 'HarvardOxford-Cortical.xml'
         else:
             raise ValueError("Unknown atlas_name is provided for "
