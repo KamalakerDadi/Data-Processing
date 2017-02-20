@@ -5,6 +5,7 @@ import collections
 import warnings
 
 import numpy as np
+import pandas as pd
 
 from sklearn.datasets.base import Bunch
 
@@ -13,6 +14,34 @@ from nilearn.image.resampling import coord_transform
 from nilearn._utils.compat import get_affine, _basestring
 from nilearn._utils import check_niimg
 from nilearn._utils.niimg import _safe_get_data
+
+
+def load_cut_coords(path):
+    """Load data from csv and make coordinates to list of triplets
+
+    Parameters
+    ----------
+    path : str
+        Path to data.
+        NOTE: only .csv files
+
+    Returns
+    -------
+    coords : list
+        List contains coordinates in triplets (x, y, z).
+
+    data : pandas.DataFrame
+        Loaded data from csv file
+    """
+    data = pd.read_csv(path)
+    data = data.drop('Unnamed: 0', axis=1)
+
+    coords = []
+    for x, y, z in zip(data['x'], data['y'], data['z']):
+        coord_ = (x, y, z)
+        coords.append(coord_)
+
+    return coords, data
 
 
 def find_region_names_using_cut_coords(coords, atlas_img, labels=None):
