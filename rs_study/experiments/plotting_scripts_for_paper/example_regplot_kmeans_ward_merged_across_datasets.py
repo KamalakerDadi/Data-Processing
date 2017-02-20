@@ -17,7 +17,7 @@ from my_palette import atlas_palette
 covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI']
+dataset_names = ['COBRE', 'ADNI', 'ACPI']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
@@ -38,9 +38,9 @@ for name in dataset_names:
 data = pd.concat(data_list)
 data = data.drop('Unnamed: 0', axis=1)
 
-## Average over all the folds:
-#columns = ['atlas', 'dataset', 'measure', 'classifier', 'dimensionality']
-#data = data.groupby(columns).mean().reset_index()
+# Average over all the folds:
+# columns = ['atlas', 'dataset', 'measure', 'classifier', 'dimensionality']
+# data = data.groupby(columns).mean().reset_index()
 
 sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
@@ -71,7 +71,7 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
         if i == 0:
             ax.set_ylabel('Prediction scores', size=15)
             ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=3,
-                    borderaxespad=0, handletextpad=.2, loc='lower right')
+                      borderaxespad=0, handletextpad=.2, loc='lower right')
         else:
             ax.set_ylabel('')
         ax.set_xlabel('')
