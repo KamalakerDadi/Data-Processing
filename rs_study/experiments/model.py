@@ -28,7 +28,8 @@ from nilearn._utils.niimg_conversions import _check_same_fov
 from nilearn._utils.numpy_conversions import csv_to_array
 
 from parcellations import Parcellations
-from region_extractor import _region_extractor_cache
+from region_extractor import (_region_extractor_cache,
+                              connected_label_regions)
 from atlas_masker import check_embedded_atlas_masker
 from connectome_matrices import ConnectivityMeasure
 
@@ -416,7 +417,12 @@ class LearnBrainRegions(BaseEstimator, TransformerMixin):
                           .format(model))
                 parcel_img = parcellations[model]
 
-                if model == 'kmeans' or model == 'ward':
+                if model == 'kmeans':
+                    min_size = self.min_region_size
+                    regions_img_ = connected_label_regions(parcel_img,
+                                                           min_size=min_size)
+                    ROIS[model] = regions_img_
+                elif model == 'ward':
                     ROIS[model] = parcel_img
                 else:
                     try:
