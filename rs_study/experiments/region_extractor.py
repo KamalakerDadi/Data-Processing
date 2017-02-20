@@ -153,7 +153,7 @@ def connected_label_regions(labels_img, min_size=None, connect_diag=True,
 
     """
     labels_img = check_niimg_3d(labels_img)
-    labels_data = _safe_get_data(labels_img, ensure_finite=True)
+    labels_data = _safe_get_data(labels_img)
     affine = labels_img.get_affine()
 
     check_unique_labels = np.unique(labels_data)
