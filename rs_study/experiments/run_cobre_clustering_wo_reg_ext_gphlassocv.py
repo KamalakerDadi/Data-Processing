@@ -192,9 +192,9 @@ import pandas as pd
 
 dimensions = [40, 60, 80, 100, 120, 150, 200, 300]
 folder_name = name + str(n_iter) + '_kmeans_list_dim_graphlasso'
-iter_for_prediction = cv.split(func_imgs, classes)
 for model in ['kmeans']:
     for dim in dimensions:
+        iter_for_prediction = cv.split(func_imgs, classes)
         for index, (train_index, test_index) in enumerate(iter_for_prediction):
             all_results = draw_predictions(
                 imgs=func_imgs,
