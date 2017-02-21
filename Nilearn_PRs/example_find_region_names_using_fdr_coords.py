@@ -7,8 +7,8 @@
 from loader import fetch_fsl_atlases
 
 fsl_dir = '/usr/share/fsl/'
-atlas_header = 'HarvardOxford'
-atlas_name = 'cort-maxprob-thr0-1mm'
+atlas_header = 'Cerebellum'
+atlas_name = 'MNIflirt-maxprob-thr0-1mm'
 
 fsl_atlas = fetch_fsl_atlases(fsl_dir, atlas_header, atlas_name)
 atlas_img, labels = fsl_atlas.atlas_img, fsl_atlas.labels
