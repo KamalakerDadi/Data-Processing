@@ -23,8 +23,8 @@ base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     path = os.path.join(base_path, dataset)
-    path_ica = path + '/ICA/scores_ica.csv'
-    path_dictlearn = path + '/DictLearn/scores_dictlearn.csv'
+    path_ica = path + '/ICA/region_extraction/scores_ica.csv'
+    path_dictlearn = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
     paths_appended = [path_ica, path_dictlearn]
     dataset_paths[dataset] = paths_appended
 

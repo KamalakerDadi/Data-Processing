@@ -13,8 +13,8 @@ base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     path = os.path.join(base_path, dataset)
-    path_ica = path + '/ICA/scores_ica.csv'
-    path_dict = path + '/DictLearn/scores_dictlearn.csv'
+    path_ica = path + '/ICA/region_extraction/scores_ica.csv'
+    path_dict = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
     paths = [path_ica, path_dict]
     names = ['ICA', 'Dict-learning']
     data = load_data._pandas_data_frame_list(paths)

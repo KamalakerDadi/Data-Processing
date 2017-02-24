@@ -23,8 +23,8 @@ base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     path = os.path.join(base_path, dataset)
-    path_ward = path + '/Ward/scores_ward.csv'
-    path_kmeans = path + '/KMeans/scores_kmeans.csv'
+    path_ward = path + '/Ward/parcellations/scores_ward.csv'
+    path_kmeans = path + '/KMeans/parcellations/scores_kmeans.csv'
     paths_appended = [path_ward, path_kmeans]
     dataset_paths[dataset] = paths_appended
 

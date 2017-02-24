@@ -16,8 +16,8 @@ covariance_estimator = 'LedoitWolf'
 dataset = 'COBRE'
 
 base_path = os.path.join('../prediction_scores', covariance_estimator, dataset)
-path_kmeans = base_path + '/KMeans/scores_kmeans.csv'
-path_ward = base_path + '/Ward/scores_ward.csv'
+path_kmeans = base_path + '/KMeans/parcellations/scores_kmeans.csv'
+path_ward = base_path + '/Ward/parcellations/scores_ward.csv'
 
 paths = [path_kmeans, path_ward]
 text_name = 'KMeans vs Ward'

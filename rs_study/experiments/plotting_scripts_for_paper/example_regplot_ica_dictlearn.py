@@ -15,8 +15,8 @@ covariance_estimator = 'LedoitWolf'
 dataset = 'COBRE'
 
 base_path = os.path.join('../prediction_scores', covariance_estimator, dataset)
-path_ica = base_path + '/ICA/scores_ica.csv'
-path_dict = base_path + '/DictLearn/scores_dictlearn.csv'
+path_ica = base_path + '/ICA/region_extraction/scores_ica.csv'
+path_dict = base_path + '/DictLearn/region_extraction/scores_dictlearn.csv'
 
 paths = [path_ica, path_dict]
 data = load_data._pandas_data_frame_list_of_paths_concat(paths)
