@@ -49,29 +49,34 @@ NAMES = {'ica': 'ICA',
          'kmeans': 'KMeans'}
 
 for i, (name, ax) in enumerate(zip(dataset_names, axes)):
-    for label in ['ica', 'dictlearn', 'kmeans']:
-        this_data = data[(data['dataset'] == name) &
-                         (data['atlas'] == label) &
-                         (data['classifier'] == 'svc_l2') &
-                         (data['measure'] == 'tangent')]
-        sns.stripplot(x='dimensionality', y='n_regions', data=this_data,
-                      ax=ax, jitter=.24, size=2.5, color=atlas_palette[label],
-                      )
-        if i == 0:
-            ax.set_ylabel('Number of regions extracted', size=15)
-        else:
-            ax.set_ylabel('')
-        ax.set_xlabel('')
-        plt.text(.5, 1.02, name, transform=ax.transAxes,
-                 size=13, ha='center')
-        for x in (1, 3):
-            ax.axvspan(x - .5, x + .5, color='.9', zorder=-1)
+    this_data = data[(data['dataset'] == name) &
+                     (data['classifier'] == 'svc_l2') &
+                     (data['measure'] == 'tangent')]
+    sns.stripplot(x='dimensionality', y='n_regions', data=this_data,
+                  ax=ax, jitter=.25, size=1.5,
+                  hue='atlas',  # color=atlas_palette[label],
+                  palette=atlas_palette, split=True,
+                  )
+    if i == 1:
+        ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=1,
+                  handlelength=1, borderpad=.2,
+                  borderaxespad=0, handletextpad=.05, loc=(.05, .5))
+    else:
+        ax.legend().remove()
+    if i == 0:
+        ax.set_ylabel('Number of regions extracted', size=15)
+    else:
+        ax.set_ylabel('')
+    ax.set_xlabel('')
+    plt.text(.5, 1.02, name, transform=ax.transAxes,
+             size=13, ha='center')
+    for x in (1, 3):
+        ax.axvspan(x - .5, x + .5, color='.9', zorder=-1)
 
-plt.text(.6, .025, 'Number of components', transform=fig.transFigure,
+plt.text(.6, .025, 'Number of dimensions', transform=fig.transFigure,
          size=15, ha='center')
 
 plt.tight_layout(rect=[0, .05, 1, 1])
 
 plt.savefig('n_regions_vs_dimensionality.pdf')
 plt.close()
-
