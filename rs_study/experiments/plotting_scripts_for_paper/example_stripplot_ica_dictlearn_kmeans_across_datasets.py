@@ -10,7 +10,7 @@ from my_palette import atlas_palette
 
 covariance_estimator = 'LedoitWolf'
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ADNIDOD']
+dataset_names = ['COBRE', 'ADNI']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
