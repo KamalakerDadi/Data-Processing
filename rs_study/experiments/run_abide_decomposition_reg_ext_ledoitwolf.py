@@ -127,7 +127,7 @@ func_imgs = data_store[name].func_preproc
 phenotypic = data_store[name].phenotypic
 connectome_regress_confounds = None
 
-from nilearn_utils import data_info
+from utils import data_info
 
 shape, affine, _ = data_info(func_imgs[0])
 ###########################################################################
@@ -200,7 +200,7 @@ for model in ['dictlearn']:
             print(index)
             # Dump the results
             for model_ in all_results.models_:
-                save_path = os.path.join(folder_name, model_, str(index))
+                save_path = os.path.join(folder_name, model_, str(dim), str(index))
                 print(save_path)
                 if not os.path.exists(save_path):
                     print("Making directory {0}".format(save_path))
