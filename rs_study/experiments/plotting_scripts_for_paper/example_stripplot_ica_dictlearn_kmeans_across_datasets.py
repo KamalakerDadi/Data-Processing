@@ -10,15 +10,16 @@ from my_palette import atlas_palette
 
 covariance_estimator = 'LedoitWolf'
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ADNIDOD']
+dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     path = os.path.join(base_path, dataset)
     path_ica = path + '/ICA/region_extraction/scores_ica.csv'
-    path_dict = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
-    path_kmeans = path + '/KMeans/region_extraction/scores_kmeans_120.csv'
+    if dataset != 'ACPI':
+        path_dict = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
+        path_kmeans = path + '/KMeans/region_extraction/scores_kmeans_120.csv'
     paths = [path_ica, path_dict, path_kmeans]
     dataset_paths[dataset] = paths
 
@@ -40,7 +41,7 @@ line_kws = {'lw': 2}
 
 
 fig, axes = plt.subplots(nrows=1, ncols=len(dataset_names),
-                         figsize=(4, 3.5),
+                         figsize=(6, 4),
                          squeeze=True, sharey=True)
 axes = axes.reshape(-1)
 
@@ -57,7 +58,7 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
                   hue='atlas',  # color=atlas_palette[label],
                   palette=atlas_palette, split=True,
                   )
-    if i == 2:
+    if i == 3:
         ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=1,
                   handlelength=1, borderpad=.2,
                   borderaxespad=0, handletextpad=.05, loc=(.01, .6))
@@ -68,7 +69,7 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
     else:
         ax.set_ylabel('')
     ax.set_xlabel('')
-    plt.text(.5, 1.02, name, transform=ax.transAxes,
+    plt.text(.5, 1.01, name, transform=ax.transAxes,
              size=13, ha='center')
     for x in (1, 3):
         ax.axvspan(x - .5, x + .5, color='.9', zorder=-1)
