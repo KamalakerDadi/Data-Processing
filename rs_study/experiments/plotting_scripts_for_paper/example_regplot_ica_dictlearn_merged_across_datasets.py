@@ -11,20 +11,21 @@ from matplotlib import pyplot as plt
 # Gather data
 
 import load_data
-from my_palette import atlas_palette
+from my_palette import atlas_palette, color_palette
 
 # Covariance estimator used in connectomes
 covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI']
+dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     path = os.path.join(base_path, dataset)
     path_ica = path + '/ICA/region_extraction/scores_ica.csv'
-    path_dictlearn = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
+    if dataset != 'ACPI':
+        path_dictlearn = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
     paths_appended = [path_ica, path_dictlearn]
     dataset_paths[dataset] = paths_appended
 
@@ -49,15 +50,17 @@ sns.set_palette('dark')
 scatter_kws = {'s': 5}
 line_kws = {'lw': 2}
 
-fig, axes = plt.subplots(nrows=1, ncols=2, figsize=(4, 3.5), squeeze=True,
+ncols = len(dataset_names)
+fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(6, 4), squeeze=True,
                          sharey=True)
 axes = axes.reshape(-1)
 
 NAMES = {'ica': 'ICA',
          'dictlearn': 'DictLearn'}
+palette = color_palette(2)
 
 for i, (name, ax) in enumerate(zip(dataset_names, axes)):
-    for label in ['ica', 'dictlearn']:
+    for label, pal in zip(['ica', 'dictlearn'], palette):
         this_data = data[(data['dataset'] == name) &
                          (data['atlas'] == label) &
                          (data['classifier'] == 'svc_l2') &
@@ -66,7 +69,7 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
                     lowess=True, ax=ax, label=NAMES[label],
                     scatter_kws=scatter_kws,
                     line_kws=line_kws,
-                    color=atlas_palette[label],
+                    color=pal,
                     )
         if i == 0:
             ax.set_ylabel('Prediction scores', size=15)
