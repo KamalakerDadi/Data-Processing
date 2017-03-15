@@ -10,7 +10,7 @@ from my_palette import atlas_palette
 
 covariance_estimator = 'LedoitWolf'
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
@@ -57,10 +57,10 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
                   hue='atlas',  # color=atlas_palette[label],
                   palette=atlas_palette, split=True,
                   )
-    if i == 1:
+    if i == 2:
         ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=1,
                   handlelength=1, borderpad=.2,
-                  borderaxespad=0, handletextpad=.05, loc=(.05, .5))
+                  borderaxespad=0, handletextpad=.05, loc=(.01, .6))
     else:
         ax.legend().remove()
     if i == 0:

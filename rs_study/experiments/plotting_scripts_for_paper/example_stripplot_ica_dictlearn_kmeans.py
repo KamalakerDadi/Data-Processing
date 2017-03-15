@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import load_data
 
 covariance_estimator = 'LedoitWolf'
-dataset_names = ['COBRE', 'ADNI']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
@@ -38,7 +38,7 @@ for dataset in dataset_names:
         for x in (1, 3):
             ax.axvspan(x - .5, x + .5, color='.9', zorder=-1)
 
-    plt.text(.6, .025, 'Number of components', transform=fig.transFigure,
+    plt.text(.6, .025, 'Number of dimensions', transform=fig.transFigure,
              size=15, ha='center')
 
     plt.tight_layout(rect=[0, .05, 1, 1])
