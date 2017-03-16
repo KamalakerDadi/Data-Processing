@@ -43,7 +43,7 @@ def _append_results(results, model, iteration, dim):
                 results['n_regions'].append('NA')
                 results['dimensionality'].append(dim)
                 results['atlas_type'].append('pre-defined')
-                results['symmetric_split'].append('True')
+                results['version'].append('symmetric')
 
     return results
 
@@ -133,14 +133,11 @@ shape, affine, _ = data_info(func_imgs[0])
 # Fetch the atlas
 from nilearn import datasets as nidatasets
 
-ho = nidatasets.fetch_atlas_harvard_oxford(atlas_name='cort-maxprob-thr25-2mm',
-                                           symmetric_split=True)
-
-atlas_img = ho.maps
+basc = nidatasets.fetch_atlas_basc_multiscale_2015()
 
 # Define atlases for LearnBrainRegions object as dict()
 atlases = dict()
-atlases['harvard_oxford'] = atlas_img
+atlases['basc'] = basc['scale036']
 ###########################################################################
 # Masker
 # ------
@@ -184,7 +181,7 @@ columns = ['atlas', 'measure', 'classifier', 'scores', 'iter_shuffle_split',
            'n_regions', 'smoothing_fwhm', 'dataset', 'compcor_10',
            'motion_regress', 'dimensionality', 'connectome_regress', 'scoring',
            'region_extraction', 'covariance_estimator', 'min_region_size_in_mm3',
-           'atlas_type', 'symmetric_split']
+           'atlas_type', 'version']
 results = dict()
 for column_name in columns:
     results.setdefault(column_name, [])
@@ -195,8 +192,9 @@ print(results)
 # --------------------
 import pandas as pd
 
-folder_name = name + str(n_iter) + '_ho_ledoitwolf'
-dim = 96  # Number of parcellations in HarvardOxford atlas
+folder_name = name + str(n_iter) + '_basc_ledoitwolf'
+
+dim = 36
 
 iter_for_prediction = cv.split(func_imgs, classes)
 for index, (train_index, test_index) in enumerate(iter_for_prediction):

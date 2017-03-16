@@ -131,7 +131,6 @@ shape, affine, _ = data_info(func_imgs[0])
 # Fetch the atlas
 from nilearn import datasets as nidatasets
 
-# By default we have atlas of version='SPM12'
 ho = nidatasets.fetch_atlas_harvard_oxford(atlas_name='cort-maxprob-thr25-2mm',
                                            symmetric_split=True)
 atlas_img = ho.maps

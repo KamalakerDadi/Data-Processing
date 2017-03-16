@@ -131,7 +131,6 @@ shape, affine, _ = data_info(func_imgs[0])
 # Fetch the atlas
 from nilearn import datasets as nidatasets
 
-# By default we have atlas of version='SPM12'
 basc = nidatasets.fetch_atlas_basc_multiscale_2015()
 
 # Define atlases for LearnBrainRegions object as dict()
