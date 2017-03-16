@@ -43,6 +43,7 @@ def _append_results(results, model, iteration, dim):
                 results['n_regions'].append('NA')
                 results['dimensionality'].append(dim)
                 results['atlas_type'].append('pre-defined')
+                results['symmetric_split'].append('True')
 
     return results
 
@@ -104,8 +105,8 @@ for path, dataset in zip(itertools.repeat(data_path), datasets_):
     print("Loading %s datasets from %s path" % (dataset, path))
     data_store[dataset] = load_datasets.fetch(dataset_name=dataset,
                                               data_path=path)
-    cache[dataset] = os.path.join(cache_joblib, ('data_processing_' +
-                                                 dataset +
+    cache[dataset] = os.path.join(cache_joblib, ('data_processing_'
+                                                 + dataset +
                                                  '_analysis'))
 
 # Data to process
@@ -133,12 +134,14 @@ shape, affine, _ = data_info(func_imgs[0])
 from nilearn import datasets as nidatasets
 
 # By default we have atlas of version='SPM12'
-aal = nidatasets.fetch_atlas_aal()
-atlas_img = aal.maps
+ho = nidatasets.fetch_atlas_harvard_oxford(atlas_name='cort-maxprob-thr25-2mm',
+                                           symmetric_split=True)
+
+atlas_img = ho.maps
 
 # Define atlases for LearnBrainRegions object as dict()
 atlases = dict()
-atlases['aal_spm12'] = atlas_img
+atlases['harvard_oxford'] = atlas_img
 ###########################################################################
 # Masker
 # ------
@@ -182,7 +185,7 @@ columns = ['atlas', 'measure', 'classifier', 'scores', 'iter_shuffle_split',
            'n_regions', 'smoothing_fwhm', 'dataset', 'compcor_10',
            'motion_regress', 'dimensionality', 'connectome_regress', 'scoring',
            'region_extraction', 'covariance_estimator', 'min_region_size_in_mm3',
-           'atlas_type']
+           'atlas_type', 'symmetric_split']
 results = dict()
 for column_name in columns:
     results.setdefault(column_name, [])
@@ -193,8 +196,8 @@ print(results)
 # --------------------
 import pandas as pd
 
-folder_name = name + str(n_iter) + '_aal_ledoitwolf'
-dim = 116  # Number of parcellations in AAL atlas
+folder_name = name + str(n_iter) + '_ho_ledoitwolf'
+dim = 96  # Number of parcellations in HarvardOxford atlas
 
 iter_for_prediction = cv.split(func_imgs, classes)
 for index, (train_index, test_index) in enumerate(iter_for_prediction):

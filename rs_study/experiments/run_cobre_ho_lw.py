@@ -194,7 +194,7 @@ print(results)
 import pandas as pd
 
 folder_name = name + str(n_iter) + '_ho_ledoitwolf'
-dim = 96  # Number of parcellations in AAL atlas
+dim = 96  # Number of parcellations in HarvardOxford atlas
 
 iter_for_prediction = cv.split(func_imgs, classes)
 for index, (train_index, test_index) in enumerate(iter_for_prediction):
