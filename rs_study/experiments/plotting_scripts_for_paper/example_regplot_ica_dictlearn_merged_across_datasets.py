@@ -17,11 +17,13 @@ from my_palette import atlas_palette, color_palette
 covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
-atlases = ['ICA', 'DictLearn']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI']
+atlases = ['ICA', 'DictLearn', 'KMeans', 'BASC']
 
 extensions = {'ICA': 'scores_ica.csv',
               'DictLearn': 'scores_dictlearn.csv',
+              'KMeans': 'scores_kmeans.csv',
+              'BASC': 'scores_basc.csv'
               }
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
@@ -46,10 +48,6 @@ for name in dataset_names:
 data = pd.concat(data_list)
 data = data.drop('Unnamed: 0', axis=1)
 
-## Average over all the folds:
-#columns = ['atlas', 'dataset', 'measure', 'classifier', 'dimensionality']
-#data = data.groupby(columns).mean().reset_index()
-
 sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
 sns.set_palette('dark')
@@ -63,11 +61,13 @@ fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(6, 4), squeeze=True,
 axes = axes.reshape(-1)
 
 NAMES = {'ica': 'ICA',
-         'dictlearn': 'DictLearn'}
-palette = color_palette(2)
+         'dictlearn': 'DictLearn',
+         'kmeans': 'KMeans',
+         'basc': 'BASC'}
+palette = color_palette(4)
 
 for i, (name, ax) in enumerate(zip(dataset_names, axes)):
-    for label, pal in zip(['ica', 'dictlearn'], palette):
+    for label, pal in zip(['ica', 'dictlearn', 'kmeans', 'basc'], palette):
         this_data = data[(data['dataset'] == name) &
                          (data['atlas'] == label) &
                          (data['classifier'] == 'svc_l2') &
