@@ -20,18 +20,21 @@ dataset_paths = dict()
 dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
-atlases = ['KMeans', 'Ward']
+atlases = ['KMeans', 'Ward', 'BASC']
 
 extensions = {'KMeans': 'scores_kmeans.csv',
               'Ward': 'scores_ward.csv',
-              }
+              'BASC': 'scores_basc.csv'}
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     paths = []
     for atlas in atlases:
-        folder_name = 'parcellations'
+        if atlas == 'BASC':
+            folder_name = 'networks'
+        else:
+            folder_name = 'parcellations'
         atlas_path = os.path.join(atlas, folder_name,
                                   extensions[atlas])
         path = os.path.join(base_path, dataset, atlas_path)
@@ -60,15 +63,16 @@ sns.set_palette('dark')
 scatter_kws = {'s': 5}
 line_kws = {'lw': 2}
 ncols = len(dataset_names)
-fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(6, 4), squeeze=True,
+fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(7, 5), squeeze=True,
                          sharey=True)
 axes = axes.reshape(-1)
 
 NAMES = {'kmeans': 'KMeans',
-         'ward': 'Ward'}
+         'ward': 'Ward',
+         'basc': 'BASC'}
 
 for i, (name, ax) in enumerate(zip(dataset_names, axes)):
-    for label in ['kmeans', 'ward']:
+    for label in ['kmeans', 'ward', 'basc']:
         this_data = data[(data['dataset'] == name) &
                          (data['atlas'] == label) &
                          (data['classifier'] == 'svc_l2') &
