@@ -20,14 +20,24 @@ dataset_paths = dict()
 dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
+atlases = ['KMeans', 'Ward']
+
+extensions = {'KMeans': 'scores_kmeans.csv',
+              'Ward': 'scores_ward.csv',
+              }
+
+base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
-    path = os.path.join(base_path, dataset)
-    path_ward = path + '/Ward/parcellations/scores_ward.csv'
-    if dataset != 'ADNIDOD':
-        path_kmeans = path + '/KMeans/parcellations/scores_kmeans.csv'
-    paths_appended = [path_ward, path_kmeans]
-    dataset_paths[dataset] = paths_appended
+    paths = []
+    for atlas in atlases:
+        folder_name = 'parcellations'
+        atlas_path = os.path.join(atlas, folder_name,
+                                  extensions[atlas])
+        path = os.path.join(base_path, dataset, atlas_path)
+        if os.path.exists(path):
+            paths.append(path)
+    dataset_paths[dataset] = paths
 
 data_list = []
 for name in dataset_names:

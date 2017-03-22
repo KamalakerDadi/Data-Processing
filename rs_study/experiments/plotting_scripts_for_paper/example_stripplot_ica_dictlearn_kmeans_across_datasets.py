@@ -11,16 +11,23 @@ from my_palette import atlas_palette
 covariance_estimator = 'LedoitWolf'
 dataset_paths = dict()
 dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
+atlases = ['ICA', 'DictLearn', 'KMeans']
+
+extensions = {'ICA': 'scores_ica.csv',
+              'DictLearn': 'scores_dictlearn.csv',
+              'KMeans': 'scores_kmeans_120.csv',
+              }
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
-    path = os.path.join(base_path, dataset)
-    path_ica = path + '/ICA/region_extraction/scores_ica.csv'
-    if dataset != 'ACPI':
-        path_dict = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
-        path_kmeans = path + '/KMeans/region_extraction/scores_kmeans_120.csv'
-    paths = [path_ica, path_dict, path_kmeans]
+    paths = []
+    for atlas in atlases:
+        atlas_path = os.path.join(atlas, 'region_extraction',
+                                  extensions[atlas])
+        path = os.path.join(base_path, dataset, atlas_path)
+        if os.path.exists(path):
+            paths.append(path)
     dataset_paths[dataset] = paths
 
 data_list = []

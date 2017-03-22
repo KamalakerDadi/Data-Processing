@@ -18,8 +18,9 @@ dataset = 'COBRE'
 base_path = os.path.join('../prediction_scores', covariance_estimator, dataset)
 path_kmeans = base_path + '/KMeans/parcellations/scores_kmeans.csv'
 path_ward = base_path + '/Ward/parcellations/scores_ward.csv'
+path_basc = base_path + '/BASC/networks/scores_basc.csv'
 
-paths = [path_kmeans, path_ward]
+paths = [path_kmeans, path_ward, path_basc]
 text_name = 'KMeans vs Ward'
 data = load_data._pandas_data_frame_list_of_paths_concat(paths)
 
@@ -34,9 +35,10 @@ fig, ax = plt.subplots(figsize=(4, 3.5), squeeze=True)
 
 NAMES = {'kmeans': 'KMeans',
          'ward': 'Ward',
+         'basc': 'BASC'
          }
 
-for label in ['kmeans', 'ward']:
+for label in ['kmeans', 'ward', 'basc']:
     this_data = data[(data['atlas'] == label) &
                      (data['classifier'] == 'svc_l2') &
                      (data['measure'] == 'tangent')]
