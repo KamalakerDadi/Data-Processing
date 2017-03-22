@@ -17,21 +17,23 @@ from my_palette import atlas_palette
 covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
-atlases = ['KMeans', 'Ward', 'BASC']
+atlases = ['KMeans', 'Ward', 'BASC', 'ICA', 'DictLearn']
 
 extensions = {'KMeans': 'scores_kmeans.csv',
               'Ward': 'scores_ward.csv',
-              'BASC': 'scores_basc.csv'}
+              'BASC': 'scores_basc.csv',
+              'ICA': 'scores_ica.csv',
+              'DictLearn': 'scores_dictlearn.csv'}
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
     paths = []
     for atlas in atlases:
-        if atlas == 'BASC':
+        if atlas in ['BASC', 'ICA', 'DictLearn']:
             folder_name = 'networks'
         else:
             folder_name = 'parcellations'
@@ -69,10 +71,12 @@ axes = axes.reshape(-1)
 
 NAMES = {'kmeans': 'KMeans',
          'ward': 'Ward',
-         'basc': 'BASC'}
+         'basc': 'BASC',
+         'ica': 'ICA',
+         'dictlearn': 'DictLearn'}
 
 for i, (name, ax) in enumerate(zip(dataset_names, axes)):
-    for label in ['kmeans', 'ward', 'basc']:
+    for label in ['kmeans', 'ward', 'basc', 'ica', 'dictlearn']:
         this_data = data[(data['dataset'] == name) &
                          (data['atlas'] == label) &
                          (data['classifier'] == 'svc_l2') &
@@ -85,10 +89,13 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
                     )
         if i == 0:
             ax.set_ylabel('Prediction scores', size=15)
-            ax.legend(scatterpoints=1, frameon=True, fontsize=12.5, markerscale=3,
-                      borderaxespad=0, handletextpad=.2, loc='lower right')
         else:
             ax.set_ylabel('')
+
+        if i == 2:
+            ax.legend(scatterpoints=1, frameon=True, fontsize=12.5, markerscale=3,
+                      borderaxespad=0, handletextpad=.2, loc='upper left')
+
         ax.set_xlabel('')
         plt.text(.5, 1.02, name, transform=ax.transAxes, size=15, ha='center')
 
