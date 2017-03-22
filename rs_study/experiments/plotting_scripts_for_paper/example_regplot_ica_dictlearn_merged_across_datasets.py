@@ -18,16 +18,23 @@ covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
 dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
+atlases = ['ICA', 'DictLearn']
+
+extensions = {'ICA': 'scores_ica.csv',
+              'DictLearn': 'scores_dictlearn.csv',
+              }
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 
 for dataset in dataset_names:
-    path = os.path.join(base_path, dataset)
-    path_ica = path + '/ICA/region_extraction/scores_ica.csv'
-    if dataset != 'ACPI':
-        path_dictlearn = path + '/DictLearn/region_extraction/scores_dictlearn.csv'
-    paths_appended = [path_ica, path_dictlearn]
-    dataset_paths[dataset] = paths_appended
+    paths = []
+    for atlas in atlases:
+        atlas_path = os.path.join(atlas, 'region_extraction',
+                                  extensions[atlas])
+        path = os.path.join(base_path, dataset, atlas_path)
+        if os.path.exists(path):
+            paths.append(path)
+    dataset_paths[dataset] = paths
 
 data_list = []
 for name in dataset_names:
