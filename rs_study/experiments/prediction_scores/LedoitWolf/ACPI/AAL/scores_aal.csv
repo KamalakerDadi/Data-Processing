@@ -1,0 +1,901 @@
+,atlas,atlas_type,classifier,compcor_10,connectome_regress,covariance_estimator,dataset,dimensionality,iter_shuffle_split,measure,min_region_size_in_mm3,motion_regress,n_regions,region_extraction,scores,scoring,smoothing_fwhm
+0,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,0,correlation,,no,,no,[ 0.265625],roc_auc,6.0
+1,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,0,correlation,,no,,no,[ 0.3203125],roc_auc,6.0
+2,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,0,correlation,,no,,no,[ 0.31640625],roc_auc,6.0
+3,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,0,partial correlation,,no,,no,[ 0.64453125],roc_auc,6.0
+4,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,0,partial correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+5,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,0,partial correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+6,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,0,tangent,,no,,no,[ 0.43359375],roc_auc,6.0
+7,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,0,tangent,,no,,no,[ 0.43359375],roc_auc,6.0
+8,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,0,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+9,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,1,correlation,,no,,no,[ 0.42578125],roc_auc,6.0
+10,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,1,correlation,,no,,no,[ 0.33984375],roc_auc,6.0
+11,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,1,correlation,,no,,no,[ 0.31640625],roc_auc,6.0
+12,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,1,partial correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+13,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,1,partial correlation,,no,,no,[ 0.453125],roc_auc,6.0
+14,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,1,partial correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+15,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,1,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+16,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,1,tangent,,no,,no,[ 0.421875],roc_auc,6.0
+17,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,1,tangent,,no,,no,[ 0.41796875],roc_auc,6.0
+18,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,2,correlation,,no,,no,[ 0.46875],roc_auc,6.0
+19,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,2,correlation,,no,,no,[ 0.43359375],roc_auc,6.0
+20,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,2,correlation,,no,,no,[ 0.4453125],roc_auc,6.0
+21,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,2,partial correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+22,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,2,partial correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+23,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,2,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+24,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,2,tangent,,no,,no,[ 0.359375],roc_auc,6.0
+25,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,2,tangent,,no,,no,[ 0.42578125],roc_auc,6.0
+26,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,2,tangent,,no,,no,[ 0.421875],roc_auc,6.0
+27,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,3,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+28,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,3,correlation,,no,,no,[ 0.3125],roc_auc,6.0
+29,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,3,correlation,,no,,no,[ 0.3125],roc_auc,6.0
+30,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,3,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+31,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,3,partial correlation,,no,,no,[ 0.328125],roc_auc,6.0
+32,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,3,partial correlation,,no,,no,[ 0.328125],roc_auc,6.0
+33,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,3,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+34,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,3,tangent,,no,,no,[ 0.3046875],roc_auc,6.0
+35,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,3,tangent,,no,,no,[ 0.3125],roc_auc,6.0
+36,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,4,correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+37,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,4,correlation,,no,,no,[ 0.62109375],roc_auc,6.0
+38,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,4,correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+39,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,4,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+40,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,4,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+41,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,4,partial correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+42,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,4,tangent,,no,,no,[ 0.5625],roc_auc,6.0
+43,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,4,tangent,,no,,no,[ 0.6328125],roc_auc,6.0
+44,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,4,tangent,,no,,no,[ 0.6328125],roc_auc,6.0
+45,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,5,correlation,,no,,no,[ 0.58984375],roc_auc,6.0
+46,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,5,correlation,,no,,no,[ 0.515625],roc_auc,6.0
+47,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,5,correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+48,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,5,partial correlation,,no,,no,[ 0.6640625],roc_auc,6.0
+49,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,5,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+50,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,5,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+51,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,5,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+52,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,5,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+53,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,5,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+54,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,6,correlation,,no,,no,[ 0.3203125],roc_auc,6.0
+55,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,6,correlation,,no,,no,[ 0.3203125],roc_auc,6.0
+56,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,6,correlation,,no,,no,[ 0.3203125],roc_auc,6.0
+57,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,6,partial correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+58,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,6,partial correlation,,no,,no,[ 0.43359375],roc_auc,6.0
+59,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,6,partial correlation,,no,,no,[ 0.42578125],roc_auc,6.0
+60,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,6,tangent,,no,,no,[ 0.53125],roc_auc,6.0
+61,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,6,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+62,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,6,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+63,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,7,correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+64,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,7,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+65,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,7,correlation,,no,,no,[ 0.46875],roc_auc,6.0
+66,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,7,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+67,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,7,partial correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+68,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,7,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+69,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,7,tangent,,no,,no,[ 0.625],roc_auc,6.0
+70,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,7,tangent,,no,,no,[ 0.63671875],roc_auc,6.0
+71,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,7,tangent,,no,,no,[ 0.61328125],roc_auc,6.0
+72,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,8,correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+73,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,8,correlation,,no,,no,[ 0.5234375],roc_auc,6.0
+74,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,8,correlation,,no,,no,[ 0.53125],roc_auc,6.0
+75,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,8,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+76,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,8,partial correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+77,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,8,partial correlation,,no,,no,[ 0.625],roc_auc,6.0
+78,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,8,tangent,,no,,no,[ 0.59375],roc_auc,6.0
+79,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,8,tangent,,no,,no,[ 0.6328125],roc_auc,6.0
+80,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,8,tangent,,no,,no,[ 0.63671875],roc_auc,6.0
+81,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,9,correlation,,no,,no,[ 0.328125],roc_auc,6.0
+82,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,9,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+83,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,9,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+84,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,9,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+85,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,9,partial correlation,,no,,no,[ 0.47265625],roc_auc,6.0
+86,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,9,partial correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+87,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,9,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+88,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,9,tangent,,no,,no,[ 0.52734375],roc_auc,6.0
+89,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,9,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+90,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,10,correlation,,no,,no,[ 0.42578125],roc_auc,6.0
+91,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,10,correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+92,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,10,correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+93,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,10,partial correlation,,no,,no,[ 0.46875],roc_auc,6.0
+94,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,10,partial correlation,,no,,no,[ 0.46875],roc_auc,6.0
+95,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,10,partial correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+96,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,10,tangent,,no,,no,[ 0.484375],roc_auc,6.0
+97,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,10,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+98,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,10,tangent,,no,,no,[ 0.52734375],roc_auc,6.0
+99,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,11,correlation,,no,,no,[ 0.5],roc_auc,6.0
+100,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,11,correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+101,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,11,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+102,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,11,partial correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+103,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,11,partial correlation,,no,,no,[ 0.6640625],roc_auc,6.0
+104,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,11,partial correlation,,no,,no,[ 0.6640625],roc_auc,6.0
+105,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,11,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+106,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,11,tangent,,no,,no,[ 0.58984375],roc_auc,6.0
+107,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,11,tangent,,no,,no,[ 0.59375],roc_auc,6.0
+108,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,12,correlation,,no,,no,[ 0.30859375],roc_auc,6.0
+109,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,12,correlation,,no,,no,[ 0.41015625],roc_auc,6.0
+110,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,12,correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+111,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,12,partial correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+112,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,12,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+113,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,12,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+114,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,12,tangent,,no,,no,[ 0.55859375],roc_auc,6.0
+115,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,12,tangent,,no,,no,[ 0.53125],roc_auc,6.0
+116,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,12,tangent,,no,,no,[ 0.515625],roc_auc,6.0
+117,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,13,correlation,,no,,no,[ 0.3828125],roc_auc,6.0
+118,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,13,correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+119,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,13,correlation,,no,,no,[ 0.39453125],roc_auc,6.0
+120,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,13,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+121,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,13,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+122,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,13,partial correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+123,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,13,tangent,,no,,no,[ 0.40625],roc_auc,6.0
+124,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,13,tangent,,no,,no,[ 0.375],roc_auc,6.0
+125,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,13,tangent,,no,,no,[ 0.38671875],roc_auc,6.0
+126,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,14,correlation,,no,,no,[ 0.40625],roc_auc,6.0
+127,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,14,correlation,,no,,no,[ 0.546875],roc_auc,6.0
+128,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,14,correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+129,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,14,partial correlation,,no,,no,[ 0.390625],roc_auc,6.0
+130,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,14,partial correlation,,no,,no,[ 0.4453125],roc_auc,6.0
+131,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,14,partial correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+132,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,14,tangent,,no,,no,[ 0.46875],roc_auc,6.0
+133,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,14,tangent,,no,,no,[ 0.49609375],roc_auc,6.0
+134,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,14,tangent,,no,,no,[ 0.49609375],roc_auc,6.0
+135,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,15,correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+136,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,15,correlation,,no,,no,[ 0.484375],roc_auc,6.0
+137,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,15,correlation,,no,,no,[ 0.5],roc_auc,6.0
+138,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,15,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+139,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,15,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+140,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,15,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+141,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,15,tangent,,no,,no,[ 0.5703125],roc_auc,6.0
+142,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,15,tangent,,no,,no,[ 0.5390625],roc_auc,6.0
+143,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,15,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+144,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,16,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+145,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,16,correlation,,no,,no,[ 0.37890625],roc_auc,6.0
+146,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,16,correlation,,no,,no,[ 0.3671875],roc_auc,6.0
+147,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,16,partial correlation,,no,,no,[ 0.62890625],roc_auc,6.0
+148,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,16,partial correlation,,no,,no,[ 0.53125],roc_auc,6.0
+149,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,16,partial correlation,,no,,no,[ 0.53515625],roc_auc,6.0
+150,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,16,tangent,,no,,no,[ 0.62109375],roc_auc,6.0
+151,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,16,tangent,,no,,no,[ 0.5078125],roc_auc,6.0
+152,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,16,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+153,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,17,correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+154,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,17,correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+155,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,17,correlation,,no,,no,[ 0.515625],roc_auc,6.0
+156,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,17,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+157,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,17,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+158,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,17,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+159,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,17,tangent,,no,,no,[ 0.51953125],roc_auc,6.0
+160,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,17,tangent,,no,,no,[ 0.6328125],roc_auc,6.0
+161,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,17,tangent,,no,,no,[ 0.62890625],roc_auc,6.0
+162,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,18,correlation,,no,,no,[ 0.53125],roc_auc,6.0
+163,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,18,correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+164,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,18,correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+165,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,18,partial correlation,,no,,no,[ 0.5],roc_auc,6.0
+166,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,18,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+167,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,18,partial correlation,,no,,no,[ 0.5546875],roc_auc,6.0
+168,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,18,tangent,,no,,no,[ 0.52734375],roc_auc,6.0
+169,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,18,tangent,,no,,no,[ 0.57421875],roc_auc,6.0
+170,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,18,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+171,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,19,correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+172,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,19,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+173,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,19,correlation,,no,,no,[ 0.4296875],roc_auc,6.0
+174,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,19,partial correlation,,no,,no,[ 0.69921875],roc_auc,6.0
+175,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,19,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+176,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,19,partial correlation,,no,,no,[ 0.59375],roc_auc,6.0
+177,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,19,tangent,,no,,no,[ 0.5390625],roc_auc,6.0
+178,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,19,tangent,,no,,no,[ 0.56640625],roc_auc,6.0
+179,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,19,tangent,,no,,no,[ 0.56640625],roc_auc,6.0
+180,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,20,correlation,,no,,no,[ 0.5234375],roc_auc,6.0
+181,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,20,correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+182,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,20,correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+183,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,20,partial correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+184,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,20,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+185,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,20,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+186,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,20,tangent,,no,,no,[ 0.453125],roc_auc,6.0
+187,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,20,tangent,,no,,no,[ 0.62109375],roc_auc,6.0
+188,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,20,tangent,,no,,no,[ 0.625],roc_auc,6.0
+189,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,21,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+190,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,21,correlation,,no,,no,[ 0.46875],roc_auc,6.0
+191,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,21,correlation,,no,,no,[ 0.484375],roc_auc,6.0
+192,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,21,partial correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+193,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,21,partial correlation,,no,,no,[ 0.6015625],roc_auc,6.0
+194,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,21,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+195,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,21,tangent,,no,,no,[ 0.61328125],roc_auc,6.0
+196,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,21,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+197,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,21,tangent,,no,,no,[ 0.609375],roc_auc,6.0
+198,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,22,correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+199,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,22,correlation,,no,,no,[ 0.3984375],roc_auc,6.0
+200,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,22,correlation,,no,,no,[ 0.3984375],roc_auc,6.0
+201,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,22,partial correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+202,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,22,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+203,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,22,partial correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+204,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,22,tangent,,no,,no,[ 0.30078125],roc_auc,6.0
+205,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,22,tangent,,no,,no,[ 0.48046875],roc_auc,6.0
+206,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,22,tangent,,no,,no,[ 0.48046875],roc_auc,6.0
+207,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,23,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+208,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,23,correlation,,no,,no,[ 0.49609375],roc_auc,6.0
+209,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,23,correlation,,no,,no,[ 0.49609375],roc_auc,6.0
+210,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,23,partial correlation,,no,,no,[ 0.671875],roc_auc,6.0
+211,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,23,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+212,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,23,partial correlation,,no,,no,[ 0.59375],roc_auc,6.0
+213,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,23,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+214,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,23,tangent,,no,,no,[ 0.5625],roc_auc,6.0
+215,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,23,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+216,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,24,correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+217,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,24,correlation,,no,,no,[ 0.5546875],roc_auc,6.0
+218,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,24,correlation,,no,,no,[ 0.5625],roc_auc,6.0
+219,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,24,partial correlation,,no,,no,[ 0.5],roc_auc,6.0
+220,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,24,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+221,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,24,partial correlation,,no,,no,[ 0.59375],roc_auc,6.0
+222,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,24,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+223,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,24,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+224,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,24,tangent,,no,,no,[ 0.61328125],roc_auc,6.0
+225,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,25,correlation,,no,,no,[ 0.2578125],roc_auc,6.0
+226,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,25,correlation,,no,,no,[ 0.32421875],roc_auc,6.0
+227,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,25,correlation,,no,,no,[ 0.32421875],roc_auc,6.0
+228,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,25,partial correlation,,no,,no,[ 0.5703125],roc_auc,6.0
+229,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,25,partial correlation,,no,,no,[ 0.390625],roc_auc,6.0
+230,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,25,partial correlation,,no,,no,[ 0.37890625],roc_auc,6.0
+231,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,25,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+232,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,25,tangent,,no,,no,[ 0.296875],roc_auc,6.0
+233,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,25,tangent,,no,,no,[ 0.3046875],roc_auc,6.0
+234,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,26,correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+235,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,26,correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+236,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,26,correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+237,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,26,partial correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+238,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,26,partial correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+239,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,26,partial correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+240,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,26,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+241,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,26,tangent,,no,,no,[ 0.5390625],roc_auc,6.0
+242,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,26,tangent,,no,,no,[ 0.5390625],roc_auc,6.0
+243,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,27,correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+244,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,27,correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+245,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,27,correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+246,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,27,partial correlation,,no,,no,[ 0.625],roc_auc,6.0
+247,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,27,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+248,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,27,partial correlation,,no,,no,[ 0.58984375],roc_auc,6.0
+249,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,27,tangent,,no,,no,[ 0.53125],roc_auc,6.0
+250,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,27,tangent,,no,,no,[ 0.609375],roc_auc,6.0
+251,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,27,tangent,,no,,no,[ 0.61328125],roc_auc,6.0
+252,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,28,correlation,,no,,no,[ 0.4375],roc_auc,6.0
+253,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,28,correlation,,no,,no,[ 0.3984375],roc_auc,6.0
+254,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,28,correlation,,no,,no,[ 0.41015625],roc_auc,6.0
+255,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,28,partial correlation,,no,,no,[ 0.67578125],roc_auc,6.0
+256,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,28,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+257,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,28,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+258,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,28,tangent,,no,,no,[ 0.62109375],roc_auc,6.0
+259,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,28,tangent,,no,,no,[ 0.609375],roc_auc,6.0
+260,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,28,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+261,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,29,correlation,,no,,no,[ 0.515625],roc_auc,6.0
+262,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,29,correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+263,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,29,correlation,,no,,no,[ 0.3984375],roc_auc,6.0
+264,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,29,partial correlation,,no,,no,[ 0.53125],roc_auc,6.0
+265,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,29,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+266,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,29,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+267,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,29,tangent,,no,,no,[ 0.39453125],roc_auc,6.0
+268,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,29,tangent,,no,,no,[ 0.45703125],roc_auc,6.0
+269,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,29,tangent,,no,,no,[ 0.453125],roc_auc,6.0
+270,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,30,correlation,,no,,no,[ 0.4296875],roc_auc,6.0
+271,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,30,correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+272,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,30,correlation,,no,,no,[ 0.515625],roc_auc,6.0
+273,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,30,partial correlation,,no,,no,[ 0.546875],roc_auc,6.0
+274,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,30,partial correlation,,no,,no,[ 0.51171875],roc_auc,6.0
+275,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,30,partial correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+276,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,30,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+277,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,30,tangent,,no,,no,[ 0.46875],roc_auc,6.0
+278,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,30,tangent,,no,,no,[ 0.453125],roc_auc,6.0
+279,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,31,correlation,,no,,no,[ 0.30078125],roc_auc,6.0
+280,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,31,correlation,,no,,no,[ 0.40625],roc_auc,6.0
+281,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,31,correlation,,no,,no,[ 0.3984375],roc_auc,6.0
+282,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,31,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+283,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,31,partial correlation,,no,,no,[ 0.58984375],roc_auc,6.0
+284,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,31,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+285,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,31,tangent,,no,,no,[ 0.3828125],roc_auc,6.0
+286,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,31,tangent,,no,,no,[ 0.5390625],roc_auc,6.0
+287,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,31,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+288,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,32,correlation,,no,,no,[ 0.3984375],roc_auc,6.0
+289,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,32,correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+290,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,32,correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+291,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,32,partial correlation,,no,,no,[ 0.65234375],roc_auc,6.0
+292,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,32,partial correlation,,no,,no,[ 0.67578125],roc_auc,6.0
+293,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,32,partial correlation,,no,,no,[ 0.703125],roc_auc,6.0
+294,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,32,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+295,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,32,tangent,,no,,no,[ 0.66796875],roc_auc,6.0
+296,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,32,tangent,,no,,no,[ 0.66796875],roc_auc,6.0
+297,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,33,correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+298,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,33,correlation,,no,,no,[ 0.609375],roc_auc,6.0
+299,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,33,correlation,,no,,no,[ 0.6015625],roc_auc,6.0
+300,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,33,partial correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+301,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,33,partial correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+302,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,33,partial correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+303,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,33,tangent,,no,,no,[ 0.4609375],roc_auc,6.0
+304,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,33,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+305,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,33,tangent,,no,,no,[ 0.59765625],roc_auc,6.0
+306,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,34,correlation,,no,,no,[ 0.35546875],roc_auc,6.0
+307,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,34,correlation,,no,,no,[ 0.3125],roc_auc,6.0
+308,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,34,correlation,,no,,no,[ 0.3125],roc_auc,6.0
+309,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,34,partial correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+310,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,34,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+311,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,34,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+312,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,34,tangent,,no,,no,[ 0.41796875],roc_auc,6.0
+313,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,34,tangent,,no,,no,[ 0.41015625],roc_auc,6.0
+314,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,34,tangent,,no,,no,[ 0.37890625],roc_auc,6.0
+315,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,35,correlation,,no,,no,[ 0.27734375],roc_auc,6.0
+316,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,35,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+317,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,35,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+318,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,35,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+319,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,35,partial correlation,,no,,no,[ 0.375],roc_auc,6.0
+320,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,35,partial correlation,,no,,no,[ 0.37109375],roc_auc,6.0
+321,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,35,tangent,,no,,no,[ 0.3125],roc_auc,6.0
+322,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,35,tangent,,no,,no,[ 0.35546875],roc_auc,6.0
+323,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,35,tangent,,no,,no,[ 0.359375],roc_auc,6.0
+324,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,36,correlation,,no,,no,[ 0.51171875],roc_auc,6.0
+325,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,36,correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+326,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,36,correlation,,no,,no,[ 0.5703125],roc_auc,6.0
+327,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,36,partial correlation,,no,,no,[ 0.64453125],roc_auc,6.0
+328,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,36,partial correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+329,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,36,partial correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+330,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,36,tangent,,no,,no,[ 0.59765625],roc_auc,6.0
+331,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,36,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+332,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,36,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+333,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,37,correlation,,no,,no,[ 0.47265625],roc_auc,6.0
+334,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,37,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+335,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,37,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+336,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,37,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+337,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,37,partial correlation,,no,,no,[ 0.625],roc_auc,6.0
+338,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,37,partial correlation,,no,,no,[ 0.625],roc_auc,6.0
+339,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,37,tangent,,no,,no,[ 0.5078125],roc_auc,6.0
+340,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,37,tangent,,no,,no,[ 0.65625],roc_auc,6.0
+341,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,37,tangent,,no,,no,[ 0.65234375],roc_auc,6.0
+342,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,38,correlation,,no,,no,[ 0.62109375],roc_auc,6.0
+343,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,38,correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+344,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,38,correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+345,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,38,partial correlation,,no,,no,[ 0.6640625],roc_auc,6.0
+346,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,38,partial correlation,,no,,no,[ 0.5390625],roc_auc,6.0
+347,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,38,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+348,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,38,tangent,,no,,no,[ 0.6328125],roc_auc,6.0
+349,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,38,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+350,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,38,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+351,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,39,correlation,,no,,no,[ 0.33984375],roc_auc,6.0
+352,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,39,correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+353,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,39,correlation,,no,,no,[ 0.3828125],roc_auc,6.0
+354,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,39,partial correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+355,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,39,partial correlation,,no,,no,[ 0.546875],roc_auc,6.0
+356,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,39,partial correlation,,no,,no,[ 0.546875],roc_auc,6.0
+357,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,39,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+358,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,39,tangent,,no,,no,[ 0.45703125],roc_auc,6.0
+359,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,39,tangent,,no,,no,[ 0.46484375],roc_auc,6.0
+360,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,40,correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+361,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,40,correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+362,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,40,correlation,,no,,no,[ 0.546875],roc_auc,6.0
+363,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,40,partial correlation,,no,,no,[ 0.671875],roc_auc,6.0
+364,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,40,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+365,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,40,partial correlation,,no,,no,[ 0.484375],roc_auc,6.0
+366,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,40,tangent,,no,,no,[ 0.5078125],roc_auc,6.0
+367,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,40,tangent,,no,,no,[ 0.46484375],roc_auc,6.0
+368,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,40,tangent,,no,,no,[ 0.46484375],roc_auc,6.0
+369,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,41,correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+370,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,41,correlation,,no,,no,[ 0.5390625],roc_auc,6.0
+371,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,41,correlation,,no,,no,[ 0.546875],roc_auc,6.0
+372,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,41,partial correlation,,no,,no,[ 0.6328125],roc_auc,6.0
+373,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,41,partial correlation,,no,,no,[ 0.5390625],roc_auc,6.0
+374,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,41,partial correlation,,no,,no,[ 0.5390625],roc_auc,6.0
+375,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,41,tangent,,no,,no,[ 0.5859375],roc_auc,6.0
+376,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,41,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+377,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,41,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+378,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,42,correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+379,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,42,correlation,,no,,no,[ 0.40625],roc_auc,6.0
+380,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,42,correlation,,no,,no,[ 0.40625],roc_auc,6.0
+381,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,42,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+382,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,42,partial correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+383,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,42,partial correlation,,no,,no,[ 0.46875],roc_auc,6.0
+384,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,42,tangent,,no,,no,[ 0.515625],roc_auc,6.0
+385,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,42,tangent,,no,,no,[ 0.44921875],roc_auc,6.0
+386,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,42,tangent,,no,,no,[ 0.453125],roc_auc,6.0
+387,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,43,correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+388,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,43,correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+389,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,43,correlation,,no,,no,[ 0.578125],roc_auc,6.0
+390,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,43,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+391,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,43,partial correlation,,no,,no,[ 0.62109375],roc_auc,6.0
+392,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,43,partial correlation,,no,,no,[ 0.64453125],roc_auc,6.0
+393,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,43,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+394,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,43,tangent,,no,,no,[ 0.57421875],roc_auc,6.0
+395,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,43,tangent,,no,,no,[ 0.58203125],roc_auc,6.0
+396,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,44,correlation,,no,,no,[ 0.5],roc_auc,6.0
+397,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,44,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+398,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,44,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+399,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,44,partial correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+400,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,44,partial correlation,,no,,no,[ 0.515625],roc_auc,6.0
+401,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,44,partial correlation,,no,,no,[ 0.515625],roc_auc,6.0
+402,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,44,tangent,,no,,no,[ 0.4609375],roc_auc,6.0
+403,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,44,tangent,,no,,no,[ 0.55078125],roc_auc,6.0
+404,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,44,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+405,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,45,correlation,,no,,no,[ 0.53125],roc_auc,6.0
+406,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,45,correlation,,no,,no,[ 0.5],roc_auc,6.0
+407,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,45,correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+408,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,45,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+409,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,45,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+410,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,45,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+411,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,45,tangent,,no,,no,[ 0.67578125],roc_auc,6.0
+412,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,45,tangent,,no,,no,[ 0.609375],roc_auc,6.0
+413,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,45,tangent,,no,,no,[ 0.609375],roc_auc,6.0
+414,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,46,correlation,,no,,no,[ 0.41015625],roc_auc,6.0
+415,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,46,correlation,,no,,no,[ 0.64453125],roc_auc,6.0
+416,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,46,correlation,,no,,no,[ 0.6328125],roc_auc,6.0
+417,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,46,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+418,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,46,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+419,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,46,partial correlation,,no,,no,[ 0.58984375],roc_auc,6.0
+420,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,46,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+421,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,46,tangent,,no,,no,[ 0.5859375],roc_auc,6.0
+422,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,46,tangent,,no,,no,[ 0.5859375],roc_auc,6.0
+423,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,47,correlation,,no,,no,[ 0.3046875],roc_auc,6.0
+424,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,47,correlation,,no,,no,[ 0.37890625],roc_auc,6.0
+425,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,47,correlation,,no,,no,[ 0.3828125],roc_auc,6.0
+426,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,47,partial correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+427,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,47,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+428,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,47,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+429,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,47,tangent,,no,,no,[ 0.50390625],roc_auc,6.0
+430,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,47,tangent,,no,,no,[ 0.4375],roc_auc,6.0
+431,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,47,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+432,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,48,correlation,,no,,no,[ 0.3046875],roc_auc,6.0
+433,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,48,correlation,,no,,no,[ 0.30859375],roc_auc,6.0
+434,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,48,correlation,,no,,no,[ 0.3125],roc_auc,6.0
+435,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,48,partial correlation,,no,,no,[ 0.34765625],roc_auc,6.0
+436,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,48,partial correlation,,no,,no,[ 0.3671875],roc_auc,6.0
+437,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,48,partial correlation,,no,,no,[ 0.36328125],roc_auc,6.0
+438,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,48,tangent,,no,,no,[ 0.37109375],roc_auc,6.0
+439,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,48,tangent,,no,,no,[ 0.33984375],roc_auc,6.0
+440,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,48,tangent,,no,,no,[ 0.328125],roc_auc,6.0
+441,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,49,correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+442,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,49,correlation,,no,,no,[ 0.53125],roc_auc,6.0
+443,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,49,correlation,,no,,no,[ 0.55859375],roc_auc,6.0
+444,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,49,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+445,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,49,partial correlation,,no,,no,[ 0.73828125],roc_auc,6.0
+446,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,49,partial correlation,,no,,no,[ 0.734375],roc_auc,6.0
+447,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,49,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+448,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,49,tangent,,no,,no,[ 0.69921875],roc_auc,6.0
+449,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,49,tangent,,no,,no,[ 0.703125],roc_auc,6.0
+450,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,50,correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+451,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,50,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+452,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,50,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+453,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,50,partial correlation,,no,,no,[ 0.66015625],roc_auc,6.0
+454,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,50,partial correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+455,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,50,partial correlation,,no,,no,[ 0.5390625],roc_auc,6.0
+456,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,50,tangent,,no,,no,[ 0.46484375],roc_auc,6.0
+457,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,50,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+458,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,50,tangent,,no,,no,[ 0.51953125],roc_auc,6.0
+459,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,51,correlation,,no,,no,[ 0.37109375],roc_auc,6.0
+460,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,51,correlation,,no,,no,[ 0.3359375],roc_auc,6.0
+461,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,51,correlation,,no,,no,[ 0.3359375],roc_auc,6.0
+462,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,51,partial correlation,,no,,no,[ 0.6015625],roc_auc,6.0
+463,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,51,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+464,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,51,partial correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+465,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,51,tangent,,no,,no,[ 0.421875],roc_auc,6.0
+466,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,51,tangent,,no,,no,[ 0.5078125],roc_auc,6.0
+467,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,51,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+468,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,52,correlation,,no,,no,[ 0.28125],roc_auc,6.0
+469,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,52,correlation,,no,,no,[ 0.3671875],roc_auc,6.0
+470,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,52,correlation,,no,,no,[ 0.35546875],roc_auc,6.0
+471,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,52,partial correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+472,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,52,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+473,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,52,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+474,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,52,tangent,,no,,no,[ 0.41015625],roc_auc,6.0
+475,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,52,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+476,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,52,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+477,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,53,correlation,,no,,no,[ 0.42578125],roc_auc,6.0
+478,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,53,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+479,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,53,correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+480,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,53,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+481,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,53,partial correlation,,no,,no,[ 0.640625],roc_auc,6.0
+482,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,53,partial correlation,,no,,no,[ 0.640625],roc_auc,6.0
+483,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,53,tangent,,no,,no,[ 0.68359375],roc_auc,6.0
+484,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,53,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+485,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,53,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+486,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,54,correlation,,no,,no,[ 0.515625],roc_auc,6.0
+487,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,54,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+488,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,54,correlation,,no,,no,[ 0.453125],roc_auc,6.0
+489,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,54,partial correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+490,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,54,partial correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+491,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,54,partial correlation,,no,,no,[ 0.4453125],roc_auc,6.0
+492,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,54,tangent,,no,,no,[ 0.4765625],roc_auc,6.0
+493,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,54,tangent,,no,,no,[ 0.46484375],roc_auc,6.0
+494,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,54,tangent,,no,,no,[ 0.47265625],roc_auc,6.0
+495,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,55,correlation,,no,,no,[ 0.42578125],roc_auc,6.0
+496,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,55,correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+497,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,55,correlation,,no,,no,[ 0.4375],roc_auc,6.0
+498,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,55,partial correlation,,no,,no,[ 0.546875],roc_auc,6.0
+499,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,55,partial correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+500,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,55,partial correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+501,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,55,tangent,,no,,no,[ 0.390625],roc_auc,6.0
+502,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,55,tangent,,no,,no,[ 0.44921875],roc_auc,6.0
+503,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,55,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+504,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,56,correlation,,no,,no,[ 0.4296875],roc_auc,6.0
+505,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,56,correlation,,no,,no,[ 0.515625],roc_auc,6.0
+506,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,56,correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+507,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,56,partial correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+508,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,56,partial correlation,,no,,no,[ 0.5234375],roc_auc,6.0
+509,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,56,partial correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+510,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,56,tangent,,no,,no,[ 0.7109375],roc_auc,6.0
+511,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,56,tangent,,no,,no,[ 0.5390625],roc_auc,6.0
+512,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,56,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+513,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,57,correlation,,no,,no,[ 0.14453125],roc_auc,6.0
+514,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,57,correlation,,no,,no,[ 0.23046875],roc_auc,6.0
+515,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,57,correlation,,no,,no,[ 0.20703125],roc_auc,6.0
+516,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,57,partial correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+517,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,57,partial correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+518,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,57,partial correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+519,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,57,tangent,,no,,no,[ 0.55859375],roc_auc,6.0
+520,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,57,tangent,,no,,no,[ 0.44921875],roc_auc,6.0
+521,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,57,tangent,,no,,no,[ 0.4375],roc_auc,6.0
+522,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,58,correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+523,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,58,correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+524,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,58,correlation,,no,,no,[ 0.41015625],roc_auc,6.0
+525,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,58,partial correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+526,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,58,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+527,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,58,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+528,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,58,tangent,,no,,no,[ 0.5],roc_auc,6.0
+529,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,58,tangent,,no,,no,[ 0.51953125],roc_auc,6.0
+530,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,58,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+531,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,59,correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+532,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,59,correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+533,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,59,correlation,,no,,no,[ 0.671875],roc_auc,6.0
+534,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,59,partial correlation,,no,,no,[ 0.7578125],roc_auc,6.0
+535,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,59,partial correlation,,no,,no,[ 0.75390625],roc_auc,6.0
+536,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,59,partial correlation,,no,,no,[ 0.7578125],roc_auc,6.0
+537,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,59,tangent,,no,,no,[ 0.6875],roc_auc,6.0
+538,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,59,tangent,,no,,no,[ 0.75390625],roc_auc,6.0
+539,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,59,tangent,,no,,no,[ 0.76171875],roc_auc,6.0
+540,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,60,correlation,,no,,no,[ 0.390625],roc_auc,6.0
+541,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,60,correlation,,no,,no,[ 0.390625],roc_auc,6.0
+542,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,60,correlation,,no,,no,[ 0.390625],roc_auc,6.0
+543,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,60,partial correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+544,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,60,partial correlation,,no,,no,[ 0.68359375],roc_auc,6.0
+545,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,60,partial correlation,,no,,no,[ 0.6875],roc_auc,6.0
+546,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,60,tangent,,no,,no,[ 0.57421875],roc_auc,6.0
+547,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,60,tangent,,no,,no,[ 0.5859375],roc_auc,6.0
+548,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,60,tangent,,no,,no,[ 0.59375],roc_auc,6.0
+549,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,61,correlation,,no,,no,[ 0.234375],roc_auc,6.0
+550,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,61,correlation,,no,,no,[ 0.26953125],roc_auc,6.0
+551,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,61,correlation,,no,,no,[ 0.265625],roc_auc,6.0
+552,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,61,partial correlation,,no,,no,[ 0.49609375],roc_auc,6.0
+553,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,61,partial correlation,,no,,no,[ 0.546875],roc_auc,6.0
+554,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,61,partial correlation,,no,,no,[ 0.546875],roc_auc,6.0
+555,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,61,tangent,,no,,no,[ 0.4609375],roc_auc,6.0
+556,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,61,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+557,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,61,tangent,,no,,no,[ 0.50390625],roc_auc,6.0
+558,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,62,correlation,,no,,no,[ 0.39453125],roc_auc,6.0
+559,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,62,correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+560,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,62,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+561,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,62,partial correlation,,no,,no,[ 0.6015625],roc_auc,6.0
+562,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,62,partial correlation,,no,,no,[ 0.6484375],roc_auc,6.0
+563,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,62,partial correlation,,no,,no,[ 0.65234375],roc_auc,6.0
+564,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,62,tangent,,no,,no,[ 0.59375],roc_auc,6.0
+565,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,62,tangent,,no,,no,[ 0.5859375],roc_auc,6.0
+566,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,62,tangent,,no,,no,[ 0.5859375],roc_auc,6.0
+567,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,63,correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+568,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,63,correlation,,no,,no,[ 0.484375],roc_auc,6.0
+569,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,63,correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+570,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,63,partial correlation,,no,,no,[ 0.39453125],roc_auc,6.0
+571,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,63,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+572,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,63,partial correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+573,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,63,tangent,,no,,no,[ 0.61328125],roc_auc,6.0
+574,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,63,tangent,,no,,no,[ 0.546875],roc_auc,6.0
+575,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,63,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+576,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,64,correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+577,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,64,correlation,,no,,no,[ 0.43359375],roc_auc,6.0
+578,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,64,correlation,,no,,no,[ 0.4375],roc_auc,6.0
+579,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,64,partial correlation,,no,,no,[ 0.66015625],roc_auc,6.0
+580,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,64,partial correlation,,no,,no,[ 0.5],roc_auc,6.0
+581,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,64,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+582,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,64,tangent,,no,,no,[ 0.375],roc_auc,6.0
+583,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,64,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+584,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,64,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+585,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,65,correlation,,no,,no,[ 0.3125],roc_auc,6.0
+586,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,65,correlation,,no,,no,[ 0.41015625],roc_auc,6.0
+587,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,65,correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+588,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,65,partial correlation,,no,,no,[ 0.453125],roc_auc,6.0
+589,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,65,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+590,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,65,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+591,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,65,tangent,,no,,no,[ 0.66796875],roc_auc,6.0
+592,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,65,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+593,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,65,tangent,,no,,no,[ 0.5625],roc_auc,6.0
+594,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,66,correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+595,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,66,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+596,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,66,correlation,,no,,no,[ 0.48828125],roc_auc,6.0
+597,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,66,partial correlation,,no,,no,[ 0.65625],roc_auc,6.0
+598,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,66,partial correlation,,no,,no,[ 0.64453125],roc_auc,6.0
+599,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,66,partial correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+600,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,66,tangent,,no,,no,[ 0.578125],roc_auc,6.0
+601,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,66,tangent,,no,,no,[ 0.61328125],roc_auc,6.0
+602,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,66,tangent,,no,,no,[ 0.59375],roc_auc,6.0
+603,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,67,correlation,,no,,no,[ 0.359375],roc_auc,6.0
+604,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,67,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+605,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,67,correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+606,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,67,partial correlation,,no,,no,[ 0.5625],roc_auc,6.0
+607,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,67,partial correlation,,no,,no,[ 0.515625],roc_auc,6.0
+608,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,67,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+609,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,67,tangent,,no,,no,[ 0.41796875],roc_auc,6.0
+610,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,67,tangent,,no,,no,[ 0.4921875],roc_auc,6.0
+611,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,67,tangent,,no,,no,[ 0.49609375],roc_auc,6.0
+612,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,68,correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+613,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,68,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+614,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,68,correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+615,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,68,partial correlation,,no,,no,[ 0.58984375],roc_auc,6.0
+616,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,68,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+617,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,68,partial correlation,,no,,no,[ 0.6171875],roc_auc,6.0
+618,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,68,tangent,,no,,no,[ 0.4921875],roc_auc,6.0
+619,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,68,tangent,,no,,no,[ 0.55078125],roc_auc,6.0
+620,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,68,tangent,,no,,no,[ 0.58984375],roc_auc,6.0
+621,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,69,correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+622,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,69,correlation,,no,,no,[ 0.546875],roc_auc,6.0
+623,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,69,correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+624,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,69,partial correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+625,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,69,partial correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+626,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,69,partial correlation,,no,,no,[ 0.59765625],roc_auc,6.0
+627,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,69,tangent,,no,,no,[ 0.41796875],roc_auc,6.0
+628,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,69,tangent,,no,,no,[ 0.56640625],roc_auc,6.0
+629,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,69,tangent,,no,,no,[ 0.55859375],roc_auc,6.0
+630,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,70,correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+631,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,70,correlation,,no,,no,[ 0.5234375],roc_auc,6.0
+632,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,70,correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+633,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,70,partial correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+634,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,70,partial correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+635,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,70,partial correlation,,no,,no,[ 0.44921875],roc_auc,6.0
+636,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,70,tangent,,no,,no,[ 0.53515625],roc_auc,6.0
+637,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,70,tangent,,no,,no,[ 0.5625],roc_auc,6.0
+638,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,70,tangent,,no,,no,[ 0.5703125],roc_auc,6.0
+639,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,71,correlation,,no,,no,[ 0.41015625],roc_auc,6.0
+640,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,71,correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+641,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,71,correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+642,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,71,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+643,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,71,partial correlation,,no,,no,[ 0.49609375],roc_auc,6.0
+644,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,71,partial correlation,,no,,no,[ 0.49609375],roc_auc,6.0
+645,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,71,tangent,,no,,no,[ 0.6171875],roc_auc,6.0
+646,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,71,tangent,,no,,no,[ 0.546875],roc_auc,6.0
+647,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,71,tangent,,no,,no,[ 0.5546875],roc_auc,6.0
+648,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,72,correlation,,no,,no,[ 0.4453125],roc_auc,6.0
+649,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,72,correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+650,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,72,correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+651,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,72,partial correlation,,no,,no,[ 0.46875],roc_auc,6.0
+652,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,72,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+653,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,72,partial correlation,,no,,no,[ 0.62890625],roc_auc,6.0
+654,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,72,tangent,,no,,no,[ 0.4921875],roc_auc,6.0
+655,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,72,tangent,,no,,no,[ 0.57421875],roc_auc,6.0
+656,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,72,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+657,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,73,correlation,,no,,no,[ 0.35546875],roc_auc,6.0
+658,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,73,correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+659,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,73,correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+660,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,73,partial correlation,,no,,no,[ 0.66015625],roc_auc,6.0
+661,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,73,partial correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+662,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,73,partial correlation,,no,,no,[ 0.515625],roc_auc,6.0
+663,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,73,tangent,,no,,no,[ 0.56640625],roc_auc,6.0
+664,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,73,tangent,,no,,no,[ 0.3828125],roc_auc,6.0
+665,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,73,tangent,,no,,no,[ 0.3828125],roc_auc,6.0
+666,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,74,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+667,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,74,correlation,,no,,no,[ 0.3828125],roc_auc,6.0
+668,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,74,correlation,,no,,no,[ 0.37890625],roc_auc,6.0
+669,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,74,partial correlation,,no,,no,[ 0.5859375],roc_auc,6.0
+670,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,74,partial correlation,,no,,no,[ 0.3671875],roc_auc,6.0
+671,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,74,partial correlation,,no,,no,[ 0.36328125],roc_auc,6.0
+672,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,74,tangent,,no,,no,[ 0.34375],roc_auc,6.0
+673,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,74,tangent,,no,,no,[ 0.4140625],roc_auc,6.0
+674,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,74,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+675,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,75,correlation,,no,,no,[ 0.32421875],roc_auc,6.0
+676,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,75,correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+677,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,75,correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+678,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,75,partial correlation,,no,,no,[ 0.46875],roc_auc,6.0
+679,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,75,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+680,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,75,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+681,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,75,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+682,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,75,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+683,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,75,tangent,,no,,no,[ 0.3984375],roc_auc,6.0
+684,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,76,correlation,,no,,no,[ 0.40625],roc_auc,6.0
+685,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,76,correlation,,no,,no,[ 0.3203125],roc_auc,6.0
+686,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,76,correlation,,no,,no,[ 0.31640625],roc_auc,6.0
+687,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,76,partial correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+688,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,76,partial correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+689,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,76,partial correlation,,no,,no,[ 0.3828125],roc_auc,6.0
+690,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,76,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+691,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,76,tangent,,no,,no,[ 0.33203125],roc_auc,6.0
+692,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,76,tangent,,no,,no,[ 0.34375],roc_auc,6.0
+693,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,77,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+694,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,77,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+695,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,77,correlation,,no,,no,[ 0.4375],roc_auc,6.0
+696,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,77,partial correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+697,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,77,partial correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+698,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,77,partial correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+699,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,77,tangent,,no,,no,[ 0.4375],roc_auc,6.0
+700,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,77,tangent,,no,,no,[ 0.5078125],roc_auc,6.0
+701,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,77,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+702,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,78,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+703,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,78,correlation,,no,,no,[ 0.47265625],roc_auc,6.0
+704,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,78,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+705,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,78,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+706,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,78,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+707,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,78,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+708,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,78,tangent,,no,,no,[ 0.4375],roc_auc,6.0
+709,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,78,tangent,,no,,no,[ 0.51953125],roc_auc,6.0
+710,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,78,tangent,,no,,no,[ 0.5234375],roc_auc,6.0
+711,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,79,correlation,,no,,no,[ 0.47265625],roc_auc,6.0
+712,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,79,correlation,,no,,no,[ 0.37109375],roc_auc,6.0
+713,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,79,correlation,,no,,no,[ 0.37109375],roc_auc,6.0
+714,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,79,partial correlation,,no,,no,[ 0.37109375],roc_auc,6.0
+715,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,79,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+716,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,79,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+717,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,79,tangent,,no,,no,[ 0.4453125],roc_auc,6.0
+718,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,79,tangent,,no,,no,[ 0.4921875],roc_auc,6.0
+719,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,79,tangent,,no,,no,[ 0.44921875],roc_auc,6.0
+720,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,80,correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+721,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,80,correlation,,no,,no,[ 0.484375],roc_auc,6.0
+722,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,80,correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+723,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,80,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+724,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,80,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+725,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,80,partial correlation,,no,,no,[ 0.55859375],roc_auc,6.0
+726,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,80,tangent,,no,,no,[ 0.3828125],roc_auc,6.0
+727,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,80,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+728,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,80,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+729,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,81,correlation,,no,,no,[ 0.3828125],roc_auc,6.0
+730,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,81,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+731,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,81,correlation,,no,,no,[ 0.45703125],roc_auc,6.0
+732,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,81,partial correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+733,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,81,partial correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+734,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,81,partial correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+735,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,81,tangent,,no,,no,[ 0.40234375],roc_auc,6.0
+736,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,81,tangent,,no,,no,[ 0.50390625],roc_auc,6.0
+737,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,81,tangent,,no,,no,[ 0.48828125],roc_auc,6.0
+738,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,82,correlation,,no,,no,[ 0.31640625],roc_auc,6.0
+739,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,82,correlation,,no,,no,[ 0.359375],roc_auc,6.0
+740,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,82,correlation,,no,,no,[ 0.3671875],roc_auc,6.0
+741,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,82,partial correlation,,no,,no,[ 0.46875],roc_auc,6.0
+742,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,82,partial correlation,,no,,no,[ 0.5546875],roc_auc,6.0
+743,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,82,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+744,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,82,tangent,,no,,no,[ 0.5],roc_auc,6.0
+745,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,82,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+746,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,82,tangent,,no,,no,[ 0.54296875],roc_auc,6.0
+747,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,83,correlation,,no,,no,[ 0.4921875],roc_auc,6.0
+748,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,83,correlation,,no,,no,[ 0.33984375],roc_auc,6.0
+749,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,83,correlation,,no,,no,[ 0.359375],roc_auc,6.0
+750,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,83,partial correlation,,no,,no,[ 0.56640625],roc_auc,6.0
+751,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,83,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+752,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,83,partial correlation,,no,,no,[ 0.640625],roc_auc,6.0
+753,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,83,tangent,,no,,no,[ 0.5625],roc_auc,6.0
+754,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,83,tangent,,no,,no,[ 0.5625],roc_auc,6.0
+755,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,83,tangent,,no,,no,[ 0.59765625],roc_auc,6.0
+756,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,84,correlation,,no,,no,[ 0.54296875],roc_auc,6.0
+757,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,84,correlation,,no,,no,[ 0.47265625],roc_auc,6.0
+758,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,84,correlation,,no,,no,[ 0.4765625],roc_auc,6.0
+759,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,84,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+760,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,84,partial correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+761,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,84,partial correlation,,no,,no,[ 0.53125],roc_auc,6.0
+762,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,84,tangent,,no,,no,[ 0.64453125],roc_auc,6.0
+763,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,84,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
+764,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,84,tangent,,no,,no,[ 0.515625],roc_auc,6.0
+765,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,85,correlation,,no,,no,[ 0.27734375],roc_auc,6.0
+766,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,85,correlation,,no,,no,[ 0.30078125],roc_auc,6.0
+767,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,85,correlation,,no,,no,[ 0.29296875],roc_auc,6.0
+768,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,85,partial correlation,,no,,no,[ 0.453125],roc_auc,6.0
+769,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,85,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+770,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,85,partial correlation,,no,,no,[ 0.484375],roc_auc,6.0
+771,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,85,tangent,,no,,no,[ 0.3515625],roc_auc,6.0
+772,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,85,tangent,,no,,no,[ 0.3671875],roc_auc,6.0
+773,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,85,tangent,,no,,no,[ 0.39453125],roc_auc,6.0
+774,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,86,correlation,,no,,no,[ 0.38671875],roc_auc,6.0
+775,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,86,correlation,,no,,no,[ 0.40625],roc_auc,6.0
+776,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,86,correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+777,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,86,partial correlation,,no,,no,[ 0.53125],roc_auc,6.0
+778,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,86,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+779,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,86,partial correlation,,no,,no,[ 0.484375],roc_auc,6.0
+780,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,86,tangent,,no,,no,[ 0.37109375],roc_auc,6.0
+781,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,86,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+782,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,86,tangent,,no,,no,[ 0.44921875],roc_auc,6.0
+783,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,87,correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+784,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,87,correlation,,no,,no,[ 0.609375],roc_auc,6.0
+785,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,87,correlation,,no,,no,[ 0.64453125],roc_auc,6.0
+786,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,87,partial correlation,,no,,no,[ 0.62109375],roc_auc,6.0
+787,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,87,partial correlation,,no,,no,[ 0.6796875],roc_auc,6.0
+788,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,87,partial correlation,,no,,no,[ 0.6953125],roc_auc,6.0
+789,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,87,tangent,,no,,no,[ 0.58984375],roc_auc,6.0
+790,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,87,tangent,,no,,no,[ 0.640625],roc_auc,6.0
+791,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,87,tangent,,no,,no,[ 0.6328125],roc_auc,6.0
+792,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,88,correlation,,no,,no,[ 0.32421875],roc_auc,6.0
+793,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,88,correlation,,no,,no,[ 0.36328125],roc_auc,6.0
+794,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,88,correlation,,no,,no,[ 0.375],roc_auc,6.0
+795,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,88,partial correlation,,no,,no,[ 0.68359375],roc_auc,6.0
+796,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,88,partial correlation,,no,,no,[ 0.515625],roc_auc,6.0
+797,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,88,partial correlation,,no,,no,[ 0.53515625],roc_auc,6.0
+798,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,88,tangent,,no,,no,[ 0.5703125],roc_auc,6.0
+799,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,88,tangent,,no,,no,[ 0.5],roc_auc,6.0
+800,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,88,tangent,,no,,no,[ 0.5],roc_auc,6.0
+801,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,89,correlation,,no,,no,[ 0.41796875],roc_auc,6.0
+802,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,89,correlation,,no,,no,[ 0.5625],roc_auc,6.0
+803,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,89,correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+804,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,89,partial correlation,,no,,no,[ 0.5],roc_auc,6.0
+805,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,89,partial correlation,,no,,no,[ 0.62890625],roc_auc,6.0
+806,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,89,partial correlation,,no,,no,[ 0.62890625],roc_auc,6.0
+807,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,89,tangent,,no,,no,[ 0.5],roc_auc,6.0
+808,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,89,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+809,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,89,tangent,,no,,no,[ 0.60546875],roc_auc,6.0
+810,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,90,correlation,,no,,no,[ 0.34765625],roc_auc,6.0
+811,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,90,correlation,,no,,no,[ 0.4296875],roc_auc,6.0
+812,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,90,correlation,,no,,no,[ 0.4296875],roc_auc,6.0
+813,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,90,partial correlation,,no,,no,[ 0.40625],roc_auc,6.0
+814,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,90,partial correlation,,no,,no,[ 0.52734375],roc_auc,6.0
+815,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,90,partial correlation,,no,,no,[ 0.53125],roc_auc,6.0
+816,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,90,tangent,,no,,no,[ 0.41796875],roc_auc,6.0
+817,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,90,tangent,,no,,no,[ 0.515625],roc_auc,6.0
+818,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,90,tangent,,no,,no,[ 0.515625],roc_auc,6.0
+819,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,91,correlation,,no,,no,[ 0.24609375],roc_auc,6.0
+820,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,91,correlation,,no,,no,[ 0.2734375],roc_auc,6.0
+821,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,91,correlation,,no,,no,[ 0.265625],roc_auc,6.0
+822,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,91,partial correlation,,no,,no,[ 0.5625],roc_auc,6.0
+823,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,91,partial correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+824,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,91,partial correlation,,no,,no,[ 0.453125],roc_auc,6.0
+825,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,91,tangent,,no,,no,[ 0.31640625],roc_auc,6.0
+826,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,91,tangent,,no,,no,[ 0.30859375],roc_auc,6.0
+827,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,91,tangent,,no,,no,[ 0.3046875],roc_auc,6.0
+828,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,92,correlation,,no,,no,[ 0.3671875],roc_auc,6.0
+829,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,92,correlation,,no,,no,[ 0.3046875],roc_auc,6.0
+830,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,92,correlation,,no,,no,[ 0.32421875],roc_auc,6.0
+831,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,92,partial correlation,,no,,no,[ 0.47265625],roc_auc,6.0
+832,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,92,partial correlation,,no,,no,[ 0.51171875],roc_auc,6.0
+833,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,92,partial correlation,,no,,no,[ 0.5078125],roc_auc,6.0
+834,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,92,tangent,,no,,no,[ 0.484375],roc_auc,6.0
+835,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,92,tangent,,no,,no,[ 0.46875],roc_auc,6.0
+836,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,92,tangent,,no,,no,[ 0.4609375],roc_auc,6.0
+837,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,93,correlation,,no,,no,[ 0.39453125],roc_auc,6.0
+838,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,93,correlation,,no,,no,[ 0.3515625],roc_auc,6.0
+839,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,93,correlation,,no,,no,[ 0.37890625],roc_auc,6.0
+840,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,93,partial correlation,,no,,no,[ 0.4140625],roc_auc,6.0
+841,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,93,partial correlation,,no,,no,[ 0.578125],roc_auc,6.0
+842,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,93,partial correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+843,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,93,tangent,,no,,no,[ 0.34765625],roc_auc,6.0
+844,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,93,tangent,,no,,no,[ 0.51953125],roc_auc,6.0
+845,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,93,tangent,,no,,no,[ 0.51953125],roc_auc,6.0
+846,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,94,correlation,,no,,no,[ 0.5],roc_auc,6.0
+847,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,94,correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+848,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,94,correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+849,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,94,partial correlation,,no,,no,[ 0.53125],roc_auc,6.0
+850,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,94,partial correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+851,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,94,partial correlation,,no,,no,[ 0.61328125],roc_auc,6.0
+852,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,94,tangent,,no,,no,[ 0.55078125],roc_auc,6.0
+853,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,94,tangent,,no,,no,[ 0.6171875],roc_auc,6.0
+854,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,94,tangent,,no,,no,[ 0.6015625],roc_auc,6.0
+855,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,95,correlation,,no,,no,[ 0.6484375],roc_auc,6.0
+856,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,95,correlation,,no,,no,[ 0.60546875],roc_auc,6.0
+857,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,95,correlation,,no,,no,[ 0.62890625],roc_auc,6.0
+858,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,95,partial correlation,,no,,no,[ 0.50390625],roc_auc,6.0
+859,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,95,partial correlation,,no,,no,[ 0.74609375],roc_auc,6.0
+860,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,95,partial correlation,,no,,no,[ 0.75390625],roc_auc,6.0
+861,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,95,tangent,,no,,no,[ 0.609375],roc_auc,6.0
+862,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,95,tangent,,no,,no,[ 0.75],roc_auc,6.0
+863,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,95,tangent,,no,,no,[ 0.75],roc_auc,6.0
+864,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,96,correlation,,no,,no,[ 0.4375],roc_auc,6.0
+865,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,96,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+866,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,96,correlation,,no,,no,[ 0.46484375],roc_auc,6.0
+867,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,96,partial correlation,,no,,no,[ 0.51171875],roc_auc,6.0
+868,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,96,partial correlation,,no,,no,[ 0.39453125],roc_auc,6.0
+869,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,96,partial correlation,,no,,no,[ 0.40234375],roc_auc,6.0
+870,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,96,tangent,,no,,no,[ 0.36328125],roc_auc,6.0
+871,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,96,tangent,,no,,no,[ 0.44140625],roc_auc,6.0
+872,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,96,tangent,,no,,no,[ 0.44921875],roc_auc,6.0
+873,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,97,correlation,,no,,no,[ 0.51953125],roc_auc,6.0
+874,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,97,correlation,,no,,no,[ 0.58203125],roc_auc,6.0
+875,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,97,correlation,,no,,no,[ 0.57421875],roc_auc,6.0
+876,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,97,partial correlation,,no,,no,[ 0.734375],roc_auc,6.0
+877,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,97,partial correlation,,no,,no,[ 0.68359375],roc_auc,6.0
+878,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,97,partial correlation,,no,,no,[ 0.6640625],roc_auc,6.0
+879,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,97,tangent,,no,,no,[ 0.66015625],roc_auc,6.0
+880,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,97,tangent,,no,,no,[ 0.66015625],roc_auc,6.0
+881,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,97,tangent,,no,,no,[ 0.640625],roc_auc,6.0
+882,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,98,correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+883,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,98,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+884,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,98,correlation,,no,,no,[ 0.421875],roc_auc,6.0
+885,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,98,partial correlation,,no,,no,[ 0.48046875],roc_auc,6.0
+886,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,98,partial correlation,,no,,no,[ 0.68359375],roc_auc,6.0
+887,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,98,partial correlation,,no,,no,[ 0.69140625],roc_auc,6.0
+888,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,98,tangent,,no,,no,[ 0.546875],roc_auc,6.0
+889,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,98,tangent,,no,,no,[ 0.64453125],roc_auc,6.0
+890,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,98,tangent,,no,,no,[ 0.65625],roc_auc,6.0
+891,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,99,correlation,,no,,no,[ 0.4296875],roc_auc,6.0
+892,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,99,correlation,,no,,no,[ 0.44140625],roc_auc,6.0
+893,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,99,correlation,,no,,no,[ 0.4609375],roc_auc,6.0
+894,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,99,partial correlation,,no,,no,[ 0.609375],roc_auc,6.0
+895,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,99,partial correlation,,no,,no,[ 0.5703125],roc_auc,6.0
+896,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,99,partial correlation,,no,,no,[ 0.55078125],roc_auc,6.0
+897,aal_spm12,pre-defined,svc_l1,yes,yes,LedoitWolf,ACPI,116,99,tangent,,no,,no,[ 0.40625],roc_auc,6.0
+898,aal_spm12,pre-defined,svc_l2,yes,yes,LedoitWolf,ACPI,116,99,tangent,,no,,no,[ 0.52734375],roc_auc,6.0
+899,aal_spm12,pre-defined,ridge,yes,yes,LedoitWolf,ACPI,116,99,tangent,,no,,no,[ 0.51171875],roc_auc,6.0
