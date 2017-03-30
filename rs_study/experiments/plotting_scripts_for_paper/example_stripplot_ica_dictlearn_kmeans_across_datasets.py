@@ -10,7 +10,7 @@ from my_palette import atlas_palette
 
 covariance_estimator = 'LedoitWolf'
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ACPI', 'ADNIDOD']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI', 'ABIDE']
 atlases = ['ICA', 'DictLearn', 'KMeans']
 
 extensions = {'ICA': 'scores_ica.csv',
@@ -23,8 +23,11 @@ base_path = os.path.join('../prediction_scores', covariance_estimator)
 for dataset in dataset_names:
     paths = []
     for atlas in atlases:
+        extension = extensions[atlas]
+        if dataset == 'ADNIDOD' and atlas == 'ICA':
+            extension = 'scores_ica_120.csv'
         atlas_path = os.path.join(atlas, 'region_extraction',
-                                  extensions[atlas])
+                                  extension)
         path = os.path.join(base_path, dataset, atlas_path)
         if os.path.exists(path):
             paths.append(path)
@@ -48,7 +51,7 @@ line_kws = {'lw': 2}
 
 
 fig, axes = plt.subplots(nrows=1, ncols=len(dataset_names),
-                         figsize=(6, 4),
+                         figsize=(8, 4),
                          squeeze=True, sharey=True)
 axes = axes.reshape(-1)
 
@@ -65,8 +68,8 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
                   hue='atlas',  # color=atlas_palette[label],
                   palette=atlas_palette, split=True,
                   )
-    if i == 3:
-        ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=1,
+    if i == 2:
+        ax.legend(scatterpoints=1, frameon=True, fontsize=13, markerscale=1,
                   handlelength=1, borderpad=.2,
                   borderaxespad=0, handletextpad=.05, loc=(.01, .6))
     else:
