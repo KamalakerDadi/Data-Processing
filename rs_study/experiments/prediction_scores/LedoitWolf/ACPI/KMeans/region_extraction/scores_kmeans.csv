@@ -1,0 +1,901 @@
+,atlas,classifier,compcor_10,connectome_regress,covariance_estimator,dataset,dimensionality,iter_shuffle_split,measure,min_region_size_in_mm3,motion_regress,multi_pca_reduction,n_regions,reduction_n_components,region_extraction,scores,scoring,smoothing_fwhm
+0,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,0,correlation,1500,no,yes,62,100,yes,[ 0.3515625],roc_auc,6.0
+1,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,0,correlation,1500,no,yes,62,100,yes,[ 0.33203125],roc_auc,6.0
+2,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,0,correlation,1500,no,yes,62,100,yes,[ 0.33203125],roc_auc,6.0
+3,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,0,partial correlation,1500,no,yes,62,100,yes,[ 0.46484375],roc_auc,6.0
+4,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,0,partial correlation,1500,no,yes,62,100,yes,[ 0.3671875],roc_auc,6.0
+5,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,0,partial correlation,1500,no,yes,62,100,yes,[ 0.3671875],roc_auc,6.0
+6,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,0,tangent,1500,no,yes,62,100,yes,[ 0.39453125],roc_auc,6.0
+7,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,0,tangent,1500,no,yes,62,100,yes,[ 0.3828125],roc_auc,6.0
+8,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,0,tangent,1500,no,yes,62,100,yes,[ 0.37890625],roc_auc,6.0
+9,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,1,correlation,1500,no,yes,54,100,yes,[ 0.44140625],roc_auc,6.0
+10,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,1,correlation,1500,no,yes,54,100,yes,[ 0.27734375],roc_auc,6.0
+11,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,1,correlation,1500,no,yes,54,100,yes,[ 0.265625],roc_auc,6.0
+12,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,1,partial correlation,1500,no,yes,54,100,yes,[ 0.68359375],roc_auc,6.0
+13,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,1,partial correlation,1500,no,yes,54,100,yes,[ 0.5703125],roc_auc,6.0
+14,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,1,partial correlation,1500,no,yes,54,100,yes,[ 0.56640625],roc_auc,6.0
+15,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,1,tangent,1500,no,yes,54,100,yes,[ 0.46484375],roc_auc,6.0
+16,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,1,tangent,1500,no,yes,54,100,yes,[ 0.46484375],roc_auc,6.0
+17,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,1,tangent,1500,no,yes,54,100,yes,[ 0.45703125],roc_auc,6.0
+18,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,2,correlation,1500,no,yes,49,100,yes,[ 0.33984375],roc_auc,6.0
+19,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,2,correlation,1500,no,yes,49,100,yes,[ 0.55078125],roc_auc,6.0
+20,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,2,correlation,1500,no,yes,49,100,yes,[ 0.53125],roc_auc,6.0
+21,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,2,partial correlation,1500,no,yes,49,100,yes,[ 0.33984375],roc_auc,6.0
+22,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,2,partial correlation,1500,no,yes,49,100,yes,[ 0.42578125],roc_auc,6.0
+23,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,2,partial correlation,1500,no,yes,49,100,yes,[ 0.4296875],roc_auc,6.0
+24,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,2,tangent,1500,no,yes,49,100,yes,[ 0.484375],roc_auc,6.0
+25,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,2,tangent,1500,no,yes,49,100,yes,[ 0.42578125],roc_auc,6.0
+26,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,2,tangent,1500,no,yes,49,100,yes,[ 0.421875],roc_auc,6.0
+27,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,3,correlation,1500,no,yes,43,100,yes,[ 0.3125],roc_auc,6.0
+28,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,3,correlation,1500,no,yes,43,100,yes,[ 0.34765625],roc_auc,6.0
+29,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,3,correlation,1500,no,yes,43,100,yes,[ 0.35546875],roc_auc,6.0
+30,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,3,partial correlation,1500,no,yes,43,100,yes,[ 0.36328125],roc_auc,6.0
+31,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,3,partial correlation,1500,no,yes,43,100,yes,[ 0.39453125],roc_auc,6.0
+32,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,3,partial correlation,1500,no,yes,43,100,yes,[ 0.39453125],roc_auc,6.0
+33,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,3,tangent,1500,no,yes,43,100,yes,[ 0.453125],roc_auc,6.0
+34,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,3,tangent,1500,no,yes,43,100,yes,[ 0.3671875],roc_auc,6.0
+35,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,3,tangent,1500,no,yes,43,100,yes,[ 0.3671875],roc_auc,6.0
+36,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,4,correlation,1500,no,yes,50,100,yes,[ 0.46484375],roc_auc,6.0
+37,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,4,correlation,1500,no,yes,50,100,yes,[ 0.546875],roc_auc,6.0
+38,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,4,correlation,1500,no,yes,50,100,yes,[ 0.52734375],roc_auc,6.0
+39,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,4,partial correlation,1500,no,yes,50,100,yes,[ 0.64453125],roc_auc,6.0
+40,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,4,partial correlation,1500,no,yes,50,100,yes,[ 0.6015625],roc_auc,6.0
+41,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,4,partial correlation,1500,no,yes,50,100,yes,[ 0.6015625],roc_auc,6.0
+42,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,4,tangent,1500,no,yes,50,100,yes,[ 0.53125],roc_auc,6.0
+43,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,4,tangent,1500,no,yes,50,100,yes,[ 0.5859375],roc_auc,6.0
+44,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,4,tangent,1500,no,yes,50,100,yes,[ 0.578125],roc_auc,6.0
+45,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,5,correlation,1500,no,yes,48,100,yes,[ 0.39453125],roc_auc,6.0
+46,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,5,correlation,1500,no,yes,48,100,yes,[ 0.45703125],roc_auc,6.0
+47,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,5,correlation,1500,no,yes,48,100,yes,[ 0.47265625],roc_auc,6.0
+48,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,5,partial correlation,1500,no,yes,48,100,yes,[ 0.6015625],roc_auc,6.0
+49,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,5,partial correlation,1500,no,yes,48,100,yes,[ 0.5859375],roc_auc,6.0
+50,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,5,partial correlation,1500,no,yes,48,100,yes,[ 0.58203125],roc_auc,6.0
+51,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,5,tangent,1500,no,yes,48,100,yes,[ 0.359375],roc_auc,6.0
+52,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,5,tangent,1500,no,yes,48,100,yes,[ 0.47265625],roc_auc,6.0
+53,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,5,tangent,1500,no,yes,48,100,yes,[ 0.46875],roc_auc,6.0
+54,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,6,correlation,1500,no,yes,51,100,yes,[ 0.1796875],roc_auc,6.0
+55,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,6,correlation,1500,no,yes,51,100,yes,[ 0.16015625],roc_auc,6.0
+56,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,6,correlation,1500,no,yes,51,100,yes,[ 0.16015625],roc_auc,6.0
+57,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,6,partial correlation,1500,no,yes,51,100,yes,[ 0.47265625],roc_auc,6.0
+58,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,6,partial correlation,1500,no,yes,51,100,yes,[ 0.546875],roc_auc,6.0
+59,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,6,partial correlation,1500,no,yes,51,100,yes,[ 0.53125],roc_auc,6.0
+60,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,6,tangent,1500,no,yes,51,100,yes,[ 0.3125],roc_auc,6.0
+61,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,6,tangent,1500,no,yes,51,100,yes,[ 0.3359375],roc_auc,6.0
+62,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,6,tangent,1500,no,yes,51,100,yes,[ 0.328125],roc_auc,6.0
+63,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,7,correlation,1500,no,yes,51,100,yes,[ 0.37890625],roc_auc,6.0
+64,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,7,correlation,1500,no,yes,51,100,yes,[ 0.3828125],roc_auc,6.0
+65,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,7,correlation,1500,no,yes,51,100,yes,[ 0.37109375],roc_auc,6.0
+66,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,7,partial correlation,1500,no,yes,51,100,yes,[ 0.4921875],roc_auc,6.0
+67,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,7,partial correlation,1500,no,yes,51,100,yes,[ 0.5859375],roc_auc,6.0
+68,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,7,partial correlation,1500,no,yes,51,100,yes,[ 0.5859375],roc_auc,6.0
+69,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,7,tangent,1500,no,yes,51,100,yes,[ 0.41015625],roc_auc,6.0
+70,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,7,tangent,1500,no,yes,51,100,yes,[ 0.4453125],roc_auc,6.0
+71,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,7,tangent,1500,no,yes,51,100,yes,[ 0.44140625],roc_auc,6.0
+72,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,8,correlation,1500,no,yes,64,100,yes,[ 0.39453125],roc_auc,6.0
+73,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,8,correlation,1500,no,yes,64,100,yes,[ 0.4609375],roc_auc,6.0
+74,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,8,correlation,1500,no,yes,64,100,yes,[ 0.46875],roc_auc,6.0
+75,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,8,partial correlation,1500,no,yes,64,100,yes,[ 0.68359375],roc_auc,6.0
+76,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,8,partial correlation,1500,no,yes,64,100,yes,[ 0.671875],roc_auc,6.0
+77,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,8,partial correlation,1500,no,yes,64,100,yes,[ 0.6875],roc_auc,6.0
+78,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,8,tangent,1500,no,yes,64,100,yes,[ 0.5234375],roc_auc,6.0
+79,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,8,tangent,1500,no,yes,64,100,yes,[ 0.6171875],roc_auc,6.0
+80,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,8,tangent,1500,no,yes,64,100,yes,[ 0.63671875],roc_auc,6.0
+81,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,9,correlation,1500,no,yes,47,100,yes,[ 0.6171875],roc_auc,6.0
+82,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,9,correlation,1500,no,yes,47,100,yes,[ 0.50390625],roc_auc,6.0
+83,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,9,correlation,1500,no,yes,47,100,yes,[ 0.49609375],roc_auc,6.0
+84,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,9,partial correlation,1500,no,yes,47,100,yes,[ 0.54296875],roc_auc,6.0
+85,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,9,partial correlation,1500,no,yes,47,100,yes,[ 0.68359375],roc_auc,6.0
+86,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,9,partial correlation,1500,no,yes,47,100,yes,[ 0.68359375],roc_auc,6.0
+87,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,9,tangent,1500,no,yes,47,100,yes,[ 0.6875],roc_auc,6.0
+88,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,9,tangent,1500,no,yes,47,100,yes,[ 0.59765625],roc_auc,6.0
+89,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,9,tangent,1500,no,yes,47,100,yes,[ 0.58203125],roc_auc,6.0
+90,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,10,correlation,1500,no,yes,72,100,yes,[ 0.45703125],roc_auc,6.0
+91,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,10,correlation,1500,no,yes,72,100,yes,[ 0.53125],roc_auc,6.0
+92,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,10,correlation,1500,no,yes,72,100,yes,[ 0.53515625],roc_auc,6.0
+93,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,10,partial correlation,1500,no,yes,72,100,yes,[ 0.5078125],roc_auc,6.0
+94,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,10,partial correlation,1500,no,yes,72,100,yes,[ 0.53515625],roc_auc,6.0
+95,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,10,partial correlation,1500,no,yes,72,100,yes,[ 0.53515625],roc_auc,6.0
+96,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,10,tangent,1500,no,yes,72,100,yes,[ 0.40625],roc_auc,6.0
+97,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,10,tangent,1500,no,yes,72,100,yes,[ 0.5390625],roc_auc,6.0
+98,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,10,tangent,1500,no,yes,72,100,yes,[ 0.5390625],roc_auc,6.0
+99,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,11,correlation,1500,no,yes,61,100,yes,[ 0.4765625],roc_auc,6.0
+100,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,11,correlation,1500,no,yes,61,100,yes,[ 0.45703125],roc_auc,6.0
+101,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,11,correlation,1500,no,yes,61,100,yes,[ 0.4765625],roc_auc,6.0
+102,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,11,partial correlation,1500,no,yes,61,100,yes,[ 0.46484375],roc_auc,6.0
+103,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,11,partial correlation,1500,no,yes,61,100,yes,[ 0.58203125],roc_auc,6.0
+104,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,11,partial correlation,1500,no,yes,61,100,yes,[ 0.57421875],roc_auc,6.0
+105,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,11,tangent,1500,no,yes,61,100,yes,[ 0.4453125],roc_auc,6.0
+106,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,11,tangent,1500,no,yes,61,100,yes,[ 0.55859375],roc_auc,6.0
+107,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,11,tangent,1500,no,yes,61,100,yes,[ 0.5703125],roc_auc,6.0
+108,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,12,correlation,1500,no,yes,66,100,yes,[ 0.35546875],roc_auc,6.0
+109,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,12,correlation,1500,no,yes,66,100,yes,[ 0.39453125],roc_auc,6.0
+110,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,12,correlation,1500,no,yes,66,100,yes,[ 0.39453125],roc_auc,6.0
+111,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,12,partial correlation,1500,no,yes,66,100,yes,[ 0.70703125],roc_auc,6.0
+112,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,12,partial correlation,1500,no,yes,66,100,yes,[ 0.64453125],roc_auc,6.0
+113,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,12,partial correlation,1500,no,yes,66,100,yes,[ 0.64453125],roc_auc,6.0
+114,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,12,tangent,1500,no,yes,66,100,yes,[ 0.63671875],roc_auc,6.0
+115,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,12,tangent,1500,no,yes,66,100,yes,[ 0.515625],roc_auc,6.0
+116,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,12,tangent,1500,no,yes,66,100,yes,[ 0.515625],roc_auc,6.0
+117,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,13,correlation,1500,no,yes,50,100,yes,[ 0.44921875],roc_auc,6.0
+118,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,13,correlation,1500,no,yes,50,100,yes,[ 0.34375],roc_auc,6.0
+119,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,13,correlation,1500,no,yes,50,100,yes,[ 0.34765625],roc_auc,6.0
+120,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,13,partial correlation,1500,no,yes,50,100,yes,[ 0.6875],roc_auc,6.0
+121,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,13,partial correlation,1500,no,yes,50,100,yes,[ 0.546875],roc_auc,6.0
+122,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,13,partial correlation,1500,no,yes,50,100,yes,[ 0.55859375],roc_auc,6.0
+123,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,13,tangent,1500,no,yes,50,100,yes,[ 0.4765625],roc_auc,6.0
+124,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,13,tangent,1500,no,yes,50,100,yes,[ 0.4140625],roc_auc,6.0
+125,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,13,tangent,1500,no,yes,50,100,yes,[ 0.41015625],roc_auc,6.0
+126,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,14,correlation,1500,no,yes,54,100,yes,[ 0.43359375],roc_auc,6.0
+127,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,14,correlation,1500,no,yes,54,100,yes,[ 0.5],roc_auc,6.0
+128,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,14,correlation,1500,no,yes,54,100,yes,[ 0.5],roc_auc,6.0
+129,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,14,partial correlation,1500,no,yes,54,100,yes,[ 0.51953125],roc_auc,6.0
+130,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,14,partial correlation,1500,no,yes,54,100,yes,[ 0.5234375],roc_auc,6.0
+131,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,14,partial correlation,1500,no,yes,54,100,yes,[ 0.54296875],roc_auc,6.0
+132,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,14,tangent,1500,no,yes,54,100,yes,[ 0.6875],roc_auc,6.0
+133,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,14,tangent,1500,no,yes,54,100,yes,[ 0.46875],roc_auc,6.0
+134,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,14,tangent,1500,no,yes,54,100,yes,[ 0.46875],roc_auc,6.0
+135,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,15,correlation,1500,no,yes,49,100,yes,[ 0.4140625],roc_auc,6.0
+136,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,15,correlation,1500,no,yes,49,100,yes,[ 0.44921875],roc_auc,6.0
+137,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,15,correlation,1500,no,yes,49,100,yes,[ 0.4453125],roc_auc,6.0
+138,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,15,partial correlation,1500,no,yes,49,100,yes,[ 0.63671875],roc_auc,6.0
+139,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,15,partial correlation,1500,no,yes,49,100,yes,[ 0.51953125],roc_auc,6.0
+140,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,15,partial correlation,1500,no,yes,49,100,yes,[ 0.515625],roc_auc,6.0
+141,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,15,tangent,1500,no,yes,49,100,yes,[ 0.51171875],roc_auc,6.0
+142,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,15,tangent,1500,no,yes,49,100,yes,[ 0.47265625],roc_auc,6.0
+143,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,15,tangent,1500,no,yes,49,100,yes,[ 0.45703125],roc_auc,6.0
+144,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,16,correlation,1500,no,yes,67,100,yes,[ 0.5078125],roc_auc,6.0
+145,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,16,correlation,1500,no,yes,67,100,yes,[ 0.6328125],roc_auc,6.0
+146,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,16,correlation,1500,no,yes,67,100,yes,[ 0.62109375],roc_auc,6.0
+147,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,16,partial correlation,1500,no,yes,67,100,yes,[ 0.51171875],roc_auc,6.0
+148,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,16,partial correlation,1500,no,yes,67,100,yes,[ 0.4296875],roc_auc,6.0
+149,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,16,partial correlation,1500,no,yes,67,100,yes,[ 0.4296875],roc_auc,6.0
+150,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,16,tangent,1500,no,yes,67,100,yes,[ 0.46875],roc_auc,6.0
+151,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,16,tangent,1500,no,yes,67,100,yes,[ 0.5703125],roc_auc,6.0
+152,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,16,tangent,1500,no,yes,67,100,yes,[ 0.56640625],roc_auc,6.0
+153,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,17,correlation,1500,no,yes,59,100,yes,[ 0.359375],roc_auc,6.0
+154,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,17,correlation,1500,no,yes,59,100,yes,[ 0.5078125],roc_auc,6.0
+155,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,17,correlation,1500,no,yes,59,100,yes,[ 0.546875],roc_auc,6.0
+156,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,17,partial correlation,1500,no,yes,59,100,yes,[ 0.41015625],roc_auc,6.0
+157,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,17,partial correlation,1500,no,yes,59,100,yes,[ 0.64453125],roc_auc,6.0
+158,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,17,partial correlation,1500,no,yes,59,100,yes,[ 0.65234375],roc_auc,6.0
+159,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,17,tangent,1500,no,yes,59,100,yes,[ 0.3671875],roc_auc,6.0
+160,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,17,tangent,1500,no,yes,59,100,yes,[ 0.59765625],roc_auc,6.0
+161,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,17,tangent,1500,no,yes,59,100,yes,[ 0.60546875],roc_auc,6.0
+162,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,18,correlation,1500,no,yes,53,100,yes,[ 0.5859375],roc_auc,6.0
+163,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,18,correlation,1500,no,yes,53,100,yes,[ 0.4921875],roc_auc,6.0
+164,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,18,correlation,1500,no,yes,53,100,yes,[ 0.49609375],roc_auc,6.0
+165,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,18,partial correlation,1500,no,yes,53,100,yes,[ 0.6015625],roc_auc,6.0
+166,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,18,partial correlation,1500,no,yes,53,100,yes,[ 0.5078125],roc_auc,6.0
+167,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,18,partial correlation,1500,no,yes,53,100,yes,[ 0.5078125],roc_auc,6.0
+168,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,18,tangent,1500,no,yes,53,100,yes,[ 0.57421875],roc_auc,6.0
+169,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,18,tangent,1500,no,yes,53,100,yes,[ 0.43359375],roc_auc,6.0
+170,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,18,tangent,1500,no,yes,53,100,yes,[ 0.4375],roc_auc,6.0
+171,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,19,correlation,1500,no,yes,55,100,yes,[ 0.43359375],roc_auc,6.0
+172,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,19,correlation,1500,no,yes,55,100,yes,[ 0.38671875],roc_auc,6.0
+173,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,19,correlation,1500,no,yes,55,100,yes,[ 0.40625],roc_auc,6.0
+174,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,19,partial correlation,1500,no,yes,55,100,yes,[ 0.5],roc_auc,6.0
+175,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,19,partial correlation,1500,no,yes,55,100,yes,[ 0.5078125],roc_auc,6.0
+176,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,19,partial correlation,1500,no,yes,55,100,yes,[ 0.5078125],roc_auc,6.0
+177,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,19,tangent,1500,no,yes,55,100,yes,[ 0.515625],roc_auc,6.0
+178,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,19,tangent,1500,no,yes,55,100,yes,[ 0.52734375],roc_auc,6.0
+179,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,19,tangent,1500,no,yes,55,100,yes,[ 0.53125],roc_auc,6.0
+180,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,20,correlation,1500,no,yes,66,100,yes,[ 0.5],roc_auc,6.0
+181,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,20,correlation,1500,no,yes,66,100,yes,[ 0.46875],roc_auc,6.0
+182,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,20,correlation,1500,no,yes,66,100,yes,[ 0.453125],roc_auc,6.0
+183,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,20,partial correlation,1500,no,yes,66,100,yes,[ 0.4140625],roc_auc,6.0
+184,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,20,partial correlation,1500,no,yes,66,100,yes,[ 0.56640625],roc_auc,6.0
+185,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,20,partial correlation,1500,no,yes,66,100,yes,[ 0.56640625],roc_auc,6.0
+186,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,20,tangent,1500,no,yes,66,100,yes,[ 0.48828125],roc_auc,6.0
+187,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,20,tangent,1500,no,yes,66,100,yes,[ 0.53125],roc_auc,6.0
+188,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,20,tangent,1500,no,yes,66,100,yes,[ 0.53125],roc_auc,6.0
+189,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,21,correlation,1500,no,yes,45,100,yes,[ 0.36328125],roc_auc,6.0
+190,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,21,correlation,1500,no,yes,45,100,yes,[ 0.28125],roc_auc,6.0
+191,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,21,correlation,1500,no,yes,45,100,yes,[ 0.3125],roc_auc,6.0
+192,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,21,partial correlation,1500,no,yes,45,100,yes,[ 0.4453125],roc_auc,6.0
+193,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,21,partial correlation,1500,no,yes,45,100,yes,[ 0.62109375],roc_auc,6.0
+194,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,21,partial correlation,1500,no,yes,45,100,yes,[ 0.609375],roc_auc,6.0
+195,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,21,tangent,1500,no,yes,45,100,yes,[ 0.43359375],roc_auc,6.0
+196,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,21,tangent,1500,no,yes,45,100,yes,[ 0.45703125],roc_auc,6.0
+197,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,21,tangent,1500,no,yes,45,100,yes,[ 0.453125],roc_auc,6.0
+198,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,22,correlation,1500,no,yes,57,100,yes,[ 0.4765625],roc_auc,6.0
+199,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,22,correlation,1500,no,yes,57,100,yes,[ 0.32421875],roc_auc,6.0
+200,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,22,correlation,1500,no,yes,57,100,yes,[ 0.32421875],roc_auc,6.0
+201,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,22,partial correlation,1500,no,yes,57,100,yes,[ 0.45703125],roc_auc,6.0
+202,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,22,partial correlation,1500,no,yes,57,100,yes,[ 0.37890625],roc_auc,6.0
+203,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,22,partial correlation,1500,no,yes,57,100,yes,[ 0.359375],roc_auc,6.0
+204,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,22,tangent,1500,no,yes,57,100,yes,[ 0.4453125],roc_auc,6.0
+205,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,22,tangent,1500,no,yes,57,100,yes,[ 0.3671875],roc_auc,6.0
+206,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,22,tangent,1500,no,yes,57,100,yes,[ 0.3671875],roc_auc,6.0
+207,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,23,correlation,1500,no,yes,48,100,yes,[ 0.37890625],roc_auc,6.0
+208,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,23,correlation,1500,no,yes,48,100,yes,[ 0.421875],roc_auc,6.0
+209,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,23,correlation,1500,no,yes,48,100,yes,[ 0.421875],roc_auc,6.0
+210,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,23,partial correlation,1500,no,yes,48,100,yes,[ 0.578125],roc_auc,6.0
+211,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,23,partial correlation,1500,no,yes,48,100,yes,[ 0.42578125],roc_auc,6.0
+212,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,23,partial correlation,1500,no,yes,48,100,yes,[ 0.41796875],roc_auc,6.0
+213,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,23,tangent,1500,no,yes,48,100,yes,[ 0.3359375],roc_auc,6.0
+214,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,23,tangent,1500,no,yes,48,100,yes,[ 0.42578125],roc_auc,6.0
+215,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,23,tangent,1500,no,yes,48,100,yes,[ 0.4140625],roc_auc,6.0
+216,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,24,correlation,1500,no,yes,69,100,yes,[ 0.5390625],roc_auc,6.0
+217,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,24,correlation,1500,no,yes,69,100,yes,[ 0.5859375],roc_auc,6.0
+218,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,24,correlation,1500,no,yes,69,100,yes,[ 0.6328125],roc_auc,6.0
+219,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,24,partial correlation,1500,no,yes,69,100,yes,[ 0.671875],roc_auc,6.0
+220,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,24,partial correlation,1500,no,yes,69,100,yes,[ 0.66015625],roc_auc,6.0
+221,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,24,partial correlation,1500,no,yes,69,100,yes,[ 0.65234375],roc_auc,6.0
+222,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,24,tangent,1500,no,yes,69,100,yes,[ 0.55078125],roc_auc,6.0
+223,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,24,tangent,1500,no,yes,69,100,yes,[ 0.58984375],roc_auc,6.0
+224,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,24,tangent,1500,no,yes,69,100,yes,[ 0.58984375],roc_auc,6.0
+225,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,25,correlation,1500,no,yes,47,100,yes,[ 0.3515625],roc_auc,6.0
+226,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,25,correlation,1500,no,yes,47,100,yes,[ 0.37109375],roc_auc,6.0
+227,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,25,correlation,1500,no,yes,47,100,yes,[ 0.375],roc_auc,6.0
+228,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,25,partial correlation,1500,no,yes,47,100,yes,[ 0.140625],roc_auc,6.0
+229,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,25,partial correlation,1500,no,yes,47,100,yes,[ 0.2421875],roc_auc,6.0
+230,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,25,partial correlation,1500,no,yes,47,100,yes,[ 0.24609375],roc_auc,6.0
+231,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,25,tangent,1500,no,yes,47,100,yes,[ 0.1640625],roc_auc,6.0
+232,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,25,tangent,1500,no,yes,47,100,yes,[ 0.28515625],roc_auc,6.0
+233,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,25,tangent,1500,no,yes,47,100,yes,[ 0.28125],roc_auc,6.0
+234,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,26,correlation,1500,no,yes,58,100,yes,[ 0.32421875],roc_auc,6.0
+235,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,26,correlation,1500,no,yes,58,100,yes,[ 0.4140625],roc_auc,6.0
+236,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,26,correlation,1500,no,yes,58,100,yes,[ 0.421875],roc_auc,6.0
+237,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,26,partial correlation,1500,no,yes,58,100,yes,[ 0.56640625],roc_auc,6.0
+238,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,26,partial correlation,1500,no,yes,58,100,yes,[ 0.47265625],roc_auc,6.0
+239,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,26,partial correlation,1500,no,yes,58,100,yes,[ 0.47265625],roc_auc,6.0
+240,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,26,tangent,1500,no,yes,58,100,yes,[ 0.54296875],roc_auc,6.0
+241,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,26,tangent,1500,no,yes,58,100,yes,[ 0.49609375],roc_auc,6.0
+242,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,26,tangent,1500,no,yes,58,100,yes,[ 0.49609375],roc_auc,6.0
+243,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,27,correlation,1500,no,yes,57,100,yes,[ 0.421875],roc_auc,6.0
+244,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,27,correlation,1500,no,yes,57,100,yes,[ 0.484375],roc_auc,6.0
+245,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,27,correlation,1500,no,yes,57,100,yes,[ 0.5078125],roc_auc,6.0
+246,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,27,partial correlation,1500,no,yes,57,100,yes,[ 0.48046875],roc_auc,6.0
+247,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,27,partial correlation,1500,no,yes,57,100,yes,[ 0.56640625],roc_auc,6.0
+248,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,27,partial correlation,1500,no,yes,57,100,yes,[ 0.57421875],roc_auc,6.0
+249,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,27,tangent,1500,no,yes,57,100,yes,[ 0.51171875],roc_auc,6.0
+250,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,27,tangent,1500,no,yes,57,100,yes,[ 0.57421875],roc_auc,6.0
+251,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,27,tangent,1500,no,yes,57,100,yes,[ 0.57421875],roc_auc,6.0
+252,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,28,correlation,1500,no,yes,57,100,yes,[ 0.375],roc_auc,6.0
+253,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,28,correlation,1500,no,yes,57,100,yes,[ 0.34375],roc_auc,6.0
+254,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,28,correlation,1500,no,yes,57,100,yes,[ 0.35546875],roc_auc,6.0
+255,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,28,partial correlation,1500,no,yes,57,100,yes,[ 0.515625],roc_auc,6.0
+256,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,28,partial correlation,1500,no,yes,57,100,yes,[ 0.49609375],roc_auc,6.0
+257,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,28,partial correlation,1500,no,yes,57,100,yes,[ 0.51171875],roc_auc,6.0
+258,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,28,tangent,1500,no,yes,57,100,yes,[ 0.5859375],roc_auc,6.0
+259,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,28,tangent,1500,no,yes,57,100,yes,[ 0.4296875],roc_auc,6.0
+260,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,28,tangent,1500,no,yes,57,100,yes,[ 0.421875],roc_auc,6.0
+261,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,29,correlation,1500,no,yes,62,100,yes,[ 0.46875],roc_auc,6.0
+262,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,29,correlation,1500,no,yes,62,100,yes,[ 0.43359375],roc_auc,6.0
+263,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,29,correlation,1500,no,yes,62,100,yes,[ 0.43359375],roc_auc,6.0
+264,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,29,partial correlation,1500,no,yes,62,100,yes,[ 0.36328125],roc_auc,6.0
+265,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,29,partial correlation,1500,no,yes,62,100,yes,[ 0.47265625],roc_auc,6.0
+266,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,29,partial correlation,1500,no,yes,62,100,yes,[ 0.4765625],roc_auc,6.0
+267,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,29,tangent,1500,no,yes,62,100,yes,[ 0.59375],roc_auc,6.0
+268,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,29,tangent,1500,no,yes,62,100,yes,[ 0.51953125],roc_auc,6.0
+269,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,29,tangent,1500,no,yes,62,100,yes,[ 0.51953125],roc_auc,6.0
+270,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,30,correlation,1500,no,yes,63,100,yes,[ 0.58984375],roc_auc,6.0
+271,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,30,correlation,1500,no,yes,63,100,yes,[ 0.50390625],roc_auc,6.0
+272,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,30,correlation,1500,no,yes,63,100,yes,[ 0.49609375],roc_auc,6.0
+273,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,30,partial correlation,1500,no,yes,63,100,yes,[ 0.5625],roc_auc,6.0
+274,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,30,partial correlation,1500,no,yes,63,100,yes,[ 0.5625],roc_auc,6.0
+275,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,30,partial correlation,1500,no,yes,63,100,yes,[ 0.57421875],roc_auc,6.0
+276,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,30,tangent,1500,no,yes,63,100,yes,[ 0.47265625],roc_auc,6.0
+277,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,30,tangent,1500,no,yes,63,100,yes,[ 0.46484375],roc_auc,6.0
+278,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,30,tangent,1500,no,yes,63,100,yes,[ 0.45703125],roc_auc,6.0
+279,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,31,correlation,1500,no,yes,56,100,yes,[ 0.36328125],roc_auc,6.0
+280,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,31,correlation,1500,no,yes,56,100,yes,[ 0.40625],roc_auc,6.0
+281,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,31,correlation,1500,no,yes,56,100,yes,[ 0.40234375],roc_auc,6.0
+282,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,31,partial correlation,1500,no,yes,56,100,yes,[ 0.43359375],roc_auc,6.0
+283,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,31,partial correlation,1500,no,yes,56,100,yes,[ 0.51171875],roc_auc,6.0
+284,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,31,partial correlation,1500,no,yes,56,100,yes,[ 0.515625],roc_auc,6.0
+285,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,31,tangent,1500,no,yes,56,100,yes,[ 0.34765625],roc_auc,6.0
+286,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,31,tangent,1500,no,yes,56,100,yes,[ 0.43359375],roc_auc,6.0
+287,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,31,tangent,1500,no,yes,56,100,yes,[ 0.43359375],roc_auc,6.0
+288,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,32,correlation,1500,no,yes,53,100,yes,[ 0.48828125],roc_auc,6.0
+289,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,32,correlation,1500,no,yes,53,100,yes,[ 0.4375],roc_auc,6.0
+290,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,32,correlation,1500,no,yes,53,100,yes,[ 0.4453125],roc_auc,6.0
+291,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,32,partial correlation,1500,no,yes,53,100,yes,[ 0.62109375],roc_auc,6.0
+292,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,32,partial correlation,1500,no,yes,53,100,yes,[ 0.57421875],roc_auc,6.0
+293,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,32,partial correlation,1500,no,yes,53,100,yes,[ 0.57421875],roc_auc,6.0
+294,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,32,tangent,1500,no,yes,53,100,yes,[ 0.5390625],roc_auc,6.0
+295,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,32,tangent,1500,no,yes,53,100,yes,[ 0.5625],roc_auc,6.0
+296,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,32,tangent,1500,no,yes,53,100,yes,[ 0.55859375],roc_auc,6.0
+297,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,33,correlation,1500,no,yes,51,100,yes,[ 0.55859375],roc_auc,6.0
+298,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,33,correlation,1500,no,yes,51,100,yes,[ 0.4921875],roc_auc,6.0
+299,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,33,correlation,1500,no,yes,51,100,yes,[ 0.51171875],roc_auc,6.0
+300,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,33,partial correlation,1500,no,yes,51,100,yes,[ 0.48046875],roc_auc,6.0
+301,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,33,partial correlation,1500,no,yes,51,100,yes,[ 0.53125],roc_auc,6.0
+302,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,33,partial correlation,1500,no,yes,51,100,yes,[ 0.515625],roc_auc,6.0
+303,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,33,tangent,1500,no,yes,51,100,yes,[ 0.51953125],roc_auc,6.0
+304,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,33,tangent,1500,no,yes,51,100,yes,[ 0.48046875],roc_auc,6.0
+305,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,33,tangent,1500,no,yes,51,100,yes,[ 0.46875],roc_auc,6.0
+306,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,34,correlation,1500,no,yes,65,100,yes,[ 0.4140625],roc_auc,6.0
+307,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,34,correlation,1500,no,yes,65,100,yes,[ 0.38671875],roc_auc,6.0
+308,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,34,correlation,1500,no,yes,65,100,yes,[ 0.40234375],roc_auc,6.0
+309,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,34,partial correlation,1500,no,yes,65,100,yes,[ 0.5859375],roc_auc,6.0
+310,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,34,partial correlation,1500,no,yes,65,100,yes,[ 0.66015625],roc_auc,6.0
+311,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,34,partial correlation,1500,no,yes,65,100,yes,[ 0.63671875],roc_auc,6.0
+312,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,34,tangent,1500,no,yes,65,100,yes,[ 0.6484375],roc_auc,6.0
+313,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,34,tangent,1500,no,yes,65,100,yes,[ 0.546875],roc_auc,6.0
+314,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,34,tangent,1500,no,yes,65,100,yes,[ 0.51171875],roc_auc,6.0
+315,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,35,correlation,1500,no,yes,46,100,yes,[ 0.41796875],roc_auc,6.0
+316,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,35,correlation,1500,no,yes,46,100,yes,[ 0.375],roc_auc,6.0
+317,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,35,correlation,1500,no,yes,46,100,yes,[ 0.3828125],roc_auc,6.0
+318,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,35,partial correlation,1500,no,yes,46,100,yes,[ 0.55859375],roc_auc,6.0
+319,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,35,partial correlation,1500,no,yes,46,100,yes,[ 0.59765625],roc_auc,6.0
+320,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,35,partial correlation,1500,no,yes,46,100,yes,[ 0.59765625],roc_auc,6.0
+321,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,35,tangent,1500,no,yes,46,100,yes,[ 0.60546875],roc_auc,6.0
+322,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,35,tangent,1500,no,yes,46,100,yes,[ 0.5078125],roc_auc,6.0
+323,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,35,tangent,1500,no,yes,46,100,yes,[ 0.5078125],roc_auc,6.0
+324,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,36,correlation,1500,no,yes,47,100,yes,[ 0.56640625],roc_auc,6.0
+325,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,36,correlation,1500,no,yes,47,100,yes,[ 0.40234375],roc_auc,6.0
+326,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,36,correlation,1500,no,yes,47,100,yes,[ 0.42578125],roc_auc,6.0
+327,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,36,partial correlation,1500,no,yes,47,100,yes,[ 0.53125],roc_auc,6.0
+328,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,36,partial correlation,1500,no,yes,47,100,yes,[ 0.4609375],roc_auc,6.0
+329,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,36,partial correlation,1500,no,yes,47,100,yes,[ 0.4609375],roc_auc,6.0
+330,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,36,tangent,1500,no,yes,47,100,yes,[ 0.65234375],roc_auc,6.0
+331,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,36,tangent,1500,no,yes,47,100,yes,[ 0.37890625],roc_auc,6.0
+332,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,36,tangent,1500,no,yes,47,100,yes,[ 0.37109375],roc_auc,6.0
+333,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,37,correlation,1500,no,yes,64,100,yes,[ 0.35546875],roc_auc,6.0
+334,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,37,correlation,1500,no,yes,64,100,yes,[ 0.50390625],roc_auc,6.0
+335,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,37,correlation,1500,no,yes,64,100,yes,[ 0.51171875],roc_auc,6.0
+336,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,37,partial correlation,1500,no,yes,64,100,yes,[ 0.59375],roc_auc,6.0
+337,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,37,partial correlation,1500,no,yes,64,100,yes,[ 0.625],roc_auc,6.0
+338,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,37,partial correlation,1500,no,yes,64,100,yes,[ 0.625],roc_auc,6.0
+339,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,37,tangent,1500,no,yes,64,100,yes,[ 0.48046875],roc_auc,6.0
+340,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,37,tangent,1500,no,yes,64,100,yes,[ 0.65234375],roc_auc,6.0
+341,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,37,tangent,1500,no,yes,64,100,yes,[ 0.6484375],roc_auc,6.0
+342,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,38,correlation,1500,no,yes,58,100,yes,[ 0.515625],roc_auc,6.0
+343,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,38,correlation,1500,no,yes,58,100,yes,[ 0.55859375],roc_auc,6.0
+344,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,38,correlation,1500,no,yes,58,100,yes,[ 0.55859375],roc_auc,6.0
+345,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,38,partial correlation,1500,no,yes,58,100,yes,[ 0.4921875],roc_auc,6.0
+346,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,38,partial correlation,1500,no,yes,58,100,yes,[ 0.58203125],roc_auc,6.0
+347,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,38,partial correlation,1500,no,yes,58,100,yes,[ 0.578125],roc_auc,6.0
+348,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,38,tangent,1500,no,yes,58,100,yes,[ 0.51953125],roc_auc,6.0
+349,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,38,tangent,1500,no,yes,58,100,yes,[ 0.5234375],roc_auc,6.0
+350,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,38,tangent,1500,no,yes,58,100,yes,[ 0.51953125],roc_auc,6.0
+351,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,39,correlation,1500,no,yes,50,100,yes,[ 0.453125],roc_auc,6.0
+352,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,39,correlation,1500,no,yes,50,100,yes,[ 0.40234375],roc_auc,6.0
+353,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,39,correlation,1500,no,yes,50,100,yes,[ 0.41015625],roc_auc,6.0
+354,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,39,partial correlation,1500,no,yes,50,100,yes,[ 0.41015625],roc_auc,6.0
+355,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,39,partial correlation,1500,no,yes,50,100,yes,[ 0.38671875],roc_auc,6.0
+356,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,39,partial correlation,1500,no,yes,50,100,yes,[ 0.38671875],roc_auc,6.0
+357,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,39,tangent,1500,no,yes,50,100,yes,[ 0.453125],roc_auc,6.0
+358,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,39,tangent,1500,no,yes,50,100,yes,[ 0.37890625],roc_auc,6.0
+359,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,39,tangent,1500,no,yes,50,100,yes,[ 0.38671875],roc_auc,6.0
+360,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,40,correlation,1500,no,yes,60,100,yes,[ 0.453125],roc_auc,6.0
+361,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,40,correlation,1500,no,yes,60,100,yes,[ 0.5703125],roc_auc,6.0
+362,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,40,correlation,1500,no,yes,60,100,yes,[ 0.5625],roc_auc,6.0
+363,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,40,partial correlation,1500,no,yes,60,100,yes,[ 0.44140625],roc_auc,6.0
+364,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,40,partial correlation,1500,no,yes,60,100,yes,[ 0.48046875],roc_auc,6.0
+365,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,40,partial correlation,1500,no,yes,60,100,yes,[ 0.484375],roc_auc,6.0
+366,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,40,tangent,1500,no,yes,60,100,yes,[ 0.48046875],roc_auc,6.0
+367,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,40,tangent,1500,no,yes,60,100,yes,[ 0.4453125],roc_auc,6.0
+368,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,40,tangent,1500,no,yes,60,100,yes,[ 0.4453125],roc_auc,6.0
+369,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,41,correlation,1500,no,yes,50,100,yes,[ 0.44921875],roc_auc,6.0
+370,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,41,correlation,1500,no,yes,50,100,yes,[ 0.5234375],roc_auc,6.0
+371,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,41,correlation,1500,no,yes,50,100,yes,[ 0.51953125],roc_auc,6.0
+372,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,41,partial correlation,1500,no,yes,50,100,yes,[ 0.4140625],roc_auc,6.0
+373,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,41,partial correlation,1500,no,yes,50,100,yes,[ 0.5234375],roc_auc,6.0
+374,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,41,partial correlation,1500,no,yes,50,100,yes,[ 0.515625],roc_auc,6.0
+375,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,41,tangent,1500,no,yes,50,100,yes,[ 0.57421875],roc_auc,6.0
+376,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,41,tangent,1500,no,yes,50,100,yes,[ 0.55078125],roc_auc,6.0
+377,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,41,tangent,1500,no,yes,50,100,yes,[ 0.5625],roc_auc,6.0
+378,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,42,correlation,1500,no,yes,56,100,yes,[ 0.35546875],roc_auc,6.0
+379,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,42,correlation,1500,no,yes,56,100,yes,[ 0.4375],roc_auc,6.0
+380,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,42,correlation,1500,no,yes,56,100,yes,[ 0.44140625],roc_auc,6.0
+381,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,42,partial correlation,1500,no,yes,56,100,yes,[ 0.4609375],roc_auc,6.0
+382,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,42,partial correlation,1500,no,yes,56,100,yes,[ 0.40625],roc_auc,6.0
+383,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,42,partial correlation,1500,no,yes,56,100,yes,[ 0.40625],roc_auc,6.0
+384,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,42,tangent,1500,no,yes,56,100,yes,[ 0.35546875],roc_auc,6.0
+385,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,42,tangent,1500,no,yes,56,100,yes,[ 0.328125],roc_auc,6.0
+386,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,42,tangent,1500,no,yes,56,100,yes,[ 0.31640625],roc_auc,6.0
+387,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,43,correlation,1500,no,yes,58,100,yes,[ 0.5],roc_auc,6.0
+388,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,43,correlation,1500,no,yes,58,100,yes,[ 0.5390625],roc_auc,6.0
+389,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,43,correlation,1500,no,yes,58,100,yes,[ 0.5546875],roc_auc,6.0
+390,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,43,partial correlation,1500,no,yes,58,100,yes,[ 0.57421875],roc_auc,6.0
+391,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,43,partial correlation,1500,no,yes,58,100,yes,[ 0.6640625],roc_auc,6.0
+392,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,43,partial correlation,1500,no,yes,58,100,yes,[ 0.671875],roc_auc,6.0
+393,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,43,tangent,1500,no,yes,58,100,yes,[ 0.484375],roc_auc,6.0
+394,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,43,tangent,1500,no,yes,58,100,yes,[ 0.578125],roc_auc,6.0
+395,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,43,tangent,1500,no,yes,58,100,yes,[ 0.578125],roc_auc,6.0
+396,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,44,correlation,1500,no,yes,59,100,yes,[ 0.50390625],roc_auc,6.0
+397,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,44,correlation,1500,no,yes,59,100,yes,[ 0.5078125],roc_auc,6.0
+398,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,44,correlation,1500,no,yes,59,100,yes,[ 0.51171875],roc_auc,6.0
+399,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,44,partial correlation,1500,no,yes,59,100,yes,[ 0.4453125],roc_auc,6.0
+400,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,44,partial correlation,1500,no,yes,59,100,yes,[ 0.52734375],roc_auc,6.0
+401,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,44,partial correlation,1500,no,yes,59,100,yes,[ 0.5],roc_auc,6.0
+402,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,44,tangent,1500,no,yes,59,100,yes,[ 0.43359375],roc_auc,6.0
+403,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,44,tangent,1500,no,yes,59,100,yes,[ 0.48046875],roc_auc,6.0
+404,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,44,tangent,1500,no,yes,59,100,yes,[ 0.46875],roc_auc,6.0
+405,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,45,correlation,1500,no,yes,52,100,yes,[ 0.39453125],roc_auc,6.0
+406,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,45,correlation,1500,no,yes,52,100,yes,[ 0.4921875],roc_auc,6.0
+407,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,45,correlation,1500,no,yes,52,100,yes,[ 0.52734375],roc_auc,6.0
+408,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,45,partial correlation,1500,no,yes,52,100,yes,[ 0.80859375],roc_auc,6.0
+409,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,45,partial correlation,1500,no,yes,52,100,yes,[ 0.65625],roc_auc,6.0
+410,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,45,partial correlation,1500,no,yes,52,100,yes,[ 0.65234375],roc_auc,6.0
+411,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,45,tangent,1500,no,yes,52,100,yes,[ 0.5390625],roc_auc,6.0
+412,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,45,tangent,1500,no,yes,52,100,yes,[ 0.59375],roc_auc,6.0
+413,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,45,tangent,1500,no,yes,52,100,yes,[ 0.60546875],roc_auc,6.0
+414,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,46,correlation,1500,no,yes,53,100,yes,[ 0.56640625],roc_auc,6.0
+415,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,46,correlation,1500,no,yes,53,100,yes,[ 0.53515625],roc_auc,6.0
+416,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,46,correlation,1500,no,yes,53,100,yes,[ 0.51953125],roc_auc,6.0
+417,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,46,partial correlation,1500,no,yes,53,100,yes,[ 0.44921875],roc_auc,6.0
+418,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,46,partial correlation,1500,no,yes,53,100,yes,[ 0.49609375],roc_auc,6.0
+419,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,46,partial correlation,1500,no,yes,53,100,yes,[ 0.5],roc_auc,6.0
+420,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,46,tangent,1500,no,yes,53,100,yes,[ 0.578125],roc_auc,6.0
+421,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,46,tangent,1500,no,yes,53,100,yes,[ 0.5078125],roc_auc,6.0
+422,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,46,tangent,1500,no,yes,53,100,yes,[ 0.51171875],roc_auc,6.0
+423,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,47,correlation,1500,no,yes,55,100,yes,[ 0.3203125],roc_auc,6.0
+424,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,47,correlation,1500,no,yes,55,100,yes,[ 0.37890625],roc_auc,6.0
+425,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,47,correlation,1500,no,yes,55,100,yes,[ 0.375],roc_auc,6.0
+426,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,47,partial correlation,1500,no,yes,55,100,yes,[ 0.44140625],roc_auc,6.0
+427,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,47,partial correlation,1500,no,yes,55,100,yes,[ 0.50390625],roc_auc,6.0
+428,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,47,partial correlation,1500,no,yes,55,100,yes,[ 0.50390625],roc_auc,6.0
+429,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,47,tangent,1500,no,yes,55,100,yes,[ 0.36328125],roc_auc,6.0
+430,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,47,tangent,1500,no,yes,55,100,yes,[ 0.390625],roc_auc,6.0
+431,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,47,tangent,1500,no,yes,55,100,yes,[ 0.3984375],roc_auc,6.0
+432,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,48,correlation,1500,no,yes,50,100,yes,[ 0.27734375],roc_auc,6.0
+433,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,48,correlation,1500,no,yes,50,100,yes,[ 0.32421875],roc_auc,6.0
+434,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,48,correlation,1500,no,yes,50,100,yes,[ 0.34765625],roc_auc,6.0
+435,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,48,partial correlation,1500,no,yes,50,100,yes,[ 0.43359375],roc_auc,6.0
+436,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,48,partial correlation,1500,no,yes,50,100,yes,[ 0.3125],roc_auc,6.0
+437,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,48,partial correlation,1500,no,yes,50,100,yes,[ 0.30859375],roc_auc,6.0
+438,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,48,tangent,1500,no,yes,50,100,yes,[ 0.31640625],roc_auc,6.0
+439,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,48,tangent,1500,no,yes,50,100,yes,[ 0.3125],roc_auc,6.0
+440,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,48,tangent,1500,no,yes,50,100,yes,[ 0.3203125],roc_auc,6.0
+441,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,49,correlation,1500,no,yes,71,100,yes,[ 0.5625],roc_auc,6.0
+442,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,49,correlation,1500,no,yes,71,100,yes,[ 0.60546875],roc_auc,6.0
+443,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,49,correlation,1500,no,yes,71,100,yes,[ 0.64453125],roc_auc,6.0
+444,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,49,partial correlation,1500,no,yes,71,100,yes,[ 0.60546875],roc_auc,6.0
+445,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,49,partial correlation,1500,no,yes,71,100,yes,[ 0.7265625],roc_auc,6.0
+446,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,49,partial correlation,1500,no,yes,71,100,yes,[ 0.71484375],roc_auc,6.0
+447,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,49,tangent,1500,no,yes,71,100,yes,[ 0.66796875],roc_auc,6.0
+448,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,49,tangent,1500,no,yes,71,100,yes,[ 0.69921875],roc_auc,6.0
+449,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,49,tangent,1500,no,yes,71,100,yes,[ 0.69921875],roc_auc,6.0
+450,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,50,correlation,1500,no,yes,67,100,yes,[ 0.5],roc_auc,6.0
+451,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,50,correlation,1500,no,yes,67,100,yes,[ 0.453125],roc_auc,6.0
+452,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,50,correlation,1500,no,yes,67,100,yes,[ 0.43359375],roc_auc,6.0
+453,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,50,partial correlation,1500,no,yes,67,100,yes,[ 0.375],roc_auc,6.0
+454,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,50,partial correlation,1500,no,yes,67,100,yes,[ 0.5546875],roc_auc,6.0
+455,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,50,partial correlation,1500,no,yes,67,100,yes,[ 0.5546875],roc_auc,6.0
+456,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,50,tangent,1500,no,yes,67,100,yes,[ 0.33984375],roc_auc,6.0
+457,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,50,tangent,1500,no,yes,67,100,yes,[ 0.578125],roc_auc,6.0
+458,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,50,tangent,1500,no,yes,67,100,yes,[ 0.5859375],roc_auc,6.0
+459,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,51,correlation,1500,no,yes,52,100,yes,[ 0.49609375],roc_auc,6.0
+460,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,51,correlation,1500,no,yes,52,100,yes,[ 0.328125],roc_auc,6.0
+461,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,51,correlation,1500,no,yes,52,100,yes,[ 0.375],roc_auc,6.0
+462,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,51,partial correlation,1500,no,yes,52,100,yes,[ 0.5859375],roc_auc,6.0
+463,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,51,partial correlation,1500,no,yes,52,100,yes,[ 0.59375],roc_auc,6.0
+464,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,51,partial correlation,1500,no,yes,52,100,yes,[ 0.6015625],roc_auc,6.0
+465,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,51,tangent,1500,no,yes,52,100,yes,[ 0.4296875],roc_auc,6.0
+466,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,51,tangent,1500,no,yes,52,100,yes,[ 0.421875],roc_auc,6.0
+467,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,51,tangent,1500,no,yes,52,100,yes,[ 0.41796875],roc_auc,6.0
+468,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,52,correlation,1500,no,yes,66,100,yes,[ 0.453125],roc_auc,6.0
+469,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,52,correlation,1500,no,yes,66,100,yes,[ 0.39453125],roc_auc,6.0
+470,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,52,correlation,1500,no,yes,66,100,yes,[ 0.4140625],roc_auc,6.0
+471,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,52,partial correlation,1500,no,yes,66,100,yes,[ 0.5234375],roc_auc,6.0
+472,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,52,partial correlation,1500,no,yes,66,100,yes,[ 0.66015625],roc_auc,6.0
+473,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,52,partial correlation,1500,no,yes,66,100,yes,[ 0.64453125],roc_auc,6.0
+474,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,52,tangent,1500,no,yes,66,100,yes,[ 0.6796875],roc_auc,6.0
+475,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,52,tangent,1500,no,yes,66,100,yes,[ 0.57421875],roc_auc,6.0
+476,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,52,tangent,1500,no,yes,66,100,yes,[ 0.57421875],roc_auc,6.0
+477,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,53,correlation,1500,no,yes,64,100,yes,[ 0.45703125],roc_auc,6.0
+478,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,53,correlation,1500,no,yes,64,100,yes,[ 0.51953125],roc_auc,6.0
+479,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,53,correlation,1500,no,yes,64,100,yes,[ 0.51171875],roc_auc,6.0
+480,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,53,partial correlation,1500,no,yes,64,100,yes,[ 0.52734375],roc_auc,6.0
+481,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,53,partial correlation,1500,no,yes,64,100,yes,[ 0.578125],roc_auc,6.0
+482,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,53,partial correlation,1500,no,yes,64,100,yes,[ 0.58203125],roc_auc,6.0
+483,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,53,tangent,1500,no,yes,64,100,yes,[ 0.4453125],roc_auc,6.0
+484,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,53,tangent,1500,no,yes,64,100,yes,[ 0.5625],roc_auc,6.0
+485,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,53,tangent,1500,no,yes,64,100,yes,[ 0.5546875],roc_auc,6.0
+486,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,54,correlation,1500,no,yes,71,100,yes,[ 0.37890625],roc_auc,6.0
+487,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,54,correlation,1500,no,yes,71,100,yes,[ 0.44140625],roc_auc,6.0
+488,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,54,correlation,1500,no,yes,71,100,yes,[ 0.4375],roc_auc,6.0
+489,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,54,partial correlation,1500,no,yes,71,100,yes,[ 0.49609375],roc_auc,6.0
+490,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,54,partial correlation,1500,no,yes,71,100,yes,[ 0.39453125],roc_auc,6.0
+491,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,54,partial correlation,1500,no,yes,71,100,yes,[ 0.39453125],roc_auc,6.0
+492,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,54,tangent,1500,no,yes,71,100,yes,[ 0.34375],roc_auc,6.0
+493,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,54,tangent,1500,no,yes,71,100,yes,[ 0.390625],roc_auc,6.0
+494,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,54,tangent,1500,no,yes,71,100,yes,[ 0.3984375],roc_auc,6.0
+495,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,55,correlation,1500,no,yes,53,100,yes,[ 0.4296875],roc_auc,6.0
+496,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,55,correlation,1500,no,yes,53,100,yes,[ 0.47265625],roc_auc,6.0
+497,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,55,correlation,1500,no,yes,53,100,yes,[ 0.47265625],roc_auc,6.0
+498,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,55,partial correlation,1500,no,yes,53,100,yes,[ 0.4296875],roc_auc,6.0
+499,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,55,partial correlation,1500,no,yes,53,100,yes,[ 0.5390625],roc_auc,6.0
+500,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,55,partial correlation,1500,no,yes,53,100,yes,[ 0.5234375],roc_auc,6.0
+501,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,55,tangent,1500,no,yes,53,100,yes,[ 0.29296875],roc_auc,6.0
+502,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,55,tangent,1500,no,yes,53,100,yes,[ 0.41796875],roc_auc,6.0
+503,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,55,tangent,1500,no,yes,53,100,yes,[ 0.4140625],roc_auc,6.0
+504,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,56,correlation,1500,no,yes,64,100,yes,[ 0.4375],roc_auc,6.0
+505,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,56,correlation,1500,no,yes,64,100,yes,[ 0.34375],roc_auc,6.0
+506,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,56,correlation,1500,no,yes,64,100,yes,[ 0.36328125],roc_auc,6.0
+507,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,56,partial correlation,1500,no,yes,64,100,yes,[ 0.26953125],roc_auc,6.0
+508,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,56,partial correlation,1500,no,yes,64,100,yes,[ 0.421875],roc_auc,6.0
+509,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,56,partial correlation,1500,no,yes,64,100,yes,[ 0.40625],roc_auc,6.0
+510,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,56,tangent,1500,no,yes,64,100,yes,[ 0.56640625],roc_auc,6.0
+511,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,56,tangent,1500,no,yes,64,100,yes,[ 0.4765625],roc_auc,6.0
+512,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,56,tangent,1500,no,yes,64,100,yes,[ 0.46484375],roc_auc,6.0
+513,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,57,correlation,1500,no,yes,59,100,yes,[ 0.30078125],roc_auc,6.0
+514,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,57,correlation,1500,no,yes,59,100,yes,[ 0.26171875],roc_auc,6.0
+515,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,57,correlation,1500,no,yes,59,100,yes,[ 0.2578125],roc_auc,6.0
+516,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,57,partial correlation,1500,no,yes,59,100,yes,[ 0.33984375],roc_auc,6.0
+517,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,57,partial correlation,1500,no,yes,59,100,yes,[ 0.5234375],roc_auc,6.0
+518,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,57,partial correlation,1500,no,yes,59,100,yes,[ 0.5078125],roc_auc,6.0
+519,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,57,tangent,1500,no,yes,59,100,yes,[ 0.3046875],roc_auc,6.0
+520,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,57,tangent,1500,no,yes,59,100,yes,[ 0.42578125],roc_auc,6.0
+521,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,57,tangent,1500,no,yes,59,100,yes,[ 0.41015625],roc_auc,6.0
+522,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,58,correlation,1500,no,yes,51,100,yes,[ 0.359375],roc_auc,6.0
+523,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,58,correlation,1500,no,yes,51,100,yes,[ 0.421875],roc_auc,6.0
+524,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,58,correlation,1500,no,yes,51,100,yes,[ 0.4296875],roc_auc,6.0
+525,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,58,partial correlation,1500,no,yes,51,100,yes,[ 0.59765625],roc_auc,6.0
+526,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,58,partial correlation,1500,no,yes,51,100,yes,[ 0.515625],roc_auc,6.0
+527,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,58,partial correlation,1500,no,yes,51,100,yes,[ 0.515625],roc_auc,6.0
+528,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,58,tangent,1500,no,yes,51,100,yes,[ 0.59375],roc_auc,6.0
+529,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,58,tangent,1500,no,yes,51,100,yes,[ 0.4921875],roc_auc,6.0
+530,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,58,tangent,1500,no,yes,51,100,yes,[ 0.5],roc_auc,6.0
+531,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,59,correlation,1500,no,yes,53,100,yes,[ 0.609375],roc_auc,6.0
+532,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,59,correlation,1500,no,yes,53,100,yes,[ 0.78515625],roc_auc,6.0
+533,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,59,correlation,1500,no,yes,53,100,yes,[ 0.78125],roc_auc,6.0
+534,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,59,partial correlation,1500,no,yes,53,100,yes,[ 0.58984375],roc_auc,6.0
+535,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,59,partial correlation,1500,no,yes,53,100,yes,[ 0.69921875],roc_auc,6.0
+536,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,59,partial correlation,1500,no,yes,53,100,yes,[ 0.70703125],roc_auc,6.0
+537,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,59,tangent,1500,no,yes,53,100,yes,[ 0.62890625],roc_auc,6.0
+538,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,59,tangent,1500,no,yes,53,100,yes,[ 0.765625],roc_auc,6.0
+539,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,59,tangent,1500,no,yes,53,100,yes,[ 0.76953125],roc_auc,6.0
+540,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,60,correlation,1500,no,yes,54,100,yes,[ 0.37890625],roc_auc,6.0
+541,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,60,correlation,1500,no,yes,54,100,yes,[ 0.3046875],roc_auc,6.0
+542,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,60,correlation,1500,no,yes,54,100,yes,[ 0.3125],roc_auc,6.0
+543,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,60,partial correlation,1500,no,yes,54,100,yes,[ 0.40234375],roc_auc,6.0
+544,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,60,partial correlation,1500,no,yes,54,100,yes,[ 0.48046875],roc_auc,6.0
+545,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,60,partial correlation,1500,no,yes,54,100,yes,[ 0.48828125],roc_auc,6.0
+546,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,60,tangent,1500,no,yes,54,100,yes,[ 0.359375],roc_auc,6.0
+547,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,60,tangent,1500,no,yes,54,100,yes,[ 0.3046875],roc_auc,6.0
+548,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,60,tangent,1500,no,yes,54,100,yes,[ 0.30078125],roc_auc,6.0
+549,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,61,correlation,1500,no,yes,61,100,yes,[ 0.51171875],roc_auc,6.0
+550,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,61,correlation,1500,no,yes,61,100,yes,[ 0.37890625],roc_auc,6.0
+551,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,61,correlation,1500,no,yes,61,100,yes,[ 0.3828125],roc_auc,6.0
+552,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,61,partial correlation,1500,no,yes,61,100,yes,[ 0.5546875],roc_auc,6.0
+553,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,61,partial correlation,1500,no,yes,61,100,yes,[ 0.50390625],roc_auc,6.0
+554,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,61,partial correlation,1500,no,yes,61,100,yes,[ 0.5078125],roc_auc,6.0
+555,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,61,tangent,1500,no,yes,61,100,yes,[ 0.3984375],roc_auc,6.0
+556,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,61,tangent,1500,no,yes,61,100,yes,[ 0.515625],roc_auc,6.0
+557,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,61,tangent,1500,no,yes,61,100,yes,[ 0.5],roc_auc,6.0
+558,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,62,correlation,1500,no,yes,62,100,yes,[ 0.35546875],roc_auc,6.0
+559,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,62,correlation,1500,no,yes,62,100,yes,[ 0.453125],roc_auc,6.0
+560,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,62,correlation,1500,no,yes,62,100,yes,[ 0.453125],roc_auc,6.0
+561,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,62,partial correlation,1500,no,yes,62,100,yes,[ 0.39453125],roc_auc,6.0
+562,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,62,partial correlation,1500,no,yes,62,100,yes,[ 0.48046875],roc_auc,6.0
+563,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,62,partial correlation,1500,no,yes,62,100,yes,[ 0.48046875],roc_auc,6.0
+564,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,62,tangent,1500,no,yes,62,100,yes,[ 0.390625],roc_auc,6.0
+565,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,62,tangent,1500,no,yes,62,100,yes,[ 0.46875],roc_auc,6.0
+566,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,62,tangent,1500,no,yes,62,100,yes,[ 0.4609375],roc_auc,6.0
+567,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,63,correlation,1500,no,yes,68,100,yes,[ 0.359375],roc_auc,6.0
+568,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,63,correlation,1500,no,yes,68,100,yes,[ 0.4609375],roc_auc,6.0
+569,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,63,correlation,1500,no,yes,68,100,yes,[ 0.46484375],roc_auc,6.0
+570,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,63,partial correlation,1500,no,yes,68,100,yes,[ 0.32421875],roc_auc,6.0
+571,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,63,partial correlation,1500,no,yes,68,100,yes,[ 0.66796875],roc_auc,6.0
+572,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,63,partial correlation,1500,no,yes,68,100,yes,[ 0.66796875],roc_auc,6.0
+573,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,63,tangent,1500,no,yes,68,100,yes,[ 0.4375],roc_auc,6.0
+574,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,63,tangent,1500,no,yes,68,100,yes,[ 0.59375],roc_auc,6.0
+575,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,63,tangent,1500,no,yes,68,100,yes,[ 0.59375],roc_auc,6.0
+576,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,64,correlation,1500,no,yes,73,100,yes,[ 0.58203125],roc_auc,6.0
+577,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,64,correlation,1500,no,yes,73,100,yes,[ 0.37109375],roc_auc,6.0
+578,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,64,correlation,1500,no,yes,73,100,yes,[ 0.35546875],roc_auc,6.0
+579,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,64,partial correlation,1500,no,yes,73,100,yes,[ 0.43359375],roc_auc,6.0
+580,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,64,partial correlation,1500,no,yes,73,100,yes,[ 0.484375],roc_auc,6.0
+581,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,64,partial correlation,1500,no,yes,73,100,yes,[ 0.48828125],roc_auc,6.0
+582,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,64,tangent,1500,no,yes,73,100,yes,[ 0.7109375],roc_auc,6.0
+583,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,64,tangent,1500,no,yes,73,100,yes,[ 0.5],roc_auc,6.0
+584,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,64,tangent,1500,no,yes,73,100,yes,[ 0.49609375],roc_auc,6.0
+585,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,65,correlation,1500,no,yes,69,100,yes,[ 0.42578125],roc_auc,6.0
+586,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,65,correlation,1500,no,yes,69,100,yes,[ 0.52734375],roc_auc,6.0
+587,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,65,correlation,1500,no,yes,69,100,yes,[ 0.5390625],roc_auc,6.0
+588,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,65,partial correlation,1500,no,yes,69,100,yes,[ 0.48046875],roc_auc,6.0
+589,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,65,partial correlation,1500,no,yes,69,100,yes,[ 0.6171875],roc_auc,6.0
+590,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,65,partial correlation,1500,no,yes,69,100,yes,[ 0.61328125],roc_auc,6.0
+591,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,65,tangent,1500,no,yes,69,100,yes,[ 0.3125],roc_auc,6.0
+592,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,65,tangent,1500,no,yes,69,100,yes,[ 0.6015625],roc_auc,6.0
+593,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,65,tangent,1500,no,yes,69,100,yes,[ 0.6015625],roc_auc,6.0
+594,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,66,correlation,1500,no,yes,64,100,yes,[ 0.58203125],roc_auc,6.0
+595,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,66,correlation,1500,no,yes,64,100,yes,[ 0.5078125],roc_auc,6.0
+596,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,66,correlation,1500,no,yes,64,100,yes,[ 0.50390625],roc_auc,6.0
+597,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,66,partial correlation,1500,no,yes,64,100,yes,[ 0.6171875],roc_auc,6.0
+598,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,66,partial correlation,1500,no,yes,64,100,yes,[ 0.7421875],roc_auc,6.0
+599,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,66,partial correlation,1500,no,yes,64,100,yes,[ 0.71484375],roc_auc,6.0
+600,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,66,tangent,1500,no,yes,64,100,yes,[ 0.58984375],roc_auc,6.0
+601,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,66,tangent,1500,no,yes,64,100,yes,[ 0.64453125],roc_auc,6.0
+602,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,66,tangent,1500,no,yes,64,100,yes,[ 0.640625],roc_auc,6.0
+603,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,67,correlation,1500,no,yes,62,100,yes,[ 0.4453125],roc_auc,6.0
+604,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,67,correlation,1500,no,yes,62,100,yes,[ 0.42578125],roc_auc,6.0
+605,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,67,correlation,1500,no,yes,62,100,yes,[ 0.43359375],roc_auc,6.0
+606,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,67,partial correlation,1500,no,yes,62,100,yes,[ 0.6328125],roc_auc,6.0
+607,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,67,partial correlation,1500,no,yes,62,100,yes,[ 0.63671875],roc_auc,6.0
+608,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,67,partial correlation,1500,no,yes,62,100,yes,[ 0.6328125],roc_auc,6.0
+609,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,67,tangent,1500,no,yes,62,100,yes,[ 0.50390625],roc_auc,6.0
+610,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,67,tangent,1500,no,yes,62,100,yes,[ 0.5390625],roc_auc,6.0
+611,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,67,tangent,1500,no,yes,62,100,yes,[ 0.53125],roc_auc,6.0
+612,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,68,correlation,1500,no,yes,71,100,yes,[ 0.515625],roc_auc,6.0
+613,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,68,correlation,1500,no,yes,71,100,yes,[ 0.3359375],roc_auc,6.0
+614,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,68,correlation,1500,no,yes,71,100,yes,[ 0.32421875],roc_auc,6.0
+615,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,68,partial correlation,1500,no,yes,71,100,yes,[ 0.46875],roc_auc,6.0
+616,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,68,partial correlation,1500,no,yes,71,100,yes,[ 0.40234375],roc_auc,6.0
+617,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,68,partial correlation,1500,no,yes,71,100,yes,[ 0.421875],roc_auc,6.0
+618,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,68,tangent,1500,no,yes,71,100,yes,[ 0.41796875],roc_auc,6.0
+619,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,68,tangent,1500,no,yes,71,100,yes,[ 0.37109375],roc_auc,6.0
+620,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,68,tangent,1500,no,yes,71,100,yes,[ 0.38671875],roc_auc,6.0
+621,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,69,correlation,1500,no,yes,53,100,yes,[ 0.3984375],roc_auc,6.0
+622,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,69,correlation,1500,no,yes,53,100,yes,[ 0.58984375],roc_auc,6.0
+623,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,69,correlation,1500,no,yes,53,100,yes,[ 0.55859375],roc_auc,6.0
+624,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,69,partial correlation,1500,no,yes,53,100,yes,[ 0.75],roc_auc,6.0
+625,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,69,partial correlation,1500,no,yes,53,100,yes,[ 0.73046875],roc_auc,6.0
+626,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,69,partial correlation,1500,no,yes,53,100,yes,[ 0.73828125],roc_auc,6.0
+627,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,69,tangent,1500,no,yes,53,100,yes,[ 0.70703125],roc_auc,6.0
+628,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,69,tangent,1500,no,yes,53,100,yes,[ 0.6875],roc_auc,6.0
+629,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,69,tangent,1500,no,yes,53,100,yes,[ 0.6875],roc_auc,6.0
+630,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,70,correlation,1500,no,yes,55,100,yes,[ 0.66796875],roc_auc,6.0
+631,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,70,correlation,1500,no,yes,55,100,yes,[ 0.4921875],roc_auc,6.0
+632,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,70,correlation,1500,no,yes,55,100,yes,[ 0.50390625],roc_auc,6.0
+633,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,70,partial correlation,1500,no,yes,55,100,yes,[ 0.296875],roc_auc,6.0
+634,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,70,partial correlation,1500,no,yes,55,100,yes,[ 0.46875],roc_auc,6.0
+635,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,70,partial correlation,1500,no,yes,55,100,yes,[ 0.47265625],roc_auc,6.0
+636,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,70,tangent,1500,no,yes,55,100,yes,[ 0.48046875],roc_auc,6.0
+637,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,70,tangent,1500,no,yes,55,100,yes,[ 0.4765625],roc_auc,6.0
+638,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,70,tangent,1500,no,yes,55,100,yes,[ 0.47265625],roc_auc,6.0
+639,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,71,correlation,1500,no,yes,61,100,yes,[ 0.6484375],roc_auc,6.0
+640,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,71,correlation,1500,no,yes,61,100,yes,[ 0.53515625],roc_auc,6.0
+641,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,71,correlation,1500,no,yes,61,100,yes,[ 0.53515625],roc_auc,6.0
+642,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,71,partial correlation,1500,no,yes,61,100,yes,[ 0.51171875],roc_auc,6.0
+643,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,71,partial correlation,1500,no,yes,61,100,yes,[ 0.4375],roc_auc,6.0
+644,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,71,partial correlation,1500,no,yes,61,100,yes,[ 0.4375],roc_auc,6.0
+645,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,71,tangent,1500,no,yes,61,100,yes,[ 0.484375],roc_auc,6.0
+646,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,71,tangent,1500,no,yes,61,100,yes,[ 0.37890625],roc_auc,6.0
+647,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,71,tangent,1500,no,yes,61,100,yes,[ 0.37890625],roc_auc,6.0
+648,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,72,correlation,1500,no,yes,45,100,yes,[ 0.51953125],roc_auc,6.0
+649,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,72,correlation,1500,no,yes,45,100,yes,[ 0.53125],roc_auc,6.0
+650,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,72,correlation,1500,no,yes,45,100,yes,[ 0.55078125],roc_auc,6.0
+651,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,72,partial correlation,1500,no,yes,45,100,yes,[ 0.734375],roc_auc,6.0
+652,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,72,partial correlation,1500,no,yes,45,100,yes,[ 0.73828125],roc_auc,6.0
+653,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,72,partial correlation,1500,no,yes,45,100,yes,[ 0.7421875],roc_auc,6.0
+654,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,72,tangent,1500,no,yes,45,100,yes,[ 0.59765625],roc_auc,6.0
+655,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,72,tangent,1500,no,yes,45,100,yes,[ 0.59375],roc_auc,6.0
+656,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,72,tangent,1500,no,yes,45,100,yes,[ 0.59375],roc_auc,6.0
+657,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,73,correlation,1500,no,yes,54,100,yes,[ 0.4375],roc_auc,6.0
+658,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,73,correlation,1500,no,yes,54,100,yes,[ 0.30859375],roc_auc,6.0
+659,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,73,correlation,1500,no,yes,54,100,yes,[ 0.35546875],roc_auc,6.0
+660,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,73,partial correlation,1500,no,yes,54,100,yes,[ 0.515625],roc_auc,6.0
+661,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,73,partial correlation,1500,no,yes,54,100,yes,[ 0.45703125],roc_auc,6.0
+662,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,73,partial correlation,1500,no,yes,54,100,yes,[ 0.49609375],roc_auc,6.0
+663,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,73,tangent,1500,no,yes,54,100,yes,[ 0.5625],roc_auc,6.0
+664,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,73,tangent,1500,no,yes,54,100,yes,[ 0.30859375],roc_auc,6.0
+665,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,73,tangent,1500,no,yes,54,100,yes,[ 0.3359375],roc_auc,6.0
+666,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,74,correlation,1500,no,yes,52,100,yes,[ 0.421875],roc_auc,6.0
+667,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,74,correlation,1500,no,yes,52,100,yes,[ 0.52734375],roc_auc,6.0
+668,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,74,correlation,1500,no,yes,52,100,yes,[ 0.51953125],roc_auc,6.0
+669,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,74,partial correlation,1500,no,yes,52,100,yes,[ 0.56640625],roc_auc,6.0
+670,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,74,partial correlation,1500,no,yes,52,100,yes,[ 0.51171875],roc_auc,6.0
+671,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,74,partial correlation,1500,no,yes,52,100,yes,[ 0.5078125],roc_auc,6.0
+672,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,74,tangent,1500,no,yes,52,100,yes,[ 0.4921875],roc_auc,6.0
+673,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,74,tangent,1500,no,yes,52,100,yes,[ 0.41015625],roc_auc,6.0
+674,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,74,tangent,1500,no,yes,52,100,yes,[ 0.4140625],roc_auc,6.0
+675,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,75,correlation,1500,no,yes,61,100,yes,[ 0.4453125],roc_auc,6.0
+676,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,75,correlation,1500,no,yes,61,100,yes,[ 0.40234375],roc_auc,6.0
+677,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,75,correlation,1500,no,yes,61,100,yes,[ 0.3984375],roc_auc,6.0
+678,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,75,partial correlation,1500,no,yes,61,100,yes,[ 0.5234375],roc_auc,6.0
+679,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,75,partial correlation,1500,no,yes,61,100,yes,[ 0.46875],roc_auc,6.0
+680,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,75,partial correlation,1500,no,yes,61,100,yes,[ 0.46875],roc_auc,6.0
+681,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,75,tangent,1500,no,yes,61,100,yes,[ 0.38671875],roc_auc,6.0
+682,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,75,tangent,1500,no,yes,61,100,yes,[ 0.47265625],roc_auc,6.0
+683,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,75,tangent,1500,no,yes,61,100,yes,[ 0.47265625],roc_auc,6.0
+684,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,76,correlation,1500,no,yes,78,100,yes,[ 0.4609375],roc_auc,6.0
+685,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,76,correlation,1500,no,yes,78,100,yes,[ 0.47265625],roc_auc,6.0
+686,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,76,correlation,1500,no,yes,78,100,yes,[ 0.47265625],roc_auc,6.0
+687,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,76,partial correlation,1500,no,yes,78,100,yes,[ 0.4296875],roc_auc,6.0
+688,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,76,partial correlation,1500,no,yes,78,100,yes,[ 0.5],roc_auc,6.0
+689,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,76,partial correlation,1500,no,yes,78,100,yes,[ 0.5],roc_auc,6.0
+690,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,76,tangent,1500,no,yes,78,100,yes,[ 0.5390625],roc_auc,6.0
+691,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,76,tangent,1500,no,yes,78,100,yes,[ 0.49609375],roc_auc,6.0
+692,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,76,tangent,1500,no,yes,78,100,yes,[ 0.5078125],roc_auc,6.0
+693,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,77,correlation,1500,no,yes,46,100,yes,[ 0.390625],roc_auc,6.0
+694,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,77,correlation,1500,no,yes,46,100,yes,[ 0.50390625],roc_auc,6.0
+695,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,77,correlation,1500,no,yes,46,100,yes,[ 0.50390625],roc_auc,6.0
+696,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,77,partial correlation,1500,no,yes,46,100,yes,[ 0.59375],roc_auc,6.0
+697,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,77,partial correlation,1500,no,yes,46,100,yes,[ 0.5625],roc_auc,6.0
+698,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,77,partial correlation,1500,no,yes,46,100,yes,[ 0.5703125],roc_auc,6.0
+699,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,77,tangent,1500,no,yes,46,100,yes,[ 0.69140625],roc_auc,6.0
+700,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,77,tangent,1500,no,yes,46,100,yes,[ 0.55859375],roc_auc,6.0
+701,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,77,tangent,1500,no,yes,46,100,yes,[ 0.57421875],roc_auc,6.0
+702,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,78,correlation,1500,no,yes,53,100,yes,[ 0.47265625],roc_auc,6.0
+703,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,78,correlation,1500,no,yes,53,100,yes,[ 0.46484375],roc_auc,6.0
+704,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,78,correlation,1500,no,yes,53,100,yes,[ 0.48046875],roc_auc,6.0
+705,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,78,partial correlation,1500,no,yes,53,100,yes,[ 0.4375],roc_auc,6.0
+706,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,78,partial correlation,1500,no,yes,53,100,yes,[ 0.67578125],roc_auc,6.0
+707,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,78,partial correlation,1500,no,yes,53,100,yes,[ 0.6640625],roc_auc,6.0
+708,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,78,tangent,1500,no,yes,53,100,yes,[ 0.5703125],roc_auc,6.0
+709,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,78,tangent,1500,no,yes,53,100,yes,[ 0.56640625],roc_auc,6.0
+710,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,78,tangent,1500,no,yes,53,100,yes,[ 0.5703125],roc_auc,6.0
+711,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,79,correlation,1500,no,yes,58,100,yes,[ 0.48046875],roc_auc,6.0
+712,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,79,correlation,1500,no,yes,58,100,yes,[ 0.38671875],roc_auc,6.0
+713,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,79,correlation,1500,no,yes,58,100,yes,[ 0.41796875],roc_auc,6.0
+714,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,79,partial correlation,1500,no,yes,58,100,yes,[ 0.4140625],roc_auc,6.0
+715,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,79,partial correlation,1500,no,yes,58,100,yes,[ 0.61328125],roc_auc,6.0
+716,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,79,partial correlation,1500,no,yes,58,100,yes,[ 0.5859375],roc_auc,6.0
+717,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,79,tangent,1500,no,yes,58,100,yes,[ 0.43359375],roc_auc,6.0
+718,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,79,tangent,1500,no,yes,58,100,yes,[ 0.4375],roc_auc,6.0
+719,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,79,tangent,1500,no,yes,58,100,yes,[ 0.4140625],roc_auc,6.0
+720,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,80,correlation,1500,no,yes,59,100,yes,[ 0.36328125],roc_auc,6.0
+721,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,80,correlation,1500,no,yes,59,100,yes,[ 0.4296875],roc_auc,6.0
+722,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,80,correlation,1500,no,yes,59,100,yes,[ 0.44921875],roc_auc,6.0
+723,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,80,partial correlation,1500,no,yes,59,100,yes,[ 0.61328125],roc_auc,6.0
+724,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,80,partial correlation,1500,no,yes,59,100,yes,[ 0.69921875],roc_auc,6.0
+725,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,80,partial correlation,1500,no,yes,59,100,yes,[ 0.6953125],roc_auc,6.0
+726,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,80,tangent,1500,no,yes,59,100,yes,[ 0.40625],roc_auc,6.0
+727,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,80,tangent,1500,no,yes,59,100,yes,[ 0.5625],roc_auc,6.0
+728,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,80,tangent,1500,no,yes,59,100,yes,[ 0.55859375],roc_auc,6.0
+729,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,81,correlation,1500,no,yes,70,100,yes,[ 0.49609375],roc_auc,6.0
+730,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,81,correlation,1500,no,yes,70,100,yes,[ 0.56640625],roc_auc,6.0
+731,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,81,correlation,1500,no,yes,70,100,yes,[ 0.54296875],roc_auc,6.0
+732,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,81,partial correlation,1500,no,yes,70,100,yes,[ 0.75390625],roc_auc,6.0
+733,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,81,partial correlation,1500,no,yes,70,100,yes,[ 0.76953125],roc_auc,6.0
+734,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,81,partial correlation,1500,no,yes,70,100,yes,[ 0.74609375],roc_auc,6.0
+735,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,81,tangent,1500,no,yes,70,100,yes,[ 0.734375],roc_auc,6.0
+736,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,81,tangent,1500,no,yes,70,100,yes,[ 0.64453125],roc_auc,6.0
+737,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,81,tangent,1500,no,yes,70,100,yes,[ 0.62890625],roc_auc,6.0
+738,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,82,correlation,1500,no,yes,55,100,yes,[ 0.2578125],roc_auc,6.0
+739,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,82,correlation,1500,no,yes,55,100,yes,[ 0.38671875],roc_auc,6.0
+740,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,82,correlation,1500,no,yes,55,100,yes,[ 0.3984375],roc_auc,6.0
+741,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,82,partial correlation,1500,no,yes,55,100,yes,[ 0.48828125],roc_auc,6.0
+742,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,82,partial correlation,1500,no,yes,55,100,yes,[ 0.578125],roc_auc,6.0
+743,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,82,partial correlation,1500,no,yes,55,100,yes,[ 0.5625],roc_auc,6.0
+744,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,82,tangent,1500,no,yes,55,100,yes,[ 0.4609375],roc_auc,6.0
+745,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,82,tangent,1500,no,yes,55,100,yes,[ 0.4609375],roc_auc,6.0
+746,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,82,tangent,1500,no,yes,55,100,yes,[ 0.46875],roc_auc,6.0
+747,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,83,correlation,1500,no,yes,49,100,yes,[ 0.2265625],roc_auc,6.0
+748,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,83,correlation,1500,no,yes,49,100,yes,[ 0.41015625],roc_auc,6.0
+749,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,83,correlation,1500,no,yes,49,100,yes,[ 0.42578125],roc_auc,6.0
+750,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,83,partial correlation,1500,no,yes,49,100,yes,[ 0.3515625],roc_auc,6.0
+751,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,83,partial correlation,1500,no,yes,49,100,yes,[ 0.3828125],roc_auc,6.0
+752,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,83,partial correlation,1500,no,yes,49,100,yes,[ 0.4140625],roc_auc,6.0
+753,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,83,tangent,1500,no,yes,49,100,yes,[ 0.42578125],roc_auc,6.0
+754,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,83,tangent,1500,no,yes,49,100,yes,[ 0.48046875],roc_auc,6.0
+755,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,83,tangent,1500,no,yes,49,100,yes,[ 0.49609375],roc_auc,6.0
+756,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,84,correlation,1500,no,yes,62,100,yes,[ 0.3203125],roc_auc,6.0
+757,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,84,correlation,1500,no,yes,62,100,yes,[ 0.3984375],roc_auc,6.0
+758,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,84,correlation,1500,no,yes,62,100,yes,[ 0.3984375],roc_auc,6.0
+759,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,84,partial correlation,1500,no,yes,62,100,yes,[ 0.43359375],roc_auc,6.0
+760,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,84,partial correlation,1500,no,yes,62,100,yes,[ 0.53125],roc_auc,6.0
+761,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,84,partial correlation,1500,no,yes,62,100,yes,[ 0.53125],roc_auc,6.0
+762,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,84,tangent,1500,no,yes,62,100,yes,[ 0.359375],roc_auc,6.0
+763,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,84,tangent,1500,no,yes,62,100,yes,[ 0.47265625],roc_auc,6.0
+764,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,84,tangent,1500,no,yes,62,100,yes,[ 0.46484375],roc_auc,6.0
+765,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,85,correlation,1500,no,yes,70,100,yes,[ 0.48828125],roc_auc,6.0
+766,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,85,correlation,1500,no,yes,70,100,yes,[ 0.34375],roc_auc,6.0
+767,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,85,correlation,1500,no,yes,70,100,yes,[ 0.3359375],roc_auc,6.0
+768,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,85,partial correlation,1500,no,yes,70,100,yes,[ 0.6328125],roc_auc,6.0
+769,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,85,partial correlation,1500,no,yes,70,100,yes,[ 0.50390625],roc_auc,6.0
+770,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,85,partial correlation,1500,no,yes,70,100,yes,[ 0.515625],roc_auc,6.0
+771,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,85,tangent,1500,no,yes,70,100,yes,[ 0.5703125],roc_auc,6.0
+772,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,85,tangent,1500,no,yes,70,100,yes,[ 0.39453125],roc_auc,6.0
+773,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,85,tangent,1500,no,yes,70,100,yes,[ 0.40625],roc_auc,6.0
+774,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,86,correlation,1500,no,yes,59,100,yes,[ 0.54296875],roc_auc,6.0
+775,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,86,correlation,1500,no,yes,59,100,yes,[ 0.3515625],roc_auc,6.0
+776,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,86,correlation,1500,no,yes,59,100,yes,[ 0.34765625],roc_auc,6.0
+777,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,86,partial correlation,1500,no,yes,59,100,yes,[ 0.3125],roc_auc,6.0
+778,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,86,partial correlation,1500,no,yes,59,100,yes,[ 0.4921875],roc_auc,6.0
+779,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,86,partial correlation,1500,no,yes,59,100,yes,[ 0.48828125],roc_auc,6.0
+780,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,86,tangent,1500,no,yes,59,100,yes,[ 0.4921875],roc_auc,6.0
+781,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,86,tangent,1500,no,yes,59,100,yes,[ 0.42578125],roc_auc,6.0
+782,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,86,tangent,1500,no,yes,59,100,yes,[ 0.43359375],roc_auc,6.0
+783,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,87,correlation,1500,no,yes,52,100,yes,[ 0.5546875],roc_auc,6.0
+784,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,87,correlation,1500,no,yes,52,100,yes,[ 0.5],roc_auc,6.0
+785,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,87,correlation,1500,no,yes,52,100,yes,[ 0.53515625],roc_auc,6.0
+786,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,87,partial correlation,1500,no,yes,52,100,yes,[ 0.5859375],roc_auc,6.0
+787,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,87,partial correlation,1500,no,yes,52,100,yes,[ 0.6328125],roc_auc,6.0
+788,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,87,partial correlation,1500,no,yes,52,100,yes,[ 0.65625],roc_auc,6.0
+789,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,87,tangent,1500,no,yes,52,100,yes,[ 0.453125],roc_auc,6.0
+790,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,87,tangent,1500,no,yes,52,100,yes,[ 0.55078125],roc_auc,6.0
+791,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,87,tangent,1500,no,yes,52,100,yes,[ 0.58203125],roc_auc,6.0
+792,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,88,correlation,1500,no,yes,51,100,yes,[ 0.44921875],roc_auc,6.0
+793,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,88,correlation,1500,no,yes,51,100,yes,[ 0.34765625],roc_auc,6.0
+794,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,88,correlation,1500,no,yes,51,100,yes,[ 0.3515625],roc_auc,6.0
+795,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,88,partial correlation,1500,no,yes,51,100,yes,[ 0.40625],roc_auc,6.0
+796,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,88,partial correlation,1500,no,yes,51,100,yes,[ 0.4453125],roc_auc,6.0
+797,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,88,partial correlation,1500,no,yes,51,100,yes,[ 0.44921875],roc_auc,6.0
+798,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,88,tangent,1500,no,yes,51,100,yes,[ 0.46875],roc_auc,6.0
+799,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,88,tangent,1500,no,yes,51,100,yes,[ 0.44140625],roc_auc,6.0
+800,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,88,tangent,1500,no,yes,51,100,yes,[ 0.4375],roc_auc,6.0
+801,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,89,correlation,1500,no,yes,54,100,yes,[ 0.47265625],roc_auc,6.0
+802,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,89,correlation,1500,no,yes,54,100,yes,[ 0.5390625],roc_auc,6.0
+803,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,89,correlation,1500,no,yes,54,100,yes,[ 0.54296875],roc_auc,6.0
+804,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,89,partial correlation,1500,no,yes,54,100,yes,[ 0.54296875],roc_auc,6.0
+805,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,89,partial correlation,1500,no,yes,54,100,yes,[ 0.67578125],roc_auc,6.0
+806,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,89,partial correlation,1500,no,yes,54,100,yes,[ 0.67578125],roc_auc,6.0
+807,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,89,tangent,1500,no,yes,54,100,yes,[ 0.609375],roc_auc,6.0
+808,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,89,tangent,1500,no,yes,54,100,yes,[ 0.59375],roc_auc,6.0
+809,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,89,tangent,1500,no,yes,54,100,yes,[ 0.6015625],roc_auc,6.0
+810,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,90,correlation,1500,no,yes,60,100,yes,[ 0.3984375],roc_auc,6.0
+811,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,90,correlation,1500,no,yes,60,100,yes,[ 0.44140625],roc_auc,6.0
+812,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,90,correlation,1500,no,yes,60,100,yes,[ 0.46875],roc_auc,6.0
+813,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,90,partial correlation,1500,no,yes,60,100,yes,[ 0.515625],roc_auc,6.0
+814,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,90,partial correlation,1500,no,yes,60,100,yes,[ 0.40625],roc_auc,6.0
+815,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,90,partial correlation,1500,no,yes,60,100,yes,[ 0.40625],roc_auc,6.0
+816,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,90,tangent,1500,no,yes,60,100,yes,[ 0.53515625],roc_auc,6.0
+817,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,90,tangent,1500,no,yes,60,100,yes,[ 0.3984375],roc_auc,6.0
+818,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,90,tangent,1500,no,yes,60,100,yes,[ 0.3984375],roc_auc,6.0
+819,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,91,correlation,1500,no,yes,62,100,yes,[ 0.4140625],roc_auc,6.0
+820,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,91,correlation,1500,no,yes,62,100,yes,[ 0.21484375],roc_auc,6.0
+821,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,91,correlation,1500,no,yes,62,100,yes,[ 0.234375],roc_auc,6.0
+822,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,91,partial correlation,1500,no,yes,62,100,yes,[ 0.57421875],roc_auc,6.0
+823,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,91,partial correlation,1500,no,yes,62,100,yes,[ 0.19921875],roc_auc,6.0
+824,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,91,partial correlation,1500,no,yes,62,100,yes,[ 0.1953125],roc_auc,6.0
+825,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,91,tangent,1500,no,yes,62,100,yes,[ 0.41015625],roc_auc,6.0
+826,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,91,tangent,1500,no,yes,62,100,yes,[ 0.22265625],roc_auc,6.0
+827,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,91,tangent,1500,no,yes,62,100,yes,[ 0.21875],roc_auc,6.0
+828,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,92,correlation,1500,no,yes,75,100,yes,[ 0.37890625],roc_auc,6.0
+829,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,92,correlation,1500,no,yes,75,100,yes,[ 0.40625],roc_auc,6.0
+830,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,92,correlation,1500,no,yes,75,100,yes,[ 0.41015625],roc_auc,6.0
+831,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,92,partial correlation,1500,no,yes,75,100,yes,[ 0.3203125],roc_auc,6.0
+832,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,92,partial correlation,1500,no,yes,75,100,yes,[ 0.48828125],roc_auc,6.0
+833,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,92,partial correlation,1500,no,yes,75,100,yes,[ 0.4921875],roc_auc,6.0
+834,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,92,tangent,1500,no,yes,75,100,yes,[ 0.43359375],roc_auc,6.0
+835,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,92,tangent,1500,no,yes,75,100,yes,[ 0.42578125],roc_auc,6.0
+836,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,92,tangent,1500,no,yes,75,100,yes,[ 0.4140625],roc_auc,6.0
+837,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,93,correlation,1500,no,yes,46,100,yes,[ 0.3046875],roc_auc,6.0
+838,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,93,correlation,1500,no,yes,46,100,yes,[ 0.38671875],roc_auc,6.0
+839,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,93,correlation,1500,no,yes,46,100,yes,[ 0.40234375],roc_auc,6.0
+840,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,93,partial correlation,1500,no,yes,46,100,yes,[ 0.44921875],roc_auc,6.0
+841,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,93,partial correlation,1500,no,yes,46,100,yes,[ 0.5],roc_auc,6.0
+842,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,93,partial correlation,1500,no,yes,46,100,yes,[ 0.49609375],roc_auc,6.0
+843,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,93,tangent,1500,no,yes,46,100,yes,[ 0.328125],roc_auc,6.0
+844,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,93,tangent,1500,no,yes,46,100,yes,[ 0.4453125],roc_auc,6.0
+845,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,93,tangent,1500,no,yes,46,100,yes,[ 0.43359375],roc_auc,6.0
+846,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,94,correlation,1500,no,yes,49,100,yes,[ 0.2109375],roc_auc,6.0
+847,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,94,correlation,1500,no,yes,49,100,yes,[ 0.3984375],roc_auc,6.0
+848,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,94,correlation,1500,no,yes,49,100,yes,[ 0.40234375],roc_auc,6.0
+849,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,94,partial correlation,1500,no,yes,49,100,yes,[ 0.4921875],roc_auc,6.0
+850,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,94,partial correlation,1500,no,yes,49,100,yes,[ 0.5],roc_auc,6.0
+851,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,94,partial correlation,1500,no,yes,49,100,yes,[ 0.49609375],roc_auc,6.0
+852,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,94,tangent,1500,no,yes,49,100,yes,[ 0.34375],roc_auc,6.0
+853,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,94,tangent,1500,no,yes,49,100,yes,[ 0.421875],roc_auc,6.0
+854,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,94,tangent,1500,no,yes,49,100,yes,[ 0.40625],roc_auc,6.0
+855,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,95,correlation,1500,no,yes,59,100,yes,[ 0.328125],roc_auc,6.0
+856,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,95,correlation,1500,no,yes,59,100,yes,[ 0.50390625],roc_auc,6.0
+857,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,95,correlation,1500,no,yes,59,100,yes,[ 0.50390625],roc_auc,6.0
+858,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,95,partial correlation,1500,no,yes,59,100,yes,[ 0.5703125],roc_auc,6.0
+859,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,95,partial correlation,1500,no,yes,59,100,yes,[ 0.6171875],roc_auc,6.0
+860,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,95,partial correlation,1500,no,yes,59,100,yes,[ 0.62109375],roc_auc,6.0
+861,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,95,tangent,1500,no,yes,59,100,yes,[ 0.4921875],roc_auc,6.0
+862,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,95,tangent,1500,no,yes,59,100,yes,[ 0.546875],roc_auc,6.0
+863,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,95,tangent,1500,no,yes,59,100,yes,[ 0.55078125],roc_auc,6.0
+864,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,96,correlation,1500,no,yes,62,100,yes,[ 0.21484375],roc_auc,6.0
+865,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,96,correlation,1500,no,yes,62,100,yes,[ 0.34765625],roc_auc,6.0
+866,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,96,correlation,1500,no,yes,62,100,yes,[ 0.3515625],roc_auc,6.0
+867,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,96,partial correlation,1500,no,yes,62,100,yes,[ 0.484375],roc_auc,6.0
+868,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,96,partial correlation,1500,no,yes,62,100,yes,[ 0.484375],roc_auc,6.0
+869,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,96,partial correlation,1500,no,yes,62,100,yes,[ 0.484375],roc_auc,6.0
+870,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,96,tangent,1500,no,yes,62,100,yes,[ 0.3203125],roc_auc,6.0
+871,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,96,tangent,1500,no,yes,62,100,yes,[ 0.421875],roc_auc,6.0
+872,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,96,tangent,1500,no,yes,62,100,yes,[ 0.421875],roc_auc,6.0
+873,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,97,correlation,1500,no,yes,57,100,yes,[ 0.6171875],roc_auc,6.0
+874,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,97,correlation,1500,no,yes,57,100,yes,[ 0.47265625],roc_auc,6.0
+875,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,97,correlation,1500,no,yes,57,100,yes,[ 0.49609375],roc_auc,6.0
+876,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,97,partial correlation,1500,no,yes,57,100,yes,[ 0.40234375],roc_auc,6.0
+877,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,97,partial correlation,1500,no,yes,57,100,yes,[ 0.56640625],roc_auc,6.0
+878,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,97,partial correlation,1500,no,yes,57,100,yes,[ 0.578125],roc_auc,6.0
+879,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,97,tangent,1500,no,yes,57,100,yes,[ 0.5625],roc_auc,6.0
+880,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,97,tangent,1500,no,yes,57,100,yes,[ 0.52734375],roc_auc,6.0
+881,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,97,tangent,1500,no,yes,57,100,yes,[ 0.5234375],roc_auc,6.0
+882,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,98,correlation,1500,no,yes,66,100,yes,[ 0.5546875],roc_auc,6.0
+883,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,98,correlation,1500,no,yes,66,100,yes,[ 0.4765625],roc_auc,6.0
+884,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,98,correlation,1500,no,yes,66,100,yes,[ 0.46484375],roc_auc,6.0
+885,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,98,partial correlation,1500,no,yes,66,100,yes,[ 0.75],roc_auc,6.0
+886,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,98,partial correlation,1500,no,yes,66,100,yes,[ 0.66015625],roc_auc,6.0
+887,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,98,partial correlation,1500,no,yes,66,100,yes,[ 0.67578125],roc_auc,6.0
+888,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,98,tangent,1500,no,yes,66,100,yes,[ 0.59765625],roc_auc,6.0
+889,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,98,tangent,1500,no,yes,66,100,yes,[ 0.578125],roc_auc,6.0
+890,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,98,tangent,1500,no,yes,66,100,yes,[ 0.5859375],roc_auc,6.0
+891,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,99,correlation,1500,no,yes,57,100,yes,[ 0.25],roc_auc,6.0
+892,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,99,correlation,1500,no,yes,57,100,yes,[ 0.296875],roc_auc,6.0
+893,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,99,correlation,1500,no,yes,57,100,yes,[ 0.296875],roc_auc,6.0
+894,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,99,partial correlation,1500,no,yes,57,100,yes,[ 0.5703125],roc_auc,6.0
+895,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,99,partial correlation,1500,no,yes,57,100,yes,[ 0.515625],roc_auc,6.0
+896,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,99,partial correlation,1500,no,yes,57,100,yes,[ 0.515625],roc_auc,6.0
+897,kmeans,svc_l1,yes,yes,LedoitWolf,ACPI,40,99,tangent,1500,no,yes,57,100,yes,[ 0.44921875],roc_auc,6.0
+898,kmeans,svc_l2,yes,yes,LedoitWolf,ACPI,40,99,tangent,1500,no,yes,57,100,yes,[ 0.390625],roc_auc,6.0
+899,kmeans,ridge,yes,yes,LedoitWolf,ACPI,40,99,tangent,1500,no,yes,57,100,yes,[ 0.38671875],roc_auc,6.0
