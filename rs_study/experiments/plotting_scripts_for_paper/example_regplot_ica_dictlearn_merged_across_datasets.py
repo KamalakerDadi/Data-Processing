@@ -52,11 +52,12 @@ sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
 sns.set_palette('dark')
 
-scatter_kws = {'s': 5}
+scatter_kws = {'s': 3,
+               'alpha': 0.3}
 line_kws = {'lw': 2}
 
 ncols = len(dataset_names)
-fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(6, 4), squeeze=True,
+fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(8, 4), squeeze=True,
                          sharey=True)
 axes = axes.reshape(-1)
 
@@ -76,14 +77,17 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
                     lowess=True, ax=ax, label=NAMES[label],
                     scatter_kws=scatter_kws,
                     line_kws=line_kws,
-                    color=pal,
+                    color=atlas_palette[label],
                     )
         if i == 0:
             ax.set_ylabel('Prediction scores', size=15)
-            ax.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=3,
-                      borderaxespad=0, handletextpad=.2, loc='lower right')
         else:
             ax.set_ylabel('')
+
+        if i == 3:
+            ax.legend(scatterpoints=1, frameon=True, fontsize=12,
+                      markerscale=5,
+                      borderaxespad=0, handletextpad=.2, loc='upper right')
         ax.set_xlabel('')
         plt.text(.5, 1.02, name, transform=ax.transAxes, size=15, ha='center')
 
