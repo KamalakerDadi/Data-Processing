@@ -17,7 +17,7 @@ from my_palette import atlas_palette
 covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI', 'ABIDE']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 atlases = ['KMeans', 'Ward', 'BASC', 'ICA', 'DictLearn']
@@ -66,7 +66,7 @@ scatter_kws = {'s': 5,
                'alpha': 0.3}
 line_kws = {'lw': 2}
 ncols = len(dataset_names)
-fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(7, 5), squeeze=True,
+fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(8, 6), squeeze=True,
                          sharey=True)
 axes = axes.reshape(-1)
 
