@@ -33,7 +33,8 @@ sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
 sns.set_palette('dark')
 
-scatter_kws = {'s': 5}
+scatter_kws = {'s': 5,
+               'alpha': 0.3}
 line_kws = {'lw': 2}
 
 fig, axes = plt.subplots(nrows=1, ncols=1, figsize=(4, 3.5),
@@ -52,7 +53,7 @@ for i, name in enumerate(dataset_names):
                 # color=atlas_palette['ica']
                 )
     axes.legend().remove()
-    axes.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=1,
+    axes.legend(scatterpoints=1, frameon=True, fontsize=12, markerscale=5,
                 borderaxespad=0, handletextpad=.05, loc='lower right')
     if i == 0:
         axes.set_ylabel('Prediction scores', size=15)

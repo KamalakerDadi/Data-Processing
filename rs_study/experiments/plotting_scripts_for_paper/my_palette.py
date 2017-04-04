@@ -6,6 +6,7 @@ seaborn.set_palette('dark')
 
 orig_palette = seaborn.color_palette()
 
+
 def shift_value(rgb, shift):
     hsv = colors.rgb_to_hsv(rgb)
     hsv[-1] += shift
@@ -25,5 +26,9 @@ def color_palette(n_colors):
 
 atlases = ['ica', 'kmeans', 'dictlearn', 'ward', 'ho', 'aal', 'basc']
 
-atlas_palette = dict(zip(atlases, color_palette(len(atlases))))
+datasets = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI', 'ABIDE']
+
+atlas_palette = dict(zip(atlases, color_palette(len(atlases) + 3)))
+
+datasets_palette = dict(zip(datasets, color_palette(len(datasets) + 5)))
 

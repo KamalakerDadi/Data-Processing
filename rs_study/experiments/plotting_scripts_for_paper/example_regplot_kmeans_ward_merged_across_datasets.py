@@ -17,7 +17,7 @@ from my_palette import atlas_palette
 covariance_estimator = 'LedoitWolf'
 
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI', 'ABIDE']
 
 base_path = os.path.join('../prediction_scores', covariance_estimator)
 atlases = ['KMeans', 'Ward', 'BASC', 'ICA', 'DictLearn']
@@ -62,10 +62,11 @@ sns.set(color_codes=True)
 sns.set_style("whitegrid", {'axes.edgecolor': '.6', 'grid.color': '.6'})
 sns.set_palette('dark')
 
-scatter_kws = {'s': 5}
+scatter_kws = {'s': 5,
+               'alpha': 0.3}
 line_kws = {'lw': 2}
 ncols = len(dataset_names)
-fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(7, 5), squeeze=True,
+fig, axes = plt.subplots(nrows=1, ncols=ncols, figsize=(8, 6), squeeze=True,
                          sharey=True)
 axes = axes.reshape(-1)
 
@@ -93,7 +94,7 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
             ax.set_ylabel('')
 
         if i == 2:
-            ax.legend(scatterpoints=1, frameon=True, fontsize=12.5, markerscale=3,
+            ax.legend(scatterpoints=1, frameon=True, fontsize=12.5, markerscale=5,
                       borderaxespad=0, handletextpad=.2, loc='upper left')
 
         ax.set_xlabel('')
@@ -102,7 +103,8 @@ for i, (name, ax) in enumerate(zip(dataset_names, axes)):
         ax.axis('tight')
         ax.set_ylim(.4, 1)
 
-plt.text(.6, 0.03, 'Number of dimensions', transform=fig.transFigure,
+plt.text(.6, 0.03, 'Number of dimensions (before regions extracted)',
+         transform=fig.transFigure,
          size=15, ha='center')
 plt.tight_layout(rect=[0, .1, 1, .96], pad=.1, w_pad=1)
 plt.savefig('clusters_vs_scores_merged.pdf')

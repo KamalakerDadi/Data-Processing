@@ -1,0 +1,1801 @@
+,atlas,classifier,compcor_10,connectome_regress,covariance_estimator,dataset,dimensionality,iter_shuffle_split,measure,min_region_size_in_mm3,motion_regress,n_regions,region_extraction,scores,scoring,smoothing_fwhm
+0,dictlearn,svc_l1,yes,no,,ABIDE,40,0,correlation,1500,no,146,yes,[ 0.67164561],roc_auc,6.0
+1,dictlearn,svc_l2,yes,no,,ABIDE,40,0,correlation,1500,no,146,yes,[ 0.66421987],roc_auc,6.0
+2,dictlearn,ridge,yes,no,,ABIDE,40,0,correlation,1500,no,146,yes,[ 0.66020826],roc_auc,6.0
+3,dictlearn,svc_l1,yes,no,,ABIDE,40,0,partial correlation,1500,no,146,yes,[ 0.60549676],roc_auc,6.0
+4,dictlearn,svc_l2,yes,no,,ABIDE,40,0,partial correlation,1500,no,146,yes,[ 0.64817344],roc_auc,6.0
+5,dictlearn,ridge,yes,no,,ABIDE,40,0,partial correlation,1500,no,146,yes,[ 0.64953909],roc_auc,6.0
+6,dictlearn,svc_l1,yes,no,,ABIDE,40,0,tangent,1500,no,146,yes,[ 0.65500171],roc_auc,6.0
+7,dictlearn,svc_l2,yes,no,,ABIDE,40,0,tangent,1500,no,146,yes,[ 0.65944008],roc_auc,6.0
+8,dictlearn,ridge,yes,no,,ABIDE,40,0,tangent,1500,no,146,yes,[ 0.65875726],roc_auc,6.0
+9,dictlearn,svc_l1,yes,no,,ABIDE,40,1,correlation,1500,no,137,yes,[ 0.61505633],roc_auc,6.0
+10,dictlearn,svc_l2,yes,no,,ABIDE,40,1,correlation,1500,no,137,yes,[ 0.6839365],roc_auc,6.0
+11,dictlearn,ridge,yes,no,,ABIDE,40,1,correlation,1500,no,137,yes,[ 0.68350973],roc_auc,6.0
+12,dictlearn,svc_l1,yes,no,,ABIDE,40,1,partial correlation,1500,no,137,yes,[ 0.56213725],roc_auc,6.0
+13,dictlearn,svc_l2,yes,no,,ABIDE,40,1,partial correlation,1500,no,137,yes,[ 0.6573916],roc_auc,6.0
+14,dictlearn,ridge,yes,no,,ABIDE,40,1,partial correlation,1500,no,137,yes,[ 0.65653807],roc_auc,6.0
+15,dictlearn,svc_l1,yes,no,,ABIDE,40,1,tangent,1500,no,137,yes,[ 0.6206043],roc_auc,6.0
+16,dictlearn,svc_l2,yes,no,,ABIDE,40,1,tangent,1500,no,137,yes,[ 0.71457835],roc_auc,6.0
+17,dictlearn,ridge,yes,no,,ABIDE,40,1,tangent,1500,no,137,yes,[ 0.71381017],roc_auc,6.0
+18,dictlearn,svc_l1,yes,no,,ABIDE,40,2,correlation,1500,no,137,yes,[ 0.57698873],roc_auc,6.0
+19,dictlearn,svc_l2,yes,no,,ABIDE,40,2,correlation,1500,no,137,yes,[ 0.62290884],roc_auc,6.0
+20,dictlearn,ridge,yes,no,,ABIDE,40,2,correlation,1500,no,137,yes,[ 0.6129225],roc_auc,6.0
+21,dictlearn,svc_l1,yes,no,,ABIDE,40,2,partial correlation,1500,no,137,yes,[ 0.56367361],roc_auc,6.0
+22,dictlearn,svc_l2,yes,no,,ABIDE,40,2,partial correlation,1500,no,137,yes,[ 0.69247183],roc_auc,6.0
+23,dictlearn,ridge,yes,no,,ABIDE,40,2,partial correlation,1500,no,137,yes,[ 0.69511779],roc_auc,6.0
+24,dictlearn,svc_l1,yes,no,,ABIDE,40,2,tangent,1500,no,137,yes,[ 0.57878115],roc_auc,6.0
+25,dictlearn,svc_l2,yes,no,,ABIDE,40,2,tangent,1500,no,137,yes,[ 0.69281325],roc_auc,6.0
+26,dictlearn,ridge,yes,no,,ABIDE,40,2,tangent,1500,no,137,yes,[ 0.69195971],roc_auc,6.0
+27,dictlearn,svc_l1,yes,no,,ABIDE,40,3,correlation,1500,no,125,yes,[ 0.64441789],roc_auc,6.0
+28,dictlearn,svc_l2,yes,no,,ABIDE,40,3,correlation,1500,no,125,yes,[ 0.63588255],roc_auc,6.0
+29,dictlearn,ridge,yes,no,,ABIDE,40,3,correlation,1500,no,125,yes,[ 0.62546944],roc_auc,6.0
+30,dictlearn,svc_l1,yes,no,,ABIDE,40,3,partial correlation,1500,no,125,yes,[ 0.59320587],roc_auc,6.0
+31,dictlearn,svc_l2,yes,no,,ABIDE,40,3,partial correlation,1500,no,125,yes,[ 0.7004097],roc_auc,6.0
+32,dictlearn,ridge,yes,no,,ABIDE,40,3,partial correlation,1500,no,125,yes,[ 0.70100717],roc_auc,6.0
+33,dictlearn,svc_l1,yes,no,,ABIDE,40,3,tangent,1500,no,125,yes,[ 0.67087743],roc_auc,6.0
+34,dictlearn,svc_l2,yes,no,,ABIDE,40,3,tangent,1500,no,125,yes,[ 0.72593035],roc_auc,6.0
+35,dictlearn,ridge,yes,no,,ABIDE,40,3,tangent,1500,no,125,yes,[ 0.72465005],roc_auc,6.0
+36,dictlearn,svc_l1,yes,no,,ABIDE,40,4,correlation,1500,no,136,yes,[ 0.61556845],roc_auc,6.0
+37,dictlearn,svc_l2,yes,no,,ABIDE,40,4,correlation,1500,no,136,yes,[ 0.66592694],roc_auc,6.0
+38,dictlearn,ridge,yes,no,,ABIDE,40,4,correlation,1500,no,136,yes,[ 0.65551383],roc_auc,6.0
+39,dictlearn,svc_l1,yes,no,,ABIDE,40,4,partial correlation,1500,no,136,yes,[ 0.60071697],roc_auc,6.0
+40,dictlearn,svc_l2,yes,no,,ABIDE,40,4,partial correlation,1500,no,136,yes,[ 0.69776374],roc_auc,6.0
+41,dictlearn,ridge,yes,no,,ABIDE,40,4,partial correlation,1500,no,136,yes,[ 0.70075111],roc_auc,6.0
+42,dictlearn,svc_l1,yes,no,,ABIDE,40,4,tangent,1500,no,136,yes,[ 0.64663708],roc_auc,6.0
+43,dictlearn,svc_l2,yes,no,,ABIDE,40,4,tangent,1500,no,136,yes,[ 0.72362581],roc_auc,6.0
+44,dictlearn,ridge,yes,no,,ABIDE,40,4,tangent,1500,no,136,yes,[ 0.72243086],roc_auc,6.0
+45,dictlearn,svc_l1,yes,no,,ABIDE,40,5,correlation,1500,no,127,yes,[ 0.55419939],roc_auc,6.0
+46,dictlearn,svc_l2,yes,no,,ABIDE,40,5,correlation,1500,no,127,yes,[ 0.59969273],roc_auc,6.0
+47,dictlearn,ridge,yes,no,,ABIDE,40,5,correlation,1500,no,127,yes,[ 0.59192557],roc_auc,6.0
+48,dictlearn,svc_l1,yes,no,,ABIDE,40,5,partial correlation,1500,no,127,yes,[ 0.58057357],roc_auc,6.0
+49,dictlearn,svc_l2,yes,no,,ABIDE,40,5,partial correlation,1500,no,127,yes,[ 0.64185729],roc_auc,6.0
+50,dictlearn,ridge,yes,no,,ABIDE,40,5,partial correlation,1500,no,127,yes,[ 0.64177194],roc_auc,6.0
+51,dictlearn,svc_l1,yes,no,,ABIDE,40,5,tangent,1500,no,127,yes,[ 0.58219529],roc_auc,6.0
+52,dictlearn,svc_l2,yes,no,,ABIDE,40,5,tangent,1500,no,127,yes,[ 0.63912598],roc_auc,6.0
+53,dictlearn,ridge,yes,no,,ABIDE,40,5,tangent,1500,no,127,yes,[ 0.63938204],roc_auc,6.0
+54,dictlearn,svc_l1,yes,no,,ABIDE,40,6,correlation,1500,no,141,yes,[ 0.64740526],roc_auc,6.0
+55,dictlearn,svc_l2,yes,no,,ABIDE,40,6,correlation,1500,no,141,yes,[ 0.70075111],roc_auc,6.0
+56,dictlearn,ridge,yes,no,,ABIDE,40,6,correlation,1500,no,141,yes,[ 0.69955616],roc_auc,6.0
+57,dictlearn,svc_l1,yes,no,,ABIDE,40,6,partial correlation,1500,no,141,yes,[ 0.62461591],roc_auc,6.0
+58,dictlearn,svc_l2,yes,no,,ABIDE,40,6,partial correlation,1500,no,141,yes,[ 0.66046432],roc_auc,6.0
+59,dictlearn,ridge,yes,no,,ABIDE,40,6,partial correlation,1500,no,141,yes,[ 0.6610618],roc_auc,6.0
+60,dictlearn,svc_l1,yes,no,,ABIDE,40,6,tangent,1500,no,141,yes,[ 0.65756231],roc_auc,6.0
+61,dictlearn,svc_l2,yes,no,,ABIDE,40,6,tangent,1500,no,141,yes,[ 0.70894503],roc_auc,6.0
+62,dictlearn,ridge,yes,no,,ABIDE,40,6,tangent,1500,no,141,yes,[ 0.70971321],roc_auc,6.0
+63,dictlearn,svc_l1,yes,no,,ABIDE,40,7,correlation,1500,no,136,yes,[ 0.63955275],roc_auc,6.0
+64,dictlearn,svc_l2,yes,no,,ABIDE,40,7,correlation,1500,no,136,yes,[ 0.67523045],roc_auc,6.0
+65,dictlearn,ridge,yes,no,,ABIDE,40,7,correlation,1500,no,136,yes,[ 0.67096279],roc_auc,6.0
+66,dictlearn,svc_l1,yes,no,,ABIDE,40,7,partial correlation,1500,no,136,yes,[ 0.59149881],roc_auc,6.0
+67,dictlearn,svc_l2,yes,no,,ABIDE,40,7,partial correlation,1500,no,136,yes,[ 0.6674633],roc_auc,6.0
+68,dictlearn,ridge,yes,no,,ABIDE,40,7,partial correlation,1500,no,136,yes,[ 0.66831683],roc_auc,6.0
+69,dictlearn,svc_l1,yes,no,,ABIDE,40,7,tangent,1500,no,136,yes,[ 0.61539775],roc_auc,6.0
+70,dictlearn,svc_l2,yes,no,,ABIDE,40,7,tangent,1500,no,136,yes,[ 0.6866678],roc_auc,6.0
+71,dictlearn,ridge,yes,no,,ABIDE,40,7,tangent,1500,no,136,yes,[ 0.68607033],roc_auc,6.0
+72,dictlearn,svc_l1,yes,no,,ABIDE,40,8,correlation,1500,no,133,yes,[ 0.64552748],roc_auc,6.0
+73,dictlearn,svc_l2,yes,no,,ABIDE,40,8,correlation,1500,no,133,yes,[ 0.69699556],roc_auc,6.0
+74,dictlearn,ridge,yes,no,,ABIDE,40,8,correlation,1500,no,133,yes,[ 0.68846023],roc_auc,6.0
+75,dictlearn,svc_l1,yes,no,,ABIDE,40,8,partial correlation,1500,no,133,yes,[ 0.6394674],roc_auc,6.0
+76,dictlearn,svc_l2,yes,no,,ABIDE,40,8,partial correlation,1500,no,133,yes,[ 0.6841072],roc_auc,6.0
+77,dictlearn,ridge,yes,no,,ABIDE,40,8,partial correlation,1500,no,133,yes,[ 0.68504609],roc_auc,6.0
+78,dictlearn,svc_l1,yes,no,,ABIDE,40,8,tangent,1500,no,133,yes,[ 0.60472858],roc_auc,6.0
+79,dictlearn,svc_l2,yes,no,,ABIDE,40,8,tangent,1500,no,133,yes,[ 0.69622738],roc_auc,6.0
+80,dictlearn,ridge,yes,no,,ABIDE,40,8,tangent,1500,no,133,yes,[ 0.69648344],roc_auc,6.0
+81,dictlearn,svc_l1,yes,no,,ABIDE,40,9,correlation,1500,no,135,yes,[ 0.71252987],roc_auc,6.0
+82,dictlearn,svc_l2,yes,no,,ABIDE,40,9,correlation,1500,no,135,yes,[ 0.70194606],roc_auc,6.0
+83,dictlearn,ridge,yes,no,,ABIDE,40,9,correlation,1500,no,135,yes,[ 0.69656879],roc_auc,6.0
+84,dictlearn,svc_l1,yes,no,,ABIDE,40,9,partial correlation,1500,no,135,yes,[ 0.59824172],roc_auc,6.0
+85,dictlearn,svc_l2,yes,no,,ABIDE,40,9,partial correlation,1500,no,135,yes,[ 0.65781837],roc_auc,6.0
+86,dictlearn,ridge,yes,no,,ABIDE,40,9,partial correlation,1500,no,135,yes,[ 0.65952544],roc_auc,6.0
+87,dictlearn,svc_l1,yes,no,,ABIDE,40,9,tangent,1500,no,135,yes,[ 0.59696142],roc_auc,6.0
+88,dictlearn,svc_l2,yes,no,,ABIDE,40,9,tangent,1500,no,135,yes,[ 0.72806419],roc_auc,6.0
+89,dictlearn,ridge,yes,no,,ABIDE,40,9,tangent,1500,no,135,yes,[ 0.72746671],roc_auc,6.0
+90,dictlearn,svc_l1,yes,no,,ABIDE,40,10,correlation,1500,no,150,yes,[ 0.62393308],roc_auc,6.0
+91,dictlearn,svc_l2,yes,no,,ABIDE,40,10,correlation,1500,no,150,yes,[ 0.61983612],roc_auc,6.0
+92,dictlearn,ridge,yes,no,,ABIDE,40,10,correlation,1500,no,150,yes,[ 0.61795835],roc_auc,6.0
+93,dictlearn,svc_l1,yes,no,,ABIDE,40,10,partial correlation,1500,no,150,yes,[ 0.62606692],roc_auc,6.0
+94,dictlearn,svc_l2,yes,no,,ABIDE,40,10,partial correlation,1500,no,150,yes,[ 0.66643906],roc_auc,6.0
+95,dictlearn,ridge,yes,no,,ABIDE,40,10,partial correlation,1500,no,150,yes,[ 0.66558552],roc_auc,6.0
+96,dictlearn,svc_l1,yes,no,,ABIDE,40,10,tangent,1500,no,150,yes,[ 0.62034824],roc_auc,6.0
+97,dictlearn,svc_l2,yes,no,,ABIDE,40,10,tangent,1500,no,150,yes,[ 0.68956982],roc_auc,6.0
+98,dictlearn,ridge,yes,no,,ABIDE,40,10,tangent,1500,no,150,yes,[ 0.68982588],roc_auc,6.0
+99,dictlearn,svc_l1,yes,no,,ABIDE,40,11,correlation,1500,no,143,yes,[ 0.60447252],roc_auc,6.0
+100,dictlearn,svc_l2,yes,no,,ABIDE,40,11,correlation,1500,no,143,yes,[ 0.64996586],roc_auc,6.0
+101,dictlearn,ridge,yes,no,,ABIDE,40,11,correlation,1500,no,143,yes,[ 0.65090475],roc_auc,6.0
+102,dictlearn,svc_l1,yes,no,,ABIDE,40,11,partial correlation,1500,no,143,yes,[ 0.62068966],roc_auc,6.0
+103,dictlearn,svc_l2,yes,no,,ABIDE,40,11,partial correlation,1500,no,143,yes,[ 0.71381017],roc_auc,6.0
+104,dictlearn,ridge,yes,no,,ABIDE,40,11,partial correlation,1500,no,143,yes,[ 0.71568795],roc_auc,6.0
+105,dictlearn,svc_l1,yes,no,,ABIDE,40,11,tangent,1500,no,143,yes,[ 0.66328098],roc_auc,6.0
+106,dictlearn,svc_l2,yes,no,,ABIDE,40,11,tangent,1500,no,143,yes,[ 0.7245647],roc_auc,6.0
+107,dictlearn,ridge,yes,no,,ABIDE,40,11,tangent,1500,no,143,yes,[ 0.72575964],roc_auc,6.0
+108,dictlearn,svc_l1,yes,no,,ABIDE,40,12,correlation,1500,no,138,yes,[ 0.60822806],roc_auc,6.0
+109,dictlearn,svc_l2,yes,no,,ABIDE,40,12,correlation,1500,no,138,yes,[ 0.63374872],roc_auc,6.0
+110,dictlearn,ridge,yes,no,,ABIDE,40,12,correlation,1500,no,138,yes,[ 0.630676],roc_auc,6.0
+111,dictlearn,svc_l1,yes,no,,ABIDE,40,12,partial correlation,1500,no,138,yes,[ 0.56153977],roc_auc,6.0
+112,dictlearn,svc_l2,yes,no,,ABIDE,40,12,partial correlation,1500,no,138,yes,[ 0.63844315],roc_auc,6.0
+113,dictlearn,ridge,yes,no,,ABIDE,40,12,partial correlation,1500,no,138,yes,[ 0.63869921],roc_auc,6.0
+114,dictlearn,svc_l1,yes,no,,ABIDE,40,12,tangent,1500,no,138,yes,[ 0.60378969],roc_auc,6.0
+115,dictlearn,svc_l2,yes,no,,ABIDE,40,12,tangent,1500,no,138,yes,[ 0.66003756],roc_auc,6.0
+116,dictlearn,ridge,yes,no,,ABIDE,40,12,tangent,1500,no,138,yes,[ 0.66003756],roc_auc,6.0
+117,dictlearn,svc_l1,yes,no,,ABIDE,40,13,correlation,1500,no,137,yes,[ 0.62913964],roc_auc,6.0
+118,dictlearn,svc_l2,yes,no,,ABIDE,40,13,correlation,1500,no,137,yes,[ 0.62657904],roc_auc,6.0
+119,dictlearn,ridge,yes,no,,ABIDE,40,13,correlation,1500,no,137,yes,[ 0.62820075],roc_auc,6.0
+120,dictlearn,svc_l1,yes,no,,ABIDE,40,13,partial correlation,1500,no,137,yes,[ 0.5646125],roc_auc,6.0
+121,dictlearn,svc_l2,yes,no,,ABIDE,40,13,partial correlation,1500,no,137,yes,[ 0.63229771],roc_auc,6.0
+122,dictlearn,ridge,yes,no,,ABIDE,40,13,partial correlation,1500,no,137,yes,[ 0.63170024],roc_auc,6.0
+123,dictlearn,svc_l1,yes,no,,ABIDE,40,13,tangent,1500,no,137,yes,[ 0.57075794],roc_auc,6.0
+124,dictlearn,svc_l2,yes,no,,ABIDE,40,13,tangent,1500,no,137,yes,[ 0.6597815],roc_auc,6.0
+125,dictlearn,ridge,yes,no,,ABIDE,40,13,tangent,1500,no,137,yes,[ 0.66020826],roc_auc,6.0
+126,dictlearn,svc_l1,yes,no,,ABIDE,40,14,correlation,1500,no,137,yes,[ 0.62478662],roc_auc,6.0
+127,dictlearn,svc_l2,yes,no,,ABIDE,40,14,correlation,1500,no,137,yes,[ 0.67412086],roc_auc,6.0
+128,dictlearn,ridge,yes,no,,ABIDE,40,14,correlation,1500,no,137,yes,[ 0.6725845],roc_auc,6.0
+129,dictlearn,svc_l1,yes,no,,ABIDE,40,14,partial correlation,1500,no,137,yes,[ 0.58979174],roc_auc,6.0
+130,dictlearn,svc_l2,yes,no,,ABIDE,40,14,partial correlation,1500,no,137,yes,[ 0.66481734],roc_auc,6.0
+131,dictlearn,ridge,yes,no,,ABIDE,40,14,partial correlation,1500,no,137,yes,[ 0.66532946],roc_auc,6.0
+132,dictlearn,svc_l1,yes,no,,ABIDE,40,14,tangent,1500,no,137,yes,[ 0.61223967],roc_auc,6.0
+133,dictlearn,svc_l2,yes,no,,ABIDE,40,14,tangent,1500,no,137,yes,[ 0.70723797],roc_auc,6.0
+134,dictlearn,ridge,yes,no,,ABIDE,40,14,tangent,1500,no,137,yes,[ 0.70783544],roc_auc,6.0
+135,dictlearn,svc_l1,yes,no,,ABIDE,40,15,correlation,1500,no,134,yes,[ 0.61983612],roc_auc,6.0
+136,dictlearn,svc_l2,yes,no,,ABIDE,40,15,correlation,1500,no,134,yes,[ 0.67019461],roc_auc,6.0
+137,dictlearn,ridge,yes,no,,ABIDE,40,15,correlation,1500,no,134,yes,[ 0.66532946],roc_auc,6.0
+138,dictlearn,svc_l1,yes,no,,ABIDE,40,15,partial correlation,1500,no,134,yes,[ 0.59098668],roc_auc,6.0
+139,dictlearn,svc_l2,yes,no,,ABIDE,40,15,partial correlation,1500,no,134,yes,[ 0.65278252],roc_auc,6.0
+140,dictlearn,ridge,yes,no,,ABIDE,40,15,partial correlation,1500,no,134,yes,[ 0.65508706],roc_auc,6.0
+141,dictlearn,svc_l1,yes,no,,ABIDE,40,15,tangent,1500,no,134,yes,[ 0.64561284],roc_auc,6.0
+142,dictlearn,svc_l2,yes,no,,ABIDE,40,15,tangent,1500,no,134,yes,[ 0.7207238],roc_auc,6.0
+143,dictlearn,ridge,yes,no,,ABIDE,40,15,tangent,1500,no,134,yes,[ 0.72132127],roc_auc,6.0
+144,dictlearn,svc_l1,yes,no,,ABIDE,40,16,correlation,1500,no,138,yes,[ 0.63827245],roc_auc,6.0
+145,dictlearn,svc_l2,yes,no,,ABIDE,40,16,correlation,1500,no,138,yes,[ 0.65773301],roc_auc,6.0
+146,dictlearn,ridge,yes,no,,ABIDE,40,16,correlation,1500,no,138,yes,[ 0.65576989],roc_auc,6.0
+147,dictlearn,svc_l1,yes,no,,ABIDE,40,16,partial correlation,1500,no,138,yes,[ 0.60711847],roc_auc,6.0
+148,dictlearn,svc_l2,yes,no,,ABIDE,40,16,partial correlation,1500,no,138,yes,[ 0.70493342],roc_auc,6.0
+149,dictlearn,ridge,yes,no,,ABIDE,40,16,partial correlation,1500,no,138,yes,[ 0.70604302],roc_auc,6.0
+150,dictlearn,svc_l1,yes,no,,ABIDE,40,16,tangent,1500,no,138,yes,[ 0.68094913],roc_auc,6.0
+151,dictlearn,svc_l2,yes,no,,ABIDE,40,16,tangent,1500,no,138,yes,[ 0.72644247],roc_auc,6.0
+152,dictlearn,ridge,yes,no,,ABIDE,40,16,tangent,1500,no,138,yes,[ 0.72686924],roc_auc,6.0
+153,dictlearn,svc_l1,yes,no,,ABIDE,40,17,correlation,1500,no,132,yes,[ 0.68752134],roc_auc,6.0
+154,dictlearn,svc_l2,yes,no,,ABIDE,40,17,correlation,1500,no,132,yes,[ 0.73250256],roc_auc,6.0
+155,dictlearn,ridge,yes,no,,ABIDE,40,17,correlation,1500,no,132,yes,[ 0.73139297],roc_auc,6.0
+156,dictlearn,svc_l1,yes,no,,ABIDE,40,17,partial correlation,1500,no,132,yes,[ 0.57878115],roc_auc,6.0
+157,dictlearn,svc_l2,yes,no,,ABIDE,40,17,partial correlation,1500,no,132,yes,[ 0.68811881],roc_auc,6.0
+158,dictlearn,ridge,yes,no,,ABIDE,40,17,partial correlation,1500,no,132,yes,[ 0.69016729],roc_auc,6.0
+159,dictlearn,svc_l1,yes,no,,ABIDE,40,17,tangent,1500,no,132,yes,[ 0.63298054],roc_auc,6.0
+160,dictlearn,svc_l2,yes,no,,ABIDE,40,17,tangent,1500,no,132,yes,[ 0.72686924],roc_auc,6.0
+161,dictlearn,ridge,yes,no,,ABIDE,40,17,tangent,1500,no,132,yes,[ 0.72721065],roc_auc,6.0
+162,dictlearn,svc_l1,yes,no,,ABIDE,40,18,correlation,1500,no,143,yes,[ 0.6458689],roc_auc,6.0
+163,dictlearn,svc_l2,yes,no,,ABIDE,40,18,correlation,1500,no,143,yes,[ 0.67360874],roc_auc,6.0
+164,dictlearn,ridge,yes,no,,ABIDE,40,18,correlation,1500,no,143,yes,[ 0.67727893],roc_auc,6.0
+165,dictlearn,svc_l1,yes,no,,ABIDE,40,18,partial correlation,1500,no,143,yes,[ 0.54156709],roc_auc,6.0
+166,dictlearn,svc_l2,yes,no,,ABIDE,40,18,partial correlation,1500,no,143,yes,[ 0.61497098],roc_auc,6.0
+167,dictlearn,ridge,yes,no,,ABIDE,40,18,partial correlation,1500,no,143,yes,[ 0.61565381],roc_auc,6.0
+168,dictlearn,svc_l1,yes,no,,ABIDE,40,18,tangent,1500,no,143,yes,[ 0.59448617],roc_auc,6.0
+169,dictlearn,svc_l2,yes,no,,ABIDE,40,18,tangent,1500,no,143,yes,[ 0.64936839],roc_auc,6.0
+170,dictlearn,ridge,yes,no,,ABIDE,40,18,tangent,1500,no,143,yes,[ 0.65005121],roc_auc,6.0
+171,dictlearn,svc_l1,yes,no,,ABIDE,40,19,correlation,1500,no,137,yes,[ 0.60728918],roc_auc,6.0
+172,dictlearn,svc_l2,yes,no,,ABIDE,40,19,correlation,1500,no,137,yes,[ 0.67779105],roc_auc,6.0
+173,dictlearn,ridge,yes,no,,ABIDE,40,19,correlation,1500,no,137,yes,[ 0.67275521],roc_auc,6.0
+174,dictlearn,svc_l1,yes,no,,ABIDE,40,19,partial correlation,1500,no,137,yes,[ 0.63904063],roc_auc,6.0
+175,dictlearn,svc_l2,yes,no,,ABIDE,40,19,partial correlation,1500,no,137,yes,[ 0.64185729],roc_auc,6.0
+176,dictlearn,ridge,yes,no,,ABIDE,40,19,partial correlation,1500,no,137,yes,[ 0.6421987],roc_auc,6.0
+177,dictlearn,svc_l1,yes,no,,ABIDE,40,19,tangent,1500,no,137,yes,[ 0.59585183],roc_auc,6.0
+178,dictlearn,svc_l2,yes,no,,ABIDE,40,19,tangent,1500,no,137,yes,[ 0.69281325],roc_auc,6.0
+179,dictlearn,ridge,yes,no,,ABIDE,40,19,tangent,1500,no,137,yes,[ 0.69195971],roc_auc,6.0
+180,dictlearn,svc_l1,yes,no,,ABIDE,40,20,correlation,1500,no,140,yes,[ 0.67395015],roc_auc,6.0
+181,dictlearn,svc_l2,yes,no,,ABIDE,40,20,correlation,1500,no,140,yes,[ 0.73420963],roc_auc,6.0
+182,dictlearn,ridge,yes,no,,ABIDE,40,20,correlation,1500,no,140,yes,[ 0.7348071],roc_auc,6.0
+183,dictlearn,svc_l1,yes,no,,ABIDE,40,20,partial correlation,1500,no,140,yes,[ 0.59474223],roc_auc,6.0
+184,dictlearn,svc_l2,yes,no,,ABIDE,40,20,partial correlation,1500,no,140,yes,[ 0.69972687],roc_auc,6.0
+185,dictlearn,ridge,yes,no,,ABIDE,40,20,partial correlation,1500,no,140,yes,[ 0.70117788],roc_auc,6.0
+186,dictlearn,svc_l1,yes,no,,ABIDE,40,20,tangent,1500,no,140,yes,[ 0.65764766],roc_auc,6.0
+187,dictlearn,svc_l2,yes,no,,ABIDE,40,20,tangent,1500,no,140,yes,[ 0.7399283],roc_auc,6.0
+188,dictlearn,ridge,yes,no,,ABIDE,40,20,tangent,1500,no,140,yes,[ 0.74163537],roc_auc,6.0
+189,dictlearn,svc_l1,yes,no,,ABIDE,40,21,correlation,1500,no,132,yes,[ 0.60114374],roc_auc,6.0
+190,dictlearn,svc_l2,yes,no,,ABIDE,40,21,correlation,1500,no,132,yes,[ 0.63912598],roc_auc,6.0
+191,dictlearn,ridge,yes,no,,ABIDE,40,21,correlation,1500,no,132,yes,[ 0.63289519],roc_auc,6.0
+192,dictlearn,svc_l1,yes,no,,ABIDE,40,21,partial correlation,1500,no,132,yes,[ 0.61044725],roc_auc,6.0
+193,dictlearn,svc_l2,yes,no,,ABIDE,40,21,partial correlation,1500,no,132,yes,[ 0.64339365],roc_auc,6.0
+194,dictlearn,ridge,yes,no,,ABIDE,40,21,partial correlation,1500,no,132,yes,[ 0.64450324],roc_auc,6.0
+195,dictlearn,svc_l1,yes,no,,ABIDE,40,21,tangent,1500,no,132,yes,[ 0.64612496],roc_auc,6.0
+196,dictlearn,svc_l2,yes,no,,ABIDE,40,21,tangent,1500,no,132,yes,[ 0.63690679],roc_auc,6.0
+197,dictlearn,ridge,yes,no,,ABIDE,40,21,tangent,1500,no,132,yes,[ 0.63656538],roc_auc,6.0
+198,dictlearn,svc_l1,yes,no,,ABIDE,40,22,correlation,1500,no,151,yes,[ 0.69844657],roc_auc,6.0
+199,dictlearn,svc_l2,yes,no,,ABIDE,40,22,correlation,1500,no,151,yes,[ 0.69767839],roc_auc,6.0
+200,dictlearn,ridge,yes,no,,ABIDE,40,22,correlation,1500,no,151,yes,[ 0.69477637],roc_auc,6.0
+201,dictlearn,svc_l1,yes,no,,ABIDE,40,22,partial correlation,1500,no,151,yes,[ 0.60208262],roc_auc,6.0
+202,dictlearn,svc_l2,yes,no,,ABIDE,40,22,partial correlation,1500,no,151,yes,[ 0.6332366],roc_auc,6.0
+203,dictlearn,ridge,yes,no,,ABIDE,40,22,partial correlation,1500,no,151,yes,[ 0.63315125],roc_auc,6.0
+204,dictlearn,svc_l1,yes,no,,ABIDE,40,22,tangent,1500,no,151,yes,[ 0.68658245],roc_auc,6.0
+205,dictlearn,svc_l2,yes,no,,ABIDE,40,22,tangent,1500,no,151,yes,[ 0.70817685],roc_auc,6.0
+206,dictlearn,ridge,yes,no,,ABIDE,40,22,tangent,1500,no,151,yes,[ 0.70911574],roc_auc,6.0
+207,dictlearn,svc_l1,yes,no,,ABIDE,40,23,correlation,1500,no,138,yes,[ 0.59243769],roc_auc,6.0
+208,dictlearn,svc_l2,yes,no,,ABIDE,40,23,correlation,1500,no,138,yes,[ 0.66430522],roc_auc,6.0
+209,dictlearn,ridge,yes,no,,ABIDE,40,23,correlation,1500,no,138,yes,[ 0.66404916],roc_auc,6.0
+210,dictlearn,svc_l1,yes,no,,ABIDE,40,23,partial correlation,1500,no,138,yes,[ 0.62726186],roc_auc,6.0
+211,dictlearn,svc_l2,yes,no,,ABIDE,40,23,partial correlation,1500,no,138,yes,[ 0.67309662],roc_auc,6.0
+212,dictlearn,ridge,yes,no,,ABIDE,40,23,partial correlation,1500,no,138,yes,[ 0.67420621],roc_auc,6.0
+213,dictlearn,svc_l1,yes,no,,ABIDE,40,23,tangent,1500,no,138,yes,[ 0.67497439],roc_auc,6.0
+214,dictlearn,svc_l2,yes,no,,ABIDE,40,23,tangent,1500,no,138,yes,[ 0.70331171],roc_auc,6.0
+215,dictlearn,ridge,yes,no,,ABIDE,40,23,tangent,1500,no,138,yes,[ 0.70262888],roc_auc,6.0
+216,dictlearn,svc_l1,yes,no,,ABIDE,40,24,correlation,1500,no,136,yes,[ 0.57656197],roc_auc,6.0
+217,dictlearn,svc_l2,yes,no,,ABIDE,40,24,correlation,1500,no,136,yes,[ 0.66575623],roc_auc,6.0
+218,dictlearn,ridge,yes,no,,ABIDE,40,24,correlation,1500,no,136,yes,[ 0.65474565],roc_auc,6.0
+219,dictlearn,svc_l1,yes,no,,ABIDE,40,24,partial correlation,1500,no,136,yes,[ 0.60950836],roc_auc,6.0
+220,dictlearn,svc_l2,yes,no,,ABIDE,40,24,partial correlation,1500,no,136,yes,[ 0.64484466],roc_auc,6.0
+221,dictlearn,ridge,yes,no,,ABIDE,40,24,partial correlation,1500,no,136,yes,[ 0.64595425],roc_auc,6.0
+222,dictlearn,svc_l1,yes,no,,ABIDE,40,24,tangent,1500,no,136,yes,[ 0.630676],roc_auc,6.0
+223,dictlearn,svc_l2,yes,no,,ABIDE,40,24,tangent,1500,no,136,yes,[ 0.67992489],roc_auc,6.0
+224,dictlearn,ridge,yes,no,,ABIDE,40,24,tangent,1500,no,136,yes,[ 0.67890065],roc_auc,6.0
+225,dictlearn,svc_l1,yes,no,,ABIDE,40,25,correlation,1500,no,137,yes,[ 0.62120178],roc_auc,6.0
+226,dictlearn,svc_l2,yes,no,,ABIDE,40,25,correlation,1500,no,137,yes,[ 0.66601229],roc_auc,6.0
+227,dictlearn,ridge,yes,no,,ABIDE,40,25,correlation,1500,no,137,yes,[ 0.66242745],roc_auc,6.0
+228,dictlearn,svc_l1,yes,no,,ABIDE,40,25,partial correlation,1500,no,137,yes,[ 0.48745306],roc_auc,6.0
+229,dictlearn,svc_l2,yes,no,,ABIDE,40,25,partial correlation,1500,no,137,yes,[ 0.63050529],roc_auc,6.0
+230,dictlearn,ridge,yes,no,,ABIDE,40,25,partial correlation,1500,no,137,yes,[ 0.63221236],roc_auc,6.0
+231,dictlearn,svc_l1,yes,no,,ABIDE,40,25,tangent,1500,no,137,yes,[ 0.56512462],roc_auc,6.0
+232,dictlearn,svc_l2,yes,no,,ABIDE,40,25,tangent,1500,no,137,yes,[ 0.6649027],roc_auc,6.0
+233,dictlearn,ridge,yes,no,,ABIDE,40,25,tangent,1500,no,137,yes,[ 0.66396381],roc_auc,6.0
+234,dictlearn,svc_l1,yes,no,,ABIDE,40,26,correlation,1500,no,141,yes,[ 0.67540116],roc_auc,6.0
+235,dictlearn,svc_l2,yes,no,,ABIDE,40,26,correlation,1500,no,141,yes,[ 0.64723455],roc_auc,6.0
+236,dictlearn,ridge,yes,no,,ABIDE,40,26,correlation,1500,no,141,yes,[ 0.64544213],roc_auc,6.0
+237,dictlearn,svc_l1,yes,no,,ABIDE,40,26,partial correlation,1500,no,141,yes,[ 0.58953568],roc_auc,6.0
+238,dictlearn,svc_l2,yes,no,,ABIDE,40,26,partial correlation,1500,no,141,yes,[ 0.6610618],roc_auc,6.0
+239,dictlearn,ridge,yes,no,,ABIDE,40,26,partial correlation,1500,no,141,yes,[ 0.66200068],roc_auc,6.0
+240,dictlearn,svc_l1,yes,no,,ABIDE,40,26,tangent,1500,no,141,yes,[ 0.63571185],roc_auc,6.0
+241,dictlearn,svc_l2,yes,no,,ABIDE,40,26,tangent,1500,no,141,yes,[ 0.68035166],roc_auc,6.0
+242,dictlearn,ridge,yes,no,,ABIDE,40,26,tangent,1500,no,141,yes,[ 0.67966883],roc_auc,6.0
+243,dictlearn,svc_l1,yes,no,,ABIDE,40,27,correlation,1500,no,135,yes,[ 0.6282861],roc_auc,6.0
+244,dictlearn,svc_l2,yes,no,,ABIDE,40,27,correlation,1500,no,135,yes,[ 0.66891431],roc_auc,6.0
+245,dictlearn,ridge,yes,no,,ABIDE,40,27,correlation,1500,no,135,yes,[ 0.66814612],roc_auc,6.0
+246,dictlearn,svc_l1,yes,no,,ABIDE,40,27,partial correlation,1500,no,135,yes,[ 0.61958006],roc_auc,6.0
+247,dictlearn,svc_l2,yes,no,,ABIDE,40,27,partial correlation,1500,no,135,yes,[ 0.62905428],roc_auc,6.0
+248,dictlearn,ridge,yes,no,,ABIDE,40,27,partial correlation,1500,no,135,yes,[ 0.63041994],roc_auc,6.0
+249,dictlearn,svc_l1,yes,no,,ABIDE,40,27,tangent,1500,no,135,yes,[ 0.62751792],roc_auc,6.0
+250,dictlearn,svc_l2,yes,no,,ABIDE,40,27,tangent,1500,no,135,yes,[ 0.65722089],roc_auc,6.0
+251,dictlearn,ridge,yes,no,,ABIDE,40,27,tangent,1500,no,135,yes,[ 0.65807443],roc_auc,6.0
+252,dictlearn,svc_l1,yes,no,,ABIDE,40,28,correlation,1500,no,144,yes,[ 0.64561284],roc_auc,6.0
+253,dictlearn,svc_l2,yes,no,,ABIDE,40,28,correlation,1500,no,144,yes,[ 0.69221577],roc_auc,6.0
+254,dictlearn,ridge,yes,no,,ABIDE,40,28,correlation,1500,no,144,yes,[ 0.69272789],roc_auc,6.0
+255,dictlearn,svc_l1,yes,no,,ABIDE,40,28,partial correlation,1500,no,144,yes,[ 0.55437009],roc_auc,6.0
+256,dictlearn,svc_l2,yes,no,,ABIDE,40,28,partial correlation,1500,no,144,yes,[ 0.64544213],roc_auc,6.0
+257,dictlearn,ridge,yes,no,,ABIDE,40,28,partial correlation,1500,no,144,yes,[ 0.64595425],roc_auc,6.0
+258,dictlearn,svc_l1,yes,no,,ABIDE,40,28,tangent,1500,no,144,yes,[ 0.59713213],roc_auc,6.0
+259,dictlearn,svc_l2,yes,no,,ABIDE,40,28,tangent,1500,no,144,yes,[ 0.70109252],roc_auc,6.0
+260,dictlearn,ridge,yes,no,,ABIDE,40,28,tangent,1500,no,144,yes,[ 0.70100717],roc_auc,6.0
+261,dictlearn,svc_l1,yes,no,,ABIDE,40,29,correlation,1500,no,135,yes,[ 0.64612496],roc_auc,6.0
+262,dictlearn,svc_l2,yes,no,,ABIDE,40,29,correlation,1500,no,135,yes,[ 0.70015364],roc_auc,6.0
+263,dictlearn,ridge,yes,no,,ABIDE,40,29,correlation,1500,no,135,yes,[ 0.69528849],roc_auc,6.0
+264,dictlearn,svc_l1,yes,no,,ABIDE,40,29,partial correlation,1500,no,135,yes,[ 0.57963469],roc_auc,6.0
+265,dictlearn,svc_l2,yes,no,,ABIDE,40,29,partial correlation,1500,no,135,yes,[ 0.62632298],roc_auc,6.0
+266,dictlearn,ridge,yes,no,,ABIDE,40,29,partial correlation,1500,no,135,yes,[ 0.62777398],roc_auc,6.0
+267,dictlearn,svc_l1,yes,no,,ABIDE,40,29,tangent,1500,no,135,yes,[ 0.64544213],roc_auc,6.0
+268,dictlearn,svc_l2,yes,no,,ABIDE,40,29,tangent,1500,no,135,yes,[ 0.69964152],roc_auc,6.0
+269,dictlearn,ridge,yes,no,,ABIDE,40,29,tangent,1500,no,135,yes,[ 0.69767839],roc_auc,6.0
+270,dictlearn,svc_l1,yes,no,,ABIDE,40,30,correlation,1500,no,143,yes,[ 0.66242745],roc_auc,6.0
+271,dictlearn,svc_l2,yes,no,,ABIDE,40,30,correlation,1500,no,143,yes,[ 0.68965517],roc_auc,6.0
+272,dictlearn,ridge,yes,no,,ABIDE,40,30,correlation,1500,no,143,yes,[ 0.68820417],roc_auc,6.0
+273,dictlearn,svc_l1,yes,no,,ABIDE,40,30,partial correlation,1500,no,143,yes,[ 0.60455787],roc_auc,6.0
+274,dictlearn,svc_l2,yes,no,,ABIDE,40,30,partial correlation,1500,no,143,yes,[ 0.67992489],roc_auc,6.0
+275,dictlearn,ridge,yes,no,,ABIDE,40,30,partial correlation,1500,no,143,yes,[ 0.68043701],roc_auc,6.0
+276,dictlearn,svc_l1,yes,no,,ABIDE,40,30,tangent,1500,no,143,yes,[ 0.63639467],roc_auc,6.0
+277,dictlearn,svc_l2,yes,no,,ABIDE,40,30,tangent,1500,no,143,yes,[ 0.71304199],roc_auc,6.0
+278,dictlearn,ridge,yes,no,,ABIDE,40,30,tangent,1500,no,143,yes,[ 0.71176169],roc_auc,6.0
+279,dictlearn,svc_l1,yes,no,,ABIDE,40,31,correlation,1500,no,138,yes,[ 0.67480369],roc_auc,6.0
+280,dictlearn,svc_l2,yes,no,,ABIDE,40,31,correlation,1500,no,138,yes,[ 0.69298395],roc_auc,6.0
+281,dictlearn,ridge,yes,no,,ABIDE,40,31,correlation,1500,no,138,yes,[ 0.69170365],roc_auc,6.0
+282,dictlearn,svc_l1,yes,no,,ABIDE,40,31,partial correlation,1500,no,138,yes,[ 0.61386139],roc_auc,6.0
+283,dictlearn,svc_l2,yes,no,,ABIDE,40,31,partial correlation,1500,no,138,yes,[ 0.68120519],roc_auc,6.0
+284,dictlearn,ridge,yes,no,,ABIDE,40,31,partial correlation,1500,no,138,yes,[ 0.68214408],roc_auc,6.0
+285,dictlearn,svc_l1,yes,no,,ABIDE,40,31,tangent,1500,no,138,yes,[ 0.63511437],roc_auc,6.0
+286,dictlearn,svc_l2,yes,no,,ABIDE,40,31,tangent,1500,no,138,yes,[ 0.71210311],roc_auc,6.0
+287,dictlearn,ridge,yes,no,,ABIDE,40,31,tangent,1500,no,138,yes,[ 0.71235917],roc_auc,6.0
+288,dictlearn,svc_l1,yes,no,,ABIDE,40,32,correlation,1500,no,133,yes,[ 0.61078867],roc_auc,6.0
+289,dictlearn,svc_l2,yes,no,,ABIDE,40,32,correlation,1500,no,133,yes,[ 0.66840219],roc_auc,6.0
+290,dictlearn,ridge,yes,no,,ABIDE,40,32,correlation,1500,no,133,yes,[ 0.67249915],roc_auc,6.0
+291,dictlearn,svc_l1,yes,no,,ABIDE,40,32,partial correlation,1500,no,133,yes,[ 0.62418914],roc_auc,6.0
+292,dictlearn,svc_l2,yes,no,,ABIDE,40,32,partial correlation,1500,no,133,yes,[ 0.70109252],roc_auc,6.0
+293,dictlearn,ridge,yes,no,,ABIDE,40,32,partial correlation,1500,no,133,yes,[ 0.70305565],roc_auc,6.0
+294,dictlearn,svc_l1,yes,no,,ABIDE,40,32,tangent,1500,no,133,yes,[ 0.68999659],roc_auc,6.0
+295,dictlearn,svc_l2,yes,no,,ABIDE,40,32,tangent,1500,no,133,yes,[ 0.72422328],roc_auc,6.0
+296,dictlearn,ridge,yes,no,,ABIDE,40,32,tangent,1500,no,133,yes,[ 0.72388187],roc_auc,6.0
+297,dictlearn,svc_l1,yes,no,,ABIDE,40,33,correlation,1500,no,137,yes,[ 0.66797542],roc_auc,6.0
+298,dictlearn,svc_l2,yes,no,,ABIDE,40,33,correlation,1500,no,137,yes,[ 0.66865825],roc_auc,6.0
+299,dictlearn,ridge,yes,no,,ABIDE,40,33,correlation,1500,no,137,yes,[ 0.66345169],roc_auc,6.0
+300,dictlearn,svc_l1,yes,no,,ABIDE,40,33,partial correlation,1500,no,137,yes,[ 0.60933766],roc_auc,6.0
+301,dictlearn,svc_l2,yes,no,,ABIDE,40,33,partial correlation,1500,no,137,yes,[ 0.68811881],roc_auc,6.0
+302,dictlearn,ridge,yes,no,,ABIDE,40,33,partial correlation,1500,no,137,yes,[ 0.68965517],roc_auc,6.0
+303,dictlearn,svc_l1,yes,no,,ABIDE,40,33,tangent,1500,no,137,yes,[ 0.64834414],roc_auc,6.0
+304,dictlearn,svc_l2,yes,no,,ABIDE,40,33,tangent,1500,no,137,yes,[ 0.71235917],roc_auc,6.0
+305,dictlearn,ridge,yes,no,,ABIDE,40,33,tangent,1500,no,137,yes,[ 0.71184705],roc_auc,6.0
+306,dictlearn,svc_l1,yes,no,,ABIDE,40,34,correlation,1500,no,139,yes,[ 0.62546944],roc_auc,6.0
+307,dictlearn,svc_l2,yes,no,,ABIDE,40,34,correlation,1500,no,139,yes,[ 0.65295323],roc_auc,6.0
+308,dictlearn,ridge,yes,no,,ABIDE,40,34,correlation,1500,no,139,yes,[ 0.65184363],roc_auc,6.0
+309,dictlearn,svc_l1,yes,no,,ABIDE,40,34,partial correlation,1500,no,139,yes,[ 0.60677706],roc_auc,6.0
+310,dictlearn,svc_l2,yes,no,,ABIDE,40,34,partial correlation,1500,no,139,yes,[ 0.6877774],roc_auc,6.0
+311,dictlearn,ridge,yes,no,,ABIDE,40,34,partial correlation,1500,no,139,yes,[ 0.68880164],roc_auc,6.0
+312,dictlearn,svc_l1,yes,no,,ABIDE,40,34,tangent,1500,no,139,yes,[ 0.60455787],roc_auc,6.0
+313,dictlearn,svc_l2,yes,no,,ABIDE,40,34,tangent,1500,no,139,yes,[ 0.69025265],roc_auc,6.0
+314,dictlearn,ridge,yes,no,,ABIDE,40,34,tangent,1500,no,139,yes,[ 0.69136224],roc_auc,6.0
+315,dictlearn,svc_l1,yes,no,,ABIDE,40,35,correlation,1500,no,140,yes,[ 0.59474223],roc_auc,6.0
+316,dictlearn,svc_l2,yes,no,,ABIDE,40,35,correlation,1500,no,140,yes,[ 0.62478662],roc_auc,6.0
+317,dictlearn,ridge,yes,no,,ABIDE,40,35,correlation,1500,no,140,yes,[ 0.62222602],roc_auc,6.0
+318,dictlearn,svc_l1,yes,no,,ABIDE,40,35,partial correlation,1500,no,140,yes,[ 0.56392967],roc_auc,6.0
+319,dictlearn,svc_l2,yes,no,,ABIDE,40,35,partial correlation,1500,no,140,yes,[ 0.63409013],roc_auc,6.0
+320,dictlearn,ridge,yes,no,,ABIDE,40,35,partial correlation,1500,no,140,yes,[ 0.63306589],roc_auc,6.0
+321,dictlearn,svc_l1,yes,no,,ABIDE,40,35,tangent,1500,no,140,yes,[ 0.57340389],roc_auc,6.0
+322,dictlearn,svc_l2,yes,no,,ABIDE,40,35,tangent,1500,no,140,yes,[ 0.66703653],roc_auc,6.0
+323,dictlearn,ridge,yes,no,,ABIDE,40,35,tangent,1500,no,140,yes,[ 0.66660976],roc_auc,6.0
+324,dictlearn,svc_l1,yes,no,,ABIDE,40,36,correlation,1500,no,141,yes,[ 0.59824172],roc_auc,6.0
+325,dictlearn,svc_l2,yes,no,,ABIDE,40,36,correlation,1500,no,141,yes,[ 0.64783202],roc_auc,6.0
+326,dictlearn,ridge,yes,no,,ABIDE,40,36,correlation,1500,no,141,yes,[ 0.64160123],roc_auc,6.0
+327,dictlearn,svc_l1,yes,no,,ABIDE,40,36,partial correlation,1500,no,141,yes,[ 0.61488563],roc_auc,6.0
+328,dictlearn,svc_l2,yes,no,,ABIDE,40,36,partial correlation,1500,no,141,yes,[ 0.63519973],roc_auc,6.0
+329,dictlearn,ridge,yes,no,,ABIDE,40,36,partial correlation,1500,no,141,yes,[ 0.63630932],roc_auc,6.0
+330,dictlearn,svc_l1,yes,no,,ABIDE,40,36,tangent,1500,no,141,yes,[ 0.59926596],roc_auc,6.0
+331,dictlearn,svc_l2,yes,no,,ABIDE,40,36,tangent,1500,no,141,yes,[ 0.65056333],roc_auc,6.0
+332,dictlearn,ridge,yes,no,,ABIDE,40,36,tangent,1500,no,141,yes,[ 0.64962445],roc_auc,6.0
+333,dictlearn,svc_l1,yes,no,,ABIDE,40,37,correlation,1500,no,138,yes,[ 0.64450324],roc_auc,6.0
+334,dictlearn,svc_l2,yes,no,,ABIDE,40,37,correlation,1500,no,138,yes,[ 0.65909867],roc_auc,6.0
+335,dictlearn,ridge,yes,no,,ABIDE,40,37,correlation,1500,no,138,yes,[ 0.65670877],roc_auc,6.0
+336,dictlearn,svc_l1,yes,no,,ABIDE,40,37,partial correlation,1500,no,138,yes,[ 0.58603619],roc_auc,6.0
+337,dictlearn,svc_l2,yes,no,,ABIDE,40,37,partial correlation,1500,no,138,yes,[ 0.71218846],roc_auc,6.0
+338,dictlearn,ridge,yes,no,,ABIDE,40,37,partial correlation,1500,no,138,yes,[ 0.71346876],roc_auc,6.0
+339,dictlearn,svc_l1,yes,no,,ABIDE,40,37,tangent,1500,no,138,yes,[ 0.6293957],roc_auc,6.0
+340,dictlearn,svc_l2,yes,no,,ABIDE,40,37,tangent,1500,no,138,yes,[ 0.72191874],roc_auc,6.0
+341,dictlearn,ridge,yes,no,,ABIDE,40,37,tangent,1500,no,138,yes,[ 0.72123592],roc_auc,6.0
+342,dictlearn,svc_l1,yes,no,,ABIDE,40,38,correlation,1500,no,148,yes,[ 0.61198361],roc_auc,6.0
+343,dictlearn,svc_l2,yes,no,,ABIDE,40,38,correlation,1500,no,148,yes,[ 0.66934107],roc_auc,6.0
+344,dictlearn,ridge,yes,no,,ABIDE,40,38,correlation,1500,no,148,yes,[ 0.667634],roc_auc,6.0
+345,dictlearn,svc_l1,yes,no,,ABIDE,40,38,partial correlation,1500,no,148,yes,[ 0.53721407],roc_auc,6.0
+346,dictlearn,svc_l2,yes,no,,ABIDE,40,38,partial correlation,1500,no,148,yes,[ 0.62990782],roc_auc,6.0
+347,dictlearn,ridge,yes,no,,ABIDE,40,38,partial correlation,1500,no,148,yes,[ 0.630676],roc_auc,6.0
+348,dictlearn,svc_l1,yes,no,,ABIDE,40,38,tangent,1500,no,148,yes,[ 0.57707409],roc_auc,6.0
+349,dictlearn,svc_l2,yes,no,,ABIDE,40,38,tangent,1500,no,148,yes,[ 0.67753499],roc_auc,6.0
+350,dictlearn,ridge,yes,no,,ABIDE,40,38,tangent,1500,no,148,yes,[ 0.67779105],roc_auc,6.0
+351,dictlearn,svc_l1,yes,no,,ABIDE,40,39,correlation,1500,no,142,yes,[ 0.67753499],roc_auc,6.0
+352,dictlearn,svc_l2,yes,no,,ABIDE,40,39,correlation,1500,no,142,yes,[ 0.72917378],roc_auc,6.0
+353,dictlearn,ridge,yes,no,,ABIDE,40,39,correlation,1500,no,142,yes,[ 0.73147832],roc_auc,6.0
+354,dictlearn,svc_l1,yes,no,,ABIDE,40,39,partial correlation,1500,no,142,yes,[ 0.57681803],roc_auc,6.0
+355,dictlearn,svc_l2,yes,no,,ABIDE,40,39,partial correlation,1500,no,142,yes,[ 0.65952544],roc_auc,6.0
+356,dictlearn,ridge,yes,no,,ABIDE,40,39,partial correlation,1500,no,142,yes,[ 0.66037897],roc_auc,6.0
+357,dictlearn,svc_l1,yes,no,,ABIDE,40,39,tangent,1500,no,142,yes,[ 0.6497098],roc_auc,6.0
+358,dictlearn,svc_l2,yes,no,,ABIDE,40,39,tangent,1500,no,142,yes,[ 0.73745306],roc_auc,6.0
+359,dictlearn,ridge,yes,no,,ABIDE,40,39,tangent,1500,no,142,yes,[ 0.7373677],roc_auc,6.0
+360,dictlearn,svc_l1,yes,no,,ABIDE,40,40,correlation,1500,no,144,yes,[ 0.63929669],roc_auc,6.0
+361,dictlearn,svc_l2,yes,no,,ABIDE,40,40,correlation,1500,no,144,yes,[ 0.66925572],roc_auc,6.0
+362,dictlearn,ridge,yes,no,,ABIDE,40,40,correlation,1500,no,144,yes,[ 0.66951178],roc_auc,6.0
+363,dictlearn,svc_l1,yes,no,,ABIDE,40,40,partial correlation,1500,no,144,yes,[ 0.62128713],roc_auc,6.0
+364,dictlearn,svc_l2,yes,no,,ABIDE,40,40,partial correlation,1500,no,144,yes,[ 0.64373506],roc_auc,6.0
+365,dictlearn,ridge,yes,no,,ABIDE,40,40,partial correlation,1500,no,144,yes,[ 0.64501536],roc_auc,6.0
+366,dictlearn,svc_l1,yes,no,,ABIDE,40,40,tangent,1500,no,144,yes,[ 0.59636395],roc_auc,6.0
+367,dictlearn,svc_l2,yes,no,,ABIDE,40,40,tangent,1500,no,144,yes,[ 0.6764254],roc_auc,6.0
+368,dictlearn,ridge,yes,no,,ABIDE,40,40,tangent,1500,no,144,yes,[ 0.67582793],roc_auc,6.0
+369,dictlearn,svc_l1,yes,no,,ABIDE,40,41,correlation,1500,no,142,yes,[ 0.60839877],roc_auc,6.0
+370,dictlearn,svc_l2,yes,no,,ABIDE,40,41,correlation,1500,no,142,yes,[ 0.69076477],roc_auc,6.0
+371,dictlearn,ridge,yes,no,,ABIDE,40,41,correlation,1500,no,142,yes,[ 0.68974053],roc_auc,6.0
+372,dictlearn,svc_l1,yes,no,,ABIDE,40,41,partial correlation,1500,no,142,yes,[ 0.62342096],roc_auc,6.0
+373,dictlearn,svc_l2,yes,no,,ABIDE,40,41,partial correlation,1500,no,142,yes,[ 0.67301127],roc_auc,6.0
+374,dictlearn,ridge,yes,no,,ABIDE,40,41,partial correlation,1500,no,142,yes,[ 0.6725845],roc_auc,6.0
+375,dictlearn,svc_l1,yes,no,,ABIDE,40,41,tangent,1500,no,142,yes,[ 0.62564015],roc_auc,6.0
+376,dictlearn,svc_l2,yes,no,,ABIDE,40,41,tangent,1500,no,142,yes,[ 0.6980198],roc_auc,6.0
+377,dictlearn,ridge,yes,no,,ABIDE,40,41,tangent,1500,no,142,yes,[ 0.69895869],roc_auc,6.0
+378,dictlearn,svc_l1,yes,no,,ABIDE,40,42,correlation,1500,no,141,yes,[ 0.62359167],roc_auc,6.0
+379,dictlearn,svc_l2,yes,no,,ABIDE,40,42,correlation,1500,no,141,yes,[ 0.63921133],roc_auc,6.0
+380,dictlearn,ridge,yes,no,,ABIDE,40,42,correlation,1500,no,141,yes,[ 0.63750427],roc_auc,6.0
+381,dictlearn,svc_l1,yes,no,,ABIDE,40,42,partial correlation,1500,no,141,yes,[ 0.63255377],roc_auc,6.0
+382,dictlearn,svc_l2,yes,no,,ABIDE,40,42,partial correlation,1500,no,141,yes,[ 0.65653807],roc_auc,6.0
+383,dictlearn,ridge,yes,no,,ABIDE,40,42,partial correlation,1500,no,141,yes,[ 0.65687948],roc_auc,6.0
+384,dictlearn,svc_l1,yes,no,,ABIDE,40,42,tangent,1500,no,141,yes,[ 0.65781837],roc_auc,6.0
+385,dictlearn,svc_l2,yes,no,,ABIDE,40,42,tangent,1500,no,141,yes,[ 0.68146125],roc_auc,6.0
+386,dictlearn,ridge,yes,no,,ABIDE,40,42,tangent,1500,no,141,yes,[ 0.67992489],roc_auc,6.0
+387,dictlearn,svc_l1,yes,no,,ABIDE,40,43,correlation,1500,no,143,yes,[ 0.62862752],roc_auc,6.0
+388,dictlearn,svc_l2,yes,no,,ABIDE,40,43,correlation,1500,no,143,yes,[ 0.63144418],roc_auc,6.0
+389,dictlearn,ridge,yes,no,,ABIDE,40,43,correlation,1500,no,143,yes,[ 0.62768863],roc_auc,6.0
+390,dictlearn,svc_l1,yes,no,,ABIDE,40,43,partial correlation,1500,no,143,yes,[ 0.59286446],roc_auc,6.0
+391,dictlearn,svc_l2,yes,no,,ABIDE,40,43,partial correlation,1500,no,143,yes,[ 0.66857289],roc_auc,6.0
+392,dictlearn,ridge,yes,no,,ABIDE,40,43,partial correlation,1500,no,143,yes,[ 0.66917037],roc_auc,6.0
+393,dictlearn,svc_l1,yes,no,,ABIDE,40,43,tangent,1500,no,143,yes,[ 0.60191192],roc_auc,6.0
+394,dictlearn,svc_l2,yes,no,,ABIDE,40,43,tangent,1500,no,143,yes,[ 0.67164561],roc_auc,6.0
+395,dictlearn,ridge,yes,no,,ABIDE,40,43,tangent,1500,no,143,yes,[ 0.67164561],roc_auc,6.0
+396,dictlearn,svc_l1,yes,no,,ABIDE,40,44,correlation,1500,no,143,yes,[ 0.64160123],roc_auc,6.0
+397,dictlearn,svc_l2,yes,no,,ABIDE,40,44,correlation,1500,no,143,yes,[ 0.66669512],roc_auc,6.0
+398,dictlearn,ridge,yes,no,,ABIDE,40,44,correlation,1500,no,143,yes,[ 0.66345169],roc_auc,6.0
+399,dictlearn,svc_l1,yes,no,,ABIDE,40,44,partial correlation,1500,no,143,yes,[ 0.66140321],roc_auc,6.0
+400,dictlearn,svc_l2,yes,no,,ABIDE,40,44,partial correlation,1500,no,143,yes,[ 0.71790714],roc_auc,6.0
+401,dictlearn,ridge,yes,no,,ABIDE,40,44,partial correlation,1500,no,143,yes,[ 0.7181632],roc_auc,6.0
+402,dictlearn,svc_l1,yes,no,,ABIDE,40,44,tangent,1500,no,143,yes,[ 0.72755207],roc_auc,6.0
+403,dictlearn,svc_l2,yes,no,,ABIDE,40,44,tangent,1500,no,143,yes,[ 0.72277228],roc_auc,6.0
+404,dictlearn,ridge,yes,no,,ABIDE,40,44,tangent,1500,no,143,yes,[ 0.72260157],roc_auc,6.0
+405,dictlearn,svc_l1,yes,no,,ABIDE,40,45,correlation,1500,no,136,yes,[ 0.66439058],roc_auc,6.0
+406,dictlearn,svc_l2,yes,no,,ABIDE,40,45,correlation,1500,no,136,yes,[ 0.63699215],roc_auc,6.0
+407,dictlearn,ridge,yes,no,,ABIDE,40,45,correlation,1500,no,136,yes,[ 0.63050529],roc_auc,6.0
+408,dictlearn,svc_l1,yes,no,,ABIDE,40,45,partial correlation,1500,no,136,yes,[ 0.65414817],roc_auc,6.0
+409,dictlearn,svc_l2,yes,no,,ABIDE,40,45,partial correlation,1500,no,136,yes,[ 0.65167293],roc_auc,6.0
+410,dictlearn,ridge,yes,no,,ABIDE,40,45,partial correlation,1500,no,136,yes,[ 0.65286787],roc_auc,6.0
+411,dictlearn,svc_l1,yes,no,,ABIDE,40,45,tangent,1500,no,136,yes,[ 0.64364971],roc_auc,6.0
+412,dictlearn,svc_l2,yes,no,,ABIDE,40,45,tangent,1500,no,136,yes,[ 0.6738648],roc_auc,6.0
+413,dictlearn,ridge,yes,no,,ABIDE,40,45,tangent,1500,no,136,yes,[ 0.6725845],roc_auc,6.0
+414,dictlearn,svc_l1,yes,no,,ABIDE,40,46,correlation,1500,no,143,yes,[ 0.58902356],roc_auc,6.0
+415,dictlearn,svc_l2,yes,no,,ABIDE,40,46,correlation,1500,no,143,yes,[ 0.6370775],roc_auc,6.0
+416,dictlearn,ridge,yes,no,,ABIDE,40,46,correlation,1500,no,143,yes,[ 0.6319563],roc_auc,6.0
+417,dictlearn,svc_l1,yes,no,,ABIDE,40,46,partial correlation,1500,no,143,yes,[ 0.49283032],roc_auc,6.0
+418,dictlearn,svc_l2,yes,no,,ABIDE,40,46,partial correlation,1500,no,143,yes,[ 0.62077501],roc_auc,6.0
+419,dictlearn,ridge,yes,no,,ABIDE,40,46,partial correlation,1500,no,143,yes,[ 0.62103107],roc_auc,6.0
+420,dictlearn,svc_l1,yes,no,,ABIDE,40,46,tangent,1500,no,143,yes,[ 0.54020143],roc_auc,6.0
+421,dictlearn,svc_l2,yes,no,,ABIDE,40,46,tangent,1500,no,143,yes,[ 0.64877091],roc_auc,6.0
+422,dictlearn,ridge,yes,no,,ABIDE,40,46,tangent,1500,no,143,yes,[ 0.64936839],roc_auc,6.0
+423,dictlearn,svc_l1,yes,no,,ABIDE,40,47,correlation,1500,no,133,yes,[ 0.64988051],roc_auc,6.0
+424,dictlearn,svc_l2,yes,no,,ABIDE,40,47,correlation,1500,no,133,yes,[ 0.70083646],roc_auc,6.0
+425,dictlearn,ridge,yes,no,,ABIDE,40,47,correlation,1500,no,133,yes,[ 0.69878798],roc_auc,6.0
+426,dictlearn,svc_l1,yes,no,,ABIDE,40,47,partial correlation,1500,no,133,yes,[ 0.67301127],roc_auc,6.0
+427,dictlearn,svc_l2,yes,no,,ABIDE,40,47,partial correlation,1500,no,133,yes,[ 0.69750768],roc_auc,6.0
+428,dictlearn,ridge,yes,no,,ABIDE,40,47,partial correlation,1500,no,133,yes,[ 0.69810516],roc_auc,6.0
+429,dictlearn,svc_l1,yes,no,,ABIDE,40,47,tangent,1500,no,133,yes,[ 0.64271082],roc_auc,6.0
+430,dictlearn,svc_l2,yes,no,,ABIDE,40,47,tangent,1500,no,133,yes,[ 0.71585865],roc_auc,6.0
+431,dictlearn,ridge,yes,no,,ABIDE,40,47,tangent,1500,no,133,yes,[ 0.7157733],roc_auc,6.0
+432,dictlearn,svc_l1,yes,no,,ABIDE,40,48,correlation,1500,no,147,yes,[ 0.64211335],roc_auc,6.0
+433,dictlearn,svc_l2,yes,no,,ABIDE,40,48,correlation,1500,no,147,yes,[ 0.667634],roc_auc,6.0
+434,dictlearn,ridge,yes,no,,ABIDE,40,48,correlation,1500,no,147,yes,[ 0.66515876],roc_auc,6.0
+435,dictlearn,svc_l1,yes,no,,ABIDE,40,48,partial correlation,1500,no,147,yes,[ 0.63741891],roc_auc,6.0
+436,dictlearn,svc_l2,yes,no,,ABIDE,40,48,partial correlation,1500,no,147,yes,[ 0.69972687],roc_auc,6.0
+437,dictlearn,ridge,yes,no,,ABIDE,40,48,partial correlation,1500,no,147,yes,[ 0.70083646],roc_auc,6.0
+438,dictlearn,svc_l1,yes,no,,ABIDE,40,48,tangent,1500,no,147,yes,[ 0.61736087],roc_auc,6.0
+439,dictlearn,svc_l2,yes,no,,ABIDE,40,48,tangent,1500,no,147,yes,[ 0.70749403],roc_auc,6.0
+440,dictlearn,ridge,yes,no,,ABIDE,40,48,tangent,1500,no,147,yes,[ 0.70664049],roc_auc,6.0
+441,dictlearn,svc_l1,yes,no,,ABIDE,40,49,correlation,1500,no,129,yes,[ 0.52756914],roc_auc,6.0
+442,dictlearn,svc_l2,yes,no,,ABIDE,40,49,correlation,1500,no,129,yes,[ 0.67924206],roc_auc,6.0
+443,dictlearn,ridge,yes,no,,ABIDE,40,49,correlation,1500,no,129,yes,[ 0.67864459],roc_auc,6.0
+444,dictlearn,svc_l1,yes,no,,ABIDE,40,49,partial correlation,1500,no,129,yes,[ 0.60532605],roc_auc,6.0
+445,dictlearn,svc_l2,yes,no,,ABIDE,40,49,partial correlation,1500,no,129,yes,[ 0.69895869],roc_auc,6.0
+446,dictlearn,ridge,yes,no,,ABIDE,40,49,partial correlation,1500,no,129,yes,[ 0.70109252],roc_auc,6.0
+447,dictlearn,svc_l1,yes,no,,ABIDE,40,49,tangent,1500,no,129,yes,[ 0.62273814],roc_auc,6.0
+448,dictlearn,svc_l2,yes,no,,ABIDE,40,49,tangent,1500,no,129,yes,[ 0.74402526],roc_auc,6.0
+449,dictlearn,ridge,yes,no,,ABIDE,40,49,tangent,1500,no,129,yes,[ 0.74163537],roc_auc,6.0
+450,dictlearn,svc_l1,yes,no,,ABIDE,40,50,correlation,1500,no,137,yes,[ 0.61940935],roc_auc,6.0
+451,dictlearn,svc_l2,yes,no,,ABIDE,40,50,correlation,1500,no,137,yes,[ 0.6270058],roc_auc,6.0
+452,dictlearn,ridge,yes,no,,ABIDE,40,50,correlation,1500,no,137,yes,[ 0.62632298],roc_auc,6.0
+453,dictlearn,svc_l1,yes,no,,ABIDE,40,50,partial correlation,1500,no,137,yes,[ 0.60472858],roc_auc,6.0
+454,dictlearn,svc_l2,yes,no,,ABIDE,40,50,partial correlation,1500,no,137,yes,[ 0.66669512],roc_auc,6.0
+455,dictlearn,ridge,yes,no,,ABIDE,40,50,partial correlation,1500,no,137,yes,[ 0.66814612],roc_auc,6.0
+456,dictlearn,svc_l1,yes,no,,ABIDE,40,50,tangent,1500,no,137,yes,[ 0.61019119],roc_auc,6.0
+457,dictlearn,svc_l2,yes,no,,ABIDE,40,50,tangent,1500,no,137,yes,[ 0.6839365],roc_auc,6.0
+458,dictlearn,ridge,yes,no,,ABIDE,40,50,tangent,1500,no,137,yes,[ 0.68547286],roc_auc,6.0
+459,dictlearn,svc_l1,yes,no,,ABIDE,40,51,correlation,1500,no,131,yes,[ 0.58270741],roc_auc,6.0
+460,dictlearn,svc_l2,yes,no,,ABIDE,40,51,correlation,1500,no,131,yes,[ 0.62564015],roc_auc,6.0
+461,dictlearn,ridge,yes,no,,ABIDE,40,51,correlation,1500,no,131,yes,[ 0.6229942],roc_auc,6.0
+462,dictlearn,svc_l1,yes,no,,ABIDE,40,51,partial correlation,1500,no,131,yes,[ 0.53610447],roc_auc,6.0
+463,dictlearn,svc_l2,yes,no,,ABIDE,40,51,partial correlation,1500,no,131,yes,[ 0.60967907],roc_auc,6.0
+464,dictlearn,ridge,yes,no,,ABIDE,40,51,partial correlation,1500,no,131,yes,[ 0.61087402],roc_auc,6.0
+465,dictlearn,svc_l1,yes,no,,ABIDE,40,51,tangent,1500,no,131,yes,[ 0.65278252],roc_auc,6.0
+466,dictlearn,svc_l2,yes,no,,ABIDE,40,51,tangent,1500,no,131,yes,[ 0.64134517],roc_auc,6.0
+467,dictlearn,ridge,yes,no,,ABIDE,40,51,tangent,1500,no,131,yes,[ 0.64143052],roc_auc,6.0
+468,dictlearn,svc_l1,yes,no,,ABIDE,40,52,correlation,1500,no,140,yes,[ 0.62564015],roc_auc,6.0
+469,dictlearn,svc_l2,yes,no,,ABIDE,40,52,correlation,1500,no,140,yes,[ 0.6597815],roc_auc,6.0
+470,dictlearn,ridge,yes,no,,ABIDE,40,52,correlation,1500,no,140,yes,[ 0.65269717],roc_auc,6.0
+471,dictlearn,svc_l1,yes,no,,ABIDE,40,52,partial correlation,1500,no,140,yes,[ 0.54924889],roc_auc,6.0
+472,dictlearn,svc_l2,yes,no,,ABIDE,40,52,partial correlation,1500,no,140,yes,[ 0.68248549],roc_auc,6.0
+473,dictlearn,ridge,yes,no,,ABIDE,40,52,partial correlation,1500,no,140,yes,[ 0.68205872],roc_auc,6.0
+474,dictlearn,svc_l1,yes,no,,ABIDE,40,52,tangent,1500,no,140,yes,[ 0.58919426],roc_auc,6.0
+475,dictlearn,svc_l2,yes,no,,ABIDE,40,52,tangent,1500,no,140,yes,[ 0.68692386],roc_auc,6.0
+476,dictlearn,ridge,yes,no,,ABIDE,40,52,tangent,1500,no,140,yes,[ 0.68496074],roc_auc,6.0
+477,dictlearn,svc_l1,yes,no,,ABIDE,40,53,correlation,1500,no,139,yes,[ 0.57058723],roc_auc,6.0
+478,dictlearn,svc_l2,yes,no,,ABIDE,40,53,correlation,1500,no,139,yes,[ 0.64757596],roc_auc,6.0
+479,dictlearn,ridge,yes,no,,ABIDE,40,53,correlation,1500,no,139,yes,[ 0.64288153],roc_auc,6.0
+480,dictlearn,svc_l1,yes,no,,ABIDE,40,53,partial correlation,1500,no,139,yes,[ 0.55633322],roc_auc,6.0
+481,dictlearn,svc_l2,yes,no,,ABIDE,40,53,partial correlation,1500,no,139,yes,[ 0.64697849],roc_auc,6.0
+482,dictlearn,ridge,yes,no,,ABIDE,40,53,partial correlation,1500,no,139,yes,[ 0.64689314],roc_auc,6.0
+483,dictlearn,svc_l1,yes,no,,ABIDE,40,53,tangent,1500,no,139,yes,[ 0.60677706],roc_auc,6.0
+484,dictlearn,svc_l2,yes,no,,ABIDE,40,53,tangent,1500,no,139,yes,[ 0.67079208],roc_auc,6.0
+485,dictlearn,ridge,yes,no,,ABIDE,40,53,tangent,1500,no,139,yes,[ 0.67053602],roc_auc,6.0
+486,dictlearn,svc_l1,yes,no,,ABIDE,40,54,correlation,1500,no,140,yes,[ 0.60950836],roc_auc,6.0
+487,dictlearn,svc_l2,yes,no,,ABIDE,40,54,correlation,1500,no,140,yes,[ 0.71423694],roc_auc,6.0
+488,dictlearn,ridge,yes,no,,ABIDE,40,54,correlation,1500,no,140,yes,[ 0.70885968],roc_auc,6.0
+489,dictlearn,svc_l1,yes,no,,ABIDE,40,54,partial correlation,1500,no,140,yes,[ 0.59149881],roc_auc,6.0
+490,dictlearn,svc_l2,yes,no,,ABIDE,40,54,partial correlation,1500,no,140,yes,[ 0.6625128],roc_auc,6.0
+491,dictlearn,ridge,yes,no,,ABIDE,40,54,partial correlation,1500,no,140,yes,[ 0.66182998],roc_auc,6.0
+492,dictlearn,svc_l1,yes,no,,ABIDE,40,54,tangent,1500,no,140,yes,[ 0.57570843],roc_auc,6.0
+493,dictlearn,svc_l2,yes,no,,ABIDE,40,54,tangent,1500,no,140,yes,[ 0.6967395],roc_auc,6.0
+494,dictlearn,ridge,yes,no,,ABIDE,40,54,tangent,1500,no,140,yes,[ 0.69759304],roc_auc,6.0
+495,dictlearn,svc_l1,yes,no,,ABIDE,40,55,correlation,1500,no,133,yes,[ 0.71082281],roc_auc,6.0
+496,dictlearn,svc_l2,yes,no,,ABIDE,40,55,correlation,1500,no,133,yes,[ 0.73881871],roc_auc,6.0
+497,dictlearn,ridge,yes,no,,ABIDE,40,55,correlation,1500,no,133,yes,[ 0.73762376],roc_auc,6.0
+498,dictlearn,svc_l1,yes,no,,ABIDE,40,55,partial correlation,1500,no,133,yes,[ 0.56905087],roc_auc,6.0
+499,dictlearn,svc_l2,yes,no,,ABIDE,40,55,partial correlation,1500,no,133,yes,[ 0.69733698],roc_auc,6.0
+500,dictlearn,ridge,yes,no,,ABIDE,40,55,partial correlation,1500,no,133,yes,[ 0.69836122],roc_auc,6.0
+501,dictlearn,svc_l1,yes,no,,ABIDE,40,55,tangent,1500,no,133,yes,[ 0.64117446],roc_auc,6.0
+502,dictlearn,svc_l2,yes,no,,ABIDE,40,55,tangent,1500,no,133,yes,[ 0.72285763],roc_auc,6.0
+503,dictlearn,ridge,yes,no,,ABIDE,40,55,tangent,1500,no,133,yes,[ 0.72302834],roc_auc,6.0
+504,dictlearn,svc_l1,yes,no,,ABIDE,40,56,correlation,1500,no,135,yes,[ 0.70715261],roc_auc,6.0
+505,dictlearn,svc_l2,yes,no,,ABIDE,40,56,correlation,1500,no,135,yes,[ 0.72038238],roc_auc,6.0
+506,dictlearn,ridge,yes,no,,ABIDE,40,56,correlation,1500,no,135,yes,[ 0.71406623],roc_auc,6.0
+507,dictlearn,svc_l1,yes,no,,ABIDE,40,56,partial correlation,1500,no,135,yes,[ 0.61667805],roc_auc,6.0
+508,dictlearn,svc_l2,yes,no,,ABIDE,40,56,partial correlation,1500,no,135,yes,[ 0.70954251],roc_auc,6.0
+509,dictlearn,ridge,yes,no,,ABIDE,40,56,partial correlation,1500,no,135,yes,[ 0.71244452],roc_auc,6.0
+510,dictlearn,svc_l1,yes,no,,ABIDE,40,56,tangent,1500,no,135,yes,[ 0.68974053],roc_auc,6.0
+511,dictlearn,svc_l2,yes,no,,ABIDE,40,56,tangent,1500,no,135,yes,[ 0.77074087],roc_auc,6.0
+512,dictlearn,ridge,yes,no,,ABIDE,40,56,tangent,1500,no,135,yes,[ 0.77074087],roc_auc,6.0
+513,dictlearn,svc_l1,yes,no,,ABIDE,40,57,correlation,1500,no,139,yes,[ 0.62854216],roc_auc,6.0
+514,dictlearn,svc_l2,yes,no,,ABIDE,40,57,correlation,1500,no,139,yes,[ 0.6610618],roc_auc,6.0
+515,dictlearn,ridge,yes,no,,ABIDE,40,57,correlation,1500,no,139,yes,[ 0.6586719],roc_auc,6.0
+516,dictlearn,svc_l1,yes,no,,ABIDE,40,57,partial correlation,1500,no,139,yes,[ 0.59653465],roc_auc,6.0
+517,dictlearn,svc_l2,yes,no,,ABIDE,40,57,partial correlation,1500,no,139,yes,[ 0.66695118],roc_auc,6.0
+518,dictlearn,ridge,yes,no,,ABIDE,40,57,partial correlation,1500,no,139,yes,[ 0.66848754],roc_auc,6.0
+519,dictlearn,svc_l1,yes,no,,ABIDE,40,57,tangent,1500,no,139,yes,[ 0.65670877],roc_auc,6.0
+520,dictlearn,svc_l2,yes,no,,ABIDE,40,57,tangent,1500,no,139,yes,[ 0.66882895],roc_auc,6.0
+521,dictlearn,ridge,yes,no,,ABIDE,40,57,tangent,1500,no,139,yes,[ 0.6687436],roc_auc,6.0
+522,dictlearn,svc_l1,yes,no,,ABIDE,40,58,correlation,1500,no,135,yes,[ 0.63537043],roc_auc,6.0
+523,dictlearn,svc_l2,yes,no,,ABIDE,40,58,correlation,1500,no,135,yes,[ 0.6573916],roc_auc,6.0
+524,dictlearn,ridge,yes,no,,ABIDE,40,58,correlation,1500,no,135,yes,[ 0.65926938],roc_auc,6.0
+525,dictlearn,svc_l1,yes,no,,ABIDE,40,58,partial correlation,1500,no,135,yes,[ 0.60916695],roc_auc,6.0
+526,dictlearn,svc_l2,yes,no,,ABIDE,40,58,partial correlation,1500,no,135,yes,[ 0.65781837],roc_auc,6.0
+527,dictlearn,ridge,yes,no,,ABIDE,40,58,partial correlation,1500,no,135,yes,[ 0.65653807],roc_auc,6.0
+528,dictlearn,svc_l1,yes,no,,ABIDE,40,58,tangent,1500,no,135,yes,[ 0.61044725],roc_auc,6.0
+529,dictlearn,svc_l2,yes,no,,ABIDE,40,58,tangent,1500,no,135,yes,[ 0.66720724],roc_auc,6.0
+530,dictlearn,ridge,yes,no,,ABIDE,40,58,tangent,1500,no,135,yes,[ 0.66857289],roc_auc,6.0
+531,dictlearn,svc_l1,yes,no,,ABIDE,40,59,correlation,1500,no,145,yes,[ 0.61881188],roc_auc,6.0
+532,dictlearn,svc_l2,yes,no,,ABIDE,40,59,correlation,1500,no,145,yes,[ 0.64723455],roc_auc,6.0
+533,dictlearn,ridge,yes,no,,ABIDE,40,59,correlation,1500,no,145,yes,[ 0.64373506],roc_auc,6.0
+534,dictlearn,svc_l1,yes,no,,ABIDE,40,59,partial correlation,1500,no,145,yes,[ 0.58646296],roc_auc,6.0
+535,dictlearn,svc_l2,yes,no,,ABIDE,40,59,partial correlation,1500,no,145,yes,[ 0.6281154],roc_auc,6.0
+536,dictlearn,ridge,yes,no,,ABIDE,40,59,partial correlation,1500,no,145,yes,[ 0.63050529],roc_auc,6.0
+537,dictlearn,svc_l1,yes,no,,ABIDE,40,59,tangent,1500,no,145,yes,[ 0.66413452],roc_auc,6.0
+538,dictlearn,svc_l2,yes,no,,ABIDE,40,59,tangent,1500,no,145,yes,[ 0.66191533],roc_auc,6.0
+539,dictlearn,ridge,yes,no,,ABIDE,40,59,tangent,1500,no,145,yes,[ 0.66148856],roc_auc,6.0
+540,dictlearn,svc_l1,yes,no,,ABIDE,40,60,correlation,1500,no,138,yes,[ 0.62990782],roc_auc,6.0
+541,dictlearn,svc_l2,yes,no,,ABIDE,40,60,correlation,1500,no,138,yes,[ 0.66857289],roc_auc,6.0
+542,dictlearn,ridge,yes,no,,ABIDE,40,60,correlation,1500,no,138,yes,[ 0.66430522],roc_auc,6.0
+543,dictlearn,svc_l1,yes,no,,ABIDE,40,60,partial correlation,1500,no,138,yes,[ 0.55146808],roc_auc,6.0
+544,dictlearn,svc_l2,yes,no,,ABIDE,40,60,partial correlation,1500,no,138,yes,[ 0.61095937],roc_auc,6.0
+545,dictlearn,ridge,yes,no,,ABIDE,40,60,partial correlation,1500,no,138,yes,[ 0.61147149],roc_auc,6.0
+546,dictlearn,svc_l1,yes,no,,ABIDE,40,60,tangent,1500,no,138,yes,[ 0.62546944],roc_auc,6.0
+547,dictlearn,svc_l2,yes,no,,ABIDE,40,60,tangent,1500,no,138,yes,[ 0.66328098],roc_auc,6.0
+548,dictlearn,ridge,yes,no,,ABIDE,40,60,tangent,1500,no,138,yes,[ 0.66430522],roc_auc,6.0
+549,dictlearn,svc_l1,yes,no,,ABIDE,40,61,correlation,1500,no,137,yes,[ 0.60489928],roc_auc,6.0
+550,dictlearn,svc_l2,yes,no,,ABIDE,40,61,correlation,1500,no,137,yes,[ 0.64928303],roc_auc,6.0
+551,dictlearn,ridge,yes,no,,ABIDE,40,61,correlation,1500,no,137,yes,[ 0.64851485],roc_auc,6.0
+552,dictlearn,svc_l1,yes,no,,ABIDE,40,61,partial correlation,1500,no,137,yes,[ 0.54540799],roc_auc,6.0
+553,dictlearn,svc_l2,yes,no,,ABIDE,40,61,partial correlation,1500,no,137,yes,[ 0.67369409],roc_auc,6.0
+554,dictlearn,ridge,yes,no,,ABIDE,40,61,partial correlation,1500,no,137,yes,[ 0.67557187],roc_auc,6.0
+555,dictlearn,svc_l1,yes,no,,ABIDE,40,61,tangent,1500,no,137,yes,[ 0.59431547],roc_auc,6.0
+556,dictlearn,svc_l2,yes,no,,ABIDE,40,61,tangent,1500,no,137,yes,[ 0.67087743],roc_auc,6.0
+557,dictlearn,ridge,yes,no,,ABIDE,40,61,tangent,1500,no,137,yes,[ 0.67121885],roc_auc,6.0
+558,dictlearn,svc_l1,yes,no,,ABIDE,40,62,correlation,1500,no,153,yes,[ 0.63682144],roc_auc,6.0
+559,dictlearn,svc_l2,yes,no,,ABIDE,40,62,correlation,1500,no,153,yes,[ 0.65192899],roc_auc,6.0
+560,dictlearn,ridge,yes,no,,ABIDE,40,62,correlation,1500,no,153,yes,[ 0.65397747],roc_auc,6.0
+561,dictlearn,svc_l1,yes,no,,ABIDE,40,62,partial correlation,1500,no,153,yes,[ 0.58782861],roc_auc,6.0
+562,dictlearn,svc_l2,yes,no,,ABIDE,40,62,partial correlation,1500,no,153,yes,[ 0.62871287],roc_auc,6.0
+563,dictlearn,ridge,yes,no,,ABIDE,40,62,partial correlation,1500,no,153,yes,[ 0.63016388],roc_auc,6.0
+564,dictlearn,svc_l1,yes,no,,ABIDE,40,62,tangent,1500,no,153,yes,[ 0.63519973],roc_auc,6.0
+565,dictlearn,svc_l2,yes,no,,ABIDE,40,62,tangent,1500,no,153,yes,[ 0.68368044],roc_auc,6.0
+566,dictlearn,ridge,yes,no,,ABIDE,40,62,tangent,1500,no,153,yes,[ 0.68402185],roc_auc,6.0
+567,dictlearn,svc_l1,yes,no,,ABIDE,40,63,correlation,1500,no,138,yes,[ 0.68786275],roc_auc,6.0
+568,dictlearn,svc_l2,yes,no,,ABIDE,40,63,correlation,1500,no,138,yes,[ 0.7181632],roc_auc,6.0
+569,dictlearn,ridge,yes,no,,ABIDE,40,63,correlation,1500,no,138,yes,[ 0.71867532],roc_auc,6.0
+570,dictlearn,svc_l1,yes,no,,ABIDE,40,63,partial correlation,1500,no,138,yes,[ 0.61130079],roc_auc,6.0
+571,dictlearn,svc_l2,yes,no,,ABIDE,40,63,partial correlation,1500,no,138,yes,[ 0.64364971],roc_auc,6.0
+572,dictlearn,ridge,yes,no,,ABIDE,40,63,partial correlation,1500,no,138,yes,[ 0.6433083],roc_auc,6.0
+573,dictlearn,svc_l1,yes,no,,ABIDE,40,63,tangent,1500,no,138,yes,[ 0.65841584],roc_auc,6.0
+574,dictlearn,svc_l2,yes,no,,ABIDE,40,63,tangent,1500,no,138,yes,[ 0.70049505],roc_auc,6.0
+575,dictlearn,ridge,yes,no,,ABIDE,40,63,tangent,1500,no,138,yes,[ 0.70126323],roc_auc,6.0
+576,dictlearn,svc_l1,yes,no,,ABIDE,40,64,correlation,1500,no,138,yes,[ 0.59209628],roc_auc,6.0
+577,dictlearn,svc_l2,yes,no,,ABIDE,40,64,correlation,1500,no,138,yes,[ 0.65747695],roc_auc,6.0
+578,dictlearn,ridge,yes,no,,ABIDE,40,64,correlation,1500,no,138,yes,[ 0.66029362],roc_auc,6.0
+579,dictlearn,svc_l1,yes,no,,ABIDE,40,64,partial correlation,1500,no,138,yes,[ 0.59593718],roc_auc,6.0
+580,dictlearn,svc_l2,yes,no,,ABIDE,40,64,partial correlation,1500,no,138,yes,[ 0.66780471],roc_auc,6.0
+581,dictlearn,ridge,yes,no,,ABIDE,40,64,partial correlation,1500,no,138,yes,[ 0.66985319],roc_auc,6.0
+582,dictlearn,svc_l1,yes,no,,ABIDE,40,64,tangent,1500,no,138,yes,[ 0.62615227],roc_auc,6.0
+583,dictlearn,svc_l2,yes,no,,ABIDE,40,64,tangent,1500,no,138,yes,[ 0.69008194],roc_auc,6.0
+584,dictlearn,ridge,yes,no,,ABIDE,40,64,tangent,1500,no,138,yes,[ 0.69204507],roc_auc,6.0
+585,dictlearn,svc_l1,yes,no,,ABIDE,40,65,correlation,1500,no,135,yes,[ 0.65764766],roc_auc,6.0
+586,dictlearn,svc_l2,yes,no,,ABIDE,40,65,correlation,1500,no,135,yes,[ 0.67488904],roc_auc,6.0
+587,dictlearn,ridge,yes,no,,ABIDE,40,65,correlation,1500,no,135,yes,[ 0.66993855],roc_auc,6.0
+588,dictlearn,svc_l1,yes,no,,ABIDE,40,65,partial correlation,1500,no,135,yes,[ 0.60950836],roc_auc,6.0
+589,dictlearn,svc_l2,yes,no,,ABIDE,40,65,partial correlation,1500,no,135,yes,[ 0.71355411],roc_auc,6.0
+590,dictlearn,ridge,yes,no,,ABIDE,40,65,partial correlation,1500,no,135,yes,[ 0.71474906],roc_auc,6.0
+591,dictlearn,svc_l1,yes,no,,ABIDE,40,65,tangent,1500,no,135,yes,[ 0.63170024],roc_auc,6.0
+592,dictlearn,svc_l2,yes,no,,ABIDE,40,65,tangent,1500,no,135,yes,[ 0.76527825],roc_auc,6.0
+593,dictlearn,ridge,yes,no,,ABIDE,40,65,tangent,1500,no,135,yes,[ 0.76510755],roc_auc,6.0
+594,dictlearn,svc_l1,yes,no,,ABIDE,40,66,correlation,1500,no,137,yes,[ 0.62111642],roc_auc,6.0
+595,dictlearn,svc_l2,yes,no,,ABIDE,40,66,correlation,1500,no,137,yes,[ 0.66857289],roc_auc,6.0
+596,dictlearn,ridge,yes,no,,ABIDE,40,66,correlation,1500,no,137,yes,[ 0.65944008],roc_auc,6.0
+597,dictlearn,svc_l1,yes,no,,ABIDE,40,66,partial correlation,1500,no,137,yes,[ 0.58296347],roc_auc,6.0
+598,dictlearn,svc_l2,yes,no,,ABIDE,40,66,partial correlation,1500,no,137,yes,[ 0.68359508],roc_auc,6.0
+599,dictlearn,ridge,yes,no,,ABIDE,40,66,partial correlation,1500,no,137,yes,[ 0.68342438],roc_auc,6.0
+600,dictlearn,svc_l1,yes,no,,ABIDE,40,66,tangent,1500,no,137,yes,[ 0.62077501],roc_auc,6.0
+601,dictlearn,svc_l2,yes,no,,ABIDE,40,66,tangent,1500,no,137,yes,[ 0.6980198],roc_auc,6.0
+602,dictlearn,ridge,yes,no,,ABIDE,40,66,tangent,1500,no,137,yes,[ 0.69682485],roc_auc,6.0
+603,dictlearn,svc_l1,yes,no,,ABIDE,40,67,correlation,1500,no,144,yes,[ 0.60763059],roc_auc,6.0
+604,dictlearn,svc_l2,yes,no,,ABIDE,40,67,correlation,1500,no,144,yes,[ 0.66225674],roc_auc,6.0
+605,dictlearn,ridge,yes,no,,ABIDE,40,67,correlation,1500,no,144,yes,[ 0.66660976],roc_auc,6.0
+606,dictlearn,svc_l1,yes,no,,ABIDE,40,67,partial correlation,1500,no,144,yes,[ 0.52202117],roc_auc,6.0
+607,dictlearn,svc_l2,yes,no,,ABIDE,40,67,partial correlation,1500,no,144,yes,[ 0.61189826],roc_auc,6.0
+608,dictlearn,ridge,yes,no,,ABIDE,40,67,partial correlation,1500,no,144,yes,[ 0.61394674],roc_auc,6.0
+609,dictlearn,svc_l1,yes,no,,ABIDE,40,67,tangent,1500,no,144,yes,[ 0.57144076],roc_auc,6.0
+610,dictlearn,svc_l2,yes,no,,ABIDE,40,67,tangent,1500,no,144,yes,[ 0.62990782],roc_auc,6.0
+611,dictlearn,ridge,yes,no,,ABIDE,40,67,tangent,1500,no,144,yes,[ 0.63033459],roc_auc,6.0
+612,dictlearn,svc_l1,yes,no,,ABIDE,40,68,correlation,1500,no,134,yes,[ 0.6229942],roc_auc,6.0
+613,dictlearn,svc_l2,yes,no,,ABIDE,40,68,correlation,1500,no,134,yes,[ 0.65508706],roc_auc,6.0
+614,dictlearn,ridge,yes,no,,ABIDE,40,68,correlation,1500,no,134,yes,[ 0.6522704],roc_auc,6.0
+615,dictlearn,svc_l1,yes,no,,ABIDE,40,68,partial correlation,1500,no,134,yes,[ 0.59269375],roc_auc,6.0
+616,dictlearn,svc_l2,yes,no,,ABIDE,40,68,partial correlation,1500,no,134,yes,[ 0.65687948],roc_auc,6.0
+617,dictlearn,ridge,yes,no,,ABIDE,40,68,partial correlation,1500,no,134,yes,[ 0.6586719],roc_auc,6.0
+618,dictlearn,svc_l1,yes,no,,ABIDE,40,68,tangent,1500,no,134,yes,[ 0.61130079],roc_auc,6.0
+619,dictlearn,svc_l2,yes,no,,ABIDE,40,68,tangent,1500,no,134,yes,[ 0.66311028],roc_auc,6.0
+620,dictlearn,ridge,yes,no,,ABIDE,40,68,tangent,1500,no,134,yes,[ 0.66174462],roc_auc,6.0
+621,dictlearn,svc_l1,yes,no,,ABIDE,40,69,correlation,1500,no,138,yes,[ 0.61437351],roc_auc,6.0
+622,dictlearn,svc_l2,yes,no,,ABIDE,40,69,correlation,1500,no,138,yes,[ 0.6841072],roc_auc,6.0
+623,dictlearn,ridge,yes,no,,ABIDE,40,69,correlation,1500,no,138,yes,[ 0.68530215],roc_auc,6.0
+624,dictlearn,svc_l1,yes,no,,ABIDE,40,69,partial correlation,1500,no,138,yes,[ 0.57459884],roc_auc,6.0
+625,dictlearn,svc_l2,yes,no,,ABIDE,40,69,partial correlation,1500,no,138,yes,[ 0.6484295],roc_auc,6.0
+626,dictlearn,ridge,yes,no,,ABIDE,40,69,partial correlation,1500,no,138,yes,[ 0.64996586],roc_auc,6.0
+627,dictlearn,svc_l1,yes,no,,ABIDE,40,69,tangent,1500,no,138,yes,[ 0.60933766],roc_auc,6.0
+628,dictlearn,svc_l2,yes,no,,ABIDE,40,69,tangent,1500,no,138,yes,[ 0.70169],roc_auc,6.0
+629,dictlearn,ridge,yes,no,,ABIDE,40,69,tangent,1500,no,138,yes,[ 0.70109252],roc_auc,6.0
+630,dictlearn,svc_l1,yes,no,,ABIDE,40,70,correlation,1500,no,146,yes,[ 0.71073745],roc_auc,6.0
+631,dictlearn,svc_l2,yes,no,,ABIDE,40,70,correlation,1500,no,146,yes,[ 0.71048139],roc_auc,6.0
+632,dictlearn,ridge,yes,no,,ABIDE,40,70,correlation,1500,no,146,yes,[ 0.70638443],roc_auc,6.0
+633,dictlearn,svc_l1,yes,no,,ABIDE,40,70,partial correlation,1500,no,146,yes,[ 0.57784227],roc_auc,6.0
+634,dictlearn,svc_l2,yes,no,,ABIDE,40,70,partial correlation,1500,no,146,yes,[ 0.68419256],roc_auc,6.0
+635,dictlearn,ridge,yes,no,,ABIDE,40,70,partial correlation,1500,no,146,yes,[ 0.68470468],roc_auc,6.0
+636,dictlearn,svc_l1,yes,no,,ABIDE,40,70,tangent,1500,no,146,yes,[ 0.58518266],roc_auc,6.0
+637,dictlearn,svc_l2,yes,no,,ABIDE,40,70,tangent,1500,no,146,yes,[ 0.71637078],roc_auc,6.0
+638,dictlearn,ridge,yes,no,,ABIDE,40,70,tangent,1500,no,146,yes,[ 0.71671219],roc_auc,6.0
+639,dictlearn,svc_l1,yes,no,,ABIDE,40,71,correlation,1500,no,135,yes,[ 0.69597132],roc_auc,6.0
+640,dictlearn,svc_l2,yes,no,,ABIDE,40,71,correlation,1500,no,135,yes,[ 0.66370775],roc_auc,6.0
+641,dictlearn,ridge,yes,no,,ABIDE,40,71,correlation,1500,no,135,yes,[ 0.66037897],roc_auc,6.0
+642,dictlearn,svc_l1,yes,no,,ABIDE,40,71,partial correlation,1500,no,135,yes,[ 0.60361898],roc_auc,6.0
+643,dictlearn,svc_l2,yes,no,,ABIDE,40,71,partial correlation,1500,no,135,yes,[ 0.65730625],roc_auc,6.0
+644,dictlearn,ridge,yes,no,,ABIDE,40,71,partial correlation,1500,no,135,yes,[ 0.65705019],roc_auc,6.0
+645,dictlearn,svc_l1,yes,no,,ABIDE,40,71,tangent,1500,no,135,yes,[ 0.63178559],roc_auc,6.0
+646,dictlearn,svc_l2,yes,no,,ABIDE,40,71,tangent,1500,no,135,yes,[ 0.71406623],roc_auc,6.0
+647,dictlearn,ridge,yes,no,,ABIDE,40,71,tangent,1500,no,135,yes,[ 0.71235917],roc_auc,6.0
+648,dictlearn,svc_l1,yes,no,,ABIDE,40,72,correlation,1500,no,142,yes,[ 0.65184363],roc_auc,6.0
+649,dictlearn,svc_l2,yes,no,,ABIDE,40,72,correlation,1500,no,142,yes,[ 0.6054114],roc_auc,6.0
+650,dictlearn,ridge,yes,no,,ABIDE,40,72,correlation,1500,no,142,yes,[ 0.60464322],roc_auc,6.0
+651,dictlearn,svc_l1,yes,no,,ABIDE,40,72,partial correlation,1500,no,142,yes,[ 0.58245135],roc_auc,6.0
+652,dictlearn,svc_l2,yes,no,,ABIDE,40,72,partial correlation,1500,no,142,yes,[ 0.60891089],roc_auc,6.0
+653,dictlearn,ridge,yes,no,,ABIDE,40,72,partial correlation,1500,no,142,yes,[ 0.6105326],roc_auc,6.0
+654,dictlearn,svc_l1,yes,no,,ABIDE,40,72,tangent,1500,no,142,yes,[ 0.57587914],roc_auc,6.0
+655,dictlearn,svc_l2,yes,no,,ABIDE,40,72,tangent,1500,no,142,yes,[ 0.62743257],roc_auc,6.0
+656,dictlearn,ridge,yes,no,,ABIDE,40,72,tangent,1500,no,142,yes,[ 0.62760328],roc_auc,6.0
+657,dictlearn,svc_l1,yes,no,,ABIDE,40,73,correlation,1500,no,138,yes,[ 0.61847047],roc_auc,6.0
+658,dictlearn,svc_l2,yes,no,,ABIDE,40,73,correlation,1500,no,138,yes,[ 0.65730625],roc_auc,6.0
+659,dictlearn,ridge,yes,no,,ABIDE,40,73,correlation,1500,no,138,yes,[ 0.65500171],roc_auc,6.0
+660,dictlearn,svc_l1,yes,no,,ABIDE,40,73,partial correlation,1500,no,138,yes,[ 0.56401502],roc_auc,6.0
+661,dictlearn,svc_l2,yes,no,,ABIDE,40,73,partial correlation,1500,no,138,yes,[ 0.62973711],roc_auc,6.0
+662,dictlearn,ridge,yes,no,,ABIDE,40,73,partial correlation,1500,no,138,yes,[ 0.63135883],roc_auc,6.0
+663,dictlearn,svc_l1,yes,no,,ABIDE,40,73,tangent,1500,no,138,yes,[ 0.58074428],roc_auc,6.0
+664,dictlearn,svc_l2,yes,no,,ABIDE,40,73,tangent,1500,no,138,yes,[ 0.68658245],roc_auc,6.0
+665,dictlearn,ridge,yes,no,,ABIDE,40,73,tangent,1500,no,138,yes,[ 0.68632639],roc_auc,6.0
+666,dictlearn,svc_l1,yes,no,,ABIDE,40,74,correlation,1500,no,147,yes,[ 0.50921816],roc_auc,6.0
+667,dictlearn,svc_l2,yes,no,,ABIDE,40,74,correlation,1500,no,147,yes,[ 0.59107204],roc_auc,6.0
+668,dictlearn,ridge,yes,no,,ABIDE,40,74,correlation,1500,no,147,yes,[ 0.58390236],roc_auc,6.0
+669,dictlearn,svc_l1,yes,no,,ABIDE,40,74,partial correlation,1500,no,147,yes,[ 0.52509389],roc_auc,6.0
+670,dictlearn,svc_l2,yes,no,,ABIDE,40,74,partial correlation,1500,no,147,yes,[ 0.63229771],roc_auc,6.0
+671,dictlearn,ridge,yes,no,,ABIDE,40,74,partial correlation,1500,no,147,yes,[ 0.63298054],roc_auc,6.0
+672,dictlearn,svc_l1,yes,no,,ABIDE,40,74,tangent,1500,no,147,yes,[ 0.51288836],roc_auc,6.0
+673,dictlearn,svc_l2,yes,no,,ABIDE,40,74,tangent,1500,no,147,yes,[ 0.64032093],roc_auc,6.0
+674,dictlearn,ridge,yes,no,,ABIDE,40,74,tangent,1500,no,147,yes,[ 0.63810174],roc_auc,6.0
+675,dictlearn,svc_l1,yes,no,,ABIDE,40,75,correlation,1500,no,143,yes,[ 0.64680778],roc_auc,6.0
+676,dictlearn,svc_l2,yes,no,,ABIDE,40,75,correlation,1500,no,143,yes,[ 0.70450666],roc_auc,6.0
+677,dictlearn,ridge,yes,no,,ABIDE,40,75,correlation,1500,no,143,yes,[ 0.70450666],roc_auc,6.0
+678,dictlearn,svc_l1,yes,no,,ABIDE,40,75,partial correlation,1500,no,143,yes,[ 0.5863776],roc_auc,6.0
+679,dictlearn,svc_l2,yes,no,,ABIDE,40,75,partial correlation,1500,no,143,yes,[ 0.64936839],roc_auc,6.0
+680,dictlearn,ridge,yes,no,,ABIDE,40,75,partial correlation,1500,no,143,yes,[ 0.65030727],roc_auc,6.0
+681,dictlearn,svc_l1,yes,no,,ABIDE,40,75,tangent,1500,no,143,yes,[ 0.61949471],roc_auc,6.0
+682,dictlearn,svc_l2,yes,no,,ABIDE,40,75,tangent,1500,no,143,yes,[ 0.70390918],roc_auc,6.0
+683,dictlearn,ridge,yes,no,,ABIDE,40,75,tangent,1500,no,143,yes,[ 0.70646978],roc_auc,6.0
+684,dictlearn,svc_l1,yes,no,,ABIDE,40,76,correlation,1500,no,138,yes,[ 0.65628201],roc_auc,6.0
+685,dictlearn,svc_l2,yes,no,,ABIDE,40,76,correlation,1500,no,138,yes,[ 0.66737794],roc_auc,6.0
+686,dictlearn,ridge,yes,no,,ABIDE,40,76,correlation,1500,no,138,yes,[ 0.66695118],roc_auc,6.0
+687,dictlearn,svc_l1,yes,no,,ABIDE,40,76,partial correlation,1500,no,138,yes,[ 0.60694776],roc_auc,6.0
+688,dictlearn,svc_l2,yes,no,,ABIDE,40,76,partial correlation,1500,no,138,yes,[ 0.68863093],roc_auc,6.0
+689,dictlearn,ridge,yes,no,,ABIDE,40,76,partial correlation,1500,no,138,yes,[ 0.68999659],roc_auc,6.0
+690,dictlearn,svc_l1,yes,no,,ABIDE,40,76,tangent,1500,no,138,yes,[ 0.62384773],roc_auc,6.0
+691,dictlearn,svc_l2,yes,no,,ABIDE,40,76,tangent,1500,no,138,yes,[ 0.70484807],roc_auc,6.0
+692,dictlearn,ridge,yes,no,,ABIDE,40,76,tangent,1500,no,138,yes,[ 0.70646978],roc_auc,6.0
+693,dictlearn,svc_l1,yes,no,,ABIDE,40,77,correlation,1500,no,138,yes,[ 0.70211676],roc_auc,6.0
+694,dictlearn,svc_l2,yes,no,,ABIDE,40,77,correlation,1500,no,138,yes,[ 0.68769205],roc_auc,6.0
+695,dictlearn,ridge,yes,no,,ABIDE,40,77,correlation,1500,no,138,yes,[ 0.68828952],roc_auc,6.0
+696,dictlearn,svc_l1,yes,no,,ABIDE,40,77,partial correlation,1500,no,138,yes,[ 0.62248208],roc_auc,6.0
+697,dictlearn,svc_l2,yes,no,,ABIDE,40,77,partial correlation,1500,no,138,yes,[ 0.71227381],roc_auc,6.0
+698,dictlearn,ridge,yes,no,,ABIDE,40,77,partial correlation,1500,no,138,yes,[ 0.71218846],roc_auc,6.0
+699,dictlearn,svc_l1,yes,no,,ABIDE,40,77,tangent,1500,no,138,yes,[ 0.64800273],roc_auc,6.0
+700,dictlearn,svc_l2,yes,no,,ABIDE,40,77,tangent,1500,no,138,yes,[ 0.71611471],roc_auc,6.0
+701,dictlearn,ridge,yes,no,,ABIDE,40,77,tangent,1500,no,138,yes,[ 0.71654148],roc_auc,6.0
+702,dictlearn,svc_l1,yes,no,,ABIDE,40,78,correlation,1500,no,139,yes,[ 0.63434619],roc_auc,6.0
+703,dictlearn,svc_l2,yes,no,,ABIDE,40,78,correlation,1500,no,139,yes,[ 0.66421987],roc_auc,6.0
+704,dictlearn,ridge,yes,no,,ABIDE,40,78,correlation,1500,no,139,yes,[ 0.66353704],roc_auc,6.0
+705,dictlearn,svc_l1,yes,no,,ABIDE,40,78,partial correlation,1500,no,139,yes,[ 0.53192216],roc_auc,6.0
+706,dictlearn,svc_l2,yes,no,,ABIDE,40,78,partial correlation,1500,no,139,yes,[ 0.5761352],roc_auc,6.0
+707,dictlearn,ridge,yes,no,,ABIDE,40,78,partial correlation,1500,no,139,yes,[ 0.5786958],roc_auc,6.0
+708,dictlearn,svc_l1,yes,no,,ABIDE,40,78,tangent,1500,no,139,yes,[ 0.56572209],roc_auc,6.0
+709,dictlearn,svc_l2,yes,no,,ABIDE,40,78,tangent,1500,no,139,yes,[ 0.62000683],roc_auc,6.0
+710,dictlearn,ridge,yes,no,,ABIDE,40,78,tangent,1500,no,139,yes,[ 0.61992147],roc_auc,6.0
+711,dictlearn,svc_l1,yes,no,,ABIDE,40,79,correlation,1500,no,141,yes,[ 0.68240014],roc_auc,6.0
+712,dictlearn,svc_l2,yes,no,,ABIDE,40,79,correlation,1500,no,141,yes,[ 0.71159099],roc_auc,6.0
+713,dictlearn,ridge,yes,no,,ABIDE,40,79,correlation,1500,no,141,yes,[ 0.70817685],roc_auc,6.0
+714,dictlearn,svc_l1,yes,no,,ABIDE,40,79,partial correlation,1500,no,141,yes,[ 0.53823831],roc_auc,6.0
+715,dictlearn,svc_l2,yes,no,,ABIDE,40,79,partial correlation,1500,no,141,yes,[ 0.68572892],roc_auc,6.0
+716,dictlearn,ridge,yes,no,,ABIDE,40,79,partial correlation,1500,no,141,yes,[ 0.68572892],roc_auc,6.0
+717,dictlearn,svc_l1,yes,no,,ABIDE,40,79,tangent,1500,no,141,yes,[ 0.62862752],roc_auc,6.0
+718,dictlearn,svc_l2,yes,no,,ABIDE,40,79,tangent,1500,no,141,yes,[ 0.73770912],roc_auc,6.0
+719,dictlearn,ridge,yes,no,,ABIDE,40,79,tangent,1500,no,141,yes,[ 0.73642882],roc_auc,6.0
+720,dictlearn,svc_l1,yes,no,,ABIDE,40,80,correlation,1500,no,138,yes,[ 0.67403551],roc_auc,6.0
+721,dictlearn,svc_l2,yes,no,,ABIDE,40,80,correlation,1500,no,138,yes,[ 0.65005121],roc_auc,6.0
+722,dictlearn,ridge,yes,no,,ABIDE,40,80,correlation,1500,no,138,yes,[ 0.64484466],roc_auc,6.0
+723,dictlearn,svc_l1,yes,no,,ABIDE,40,80,partial correlation,1500,no,138,yes,[ 0.62128713],roc_auc,6.0
+724,dictlearn,svc_l2,yes,no,,ABIDE,40,80,partial correlation,1500,no,138,yes,[ 0.68914305],roc_auc,6.0
+725,dictlearn,ridge,yes,no,,ABIDE,40,80,partial correlation,1500,no,138,yes,[ 0.69025265],roc_auc,6.0
+726,dictlearn,svc_l1,yes,no,,ABIDE,40,80,tangent,1500,no,138,yes,[ 0.59568112],roc_auc,6.0
+727,dictlearn,svc_l2,yes,no,,ABIDE,40,80,tangent,1500,no,138,yes,[ 0.7042506],roc_auc,6.0
+728,dictlearn,ridge,yes,no,,ABIDE,40,80,tangent,1500,no,138,yes,[ 0.70416524],roc_auc,6.0
+729,dictlearn,svc_l1,yes,no,,ABIDE,40,81,correlation,1500,no,133,yes,[ 0.57365995],roc_auc,6.0
+730,dictlearn,svc_l2,yes,no,,ABIDE,40,81,correlation,1500,no,133,yes,[ 0.59499829],roc_auc,6.0
+731,dictlearn,ridge,yes,no,,ABIDE,40,81,correlation,1500,no,133,yes,[ 0.5913281],roc_auc,6.0
+732,dictlearn,svc_l1,yes,no,,ABIDE,40,81,partial correlation,1500,no,133,yes,[ 0.6217139],roc_auc,6.0
+733,dictlearn,svc_l2,yes,no,,ABIDE,40,81,partial correlation,1500,no,133,yes,[ 0.68052236],roc_auc,6.0
+734,dictlearn,ridge,yes,no,,ABIDE,40,81,partial correlation,1500,no,133,yes,[ 0.68111984],roc_auc,6.0
+735,dictlearn,svc_l1,yes,no,,ABIDE,40,81,tangent,1500,no,133,yes,[ 0.63306589],roc_auc,6.0
+736,dictlearn,svc_l2,yes,no,,ABIDE,40,81,tangent,1500,no,133,yes,[ 0.65713554],roc_auc,6.0
+737,dictlearn,ridge,yes,no,,ABIDE,40,81,tangent,1500,no,133,yes,[ 0.65722089],roc_auc,6.0
+738,dictlearn,svc_l1,yes,no,,ABIDE,40,82,correlation,1500,no,147,yes,[ 0.58100034],roc_auc,6.0
+739,dictlearn,svc_l2,yes,no,,ABIDE,40,82,correlation,1500,no,147,yes,[ 0.64723455],roc_auc,6.0
+740,dictlearn,ridge,yes,no,,ABIDE,40,82,correlation,1500,no,147,yes,[ 0.64979515],roc_auc,6.0
+741,dictlearn,svc_l1,yes,no,,ABIDE,40,82,partial correlation,1500,no,147,yes,[ 0.57886651],roc_auc,6.0
+742,dictlearn,svc_l2,yes,no,,ABIDE,40,82,partial correlation,1500,no,147,yes,[ 0.66353704],roc_auc,6.0
+743,dictlearn,ridge,yes,no,,ABIDE,40,82,partial correlation,1500,no,147,yes,[ 0.66456128],roc_auc,6.0
+744,dictlearn,svc_l1,yes,no,,ABIDE,40,82,tangent,1500,no,147,yes,[ 0.5761352],roc_auc,6.0
+745,dictlearn,svc_l2,yes,no,,ABIDE,40,82,tangent,1500,no,147,yes,[ 0.68077842],roc_auc,6.0
+746,dictlearn,ridge,yes,no,,ABIDE,40,82,tangent,1500,no,147,yes,[ 0.68129054],roc_auc,6.0
+747,dictlearn,svc_l1,yes,no,,ABIDE,40,83,correlation,1500,no,143,yes,[ 0.63528508],roc_auc,6.0
+748,dictlearn,svc_l2,yes,no,,ABIDE,40,83,correlation,1500,no,143,yes,[ 0.65798907],roc_auc,6.0
+749,dictlearn,ridge,yes,no,,ABIDE,40,83,correlation,1500,no,143,yes,[ 0.65525777],roc_auc,6.0
+750,dictlearn,svc_l1,yes,no,,ABIDE,40,83,partial correlation,1500,no,143,yes,[ 0.58014681],roc_auc,6.0
+751,dictlearn,svc_l2,yes,no,,ABIDE,40,83,partial correlation,1500,no,143,yes,[ 0.61864117],roc_auc,6.0
+752,dictlearn,ridge,yes,no,,ABIDE,40,83,partial correlation,1500,no,143,yes,[ 0.61915329],roc_auc,6.0
+753,dictlearn,svc_l1,yes,no,,ABIDE,40,83,tangent,1500,no,143,yes,[ 0.61787299],roc_auc,6.0
+754,dictlearn,svc_l2,yes,no,,ABIDE,40,83,tangent,1500,no,143,yes,[ 0.66404916],roc_auc,6.0
+755,dictlearn,ridge,yes,no,,ABIDE,40,83,tangent,1500,no,143,yes,[ 0.66353704],roc_auc,6.0
+756,dictlearn,svc_l1,yes,no,,ABIDE,40,84,correlation,1500,no,140,yes,[ 0.62273814],roc_auc,6.0
+757,dictlearn,svc_l2,yes,no,,ABIDE,40,84,correlation,1500,no,140,yes,[ 0.71167634],roc_auc,6.0
+758,dictlearn,ridge,yes,no,,ABIDE,40,84,correlation,1500,no,140,yes,[ 0.71261523],roc_auc,6.0
+759,dictlearn,svc_l1,yes,no,,ABIDE,40,84,partial correlation,1500,no,140,yes,[ 0.61309321],roc_auc,6.0
+760,dictlearn,svc_l2,yes,no,,ABIDE,40,84,partial correlation,1500,no,140,yes,[ 0.70885968],roc_auc,6.0
+761,dictlearn,ridge,yes,no,,ABIDE,40,84,partial correlation,1500,no,140,yes,[ 0.70979857],roc_auc,6.0
+762,dictlearn,svc_l1,yes,no,,ABIDE,40,84,tangent,1500,no,140,yes,[ 0.65192899],roc_auc,6.0
+763,dictlearn,svc_l2,yes,no,,ABIDE,40,84,tangent,1500,no,140,yes,[ 0.7271253],roc_auc,6.0
+764,dictlearn,ridge,yes,no,,ABIDE,40,84,tangent,1500,no,140,yes,[ 0.72721065],roc_auc,6.0
+765,dictlearn,svc_l1,yes,no,,ABIDE,40,85,correlation,1500,no,133,yes,[ 0.68760669],roc_auc,6.0
+766,dictlearn,svc_l2,yes,no,,ABIDE,40,85,correlation,1500,no,133,yes,[ 0.67796176],roc_auc,6.0
+767,dictlearn,ridge,yes,no,,ABIDE,40,85,correlation,1500,no,133,yes,[ 0.67557187],roc_auc,6.0
+768,dictlearn,svc_l1,yes,no,,ABIDE,40,85,partial correlation,1500,no,133,yes,[ 0.56853875],roc_auc,6.0
+769,dictlearn,svc_l2,yes,no,,ABIDE,40,85,partial correlation,1500,no,133,yes,[ 0.68828952],roc_auc,6.0
+770,dictlearn,ridge,yes,no,,ABIDE,40,85,partial correlation,1500,no,133,yes,[ 0.68888699],roc_auc,6.0
+771,dictlearn,svc_l1,yes,no,,ABIDE,40,85,tangent,1500,no,133,yes,[ 0.6473199],roc_auc,6.0
+772,dictlearn,svc_l2,yes,no,,ABIDE,40,85,tangent,1500,no,133,yes,[ 0.70646978],roc_auc,6.0
+773,dictlearn,ridge,yes,no,,ABIDE,40,85,tangent,1500,no,133,yes,[ 0.70706726],roc_auc,6.0
+774,dictlearn,svc_l1,yes,no,,ABIDE,40,86,correlation,1500,no,134,yes,[ 0.57954933],roc_auc,6.0
+775,dictlearn,svc_l2,yes,no,,ABIDE,40,86,correlation,1500,no,134,yes,[ 0.68504609],roc_auc,6.0
+776,dictlearn,ridge,yes,no,,ABIDE,40,86,correlation,1500,no,134,yes,[ 0.68385114],roc_auc,6.0
+777,dictlearn,svc_l1,yes,no,,ABIDE,40,86,partial correlation,1500,no,134,yes,[ 0.59107204],roc_auc,6.0
+778,dictlearn,svc_l2,yes,no,,ABIDE,40,86,partial correlation,1500,no,134,yes,[ 0.64177194],roc_auc,6.0
+779,dictlearn,ridge,yes,no,,ABIDE,40,86,partial correlation,1500,no,134,yes,[ 0.64322294],roc_auc,6.0
+780,dictlearn,svc_l1,yes,no,,ABIDE,40,86,tangent,1500,no,134,yes,[ 0.60575282],roc_auc,6.0
+781,dictlearn,svc_l2,yes,no,,ABIDE,40,86,tangent,1500,no,134,yes,[ 0.68470468],roc_auc,6.0
+782,dictlearn,ridge,yes,no,,ABIDE,40,86,tangent,1500,no,134,yes,[ 0.68470468],roc_auc,6.0
+783,dictlearn,svc_l1,yes,no,,ABIDE,40,87,correlation,1500,no,137,yes,[ 0.65235575],roc_auc,6.0
+784,dictlearn,svc_l2,yes,no,,ABIDE,40,87,correlation,1500,no,137,yes,[ 0.68999659],roc_auc,6.0
+785,dictlearn,ridge,yes,no,,ABIDE,40,87,correlation,1500,no,137,yes,[ 0.68291226],roc_auc,6.0
+786,dictlearn,svc_l1,yes,no,,ABIDE,40,87,partial correlation,1500,no,137,yes,[ 0.630676],roc_auc,6.0
+787,dictlearn,svc_l2,yes,no,,ABIDE,40,87,partial correlation,1500,no,137,yes,[ 0.64535678],roc_auc,6.0
+788,dictlearn,ridge,yes,no,,ABIDE,40,87,partial correlation,1500,no,137,yes,[ 0.64407648],roc_auc,6.0
+789,dictlearn,svc_l1,yes,no,,ABIDE,40,87,tangent,1500,no,137,yes,[ 0.63793103],roc_auc,6.0
+790,dictlearn,svc_l2,yes,no,,ABIDE,40,87,tangent,1500,no,137,yes,[ 0.68163196],roc_auc,6.0
+791,dictlearn,ridge,yes,no,,ABIDE,40,87,tangent,1500,no,137,yes,[ 0.68035166],roc_auc,6.0
+792,dictlearn,svc_l1,yes,no,,ABIDE,40,88,correlation,1500,no,136,yes,[ 0.63007853],roc_auc,6.0
+793,dictlearn,svc_l2,yes,no,,ABIDE,40,88,correlation,1500,no,136,yes,[ 0.65833049],roc_auc,6.0
+794,dictlearn,ridge,yes,no,,ABIDE,40,88,correlation,1500,no,136,yes,[ 0.65491635],roc_auc,6.0
+795,dictlearn,svc_l1,yes,no,,ABIDE,40,88,partial correlation,1500,no,136,yes,[ 0.63238307],roc_auc,6.0
+796,dictlearn,svc_l2,yes,no,,ABIDE,40,88,partial correlation,1500,no,136,yes,[ 0.65534312],roc_auc,6.0
+797,dictlearn,ridge,yes,no,,ABIDE,40,88,partial correlation,1500,no,136,yes,[ 0.65815978],roc_auc,6.0
+798,dictlearn,svc_l1,yes,no,,ABIDE,40,88,tangent,1500,no,136,yes,[ 0.60148515],roc_auc,6.0
+799,dictlearn,svc_l2,yes,no,,ABIDE,40,88,tangent,1500,no,136,yes,[ 0.69836122],roc_auc,6.0
+800,dictlearn,ridge,yes,no,,ABIDE,40,88,tangent,1500,no,136,yes,[ 0.6980198],roc_auc,6.0
+801,dictlearn,svc_l1,yes,no,,ABIDE,40,89,correlation,1500,no,146,yes,[ 0.56981905],roc_auc,6.0
+802,dictlearn,svc_l2,yes,no,,ABIDE,40,89,correlation,1500,no,146,yes,[ 0.58902356],roc_auc,6.0
+803,dictlearn,ridge,yes,no,,ABIDE,40,89,correlation,1500,no,146,yes,[ 0.5862069],roc_auc,6.0
+804,dictlearn,svc_l1,yes,no,,ABIDE,40,89,partial correlation,1500,no,146,yes,[ 0.57365995],roc_auc,6.0
+805,dictlearn,svc_l2,yes,no,,ABIDE,40,89,partial correlation,1500,no,146,yes,[ 0.6167634],roc_auc,6.0
+806,dictlearn,ridge,yes,no,,ABIDE,40,89,partial correlation,1500,no,146,yes,[ 0.61770229],roc_auc,6.0
+807,dictlearn,svc_l1,yes,no,,ABIDE,40,89,tangent,1500,no,146,yes,[ 0.57263571],roc_auc,6.0
+808,dictlearn,svc_l2,yes,no,,ABIDE,40,89,tangent,1500,no,146,yes,[ 0.64254012],roc_auc,6.0
+809,dictlearn,ridge,yes,no,,ABIDE,40,89,tangent,1500,no,146,yes,[ 0.64066234],roc_auc,6.0
+810,dictlearn,svc_l1,yes,no,,ABIDE,40,90,correlation,1500,no,131,yes,[ 0.66942643],roc_auc,6.0
+811,dictlearn,svc_l2,yes,no,,ABIDE,40,90,correlation,1500,no,131,yes,[ 0.70271424],roc_auc,6.0
+812,dictlearn,ridge,yes,no,,ABIDE,40,90,correlation,1500,no,131,yes,[ 0.70177535],roc_auc,6.0
+813,dictlearn,svc_l1,yes,no,,ABIDE,40,90,partial correlation,1500,no,131,yes,[ 0.54267668],roc_auc,6.0
+814,dictlearn,svc_l2,yes,no,,ABIDE,40,90,partial correlation,1500,no,131,yes,[ 0.65602595],roc_auc,6.0
+815,dictlearn,ridge,yes,no,,ABIDE,40,90,partial correlation,1500,no,131,yes,[ 0.65653807],roc_auc,6.0
+816,dictlearn,svc_l1,yes,no,,ABIDE,40,90,tangent,1500,no,131,yes,[ 0.62350632],roc_auc,6.0
+817,dictlearn,svc_l2,yes,no,,ABIDE,40,90,tangent,1500,no,131,yes,[ 0.70604302],roc_auc,6.0
+818,dictlearn,ridge,yes,no,,ABIDE,40,90,tangent,1500,no,131,yes,[ 0.70501878],roc_auc,6.0
+819,dictlearn,svc_l1,yes,no,,ABIDE,40,91,correlation,1500,no,129,yes,[ 0.55471151],roc_auc,6.0
+820,dictlearn,svc_l2,yes,no,,ABIDE,40,91,correlation,1500,no,129,yes,[ 0.6282861],roc_auc,6.0
+821,dictlearn,ridge,yes,no,,ABIDE,40,91,correlation,1500,no,129,yes,[ 0.62231137],roc_auc,6.0
+822,dictlearn,svc_l1,yes,no,,ABIDE,40,91,partial correlation,1500,no,129,yes,[ 0.54344486],roc_auc,6.0
+823,dictlearn,svc_l2,yes,no,,ABIDE,40,91,partial correlation,1500,no,129,yes,[ 0.63528508],roc_auc,6.0
+824,dictlearn,ridge,yes,no,,ABIDE,40,91,partial correlation,1500,no,129,yes,[ 0.63767497],roc_auc,6.0
+825,dictlearn,svc_l1,yes,no,,ABIDE,40,91,tangent,1500,no,129,yes,[ 0.57835439],roc_auc,6.0
+826,dictlearn,svc_l2,yes,no,,ABIDE,40,91,tangent,1500,no,129,yes,[ 0.67138955],roc_auc,6.0
+827,dictlearn,ridge,yes,no,,ABIDE,40,91,tangent,1500,no,129,yes,[ 0.66951178],roc_auc,6.0
+828,dictlearn,svc_l1,yes,no,,ABIDE,40,92,correlation,1500,no,132,yes,[ 0.65414817],roc_auc,6.0
+829,dictlearn,svc_l2,yes,no,,ABIDE,40,92,correlation,1500,no,132,yes,[ 0.67787641],roc_auc,6.0
+830,dictlearn,ridge,yes,no,,ABIDE,40,92,correlation,1500,no,132,yes,[ 0.67215773],roc_auc,6.0
+831,dictlearn,svc_l1,yes,no,,ABIDE,40,92,partial correlation,1500,no,132,yes,[ 0.61992147],roc_auc,6.0
+832,dictlearn,svc_l2,yes,no,,ABIDE,40,92,partial correlation,1500,no,132,yes,[ 0.62982247],roc_auc,6.0
+833,dictlearn,ridge,yes,no,,ABIDE,40,92,partial correlation,1500,no,132,yes,[ 0.62999317],roc_auc,6.0
+834,dictlearn,svc_l1,yes,no,,ABIDE,40,92,tangent,1500,no,132,yes,[ 0.6244452],roc_auc,6.0
+835,dictlearn,svc_l2,yes,no,,ABIDE,40,92,tangent,1500,no,132,yes,[ 0.66268351],roc_auc,6.0
+836,dictlearn,ridge,yes,no,,ABIDE,40,92,tangent,1500,no,132,yes,[ 0.66285422],roc_auc,6.0
+837,dictlearn,svc_l1,yes,no,,ABIDE,40,93,correlation,1500,no,133,yes,[ 0.62393308],roc_auc,6.0
+838,dictlearn,svc_l2,yes,no,,ABIDE,40,93,correlation,1500,no,133,yes,[ 0.67787641],roc_auc,6.0
+839,dictlearn,ridge,yes,no,,ABIDE,40,93,correlation,1500,no,133,yes,[ 0.67693752],roc_auc,6.0
+840,dictlearn,svc_l1,yes,no,,ABIDE,40,93,partial correlation,1500,no,133,yes,[ 0.57878115],roc_auc,6.0
+841,dictlearn,svc_l2,yes,no,,ABIDE,40,93,partial correlation,1500,no,133,yes,[ 0.70903039],roc_auc,6.0
+842,dictlearn,ridge,yes,no,,ABIDE,40,93,partial correlation,1500,no,133,yes,[ 0.71133493],roc_auc,6.0
+843,dictlearn,svc_l1,yes,no,,ABIDE,40,93,tangent,1500,no,133,yes,[ 0.60011949],roc_auc,6.0
+844,dictlearn,svc_l2,yes,no,,ABIDE,40,93,tangent,1500,no,133,yes,[ 0.73770912],roc_auc,6.0
+845,dictlearn,ridge,yes,no,,ABIDE,40,93,tangent,1500,no,133,yes,[ 0.73642882],roc_auc,6.0
+846,dictlearn,svc_l1,yes,no,,ABIDE,40,94,correlation,1500,no,129,yes,[ 0.64160123],roc_auc,6.0
+847,dictlearn,svc_l2,yes,no,,ABIDE,40,94,correlation,1500,no,129,yes,[ 0.69503243],roc_auc,6.0
+848,dictlearn,ridge,yes,no,,ABIDE,40,94,correlation,1500,no,129,yes,[ 0.68991123],roc_auc,6.0
+849,dictlearn,svc_l1,yes,no,,ABIDE,40,94,partial correlation,1500,no,129,yes,[ 0.59704677],roc_auc,6.0
+850,dictlearn,svc_l2,yes,no,,ABIDE,40,94,partial correlation,1500,no,129,yes,[ 0.6332366],roc_auc,6.0
+851,dictlearn,ridge,yes,no,,ABIDE,40,94,partial correlation,1500,no,129,yes,[ 0.63400478],roc_auc,6.0
+852,dictlearn,svc_l1,yes,no,,ABIDE,40,94,tangent,1500,no,129,yes,[ 0.61411745],roc_auc,6.0
+853,dictlearn,svc_l2,yes,no,,ABIDE,40,94,tangent,1500,no,129,yes,[ 0.67053602],roc_auc,6.0
+854,dictlearn,ridge,yes,no,,ABIDE,40,94,tangent,1500,no,129,yes,[ 0.6700239],roc_auc,6.0
+855,dictlearn,svc_l1,yes,no,,ABIDE,40,95,correlation,1500,no,142,yes,[ 0.61462957],roc_auc,6.0
+856,dictlearn,svc_l2,yes,no,,ABIDE,40,95,correlation,1500,no,142,yes,[ 0.65636736],roc_auc,6.0
+857,dictlearn,ridge,yes,no,,ABIDE,40,95,correlation,1500,no,142,yes,[ 0.65568453],roc_auc,6.0
+858,dictlearn,svc_l1,yes,no,,ABIDE,40,95,partial correlation,1500,no,142,yes,[ 0.57365995],roc_auc,6.0
+859,dictlearn,svc_l2,yes,no,,ABIDE,40,95,partial correlation,1500,no,142,yes,[ 0.61471492],roc_auc,6.0
+860,dictlearn,ridge,yes,no,,ABIDE,40,95,partial correlation,1500,no,142,yes,[ 0.61659269],roc_auc,6.0
+861,dictlearn,svc_l1,yes,no,,ABIDE,40,95,tangent,1500,no,142,yes,[ 0.58356094],roc_auc,6.0
+862,dictlearn,svc_l2,yes,no,,ABIDE,40,95,tangent,1500,no,142,yes,[ 0.64834414],roc_auc,6.0
+863,dictlearn,ridge,yes,no,,ABIDE,40,95,tangent,1500,no,142,yes,[ 0.6471492],roc_auc,6.0
+864,dictlearn,svc_l1,yes,no,,ABIDE,40,96,correlation,1500,no,137,yes,[ 0.64194264],roc_auc,6.0
+865,dictlearn,svc_l2,yes,no,,ABIDE,40,96,correlation,1500,no,137,yes,[ 0.68060772],roc_auc,6.0
+866,dictlearn,ridge,yes,no,,ABIDE,40,96,correlation,1500,no,137,yes,[ 0.68752134],roc_auc,6.0
+867,dictlearn,svc_l1,yes,no,,ABIDE,40,96,partial correlation,1500,no,137,yes,[ 0.59482759],roc_auc,6.0
+868,dictlearn,svc_l2,yes,no,,ABIDE,40,96,partial correlation,1500,no,137,yes,[ 0.70331171],roc_auc,6.0
+869,dictlearn,ridge,yes,no,,ABIDE,40,96,partial correlation,1500,no,137,yes,[ 0.70450666],roc_auc,6.0
+870,dictlearn,svc_l1,yes,no,,ABIDE,40,96,tangent,1500,no,137,yes,[ 0.67053602],roc_auc,6.0
+871,dictlearn,svc_l2,yes,no,,ABIDE,40,96,tangent,1500,no,137,yes,[ 0.73071014],roc_auc,6.0
+872,dictlearn,ridge,yes,no,,ABIDE,40,96,tangent,1500,no,137,yes,[ 0.73207579],roc_auc,6.0
+873,dictlearn,svc_l1,yes,no,,ABIDE,40,97,correlation,1500,no,131,yes,[ 0.64177194],roc_auc,6.0
+874,dictlearn,svc_l2,yes,no,,ABIDE,40,97,correlation,1500,no,131,yes,[ 0.68939911],roc_auc,6.0
+875,dictlearn,ridge,yes,no,,ABIDE,40,97,correlation,1500,no,131,yes,[ 0.69110618],roc_auc,6.0
+876,dictlearn,svc_l1,yes,no,,ABIDE,40,97,partial correlation,1500,no,131,yes,[ 0.60617958],roc_auc,6.0
+877,dictlearn,svc_l2,yes,no,,ABIDE,40,97,partial correlation,1500,no,131,yes,[ 0.73216115],roc_auc,6.0
+878,dictlearn,ridge,yes,no,,ABIDE,40,97,partial correlation,1500,no,131,yes,[ 0.73147832],roc_auc,6.0
+879,dictlearn,svc_l1,yes,no,,ABIDE,40,97,tangent,1500,no,131,yes,[ 0.65628201],roc_auc,6.0
+880,dictlearn,svc_l2,yes,no,,ABIDE,40,97,tangent,1500,no,131,yes,[ 0.73369751],roc_auc,6.0
+881,dictlearn,ridge,yes,no,,ABIDE,40,97,tangent,1500,no,131,yes,[ 0.73378286],roc_auc,6.0
+882,dictlearn,svc_l1,yes,no,,ABIDE,40,98,correlation,1500,no,142,yes,[ 0.65278252],roc_auc,6.0
+883,dictlearn,svc_l2,yes,no,,ABIDE,40,98,correlation,1500,no,142,yes,[ 0.69691021],roc_auc,6.0
+884,dictlearn,ridge,yes,no,,ABIDE,40,98,correlation,1500,no,142,yes,[ 0.69853192],roc_auc,6.0
+885,dictlearn,svc_l1,yes,no,,ABIDE,40,98,partial correlation,1500,no,142,yes,[ 0.54651758],roc_auc,6.0
+886,dictlearn,svc_l2,yes,no,,ABIDE,40,98,partial correlation,1500,no,142,yes,[ 0.65457494],roc_auc,6.0
+887,dictlearn,ridge,yes,no,,ABIDE,40,98,partial correlation,1500,no,142,yes,[ 0.65559918],roc_auc,6.0
+888,dictlearn,svc_l1,yes,no,,ABIDE,40,98,tangent,1500,no,142,yes,[ 0.56512462],roc_auc,6.0
+889,dictlearn,svc_l2,yes,no,,ABIDE,40,98,tangent,1500,no,142,yes,[ 0.68897235],roc_auc,6.0
+890,dictlearn,ridge,yes,no,,ABIDE,40,98,tangent,1500,no,142,yes,[ 0.68965517],roc_auc,6.0
+891,dictlearn,svc_l1,yes,no,,ABIDE,40,99,correlation,1500,no,134,yes,[ 0.6407477],roc_auc,6.0
+892,dictlearn,svc_l2,yes,no,,ABIDE,40,99,correlation,1500,no,134,yes,[ 0.6357972],roc_auc,6.0
+893,dictlearn,ridge,yes,no,,ABIDE,40,99,correlation,1500,no,134,yes,[ 0.63110277],roc_auc,6.0
+894,dictlearn,svc_l1,yes,no,,ABIDE,40,99,partial correlation,1500,no,134,yes,[ 0.60993513],roc_auc,6.0
+895,dictlearn,svc_l2,yes,no,,ABIDE,40,99,partial correlation,1500,no,134,yes,[ 0.63869921],roc_auc,6.0
+896,dictlearn,ridge,yes,no,,ABIDE,40,99,partial correlation,1500,no,134,yes,[ 0.63827245],roc_auc,6.0
+897,dictlearn,svc_l1,yes,no,,ABIDE,40,99,tangent,1500,no,134,yes,[ 0.63272448],roc_auc,6.0
+898,dictlearn,svc_l2,yes,no,,ABIDE,40,99,tangent,1500,no,134,yes,[ 0.65705019],roc_auc,6.0
+899,dictlearn,ridge,yes,no,,ABIDE,40,99,tangent,1500,no,134,yes,[ 0.65568453],roc_auc,6.0
+0,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,0,correlation,1500,no,188,yes,[ 0.64254012],roc_auc,6.0
+1,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,0,correlation,1500,no,188,yes,[ 0.70979857],roc_auc,6.0
+2,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,0,correlation,1500,no,188,yes,[ 0.70501878],roc_auc,6.0
+3,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,0,partial correlation,1500,no,188,yes,[ 0.58202458],roc_auc,6.0
+4,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,0,partial correlation,1500,no,188,yes,[ 0.65892796],roc_auc,6.0
+5,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,0,partial correlation,1500,no,188,yes,[ 0.6597815],roc_auc,6.0
+6,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,0,tangent,1500,no,188,yes,[ 0.57212359],roc_auc,6.0
+7,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,0,tangent,1500,no,188,yes,[ 0.70757938],roc_auc,6.0
+8,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,0,tangent,1500,no,188,yes,[ 0.70706726],roc_auc,6.0
+9,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,1,correlation,1500,no,183,yes,[ 0.61505633],roc_auc,6.0
+10,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,1,correlation,1500,no,183,yes,[ 0.68854558],roc_auc,6.0
+11,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,1,correlation,1500,no,183,yes,[ 0.68880164],roc_auc,6.0
+12,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,1,partial correlation,1500,no,183,yes,[ 0.59303517],roc_auc,6.0
+13,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,1,partial correlation,1500,no,183,yes,[ 0.66686582],roc_auc,6.0
+14,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,1,partial correlation,1500,no,183,yes,[ 0.667634],roc_auc,6.0
+15,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,1,tangent,1500,no,183,yes,[ 0.60489928],roc_auc,6.0
+16,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,1,tangent,1500,no,183,yes,[ 0.69750768],roc_auc,6.0
+17,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,1,tangent,1500,no,183,yes,[ 0.69767839],roc_auc,6.0
+18,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,2,correlation,1500,no,169,yes,[ 0.6217139],roc_auc,6.0
+19,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,2,correlation,1500,no,169,yes,[ 0.69554455],roc_auc,6.0
+20,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,2,correlation,1500,no,169,yes,[ 0.69981222],roc_auc,6.0
+21,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,2,partial correlation,1500,no,169,yes,[ 0.64407648],roc_auc,6.0
+22,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,2,partial correlation,1500,no,169,yes,[ 0.69964152],roc_auc,6.0
+23,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,2,partial correlation,1500,no,169,yes,[ 0.70049505],roc_auc,6.0
+24,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,2,tangent,1500,no,169,yes,[ 0.57161147],roc_auc,6.0
+25,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,2,tangent,1500,no,169,yes,[ 0.70604302],roc_auc,6.0
+26,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,2,tangent,1500,no,169,yes,[ 0.70706726],roc_auc,6.0
+27,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,3,correlation,1500,no,184,yes,[ 0.64390577],roc_auc,6.0
+28,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,3,correlation,1500,no,184,yes,[ 0.70220212],roc_auc,6.0
+29,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,3,correlation,1500,no,184,yes,[ 0.70271424],roc_auc,6.0
+30,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,3,partial correlation,1500,no,184,yes,[ 0.57767156],roc_auc,6.0
+31,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,3,partial correlation,1500,no,184,yes,[ 0.70834756],roc_auc,6.0
+32,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,3,partial correlation,1500,no,184,yes,[ 0.7093718],roc_auc,6.0
+33,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,3,tangent,1500,no,184,yes,[ 0.61087402],roc_auc,6.0
+34,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,3,tangent,1500,no,184,yes,[ 0.73361215],roc_auc,6.0
+35,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,3,tangent,1500,no,184,yes,[ 0.73455104],roc_auc,6.0
+36,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,4,correlation,1500,no,176,yes,[ 0.62803004],roc_auc,6.0
+37,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,4,correlation,1500,no,176,yes,[ 0.69861728],roc_auc,6.0
+38,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,4,correlation,1500,no,176,yes,[ 0.69708091],roc_auc,6.0
+39,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,4,partial correlation,1500,no,176,yes,[ 0.65756231],roc_auc,6.0
+40,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,4,partial correlation,1500,no,176,yes,[ 0.67454763],roc_auc,6.0
+41,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,4,partial correlation,1500,no,176,yes,[ 0.67557187],roc_auc,6.0
+42,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,4,tangent,1500,no,176,yes,[ 0.66729259],roc_auc,6.0
+43,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,4,tangent,1500,no,176,yes,[ 0.70382383],roc_auc,6.0
+44,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,4,tangent,1500,no,176,yes,[ 0.70390918],roc_auc,6.0
+45,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,5,correlation,1500,no,180,yes,[ 0.65807443],roc_auc,6.0
+46,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,5,correlation,1500,no,180,yes,[ 0.67232844],roc_auc,6.0
+47,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,5,correlation,1500,no,180,yes,[ 0.67454763],roc_auc,6.0
+48,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,5,partial correlation,1500,no,180,yes,[ 0.60191192],roc_auc,6.0
+49,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,5,partial correlation,1500,no,180,yes,[ 0.66404916],roc_auc,6.0
+50,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,5,partial correlation,1500,no,180,yes,[ 0.66464664],roc_auc,6.0
+51,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,5,tangent,1500,no,180,yes,[ 0.60464322],roc_auc,6.0
+52,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,5,tangent,1500,no,180,yes,[ 0.71560259],roc_auc,6.0
+53,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,5,tangent,1500,no,180,yes,[ 0.71534653],roc_auc,6.0
+54,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,6,correlation,1500,no,184,yes,[ 0.58441448],roc_auc,6.0
+55,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,6,correlation,1500,no,184,yes,[ 0.69614203],roc_auc,6.0
+56,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,6,correlation,1500,no,184,yes,[ 0.69358143],roc_auc,6.0
+57,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,6,partial correlation,1500,no,184,yes,[ 0.56563674],roc_auc,6.0
+58,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,6,partial correlation,1500,no,184,yes,[ 0.67301127],roc_auc,6.0
+59,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,6,partial correlation,1500,no,184,yes,[ 0.67446227],roc_auc,6.0
+60,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,6,tangent,1500,no,184,yes,[ 0.62768863],roc_auc,6.0
+61,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,6,tangent,1500,no,184,yes,[ 0.71116422],roc_auc,6.0
+62,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,6,tangent,1500,no,184,yes,[ 0.71167634],roc_auc,6.0
+63,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,7,correlation,1500,no,180,yes,[ 0.65901332],roc_auc,6.0
+64,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,7,correlation,1500,no,180,yes,[ 0.72960055],roc_auc,6.0
+65,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,7,correlation,1500,no,180,yes,[ 0.73036873],roc_auc,6.0
+66,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,7,partial correlation,1500,no,180,yes,[ 0.57681803],roc_auc,6.0
+67,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,7,partial correlation,1500,no,180,yes,[ 0.68615568],roc_auc,6.0
+68,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,7,partial correlation,1500,no,180,yes,[ 0.68811881],roc_auc,6.0
+69,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,7,tangent,1500,no,180,yes,[ 0.60771594],roc_auc,6.0
+70,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,7,tangent,1500,no,180,yes,[ 0.70757938],roc_auc,6.0
+71,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,7,tangent,1500,no,180,yes,[ 0.70843291],roc_auc,6.0
+72,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,8,correlation,1500,no,173,yes,[ 0.64040628],roc_auc,6.0
+73,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,8,correlation,1500,no,173,yes,[ 0.71167634],roc_auc,6.0
+74,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,8,correlation,1500,no,173,yes,[ 0.70868897],roc_auc,6.0
+75,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,8,partial correlation,1500,no,173,yes,[ 0.61300785],roc_auc,6.0
+76,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,8,partial correlation,1500,no,173,yes,[ 0.68035166],roc_auc,6.0
+77,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,8,partial correlation,1500,no,173,yes,[ 0.68205872],roc_auc,6.0
+78,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,8,tangent,1500,no,173,yes,[ 0.57237965],roc_auc,6.0
+79,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,8,tangent,1500,no,173,yes,[ 0.71227381],roc_auc,6.0
+80,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,8,tangent,1500,no,173,yes,[ 0.71287129],roc_auc,6.0
+81,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,9,correlation,1500,no,185,yes,[ 0.68880164],roc_auc,6.0
+82,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,9,correlation,1500,no,185,yes,[ 0.69426425],roc_auc,6.0
+83,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,9,correlation,1500,no,185,yes,[ 0.69025265],roc_auc,6.0
+84,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,9,partial correlation,1500,no,185,yes,[ 0.59977808],roc_auc,6.0
+85,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,9,partial correlation,1500,no,185,yes,[ 0.64305224],roc_auc,6.0
+86,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,9,partial correlation,1500,no,185,yes,[ 0.64433254],roc_auc,6.0
+87,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,9,tangent,1500,no,185,yes,[ 0.60677706],roc_auc,6.0
+88,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,9,tangent,1500,no,185,yes,[ 0.69844657],roc_auc,6.0
+89,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,9,tangent,1500,no,185,yes,[ 0.69853192],roc_auc,6.0
+90,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,10,correlation,1500,no,180,yes,[ 0.59636395],roc_auc,6.0
+91,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,10,correlation,1500,no,180,yes,[ 0.6204336],roc_auc,6.0
+92,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,10,correlation,1500,no,180,yes,[ 0.61992147],roc_auc,6.0
+93,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,10,partial correlation,1500,no,180,yes,[ 0.62162854],roc_auc,6.0
+94,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,10,partial correlation,1500,no,180,yes,[ 0.65662342],roc_auc,6.0
+95,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,10,partial correlation,1500,no,180,yes,[ 0.65696483],roc_auc,6.0
+96,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,10,tangent,1500,no,180,yes,[ 0.61770229],roc_auc,6.0
+97,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,10,tangent,1500,no,180,yes,[ 0.66823148],roc_auc,6.0
+98,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,10,tangent,1500,no,180,yes,[ 0.66899966],roc_auc,6.0
+99,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,11,correlation,1500,no,166,yes,[ 0.59465688],roc_auc,6.0
+100,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,11,correlation,1500,no,166,yes,[ 0.69989758],roc_auc,6.0
+101,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,11,correlation,1500,no,166,yes,[ 0.69836122],roc_auc,6.0
+102,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,11,partial correlation,1500,no,166,yes,[ 0.61710481],roc_auc,6.0
+103,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,11,partial correlation,1500,no,166,yes,[ 0.67318197],roc_auc,6.0
+104,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,11,partial correlation,1500,no,166,yes,[ 0.67488904],roc_auc,6.0
+105,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,11,tangent,1500,no,166,yes,[ 0.6458689],roc_auc,6.0
+106,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,11,tangent,1500,no,166,yes,[ 0.72336975],roc_auc,6.0
+107,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,11,tangent,1500,no,166,yes,[ 0.72430864],roc_auc,6.0
+108,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,12,correlation,1500,no,180,yes,[ 0.60165586],roc_auc,6.0
+109,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,12,correlation,1500,no,180,yes,[ 0.66780471],roc_auc,6.0
+110,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,12,correlation,1500,no,180,yes,[ 0.66148856],roc_auc,6.0
+111,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,12,partial correlation,1500,no,180,yes,[ 0.65235575],roc_auc,6.0
+112,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,12,partial correlation,1500,no,180,yes,[ 0.70100717],roc_auc,6.0
+113,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,12,partial correlation,1500,no,180,yes,[ 0.70211676],roc_auc,6.0
+114,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,12,tangent,1500,no,180,yes,[ 0.67377945],roc_auc,6.0
+115,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,12,tangent,1500,no,180,yes,[ 0.71261523],roc_auc,6.0
+116,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,12,tangent,1500,no,180,yes,[ 0.71295664],roc_auc,6.0
+117,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,13,correlation,1500,no,170,yes,[ 0.60950836],roc_auc,6.0
+118,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,13,correlation,1500,no,170,yes,[ 0.67599863],roc_auc,6.0
+119,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,13,correlation,1500,no,170,yes,[ 0.67779105],roc_auc,6.0
+120,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,13,partial correlation,1500,no,170,yes,[ 0.56879481],roc_auc,6.0
+121,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,13,partial correlation,1500,no,170,yes,[ 0.66814612],roc_auc,6.0
+122,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,13,partial correlation,1500,no,170,yes,[ 0.66917037],roc_auc,6.0
+123,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,13,tangent,1500,no,170,yes,[ 0.53456811],roc_auc,6.0
+124,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,13,tangent,1500,no,170,yes,[ 0.69528849],roc_auc,6.0
+125,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,13,tangent,1500,no,170,yes,[ 0.69520314],roc_auc,6.0
+126,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,14,correlation,1500,no,174,yes,[ 0.67830318],roc_auc,6.0
+127,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,14,correlation,1500,no,174,yes,[ 0.70928645],roc_auc,6.0
+128,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,14,correlation,1500,no,174,yes,[ 0.70604302],roc_auc,6.0
+129,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,14,partial correlation,1500,no,174,yes,[ 0.56307614],roc_auc,6.0
+130,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,14,partial correlation,1500,no,174,yes,[ 0.63613861],roc_auc,6.0
+131,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,14,partial correlation,1500,no,174,yes,[ 0.63776033],roc_auc,6.0
+132,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,14,tangent,1500,no,174,yes,[ 0.619324],roc_auc,6.0
+133,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,14,tangent,1500,no,174,yes,[ 0.68828952],roc_auc,6.0
+134,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,14,tangent,1500,no,174,yes,[ 0.68897235],roc_auc,6.0
+135,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,15,correlation,1500,no,180,yes,[ 0.6447593],roc_auc,6.0
+136,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,15,correlation,1500,no,180,yes,[ 0.68956982],roc_auc,6.0
+137,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,15,correlation,1500,no,180,yes,[ 0.68752134],roc_auc,6.0
+138,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,15,partial correlation,1500,no,180,yes,[ 0.57690338],roc_auc,6.0
+139,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,15,partial correlation,1500,no,180,yes,[ 0.67343803],roc_auc,6.0
+140,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,15,partial correlation,1500,no,180,yes,[ 0.67471833],roc_auc,6.0
+141,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,15,tangent,1500,no,180,yes,[ 0.63127347],roc_auc,6.0
+142,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,15,tangent,1500,no,180,yes,[ 0.70638443],roc_auc,6.0
+143,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,15,tangent,1500,no,180,yes,[ 0.70629908],roc_auc,6.0
+144,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,16,correlation,1500,no,181,yes,[ 0.6345169],roc_auc,6.0
+145,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,16,correlation,1500,no,181,yes,[ 0.71773643],roc_auc,6.0
+146,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,16,correlation,1500,no,181,yes,[ 0.71602936],roc_auc,6.0
+147,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,16,partial correlation,1500,no,181,yes,[ 0.654831],roc_auc,6.0
+148,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,16,partial correlation,1500,no,181,yes,[ 0.73327074],roc_auc,6.0
+149,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,16,partial correlation,1500,no,181,yes,[ 0.73412427],roc_auc,6.0
+150,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,16,tangent,1500,no,181,yes,[ 0.65952544],roc_auc,6.0
+151,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,16,tangent,1500,no,181,yes,[ 0.75844998],roc_auc,6.0
+152,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,16,tangent,1500,no,181,yes,[ 0.75870604],roc_auc,6.0
+153,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,17,correlation,1500,no,179,yes,[ 0.62879822],roc_auc,6.0
+154,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,17,correlation,1500,no,179,yes,[ 0.68624104],roc_auc,6.0
+155,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,17,correlation,1500,no,179,yes,[ 0.68504609],roc_auc,6.0
+156,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,17,partial correlation,1500,no,179,yes,[ 0.64510072],roc_auc,6.0
+157,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,17,partial correlation,1500,no,179,yes,[ 0.6597815],roc_auc,6.0
+158,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,17,partial correlation,1500,no,179,yes,[ 0.66097644],roc_auc,6.0
+159,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,17,tangent,1500,no,179,yes,[ 0.66012291],roc_auc,6.0
+160,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,17,tangent,1500,no,179,yes,[ 0.68999659],roc_auc,6.0
+161,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,17,tangent,1500,no,179,yes,[ 0.69025265],roc_auc,6.0
+162,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,18,correlation,1500,no,176,yes,[ 0.61829976],roc_auc,6.0
+163,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,18,correlation,1500,no,176,yes,[ 0.65858655],roc_auc,6.0
+164,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,18,correlation,1500,no,176,yes,[ 0.65201434],roc_auc,6.0
+165,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,18,partial correlation,1500,no,176,yes,[ 0.54156709],roc_auc,6.0
+166,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,18,partial correlation,1500,no,176,yes,[ 0.66293957],roc_auc,6.0
+167,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,18,partial correlation,1500,no,176,yes,[ 0.66311028],roc_auc,6.0
+168,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,18,tangent,1500,no,176,yes,[ 0.59277911],roc_auc,6.0
+169,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,18,tangent,1500,no,176,yes,[ 0.67744964],roc_auc,6.0
+170,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,18,tangent,1500,no,176,yes,[ 0.67744964],roc_auc,6.0
+171,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,19,correlation,1500,no,175,yes,[ 0.61949471],roc_auc,6.0
+172,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,19,correlation,1500,no,175,yes,[ 0.70536019],roc_auc,6.0
+173,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,19,correlation,1500,no,175,yes,[ 0.70612837],roc_auc,6.0
+174,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,19,partial correlation,1500,no,175,yes,[ 0.55897917],roc_auc,6.0
+175,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,19,partial correlation,1500,no,175,yes,[ 0.65090475],roc_auc,6.0
+176,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,19,partial correlation,1500,no,175,yes,[ 0.65201434],roc_auc,6.0
+177,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,19,tangent,1500,no,175,yes,[ 0.63349266],roc_auc,6.0
+178,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,19,tangent,1500,no,175,yes,[ 0.68598498],roc_auc,6.0
+179,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,19,tangent,1500,no,175,yes,[ 0.68581427],roc_auc,6.0
+180,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,20,correlation,1500,no,177,yes,[ 0.59918061],roc_auc,6.0
+181,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,20,correlation,1500,no,177,yes,[ 0.70211676],roc_auc,6.0
+182,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,20,correlation,1500,no,177,yes,[ 0.70331171],roc_auc,6.0
+183,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,20,partial correlation,1500,no,177,yes,[ 0.63630932],roc_auc,6.0
+184,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,20,partial correlation,1500,no,177,yes,[ 0.64621031],roc_auc,6.0
+185,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,20,partial correlation,1500,no,177,yes,[ 0.6471492],roc_auc,6.0
+186,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,20,tangent,1500,no,177,yes,[ 0.66037897],roc_auc,6.0
+187,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,20,tangent,1500,no,177,yes,[ 0.70766473],roc_auc,6.0
+188,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,20,tangent,1500,no,177,yes,[ 0.70843291],roc_auc,6.0
+189,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,21,correlation,1500,no,175,yes,[ 0.55641857],roc_auc,6.0
+190,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,21,correlation,1500,no,175,yes,[ 0.65474565],roc_auc,6.0
+191,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,21,correlation,1500,no,175,yes,[ 0.65192899],roc_auc,6.0
+192,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,21,partial correlation,1500,no,175,yes,[ 0.5761352],roc_auc,6.0
+193,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,21,partial correlation,1500,no,175,yes,[ 0.6447593],roc_auc,6.0
+194,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,21,partial correlation,1500,no,175,yes,[ 0.64544213],roc_auc,6.0
+195,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,21,tangent,1500,no,175,yes,[ 0.56956299],roc_auc,6.0
+196,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,21,tangent,1500,no,175,yes,[ 0.65935473],roc_auc,6.0
+197,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,21,tangent,1500,no,175,yes,[ 0.65961079],roc_auc,6.0
+198,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,22,correlation,1500,no,168,yes,[ 0.62453056],roc_auc,6.0
+199,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,22,correlation,1500,no,168,yes,[ 0.69178901],roc_auc,6.0
+200,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,22,correlation,1500,no,168,yes,[ 0.69221577],roc_auc,6.0
+201,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,22,partial correlation,1500,no,168,yes,[ 0.56111301],roc_auc,6.0
+202,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,22,partial correlation,1500,no,168,yes,[ 0.65235575],roc_auc,6.0
+203,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,22,partial correlation,1500,no,168,yes,[ 0.65244111],roc_auc,6.0
+204,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,22,tangent,1500,no,168,yes,[ 0.59337658],roc_auc,6.0
+205,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,22,tangent,1500,no,168,yes,[ 0.69324001],roc_auc,6.0
+206,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,22,tangent,1500,no,168,yes,[ 0.69375213],roc_auc,6.0
+207,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,23,correlation,1500,no,183,yes,[ 0.6345169],roc_auc,6.0
+208,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,23,correlation,1500,no,183,yes,[ 0.69264254],roc_auc,6.0
+209,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,23,correlation,1500,no,183,yes,[ 0.69187436],roc_auc,6.0
+210,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,23,partial correlation,1500,no,183,yes,[ 0.56640492],roc_auc,6.0
+211,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,23,partial correlation,1500,no,183,yes,[ 0.68914305],roc_auc,6.0
+212,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,23,partial correlation,1500,no,183,yes,[ 0.68965517],roc_auc,6.0
+213,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,23,tangent,1500,no,183,yes,[ 0.57263571],roc_auc,6.0
+214,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,23,tangent,1500,no,183,yes,[ 0.73822124],roc_auc,6.0
+215,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,23,tangent,1500,no,183,yes,[ 0.73770912],roc_auc,6.0
+216,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,24,correlation,1500,no,178,yes,[ 0.64339365],roc_auc,6.0
+217,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,24,correlation,1500,no,178,yes,[ 0.74308638],roc_auc,6.0
+218,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,24,correlation,1500,no,178,yes,[ 0.74155002],roc_auc,6.0
+219,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,24,partial correlation,1500,no,178,yes,[ 0.59653465],roc_auc,6.0
+220,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,24,partial correlation,1500,no,178,yes,[ 0.68820417],roc_auc,6.0
+221,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,24,partial correlation,1500,no,178,yes,[ 0.68897235],roc_auc,6.0
+222,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,24,tangent,1500,no,178,yes,[ 0.62214066],roc_auc,6.0
+223,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,24,tangent,1500,no,178,yes,[ 0.7207238],roc_auc,6.0
+224,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,24,tangent,1500,no,178,yes,[ 0.72080915],roc_auc,6.0
+225,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,25,correlation,1500,no,184,yes,[ 0.61223967],roc_auc,6.0
+226,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,25,correlation,1500,no,184,yes,[ 0.69972687],roc_auc,6.0
+227,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,25,correlation,1500,no,184,yes,[ 0.69870263],roc_auc,6.0
+228,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,25,partial correlation,1500,no,184,yes,[ 0.56213725],roc_auc,6.0
+229,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,25,partial correlation,1500,no,184,yes,[ 0.66473199],roc_auc,6.0
+230,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,25,partial correlation,1500,no,184,yes,[ 0.66541482],roc_auc,6.0
+231,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,25,tangent,1500,no,184,yes,[ 0.58945032],roc_auc,6.0
+232,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,25,tangent,1500,no,184,yes,[ 0.68086378],roc_auc,6.0
+233,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,25,tangent,1500,no,184,yes,[ 0.68001024],roc_auc,6.0
+234,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,26,correlation,1500,no,188,yes,[ 0.66259816],roc_auc,6.0
+235,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,26,correlation,1500,no,188,yes,[ 0.69443496],roc_auc,6.0
+236,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,26,correlation,1500,no,188,yes,[ 0.69119153],roc_auc,6.0
+237,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,26,partial correlation,1500,no,188,yes,[ 0.55146808],roc_auc,6.0
+238,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,26,partial correlation,1500,no,188,yes,[ 0.61334927],roc_auc,6.0
+239,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,26,partial correlation,1500,no,188,yes,[ 0.61360533],roc_auc,6.0
+240,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,26,tangent,1500,no,188,yes,[ 0.61351997],roc_auc,6.0
+241,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,26,tangent,1500,no,188,yes,[ 0.65833049],roc_auc,6.0
+242,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,26,tangent,1500,no,188,yes,[ 0.65892796],roc_auc,6.0
+243,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,27,correlation,1500,no,184,yes,[ 0.67164561],roc_auc,6.0
+244,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,27,correlation,1500,no,184,yes,[ 0.68120519],roc_auc,6.0
+245,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,27,correlation,1500,no,184,yes,[ 0.67983954],roc_auc,6.0
+246,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,27,partial correlation,1500,no,184,yes,[ 0.59670536],roc_auc,6.0
+247,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,27,partial correlation,1500,no,184,yes,[ 0.6625128],roc_auc,6.0
+248,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,27,partial correlation,1500,no,184,yes,[ 0.66464664],roc_auc,6.0
+249,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,27,tangent,1500,no,184,yes,[ 0.66439058],roc_auc,6.0
+250,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,27,tangent,1500,no,184,yes,[ 0.69238648],roc_auc,6.0
+251,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,27,tangent,1500,no,184,yes,[ 0.69272789],roc_auc,6.0
+252,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,28,correlation,1500,no,171,yes,[ 0.69588597],roc_auc,6.0
+253,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,28,correlation,1500,no,171,yes,[ 0.70245818],roc_auc,6.0
+254,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,28,correlation,1500,no,171,yes,[ 0.70220212],roc_auc,6.0
+255,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,28,partial correlation,1500,no,171,yes,[ 0.6788153],roc_auc,6.0
+256,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,28,partial correlation,1500,no,171,yes,[ 0.72115056],roc_auc,6.0
+257,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,28,partial correlation,1500,no,171,yes,[ 0.72166268],roc_auc,6.0
+258,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,28,tangent,1500,no,171,yes,[ 0.66968249],roc_auc,6.0
+259,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,28,tangent,1500,no,171,yes,[ 0.73122226],roc_auc,6.0
+260,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,28,tangent,1500,no,171,yes,[ 0.73173438],roc_auc,6.0
+261,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,29,correlation,1500,no,172,yes,[ 0.6460396],roc_auc,6.0
+262,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,29,correlation,1500,no,172,yes,[ 0.70339706],roc_auc,6.0
+263,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,29,correlation,1500,no,172,yes,[ 0.70109252],roc_auc,6.0
+264,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,29,partial correlation,1500,no,172,yes,[ 0.60455787],roc_auc,6.0
+265,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,29,partial correlation,1500,no,172,yes,[ 0.69127689],roc_auc,6.0
+266,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,29,partial correlation,1500,no,172,yes,[ 0.69272789],roc_auc,6.0
+267,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,29,tangent,1500,no,172,yes,[ 0.67395015],roc_auc,6.0
+268,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,29,tangent,1500,no,172,yes,[ 0.74590304],roc_auc,6.0
+269,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,29,tangent,1500,no,172,yes,[ 0.7448788],roc_auc,6.0
+270,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,30,correlation,1500,no,170,yes,[ 0.65585524],roc_auc,6.0
+271,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,30,correlation,1500,no,170,yes,[ 0.69639809],roc_auc,6.0
+272,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,30,correlation,1500,no,170,yes,[ 0.69477637],roc_auc,6.0
+273,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,30,partial correlation,1500,no,170,yes,[ 0.57511096],roc_auc,6.0
+274,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,30,partial correlation,1500,no,170,yes,[ 0.66319563],roc_auc,6.0
+275,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,30,partial correlation,1500,no,170,yes,[ 0.66413452],roc_auc,6.0
+276,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,30,tangent,1500,no,170,yes,[ 0.64936839],roc_auc,6.0
+277,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,30,tangent,1500,no,170,yes,[ 0.69562991],roc_auc,6.0
+278,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,30,tangent,1500,no,170,yes,[ 0.69571526],roc_auc,6.0
+279,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,31,correlation,1500,no,177,yes,[ 0.62290884],roc_auc,6.0
+280,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,31,correlation,1500,no,177,yes,[ 0.6839365],roc_auc,6.0
+281,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,31,correlation,1500,no,177,yes,[ 0.68222943],roc_auc,6.0
+282,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,31,partial correlation,1500,no,177,yes,[ 0.59755889],roc_auc,6.0
+283,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,31,partial correlation,1500,no,177,yes,[ 0.71483441],roc_auc,6.0
+284,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,31,partial correlation,1500,no,177,yes,[ 0.71466371],roc_auc,6.0
+285,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,31,tangent,1500,no,177,yes,[ 0.59354729],roc_auc,6.0
+286,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,31,tangent,1500,no,177,yes,[ 0.72823489],roc_auc,6.0
+287,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,31,tangent,1500,no,177,yes,[ 0.72729601],roc_auc,6.0
+288,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,32,correlation,1500,no,179,yes,[ 0.62743257],roc_auc,6.0
+289,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,32,correlation,1500,no,179,yes,[ 0.6561113],roc_auc,6.0
+290,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,32,correlation,1500,no,179,yes,[ 0.6561113],roc_auc,6.0
+291,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,32,partial correlation,1500,no,179,yes,[ 0.57459884],roc_auc,6.0
+292,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,32,partial correlation,1500,no,179,yes,[ 0.65414817],roc_auc,6.0
+293,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,32,partial correlation,1500,no,179,yes,[ 0.65423353],roc_auc,6.0
+294,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,32,tangent,1500,no,179,yes,[ 0.56657562],roc_auc,6.0
+295,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,32,tangent,1500,no,179,yes,[ 0.68794811],roc_auc,6.0
+296,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,32,tangent,1500,no,179,yes,[ 0.6877774],roc_auc,6.0
+297,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,33,correlation,1500,no,179,yes,[ 0.58714578],roc_auc,6.0
+298,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,33,correlation,1500,no,179,yes,[ 0.66652441],roc_auc,6.0
+299,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,33,correlation,1500,no,179,yes,[ 0.6674633],roc_auc,6.0
+300,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,33,partial correlation,1500,no,179,yes,[ 0.63443155],roc_auc,6.0
+301,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,33,partial correlation,1500,no,179,yes,[ 0.71312735],roc_auc,6.0
+302,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,33,partial correlation,1500,no,179,yes,[ 0.71466371],roc_auc,6.0
+303,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,33,tangent,1500,no,179,yes,[ 0.67719358],roc_auc,6.0
+304,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,33,tangent,1500,no,179,yes,[ 0.69972687],roc_auc,6.0
+305,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,33,tangent,1500,no,179,yes,[ 0.69895869],roc_auc,6.0
+306,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,34,correlation,1500,no,175,yes,[ 0.62768863],roc_auc,6.0
+307,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,34,correlation,1500,no,175,yes,[ 0.64399112],roc_auc,6.0
+308,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,34,correlation,1500,no,175,yes,[ 0.642028],roc_auc,6.0
+309,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,34,partial correlation,1500,no,175,yes,[ 0.57092864],roc_auc,6.0
+310,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,34,partial correlation,1500,no,175,yes,[ 0.68897235],roc_auc,6.0
+311,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,34,partial correlation,1500,no,175,yes,[ 0.68871629],roc_auc,6.0
+312,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,34,tangent,1500,no,175,yes,[ 0.59952202],roc_auc,6.0
+313,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,34,tangent,1500,no,175,yes,[ 0.6877774],roc_auc,6.0
+314,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,34,tangent,1500,no,175,yes,[ 0.68897235],roc_auc,6.0
+315,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,35,correlation,1500,no,173,yes,[ 0.69597132],roc_auc,6.0
+316,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,35,correlation,1500,no,173,yes,[ 0.73164903],roc_auc,6.0
+317,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,35,correlation,1500,no,173,yes,[ 0.73386821],roc_auc,6.0
+318,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,35,partial correlation,1500,no,173,yes,[ 0.63938204],roc_auc,6.0
+319,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,35,partial correlation,1500,no,173,yes,[ 0.68231478],roc_auc,6.0
+320,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,35,partial correlation,1500,no,173,yes,[ 0.68240014],roc_auc,6.0
+321,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,35,tangent,1500,no,173,yes,[ 0.68299761],roc_auc,6.0
+322,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,35,tangent,1500,no,173,yes,[ 0.71628542],roc_auc,6.0
+323,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,35,tangent,1500,no,173,yes,[ 0.71585865],roc_auc,6.0
+324,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,36,correlation,1500,no,183,yes,[ 0.67659611],roc_auc,6.0
+325,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,36,correlation,1500,no,183,yes,[ 0.68803346],roc_auc,6.0
+326,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,36,correlation,1500,no,183,yes,[ 0.6853875],roc_auc,6.0
+327,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,36,partial correlation,1500,no,183,yes,[ 0.56964834],roc_auc,6.0
+328,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,36,partial correlation,1500,no,183,yes,[ 0.66891431],roc_auc,6.0
+329,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,36,partial correlation,1500,no,183,yes,[ 0.6687436],roc_auc,6.0
+330,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,36,tangent,1500,no,183,yes,[ 0.62470126],roc_auc,6.0
+331,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,36,tangent,1500,no,183,yes,[ 0.69921475],roc_auc,6.0
+332,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,36,tangent,1500,no,183,yes,[ 0.70015364],roc_auc,6.0
+333,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,37,correlation,1500,no,179,yes,[ 0.63690679],roc_auc,6.0
+334,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,37,correlation,1500,no,179,yes,[ 0.68316832],roc_auc,6.0
+335,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,37,correlation,1500,no,179,yes,[ 0.68197337],roc_auc,6.0
+336,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,37,partial correlation,1500,no,179,yes,[ 0.63187095],roc_auc,6.0
+337,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,37,partial correlation,1500,no,179,yes,[ 0.7005804],roc_auc,6.0
+338,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,37,partial correlation,1500,no,179,yes,[ 0.70228747],roc_auc,6.0
+339,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,37,tangent,1500,no,179,yes,[ 0.59533971],roc_auc,6.0
+340,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,37,tangent,1500,no,179,yes,[ 0.7055309],roc_auc,6.0
+341,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,37,tangent,1500,no,179,yes,[ 0.70484807],roc_auc,6.0
+342,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,38,correlation,1500,no,174,yes,[ 0.66780471],roc_auc,6.0
+343,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,38,correlation,1500,no,174,yes,[ 0.7221748],roc_auc,6.0
+344,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,38,correlation,1500,no,174,yes,[ 0.72268692],roc_auc,6.0
+345,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,38,partial correlation,1500,no,174,yes,[ 0.64501536],roc_auc,6.0
+346,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,38,partial correlation,1500,no,174,yes,[ 0.63152953],roc_auc,6.0
+347,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,38,partial correlation,1500,no,174,yes,[ 0.63246842],roc_auc,6.0
+348,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,38,tangent,1500,no,174,yes,[ 0.68743598],roc_auc,6.0
+349,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,38,tangent,1500,no,174,yes,[ 0.68461932],roc_auc,6.0
+350,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,38,tangent,1500,no,174,yes,[ 0.68555821],roc_auc,6.0
+351,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,39,correlation,1500,no,180,yes,[ 0.63152953],roc_auc,6.0
+352,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,39,correlation,1500,no,180,yes,[ 0.69947081],roc_auc,6.0
+353,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,39,correlation,1500,no,180,yes,[ 0.69819051],roc_auc,6.0
+354,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,39,partial correlation,1500,no,180,yes,[ 0.56410038],roc_auc,6.0
+355,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,39,partial correlation,1500,no,180,yes,[ 0.64322294],roc_auc,6.0
+356,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,39,partial correlation,1500,no,180,yes,[ 0.64356436],roc_auc,6.0
+357,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,39,tangent,1500,no,180,yes,[ 0.61258109],roc_auc,6.0
+358,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,39,tangent,1500,no,180,yes,[ 0.68316832],roc_auc,6.0
+359,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,39,tangent,1500,no,180,yes,[ 0.68325367],roc_auc,6.0
+360,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,40,correlation,1500,no,181,yes,[ 0.63409013],roc_auc,6.0
+361,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,40,correlation,1500,no,181,yes,[ 0.65534312],roc_auc,6.0
+362,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,40,correlation,1500,no,181,yes,[ 0.65645271],roc_auc,6.0
+363,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,40,partial correlation,1500,no,181,yes,[ 0.59431547],roc_auc,6.0
+364,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,40,partial correlation,1500,no,181,yes,[ 0.67173097],roc_auc,6.0
+365,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,40,partial correlation,1500,no,181,yes,[ 0.67198703],roc_auc,6.0
+366,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,40,tangent,1500,no,181,yes,[ 0.62307955],roc_auc,6.0
+367,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,40,tangent,1500,no,181,yes,[ 0.71090816],roc_auc,6.0
+368,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,40,tangent,1500,no,181,yes,[ 0.71124957],roc_auc,6.0
+369,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,41,correlation,1500,no,184,yes,[ 0.67949812],roc_auc,6.0
+370,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,41,correlation,1500,no,184,yes,[ 0.70348242],roc_auc,6.0
+371,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,41,correlation,1500,no,184,yes,[ 0.70075111],roc_auc,6.0
+372,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,41,partial correlation,1500,no,184,yes,[ 0.58817002],roc_auc,6.0
+373,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,41,partial correlation,1500,no,184,yes,[ 0.65747695],roc_auc,6.0
+374,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,41,partial correlation,1500,no,184,yes,[ 0.65909867],roc_auc,6.0
+375,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,41,tangent,1500,no,184,yes,[ 0.61283715],roc_auc,6.0
+376,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,41,tangent,1500,no,184,yes,[ 0.70698191],roc_auc,6.0
+377,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,41,tangent,1500,no,184,yes,[ 0.70689655],roc_auc,6.0
+378,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,42,correlation,1500,no,177,yes,[ 0.62495732],roc_auc,6.0
+379,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,42,correlation,1500,no,177,yes,[ 0.67318197],roc_auc,6.0
+380,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,42,correlation,1500,no,177,yes,[ 0.67335268],roc_auc,6.0
+381,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,42,partial correlation,1500,no,177,yes,[ 0.57494025],roc_auc,6.0
+382,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,42,partial correlation,1500,no,177,yes,[ 0.69998293],roc_auc,6.0
+383,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,42,partial correlation,1500,no,177,yes,[ 0.70032434],roc_auc,6.0
+384,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,42,tangent,1500,no,177,yes,[ 0.57127006],roc_auc,6.0
+385,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,42,tangent,1500,no,177,yes,[ 0.70220212],roc_auc,6.0
+386,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,42,tangent,1500,no,177,yes,[ 0.7018607],roc_auc,6.0
+387,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,43,correlation,1500,no,175,yes,[ 0.59841243],roc_auc,6.0
+388,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,43,correlation,1500,no,175,yes,[ 0.65576989],roc_auc,6.0
+389,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,43,correlation,1500,no,175,yes,[ 0.654831],roc_auc,6.0
+390,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,43,partial correlation,1500,no,175,yes,[ 0.60378969],roc_auc,6.0
+391,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,43,partial correlation,1500,no,175,yes,[ 0.66020826],roc_auc,6.0
+392,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,43,partial correlation,1500,no,175,yes,[ 0.66054968],roc_auc,6.0
+393,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,43,tangent,1500,no,175,yes,[ 0.58706043],roc_auc,6.0
+394,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,43,tangent,1500,no,175,yes,[ 0.68043701],roc_auc,6.0
+395,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,43,tangent,1500,no,175,yes,[ 0.68086378],roc_auc,6.0
+396,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,44,correlation,1500,no,174,yes,[ 0.71628542],roc_auc,6.0
+397,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,44,correlation,1500,no,174,yes,[ 0.70134858],roc_auc,6.0
+398,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,44,correlation,1500,no,174,yes,[ 0.70023899],roc_auc,6.0
+399,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,44,partial correlation,1500,no,174,yes,[ 0.61642199],roc_auc,6.0
+400,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,44,partial correlation,1500,no,174,yes,[ 0.66413452],roc_auc,6.0
+401,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,44,partial correlation,1500,no,174,yes,[ 0.66550017],roc_auc,6.0
+402,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,44,tangent,1500,no,174,yes,[ 0.68863093],roc_auc,6.0
+403,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,44,tangent,1500,no,174,yes,[ 0.7168829],roc_auc,6.0
+404,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,44,tangent,1500,no,174,yes,[ 0.71654148],roc_auc,6.0
+405,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,45,correlation,1500,no,177,yes,[ 0.64467395],roc_auc,6.0
+406,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,45,correlation,1500,no,177,yes,[ 0.66712188],roc_auc,6.0
+407,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,45,correlation,1500,no,177,yes,[ 0.66131786],roc_auc,6.0
+408,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,45,partial correlation,1500,no,177,yes,[ 0.59790031],roc_auc,6.0
+409,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,45,partial correlation,1500,no,177,yes,[ 0.67377945],roc_auc,6.0
+410,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,45,partial correlation,1500,no,177,yes,[ 0.67497439],roc_auc,6.0
+411,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,45,tangent,1500,no,177,yes,[ 0.6129225],roc_auc,6.0
+412,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,45,tangent,1500,no,177,yes,[ 0.70143394],roc_auc,6.0
+413,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,45,tangent,1500,no,177,yes,[ 0.70203141],roc_auc,6.0
+414,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,46,correlation,1500,no,185,yes,[ 0.63767497],roc_auc,6.0
+415,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,46,correlation,1500,no,185,yes,[ 0.70843291],roc_auc,6.0
+416,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,46,correlation,1500,no,185,yes,[ 0.70740867],roc_auc,6.0
+417,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,46,partial correlation,1500,no,185,yes,[ 0.58014681],roc_auc,6.0
+418,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,46,partial correlation,1500,no,185,yes,[ 0.66882895],roc_auc,6.0
+419,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,46,partial correlation,1500,no,185,yes,[ 0.66882895],roc_auc,6.0
+420,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,46,tangent,1500,no,185,yes,[ 0.63622397],roc_auc,6.0
+421,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,46,tangent,1500,no,185,yes,[ 0.70237282],roc_auc,6.0
+422,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,46,tangent,1500,no,185,yes,[ 0.70203141],roc_auc,6.0
+423,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,47,correlation,1500,no,179,yes,[ 0.64006487],roc_auc,6.0
+424,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,47,correlation,1500,no,179,yes,[ 0.71372482],roc_auc,6.0
+425,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,47,correlation,1500,no,179,yes,[ 0.71235917],roc_auc,6.0
+426,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,47,partial correlation,1500,no,179,yes,[ 0.57135541],roc_auc,6.0
+427,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,47,partial correlation,1500,no,179,yes,[ 0.7057016],roc_auc,6.0
+428,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,47,partial correlation,1500,no,179,yes,[ 0.70629908],roc_auc,6.0
+429,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,47,tangent,1500,no,179,yes,[ 0.61949471],roc_auc,6.0
+430,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,47,tangent,1500,no,179,yes,[ 0.73361215],roc_auc,6.0
+431,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,47,tangent,1500,no,179,yes,[ 0.73318539],roc_auc,6.0
+432,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,48,correlation,1500,no,178,yes,[ 0.64066234],roc_auc,6.0
+433,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,48,correlation,1500,no,178,yes,[ 0.69247183],roc_auc,6.0
+434,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,48,correlation,1500,no,178,yes,[ 0.68743598],roc_auc,6.0
+435,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,48,partial correlation,1500,no,178,yes,[ 0.67830318],roc_auc,6.0
+436,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,48,partial correlation,1500,no,178,yes,[ 0.70544554],roc_auc,6.0
+437,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,48,partial correlation,1500,no,178,yes,[ 0.70664049],roc_auc,6.0
+438,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,48,tangent,1500,no,178,yes,[ 0.69639809],roc_auc,6.0
+439,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,48,tangent,1500,no,178,yes,[ 0.71927279],roc_auc,6.0
+440,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,48,tangent,1500,no,178,yes,[ 0.71824855],roc_auc,6.0
+441,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,49,correlation,1500,no,176,yes,[ 0.62529874],roc_auc,6.0
+442,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,49,correlation,1500,no,176,yes,[ 0.72738136],roc_auc,6.0
+443,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,49,correlation,1500,no,176,yes,[ 0.72814954],roc_auc,6.0
+444,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,49,partial correlation,1500,no,176,yes,[ 0.6396381],roc_auc,6.0
+445,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,49,partial correlation,1500,no,176,yes,[ 0.69511779],roc_auc,6.0
+446,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,49,partial correlation,1500,no,176,yes,[ 0.69631273],roc_auc,6.0
+447,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,49,tangent,1500,no,176,yes,[ 0.67608399],roc_auc,6.0
+448,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,49,tangent,1500,no,176,yes,[ 0.74035507],roc_auc,6.0
+449,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,49,tangent,1500,no,176,yes,[ 0.74026972],roc_auc,6.0
+450,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,50,correlation,1500,no,188,yes,[ 0.63366337],roc_auc,6.0
+451,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,50,correlation,1500,no,188,yes,[ 0.68598498],roc_auc,6.0
+452,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,50,correlation,1500,no,188,yes,[ 0.68615568],roc_auc,6.0
+453,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,50,partial correlation,1500,no,188,yes,[ 0.59499829],roc_auc,6.0
+454,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,50,partial correlation,1500,no,188,yes,[ 0.62564015],roc_auc,6.0
+455,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,50,partial correlation,1500,no,188,yes,[ 0.62623762],roc_auc,6.0
+456,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,50,tangent,1500,no,188,yes,[ 0.59875384],roc_auc,6.0
+457,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,50,tangent,1500,no,188,yes,[ 0.68205872],roc_auc,6.0
+458,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,50,tangent,1500,no,188,yes,[ 0.68188802],roc_auc,6.0
+459,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,51,correlation,1500,no,173,yes,[ 0.64902697],roc_auc,6.0
+460,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,51,correlation,1500,no,173,yes,[ 0.67156026],roc_auc,6.0
+461,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,51,correlation,1500,no,173,yes,[ 0.6700239],roc_auc,6.0
+462,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,51,partial correlation,1500,no,173,yes,[ 0.62965176],roc_auc,6.0
+463,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,51,partial correlation,1500,no,173,yes,[ 0.64305224],roc_auc,6.0
+464,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,51,partial correlation,1500,no,173,yes,[ 0.64305224],roc_auc,6.0
+465,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,51,tangent,1500,no,173,yes,[ 0.59610789],roc_auc,6.0
+466,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,51,tangent,1500,no,173,yes,[ 0.67480369],roc_auc,6.0
+467,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,51,tangent,1500,no,173,yes,[ 0.67540116],roc_auc,6.0
+468,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,52,correlation,1500,no,181,yes,[ 0.64544213],roc_auc,6.0
+469,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,52,correlation,1500,no,181,yes,[ 0.68863093],roc_auc,6.0
+470,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,52,correlation,1500,no,181,yes,[ 0.68530215],roc_auc,6.0
+471,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,52,partial correlation,1500,no,181,yes,[ 0.61462957],roc_auc,6.0
+472,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,52,partial correlation,1500,no,181,yes,[ 0.65713554],roc_auc,6.0
+473,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,52,partial correlation,1500,no,181,yes,[ 0.65807443],roc_auc,6.0
+474,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,52,tangent,1500,no,181,yes,[ 0.68863093],roc_auc,6.0
+475,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,52,tangent,1500,no,181,yes,[ 0.69298395],roc_auc,6.0
+476,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,52,tangent,1500,no,181,yes,[ 0.69349607],roc_auc,6.0
+477,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,53,correlation,1500,no,185,yes,[ 0.61326391],roc_auc,6.0
+478,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,53,correlation,1500,no,185,yes,[ 0.68248549],roc_auc,6.0
+479,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,53,correlation,1500,no,185,yes,[ 0.68308296],roc_auc,6.0
+480,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,53,partial correlation,1500,no,185,yes,[ 0.63784568],roc_auc,6.0
+481,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,53,partial correlation,1500,no,185,yes,[ 0.66353704],roc_auc,6.0
+482,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,53,partial correlation,1500,no,185,yes,[ 0.66456128],roc_auc,6.0
+483,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,53,tangent,1500,no,185,yes,[ 0.62871287],roc_auc,6.0
+484,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,53,tangent,1500,no,185,yes,[ 0.70177535],roc_auc,6.0
+485,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,53,tangent,1500,no,185,yes,[ 0.70177535],roc_auc,6.0
+486,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,54,correlation,1500,no,178,yes,[ 0.64083305],roc_auc,6.0
+487,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,54,correlation,1500,no,178,yes,[ 0.69725162],roc_auc,6.0
+488,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,54,correlation,1500,no,178,yes,[ 0.69562991],roc_auc,6.0
+489,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,54,partial correlation,1500,no,178,yes,[ 0.66037897],roc_auc,6.0
+490,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,54,partial correlation,1500,no,178,yes,[ 0.69528849],roc_auc,6.0
+491,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,54,partial correlation,1500,no,178,yes,[ 0.69580061],roc_auc,6.0
+492,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,54,tangent,1500,no,178,yes,[ 0.63989416],roc_auc,6.0
+493,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,54,tangent,1500,no,178,yes,[ 0.72610106],roc_auc,6.0
+494,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,54,tangent,1500,no,178,yes,[ 0.72627177],roc_auc,6.0
+495,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,55,correlation,1500,no,178,yes,[ 0.667634],roc_auc,6.0
+496,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,55,correlation,1500,no,178,yes,[ 0.75973028],roc_auc,6.0
+497,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,55,correlation,1500,no,178,yes,[ 0.75546262],roc_auc,6.0
+498,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,55,partial correlation,1500,no,178,yes,[ 0.62265278],roc_auc,6.0
+499,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,55,partial correlation,1500,no,178,yes,[ 0.65372141],roc_auc,6.0
+500,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,55,partial correlation,1500,no,178,yes,[ 0.65534312],roc_auc,6.0
+501,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,55,tangent,1500,no,178,yes,[ 0.60899624],roc_auc,6.0
+502,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,55,tangent,1500,no,178,yes,[ 0.70996927],roc_auc,6.0
+503,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,55,tangent,1500,no,178,yes,[ 0.70988392],roc_auc,6.0
+504,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,56,correlation,1500,no,172,yes,[ 0.66200068],roc_auc,6.0
+505,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,56,correlation,1500,no,172,yes,[ 0.77714237],roc_auc,6.0
+506,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,56,correlation,1500,no,172,yes,[ 0.77645954],roc_auc,6.0
+507,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,56,partial correlation,1500,no,172,yes,[ 0.65679413],roc_auc,6.0
+508,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,56,partial correlation,1500,no,172,yes,[ 0.75110959],roc_auc,6.0
+509,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,56,partial correlation,1500,no,172,yes,[ 0.7525606],roc_auc,6.0
+510,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,56,tangent,1500,no,172,yes,[ 0.69861728],roc_auc,6.0
+511,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,56,tangent,1500,no,172,yes,[ 0.80189484],roc_auc,6.0
+512,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,56,tangent,1500,no,172,yes,[ 0.80266302],roc_auc,6.0
+513,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,57,correlation,1500,no,187,yes,[ 0.68248549],roc_auc,6.0
+514,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,57,correlation,1500,no,187,yes,[ 0.71884602],roc_auc,6.0
+515,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,57,correlation,1500,no,187,yes,[ 0.7183339],roc_auc,6.0
+516,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,57,partial correlation,1500,no,187,yes,[ 0.62529874],roc_auc,6.0
+517,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,57,partial correlation,1500,no,187,yes,[ 0.67847388],roc_auc,6.0
+518,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,57,partial correlation,1500,no,187,yes,[ 0.67890065],roc_auc,6.0
+519,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,57,tangent,1500,no,187,yes,[ 0.6522704],roc_auc,6.0
+520,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,57,tangent,1500,no,187,yes,[ 0.70954251],roc_auc,6.0
+521,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,57,tangent,1500,no,187,yes,[ 0.70945715],roc_auc,6.0
+522,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,58,correlation,1500,no,171,yes,[ 0.63502902],roc_auc,6.0
+523,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,58,correlation,1500,no,171,yes,[ 0.63895527],roc_auc,6.0
+524,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,58,correlation,1500,no,171,yes,[ 0.64117446],roc_auc,6.0
+525,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,58,partial correlation,1500,no,171,yes,[ 0.51911915],roc_auc,6.0
+526,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,58,partial correlation,1500,no,171,yes,[ 0.59533971],roc_auc,6.0
+527,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,58,partial correlation,1500,no,171,yes,[ 0.59610789],roc_auc,6.0
+528,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,58,tangent,1500,no,171,yes,[ 0.56512462],roc_auc,6.0
+529,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,58,tangent,1500,no,171,yes,[ 0.62845681],roc_auc,6.0
+530,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,58,tangent,1500,no,171,yes,[ 0.6282861],roc_auc,6.0
+531,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,59,correlation,1500,no,184,yes,[ 0.57690338],roc_auc,6.0
+532,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,59,correlation,1500,no,184,yes,[ 0.65192899],roc_auc,6.0
+533,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,59,correlation,1500,no,184,yes,[ 0.65508706],roc_auc,6.0
+534,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,59,partial correlation,1500,no,184,yes,[ 0.55274838],roc_auc,6.0
+535,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,59,partial correlation,1500,no,184,yes,[ 0.63494367],roc_auc,6.0
+536,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,59,partial correlation,1500,no,184,yes,[ 0.63605326],roc_auc,6.0
+537,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,59,tangent,1500,no,184,yes,[ 0.63170024],roc_auc,6.0
+538,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,59,tangent,1500,no,184,yes,[ 0.6497098],roc_auc,6.0
+539,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,59,tangent,1500,no,184,yes,[ 0.64962445],roc_auc,6.0
+540,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,60,correlation,1500,no,176,yes,[ 0.61309321],roc_auc,6.0
+541,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,60,correlation,1500,no,176,yes,[ 0.67847388],roc_auc,6.0
+542,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,60,correlation,1500,no,176,yes,[ 0.67847388],roc_auc,6.0
+543,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,60,partial correlation,1500,no,176,yes,[ 0.53670195],roc_auc,6.0
+544,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,60,partial correlation,1500,no,176,yes,[ 0.62888358],roc_auc,6.0
+545,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,60,partial correlation,1500,no,176,yes,[ 0.62948105],roc_auc,6.0
+546,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,60,tangent,1500,no,176,yes,[ 0.59482759],roc_auc,6.0
+547,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,60,tangent,1500,no,176,yes,[ 0.6713042],roc_auc,6.0
+548,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,60,tangent,1500,no,176,yes,[ 0.67079208],roc_auc,6.0
+549,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,61,correlation,1500,no,180,yes,[ 0.64988051],roc_auc,6.0
+550,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,61,correlation,1500,no,180,yes,[ 0.68871629],roc_auc,6.0
+551,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,61,correlation,1500,no,180,yes,[ 0.69153295],roc_auc,6.0
+552,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,61,partial correlation,1500,no,180,yes,[ 0.60711847],roc_auc,6.0
+553,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,61,partial correlation,1500,no,180,yes,[ 0.69656879],roc_auc,6.0
+554,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,61,partial correlation,1500,no,180,yes,[ 0.69733698],roc_auc,6.0
+555,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,61,tangent,1500,no,180,yes,[ 0.60660635],roc_auc,6.0
+556,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,61,tangent,1500,no,180,yes,[ 0.72234551],roc_auc,6.0
+557,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,61,tangent,1500,no,180,yes,[ 0.72294298],roc_auc,6.0
+558,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,62,correlation,1500,no,178,yes,[ 0.57886651],roc_auc,6.0
+559,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,62,correlation,1500,no,178,yes,[ 0.67446227],roc_auc,6.0
+560,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,62,correlation,1500,no,178,yes,[ 0.67488904],roc_auc,6.0
+561,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,62,partial correlation,1500,no,178,yes,[ 0.61488563],roc_auc,6.0
+562,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,62,partial correlation,1500,no,178,yes,[ 0.64638102],roc_auc,6.0
+563,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,62,partial correlation,1500,no,178,yes,[ 0.64800273],roc_auc,6.0
+564,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,62,tangent,1500,no,178,yes,[ 0.64655172],roc_auc,6.0
+565,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,62,tangent,1500,no,178,yes,[ 0.68931376],roc_auc,6.0
+566,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,62,tangent,1500,no,178,yes,[ 0.68948447],roc_auc,6.0
+567,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,63,correlation,1500,no,168,yes,[ 0.65107545],roc_auc,6.0
+568,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,63,correlation,1500,no,168,yes,[ 0.71304199],roc_auc,6.0
+569,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,63,correlation,1500,no,168,yes,[ 0.70928645],roc_auc,6.0
+570,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,63,partial correlation,1500,no,168,yes,[ 0.55735746],roc_auc,6.0
+571,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,63,partial correlation,1500,no,168,yes,[ 0.66959713],roc_auc,6.0
+572,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,63,partial correlation,1500,no,168,yes,[ 0.67019461],roc_auc,6.0
+573,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,63,tangent,1500,no,168,yes,[ 0.65602595],roc_auc,6.0
+574,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,63,tangent,1500,no,168,yes,[ 0.72396722],roc_auc,6.0
+575,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,63,tangent,1500,no,168,yes,[ 0.72439399],roc_auc,6.0
+576,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,64,correlation,1500,no,171,yes,[ 0.58176852],roc_auc,6.0
+577,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,64,correlation,1500,no,171,yes,[ 0.69016729],roc_auc,6.0
+578,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,64,correlation,1500,no,171,yes,[ 0.68786275],roc_auc,6.0
+579,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,64,partial correlation,1500,no,171,yes,[ 0.61539775],roc_auc,6.0
+580,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,64,partial correlation,1500,no,171,yes,[ 0.65073404],roc_auc,6.0
+581,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,64,partial correlation,1500,no,171,yes,[ 0.65184363],roc_auc,6.0
+582,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,64,tangent,1500,no,171,yes,[ 0.56051553],roc_auc,6.0
+583,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,64,tangent,1500,no,171,yes,[ 0.67164561],roc_auc,6.0
+584,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,64,tangent,1500,no,171,yes,[ 0.67215773],roc_auc,6.0
+585,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,65,correlation,1500,no,177,yes,[ 0.57596449],roc_auc,6.0
+586,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,65,correlation,1500,no,177,yes,[ 0.69298395],roc_auc,6.0
+587,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,65,correlation,1500,no,177,yes,[ 0.69230113],roc_auc,6.0
+588,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,65,partial correlation,1500,no,177,yes,[ 0.57861045],roc_auc,6.0
+589,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,65,partial correlation,1500,no,177,yes,[ 0.71022533],roc_auc,6.0
+590,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,65,partial correlation,1500,no,177,yes,[ 0.71278593],roc_auc,6.0
+591,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,65,tangent,1500,no,177,yes,[ 0.6002902],roc_auc,6.0
+592,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,65,tangent,1500,no,177,yes,[ 0.74752475],roc_auc,6.0
+593,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,65,tangent,1500,no,177,yes,[ 0.74778081],roc_auc,6.0
+594,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,66,correlation,1500,no,182,yes,[ 0.67454763],roc_auc,6.0
+595,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,66,correlation,1500,no,182,yes,[ 0.69324001],roc_auc,6.0
+596,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,66,correlation,1500,no,182,yes,[ 0.69349607],roc_auc,6.0
+597,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,66,partial correlation,1500,no,182,yes,[ 0.59209628],roc_auc,6.0
+598,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,66,partial correlation,1500,no,182,yes,[ 0.68871629],roc_auc,6.0
+599,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,66,partial correlation,1500,no,182,yes,[ 0.68914305],roc_auc,6.0
+600,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,66,tangent,1500,no,182,yes,[ 0.63298054],roc_auc,6.0
+601,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,66,tangent,1500,no,182,yes,[ 0.72055309],roc_auc,6.0
+602,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,66,tangent,1500,no,182,yes,[ 0.72063844],roc_auc,6.0
+603,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,67,correlation,1500,no,182,yes,[ 0.57639126],roc_auc,6.0
+604,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,67,correlation,1500,no,182,yes,[ 0.68231478],roc_auc,6.0
+605,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,67,correlation,1500,no,182,yes,[ 0.68316832],roc_auc,6.0
+606,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,67,partial correlation,1500,no,182,yes,[ 0.57758621],roc_auc,6.0
+607,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,67,partial correlation,1500,no,182,yes,[ 0.55539433],roc_auc,6.0
+608,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,67,partial correlation,1500,no,182,yes,[ 0.55701605],roc_auc,6.0
+609,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,67,tangent,1500,no,182,yes,[ 0.56239331],roc_auc,6.0
+610,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,67,tangent,1500,no,182,yes,[ 0.60327757],roc_auc,6.0
+611,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,67,tangent,1500,no,182,yes,[ 0.60361898],roc_auc,6.0
+612,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,68,correlation,1500,no,174,yes,[ 0.63929669],roc_auc,6.0
+613,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,68,correlation,1500,no,174,yes,[ 0.71423694],roc_auc,6.0
+614,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,68,correlation,1500,no,174,yes,[ 0.71270058],roc_auc,6.0
+615,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,68,partial correlation,1500,no,174,yes,[ 0.58262206],roc_auc,6.0
+616,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,68,partial correlation,1500,no,174,yes,[ 0.69622738],roc_auc,6.0
+617,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,68,partial correlation,1500,no,174,yes,[ 0.69656879],roc_auc,6.0
+618,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,68,tangent,1500,no,174,yes,[ 0.59508365],roc_auc,6.0
+619,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,68,tangent,1500,no,174,yes,[ 0.70544554],roc_auc,6.0
+620,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,68,tangent,1500,no,174,yes,[ 0.70467736],roc_auc,6.0
+621,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,69,correlation,1500,no,176,yes,[ 0.6281154],roc_auc,6.0
+622,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,69,correlation,1500,no,176,yes,[ 0.72934449],roc_auc,6.0
+623,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,69,correlation,1500,no,176,yes,[ 0.72883237],roc_auc,6.0
+624,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,69,partial correlation,1500,no,176,yes,[ 0.6204336],roc_auc,6.0
+625,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,69,partial correlation,1500,no,176,yes,[ 0.68589962],roc_auc,6.0
+626,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,69,partial correlation,1500,no,176,yes,[ 0.68453397],roc_auc,6.0
+627,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,69,tangent,1500,no,176,yes,[ 0.64399112],roc_auc,6.0
+628,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,69,tangent,1500,no,176,yes,[ 0.72379652],roc_auc,6.0
+629,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,69,tangent,1500,no,176,yes,[ 0.72422328],roc_auc,6.0
+630,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,70,correlation,1500,no,183,yes,[ 0.63229771],roc_auc,6.0
+631,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,70,correlation,1500,no,183,yes,[ 0.71893138],roc_auc,6.0
+632,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,70,correlation,1500,no,183,yes,[ 0.7207238],roc_auc,6.0
+633,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,70,partial correlation,1500,no,183,yes,[ 0.57826903],roc_auc,6.0
+634,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,70,partial correlation,1500,no,183,yes,[ 0.65158757],roc_auc,6.0
+635,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,70,partial correlation,1500,no,183,yes,[ 0.65295323],roc_auc,6.0
+636,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,70,tangent,1500,no,183,yes,[ 0.61232503],roc_auc,6.0
+637,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,70,tangent,1500,no,183,yes,[ 0.7093718],roc_auc,6.0
+638,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,70,tangent,1500,no,183,yes,[ 0.70920109],roc_auc,6.0
+639,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,71,correlation,1500,no,169,yes,[ 0.67992489],roc_auc,6.0
+640,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,71,correlation,1500,no,169,yes,[ 0.71167634],roc_auc,6.0
+641,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,71,correlation,1500,no,169,yes,[ 0.70988392],roc_auc,6.0
+642,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,71,partial correlation,1500,no,169,yes,[ 0.57750085],roc_auc,6.0
+643,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,71,partial correlation,1500,no,169,yes,[ 0.65918402],roc_auc,6.0
+644,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,71,partial correlation,1500,no,169,yes,[ 0.65986685],roc_auc,6.0
+645,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,71,tangent,1500,no,169,yes,[ 0.65944008],roc_auc,6.0
+646,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,71,tangent,1500,no,169,yes,[ 0.70800615],roc_auc,6.0
+647,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,71,tangent,1500,no,169,yes,[ 0.70860362],roc_auc,6.0
+648,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,72,correlation,1500,no,170,yes,[ 0.64015022],roc_auc,6.0
+649,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,72,correlation,1500,no,170,yes,[ 0.65636736],roc_auc,6.0
+650,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,72,correlation,1500,no,170,yes,[ 0.65585524],roc_auc,6.0
+651,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,72,partial correlation,1500,no,170,yes,[ 0.60933766],roc_auc,6.0
+652,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,72,partial correlation,1500,no,170,yes,[ 0.66413452],roc_auc,6.0
+653,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,72,partial correlation,1500,no,170,yes,[ 0.6649027],roc_auc,6.0
+654,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,72,tangent,1500,no,170,yes,[ 0.63528508],roc_auc,6.0
+655,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,72,tangent,1500,no,170,yes,[ 0.68888699],roc_auc,6.0
+656,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,72,tangent,1500,no,170,yes,[ 0.68948447],roc_auc,6.0
+657,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,73,correlation,1500,no,192,yes,[ 0.6813759],roc_auc,6.0
+658,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,73,correlation,1500,no,192,yes,[ 0.74086719],roc_auc,6.0
+659,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,73,correlation,1500,no,192,yes,[ 0.73984295],roc_auc,6.0
+660,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,73,partial correlation,1500,no,192,yes,[ 0.61334927],roc_auc,6.0
+661,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,73,partial correlation,1500,no,192,yes,[ 0.67437692],roc_auc,6.0
+662,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,73,partial correlation,1500,no,192,yes,[ 0.67540116],roc_auc,6.0
+663,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,73,tangent,1500,no,192,yes,[ 0.63272448],roc_auc,6.0
+664,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,73,tangent,1500,no,192,yes,[ 0.70877433],roc_auc,6.0
+665,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,73,tangent,1500,no,192,yes,[ 0.70885968],roc_auc,6.0
+666,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,74,correlation,1500,no,171,yes,[ 0.58842608],roc_auc,6.0
+667,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,74,correlation,1500,no,171,yes,[ 0.65534312],roc_auc,6.0
+668,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,74,correlation,1500,no,171,yes,[ 0.65244111],roc_auc,6.0
+669,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,74,partial correlation,1500,no,171,yes,[ 0.59687607],roc_auc,6.0
+670,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,74,partial correlation,1500,no,171,yes,[ 0.6409184],roc_auc,6.0
+671,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,74,partial correlation,1500,no,171,yes,[ 0.64211335],roc_auc,6.0
+672,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,74,tangent,1500,no,171,yes,[ 0.57673267],roc_auc,6.0
+673,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,74,tangent,1500,no,171,yes,[ 0.67992489],roc_auc,6.0
+674,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,74,tangent,1500,no,171,yes,[ 0.67872994],roc_auc,6.0
+675,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,75,correlation,1500,no,174,yes,[ 0.61701946],roc_auc,6.0
+676,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,75,correlation,1500,no,174,yes,[ 0.72874701],roc_auc,6.0
+677,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,75,correlation,1500,no,174,yes,[ 0.72482076],roc_auc,6.0
+678,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,75,partial correlation,1500,no,174,yes,[ 0.60771594],roc_auc,6.0
+679,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,75,partial correlation,1500,no,174,yes,[ 0.66345169],roc_auc,6.0
+680,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,75,partial correlation,1500,no,174,yes,[ 0.66404916],roc_auc,6.0
+681,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,75,tangent,1500,no,174,yes,[ 0.57391601],roc_auc,6.0
+682,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,75,tangent,1500,no,174,yes,[ 0.70945715],roc_auc,6.0
+683,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,75,tangent,1500,no,174,yes,[ 0.70954251],roc_auc,6.0
+684,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,76,correlation,1500,no,182,yes,[ 0.65508706],roc_auc,6.0
+685,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,76,correlation,1500,no,182,yes,[ 0.69725162],roc_auc,6.0
+686,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,76,correlation,1500,no,182,yes,[ 0.69614203],roc_auc,6.0
+687,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,76,partial correlation,1500,no,182,yes,[ 0.62094572],roc_auc,6.0
+688,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,76,partial correlation,1500,no,182,yes,[ 0.71696825],roc_auc,6.0
+689,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,76,partial correlation,1500,no,182,yes,[ 0.71765108],roc_auc,6.0
+690,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,76,tangent,1500,no,182,yes,[ 0.68564356],roc_auc,6.0
+691,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,76,tangent,1500,no,182,yes,[ 0.71295664],roc_auc,6.0
+692,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,76,tangent,1500,no,182,yes,[ 0.71389553],roc_auc,6.0
+693,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,77,correlation,1500,no,175,yes,[ 0.61480027],roc_auc,6.0
+694,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,77,correlation,1500,no,175,yes,[ 0.68607033],roc_auc,6.0
+695,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,77,correlation,1500,no,175,yes,[ 0.6841072],roc_auc,6.0
+696,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,77,partial correlation,1500,no,175,yes,[ 0.57758621],roc_auc,6.0
+697,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,77,partial correlation,1500,no,175,yes,[ 0.64877091],roc_auc,6.0
+698,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,77,partial correlation,1500,no,175,yes,[ 0.64868556],roc_auc,6.0
+699,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,77,tangent,1500,no,175,yes,[ 0.61881188],roc_auc,6.0
+700,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,77,tangent,1500,no,175,yes,[ 0.67932742],roc_auc,6.0
+701,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,77,tangent,1500,no,175,yes,[ 0.67872994],roc_auc,6.0
+702,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,78,correlation,1500,no,177,yes,[ 0.62256743],roc_auc,6.0
+703,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,78,correlation,1500,no,177,yes,[ 0.71491977],roc_auc,6.0
+704,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,78,correlation,1500,no,177,yes,[ 0.71560259],roc_auc,6.0
+705,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,78,partial correlation,1500,no,177,yes,[ 0.5305565],roc_auc,6.0
+706,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,78,partial correlation,1500,no,177,yes,[ 0.64279618],roc_auc,6.0
+707,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,78,partial correlation,1500,no,177,yes,[ 0.64313759],roc_auc,6.0
+708,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,78,tangent,1500,no,177,yes,[ 0.56759986],roc_auc,6.0
+709,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,78,tangent,1500,no,177,yes,[ 0.6751451],roc_auc,6.0
+710,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,78,tangent,1500,no,177,yes,[ 0.67634005],roc_auc,6.0
+711,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,79,correlation,1500,no,185,yes,[ 0.70698191],roc_auc,6.0
+712,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,79,correlation,1500,no,185,yes,[ 0.70305565],roc_auc,6.0
+713,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,79,correlation,1500,no,185,yes,[ 0.70365312],roc_auc,6.0
+714,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,79,partial correlation,1500,no,185,yes,[ 0.54831],roc_auc,6.0
+715,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,79,partial correlation,1500,no,185,yes,[ 0.6853875],roc_auc,6.0
+716,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,79,partial correlation,1500,no,185,yes,[ 0.68692386],roc_auc,6.0
+717,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,79,tangent,1500,no,185,yes,[ 0.57178218],roc_auc,6.0
+718,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,79,tangent,1500,no,185,yes,[ 0.72558894],roc_auc,6.0
+719,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,79,tangent,1500,no,185,yes,[ 0.725845],roc_auc,6.0
+720,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,80,correlation,1500,no,192,yes,[ 0.59935131],roc_auc,6.0
+721,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,80,correlation,1500,no,192,yes,[ 0.64185729],roc_auc,6.0
+722,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,80,correlation,1500,no,192,yes,[ 0.64194264],roc_auc,6.0
+723,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,80,partial correlation,1500,no,192,yes,[ 0.53269034],roc_auc,6.0
+724,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,80,partial correlation,1500,no,192,yes,[ 0.59824172],roc_auc,6.0
+725,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,80,partial correlation,1500,no,192,yes,[ 0.59969273],roc_auc,6.0
+726,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,80,tangent,1500,no,192,yes,[ 0.56998976],roc_auc,6.0
+727,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,80,tangent,1500,no,192,yes,[ 0.63989416],roc_auc,6.0
+728,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,80,tangent,1500,no,192,yes,[ 0.63980881],roc_auc,6.0
+729,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,81,correlation,1500,no,181,yes,[ 0.61138614],roc_auc,6.0
+730,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,81,correlation,1500,no,181,yes,[ 0.63127347],roc_auc,6.0
+731,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,81,correlation,1500,no,181,yes,[ 0.63204165],roc_auc,6.0
+732,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,81,partial correlation,1500,no,181,yes,[ 0.55914988],roc_auc,6.0
+733,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,81,partial correlation,1500,no,181,yes,[ 0.58799932],roc_auc,6.0
+734,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,81,partial correlation,1500,no,181,yes,[ 0.5889382],roc_auc,6.0
+735,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,81,tangent,1500,no,181,yes,[ 0.57707409],roc_auc,6.0
+736,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,81,tangent,1500,no,181,yes,[ 0.62871287],roc_auc,6.0
+737,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,81,tangent,1500,no,181,yes,[ 0.62862752],roc_auc,6.0
+738,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,82,correlation,1500,no,176,yes,[ 0.6002902],roc_auc,6.0
+739,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,82,correlation,1500,no,176,yes,[ 0.66054968],roc_auc,6.0
+740,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,82,correlation,1500,no,176,yes,[ 0.66029362],roc_auc,6.0
+741,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,82,partial correlation,1500,no,176,yes,[ 0.60874018],roc_auc,6.0
+742,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,82,partial correlation,1500,no,176,yes,[ 0.67659611],roc_auc,6.0
+743,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,82,partial correlation,1500,no,176,yes,[ 0.67864459],roc_auc,6.0
+744,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,82,tangent,1500,no,176,yes,[ 0.67070673],roc_auc,6.0
+745,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,82,tangent,1500,no,176,yes,[ 0.68726528],roc_auc,6.0
+746,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,82,tangent,1500,no,176,yes,[ 0.68743598],roc_auc,6.0
+747,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,83,correlation,1500,no,177,yes,[ 0.67377945],roc_auc,6.0
+748,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,83,correlation,1500,no,177,yes,[ 0.70800615],roc_auc,6.0
+749,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,83,correlation,1500,no,177,yes,[ 0.70305565],roc_auc,6.0
+750,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,83,partial correlation,1500,no,177,yes,[ 0.57878115],roc_auc,6.0
+751,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,83,partial correlation,1500,no,177,yes,[ 0.67079208],roc_auc,6.0
+752,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,83,partial correlation,1500,no,177,yes,[ 0.67292591],roc_auc,6.0
+753,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,83,tangent,1500,no,177,yes,[ 0.62948105],roc_auc,6.0
+754,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,83,tangent,1500,no,177,yes,[ 0.69981222],roc_auc,6.0
+755,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,83,tangent,1500,no,177,yes,[ 0.69998293],roc_auc,6.0
+756,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,84,correlation,1500,no,181,yes,[ 0.60549676],roc_auc,6.0
+757,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,84,correlation,1500,no,181,yes,[ 0.65397747],roc_auc,6.0
+758,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,84,correlation,1500,no,181,yes,[ 0.65184363],roc_auc,6.0
+759,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,84,partial correlation,1500,no,181,yes,[ 0.55052919],roc_auc,6.0
+760,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,84,partial correlation,1500,no,181,yes,[ 0.68316832],roc_auc,6.0
+761,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,84,partial correlation,1500,no,181,yes,[ 0.68368044],roc_auc,6.0
+762,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,84,tangent,1500,no,181,yes,[ 0.54907818],roc_auc,6.0
+763,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,84,tangent,1500,no,181,yes,[ 0.69144759],roc_auc,6.0
+764,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,84,tangent,1500,no,181,yes,[ 0.69042335],roc_auc,6.0
+765,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,85,correlation,1500,no,173,yes,[ 0.6751451],roc_auc,6.0
+766,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,85,correlation,1500,no,173,yes,[ 0.66225674],roc_auc,6.0
+767,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,85,correlation,1500,no,173,yes,[ 0.65713554],roc_auc,6.0
+768,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,85,partial correlation,1500,no,173,yes,[ 0.56324684],roc_auc,6.0
+769,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,85,partial correlation,1500,no,173,yes,[ 0.7005804],roc_auc,6.0
+770,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,85,partial correlation,1500,no,173,yes,[ 0.70109252],roc_auc,6.0
+771,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,85,tangent,1500,no,173,yes,[ 0.60293616],roc_auc,6.0
+772,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,85,tangent,1500,no,173,yes,[ 0.71713896],roc_auc,6.0
+773,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,85,tangent,1500,no,173,yes,[ 0.7170536],roc_auc,6.0
+774,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,86,correlation,1500,no,169,yes,[ 0.6396381],roc_auc,6.0
+775,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,86,correlation,1500,no,169,yes,[ 0.6916183],roc_auc,6.0
+776,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,86,correlation,1500,no,169,yes,[ 0.68530215],roc_auc,6.0
+777,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,86,partial correlation,1500,no,169,yes,[ 0.59184022],roc_auc,6.0
+778,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,86,partial correlation,1500,no,169,yes,[ 0.6877774],roc_auc,6.0
+779,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,86,partial correlation,1500,no,169,yes,[ 0.68897235],roc_auc,6.0
+780,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,86,tangent,1500,no,169,yes,[ 0.58262206],roc_auc,6.0
+781,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,86,tangent,1500,no,169,yes,[ 0.71568795],roc_auc,6.0
+782,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,86,tangent,1500,no,169,yes,[ 0.71440765],roc_auc,6.0
+783,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,87,correlation,1500,no,181,yes,[ 0.66268351],roc_auc,6.0
+784,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,87,correlation,1500,no,181,yes,[ 0.6841072],roc_auc,6.0
+785,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,87,correlation,1500,no,181,yes,[ 0.68052236],roc_auc,6.0
+786,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,87,partial correlation,1500,no,181,yes,[ 0.60686241],roc_auc,6.0
+787,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,87,partial correlation,1500,no,181,yes,[ 0.63340731],roc_auc,6.0
+788,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,87,partial correlation,1500,no,181,yes,[ 0.63485831],roc_auc,6.0
+789,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,87,tangent,1500,no,181,yes,[ 0.59175487],roc_auc,6.0
+790,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,87,tangent,1500,no,181,yes,[ 0.68470468],roc_auc,6.0
+791,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,87,tangent,1500,no,181,yes,[ 0.6839365],roc_auc,6.0
+792,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,88,correlation,1500,no,183,yes,[ 0.61454421],roc_auc,6.0
+793,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,88,correlation,1500,no,183,yes,[ 0.72149198],roc_auc,6.0
+794,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,88,correlation,1500,no,183,yes,[ 0.7207238],roc_auc,6.0
+795,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,88,partial correlation,1500,no,183,yes,[ 0.5455787],roc_auc,6.0
+796,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,88,partial correlation,1500,no,183,yes,[ 0.66037897],roc_auc,6.0
+797,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,88,partial correlation,1500,no,183,yes,[ 0.66182998],roc_auc,6.0
+798,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,88,tangent,1500,no,183,yes,[ 0.582366],roc_auc,6.0
+799,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,88,tangent,1500,no,183,yes,[ 0.71978491],roc_auc,6.0
+800,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,88,tangent,1500,no,183,yes,[ 0.71884602],roc_auc,6.0
+801,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,89,correlation,1500,no,171,yes,[ 0.6129225],roc_auc,6.0
+802,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,89,correlation,1500,no,171,yes,[ 0.66481734],roc_auc,6.0
+803,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,89,correlation,1500,no,171,yes,[ 0.66242745],roc_auc,6.0
+804,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,89,partial correlation,1500,no,171,yes,[ 0.63537043],roc_auc,6.0
+805,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,89,partial correlation,1500,no,171,yes,[ 0.63733356],roc_auc,6.0
+806,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,89,partial correlation,1500,no,171,yes,[ 0.63904063],roc_auc,6.0
+807,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,89,tangent,1500,no,171,yes,[ 0.60677706],roc_auc,6.0
+808,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,89,tangent,1500,no,171,yes,[ 0.66481734],roc_auc,6.0
+809,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,89,tangent,1500,no,171,yes,[ 0.66584158],roc_auc,6.0
+810,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,90,correlation,1500,no,176,yes,[ 0.59781495],roc_auc,6.0
+811,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,90,correlation,1500,no,176,yes,[ 0.66780471],roc_auc,6.0
+812,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,90,correlation,1500,no,176,yes,[ 0.66703653],roc_auc,6.0
+813,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,90,partial correlation,1500,no,176,yes,[ 0.56597815],roc_auc,6.0
+814,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,90,partial correlation,1500,no,176,yes,[ 0.63784568],roc_auc,6.0
+815,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,90,partial correlation,1500,no,176,yes,[ 0.63938204],roc_auc,6.0
+816,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,90,tangent,1500,no,176,yes,[ 0.55940594],roc_auc,6.0
+817,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,90,tangent,1500,no,176,yes,[ 0.67292591],roc_auc,6.0
+818,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,90,tangent,1500,no,176,yes,[ 0.67266985],roc_auc,6.0
+819,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,91,correlation,1500,no,177,yes,[ 0.64168658],roc_auc,6.0
+820,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,91,correlation,1500,no,177,yes,[ 0.68342438],roc_auc,6.0
+821,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,91,correlation,1500,no,177,yes,[ 0.68069307],roc_auc,6.0
+822,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,91,partial correlation,1500,no,177,yes,[ 0.6257255],roc_auc,6.0
+823,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,91,partial correlation,1500,no,177,yes,[ 0.66720724],roc_auc,6.0
+824,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,91,partial correlation,1500,no,177,yes,[ 0.66857289],roc_auc,6.0
+825,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,91,tangent,1500,no,177,yes,[ 0.64689314],roc_auc,6.0
+826,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,91,tangent,1500,no,177,yes,[ 0.68359508],roc_auc,6.0
+827,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,91,tangent,1500,no,177,yes,[ 0.68308296],roc_auc,6.0
+828,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,92,correlation,1500,no,174,yes,[ 0.62879822],roc_auc,6.0
+829,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,92,correlation,1500,no,174,yes,[ 0.6586719],roc_auc,6.0
+830,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,92,correlation,1500,no,174,yes,[ 0.65918402],roc_auc,6.0
+831,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,92,partial correlation,1500,no,174,yes,[ 0.57340389],roc_auc,6.0
+832,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,92,partial correlation,1500,no,174,yes,[ 0.643479],roc_auc,6.0
+833,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,92,partial correlation,1500,no,174,yes,[ 0.64373506],roc_auc,6.0
+834,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,92,tangent,1500,no,174,yes,[ 0.5876579],roc_auc,6.0
+835,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,92,tangent,1500,no,174,yes,[ 0.64979515],roc_auc,6.0
+836,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,92,tangent,1500,no,174,yes,[ 0.65056333],roc_auc,6.0
+837,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,93,correlation,1500,no,176,yes,[ 0.67087743],roc_auc,6.0
+838,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,93,correlation,1500,no,176,yes,[ 0.67173097],roc_auc,6.0
+839,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,93,correlation,1500,no,176,yes,[ 0.67454763],roc_auc,6.0
+840,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,93,partial correlation,1500,no,176,yes,[ 0.59038921],roc_auc,6.0
+841,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,93,partial correlation,1500,no,176,yes,[ 0.65107545],roc_auc,6.0
+842,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,93,partial correlation,1500,no,176,yes,[ 0.65303858],roc_auc,6.0
+843,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,93,tangent,1500,no,176,yes,[ 0.62495732],roc_auc,6.0
+844,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,93,tangent,1500,no,176,yes,[ 0.70826221],roc_auc,6.0
+845,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,93,tangent,1500,no,176,yes,[ 0.70885968],roc_auc,6.0
+846,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,94,correlation,1500,no,185,yes,[ 0.67301127],roc_auc,6.0
+847,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,94,correlation,1500,no,185,yes,[ 0.74547627],roc_auc,6.0
+848,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,94,correlation,1500,no,185,yes,[ 0.74163537],roc_auc,6.0
+849,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,94,partial correlation,1500,no,185,yes,[ 0.61386139],roc_auc,6.0
+850,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,94,partial correlation,1500,no,185,yes,[ 0.66421987],roc_auc,6.0
+851,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,94,partial correlation,1500,no,185,yes,[ 0.66515876],roc_auc,6.0
+852,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,94,tangent,1500,no,185,yes,[ 0.57340389],roc_auc,6.0
+853,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,94,tangent,1500,no,185,yes,[ 0.72635712],roc_auc,6.0
+854,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,94,tangent,1500,no,185,yes,[ 0.72678389],roc_auc,6.0
+855,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,95,correlation,1500,no,175,yes,[ 0.60114374],roc_auc,6.0
+856,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,95,correlation,1500,no,175,yes,[ 0.68248549],roc_auc,6.0
+857,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,95,correlation,1500,no,175,yes,[ 0.68205872],roc_auc,6.0
+858,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,95,partial correlation,1500,no,175,yes,[ 0.58142711],roc_auc,6.0
+859,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,95,partial correlation,1500,no,175,yes,[ 0.61002048],roc_auc,6.0
+860,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,95,partial correlation,1500,no,175,yes,[ 0.61070331],roc_auc,6.0
+861,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,95,tangent,1500,no,175,yes,[ 0.57152612],roc_auc,6.0
+862,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,95,tangent,1500,no,175,yes,[ 0.6841072],roc_auc,6.0
+863,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,95,tangent,1500,no,175,yes,[ 0.68461932],roc_auc,6.0
+864,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,96,correlation,1500,no,184,yes,[ 0.63605326],roc_auc,6.0
+865,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,96,correlation,1500,no,184,yes,[ 0.70126323],roc_auc,6.0
+866,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,96,correlation,1500,no,184,yes,[ 0.69819051],roc_auc,6.0
+867,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,96,partial correlation,1500,no,184,yes,[ 0.6663537],roc_auc,6.0
+868,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,96,partial correlation,1500,no,184,yes,[ 0.69375213],roc_auc,6.0
+869,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,96,partial correlation,1500,no,184,yes,[ 0.69469102],roc_auc,6.0
+870,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,96,tangent,1500,no,184,yes,[ 0.69571526],roc_auc,6.0
+871,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,96,tangent,1500,no,184,yes,[ 0.72336975],roc_auc,6.0
+872,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,96,tangent,1500,no,184,yes,[ 0.72277228],roc_auc,6.0
+873,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,97,correlation,1500,no,177,yes,[ 0.5990099],roc_auc,6.0
+874,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,97,correlation,1500,no,177,yes,[ 0.67719358],roc_auc,6.0
+875,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,97,correlation,1500,no,177,yes,[ 0.67924206],roc_auc,6.0
+876,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,97,partial correlation,1500,no,177,yes,[ 0.59824172],roc_auc,6.0
+877,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,97,partial correlation,1500,no,177,yes,[ 0.65372141],roc_auc,6.0
+878,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,97,partial correlation,1500,no,177,yes,[ 0.65508706],roc_auc,6.0
+879,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,97,tangent,1500,no,177,yes,[ 0.54967566],roc_auc,6.0
+880,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,97,tangent,1500,no,177,yes,[ 0.69324001],roc_auc,6.0
+881,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,97,tangent,1500,no,177,yes,[ 0.69281325],roc_auc,6.0
+882,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,98,correlation,1500,no,171,yes,[ 0.64108911],roc_auc,6.0
+883,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,98,correlation,1500,no,171,yes,[ 0.7194435],roc_auc,6.0
+884,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,98,correlation,1500,no,171,yes,[ 0.71773643],roc_auc,6.0
+885,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,98,partial correlation,1500,no,171,yes,[ 0.5748549],roc_auc,6.0
+886,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,98,partial correlation,1500,no,171,yes,[ 0.65884261],roc_auc,6.0
+887,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,98,partial correlation,1500,no,171,yes,[ 0.66114715],roc_auc,6.0
+888,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,98,tangent,1500,no,171,yes,[ 0.62111642],roc_auc,6.0
+889,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,98,tangent,1500,no,171,yes,[ 0.72106521],roc_auc,6.0
+890,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,98,tangent,1500,no,171,yes,[ 0.72021168],roc_auc,6.0
+891,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,99,correlation,1500,no,181,yes,[ 0.63409013],roc_auc,6.0
+892,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,99,correlation,1500,no,181,yes,[ 0.63622397],roc_auc,6.0
+893,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,99,correlation,1500,no,181,yes,[ 0.63690679],roc_auc,6.0
+894,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,99,partial correlation,1500,no,181,yes,[ 0.58287812],roc_auc,6.0
+895,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,99,partial correlation,1500,no,181,yes,[ 0.65022192],roc_auc,6.0
+896,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,99,partial correlation,1500,no,181,yes,[ 0.65141687],roc_auc,6.0
+897,dictlearn,svc_l1,yes,no,LedoitWolf,ABIDE,60,99,tangent,1500,no,181,yes,[ 0.60532605],roc_auc,6.0
+898,dictlearn,svc_l2,yes,no,LedoitWolf,ABIDE,60,99,tangent,1500,no,181,yes,[ 0.66396381],roc_auc,6.0
+899,dictlearn,ridge,yes,no,LedoitWolf,ABIDE,60,99,tangent,1500,no,181,yes,[ 0.66413452],roc_auc,6.0
