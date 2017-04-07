@@ -224,7 +224,7 @@ df['rank'] = df['atlas'].map(dic_atlas_n)
 df.sort_values(by=['rank'], inplace=True)
 stripplot_mean_score(df, save_path, dic_model_dim, suffix=save_sufix, x=x,
                      y=y, hue=hue, style='whitegrid', fontsize=12, jitter=0,
-                     figsize=(5, 6), leg_pos='lower left', leg_borderpad=0.08)
+                     figsize=(6, 4), leg_pos='lower left', leg_borderpad=0.08)
 
 # measure
 
