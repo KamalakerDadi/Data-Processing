@@ -171,7 +171,7 @@ for i, (key, ax) in enumerate(zip(atlases, axes)):
         ax.legend(scatterpoints=1, frameon=True, fontsize=15, markerscale=1,
                   handlelength=0.8, borderpad=.2, borderaxespad=3,
                   handletextpad=.05, loc='lower left', ncol=4,
-                  columnspacing=0.2, bbox_to_anchor=(-1.5, -0.55))
+                  columnspacing=0.2, bbox_to_anchor=(-1.54, -0.55))
     else:
         ax.legend().remove()
 
