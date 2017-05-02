@@ -86,7 +86,7 @@ def stripplot_mean_score(df, save_path, atlas=None, suffix=None, x=None,
 
 covariance_estimator = 'LedoitWolf'
 dataset_paths = dict()
-dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI', 'ABIDE']
+dataset_names = ['COBRE', 'ADNI', 'ADNIDOD', 'ACPI']
 atlases = ['ICA', 'DictLearn', 'KMeans', 'BASC']
 
 extensions = {'ICA': 'scores_ica.csv',
@@ -119,7 +119,7 @@ data = data.drop('Unnamed: 0', axis=1)
 
 dic_model_dim = OrderedDict([('ica', 80),
                              ('kmeans', 120),
-                             ('dictlearn', 80),
+                             ('dictlearn', 60),
                              ('basc', 122)
                              ])
 
@@ -137,7 +137,7 @@ axes = axes.reshape(-1)
 for i, (key, ax) in enumerate(zip(atlases, axes)):
 
     this_data = data2[(data2['atlas'] == key)]
-    this_data = this_data.drop('Unnamed: 0.1', axis=1)
+    # this_data = this_data.drop('Unnamed: 0.1', axis=1)
 
     ########################################################################
     # calculate mean data
