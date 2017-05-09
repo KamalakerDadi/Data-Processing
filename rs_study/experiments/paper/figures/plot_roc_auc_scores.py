@@ -3,11 +3,7 @@
 """
 import os
 import pandas as pd
-import matplotlib
-import matplotlib.pyplot as plt
-import numpy as np
 
-from matplotlib import rc
 from collections import OrderedDict
 
 
@@ -32,7 +28,7 @@ extensions = {'ICA': 'scores_ica.csv',
               'HarvardOxford': 'scores_harvardoxford.csv'}
 
 # set csv files data folder
-base_path = os.path.join('../prediction_scores', covariance_estimator)
+base_path = os.path.join('../../prediction_scores', covariance_estimator)
 
 # Loop over all datasets and atlases to grab csv paths and store them in
 # dictionary for each dataset
