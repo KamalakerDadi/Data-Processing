@@ -1,0 +1,901 @@
+,atlas,atlas_type,classifier,compcor_10,connectome_regress,covariance_estimator,dataset,dimensionality,iter_shuffle_split,measure,min_region_size_in_mm3,motion_regress,n_regions,region_extraction,scores,scoring,smoothing_fwhm,symmetric_split
+0,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,0,correlation,,no,,no,[ 0.63221236],roc_auc,6.0,True
+1,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,0,correlation,,no,,no,[ 0.67949812],roc_auc,6.0,True
+2,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,0,correlation,,no,,no,[ 0.6650734],roc_auc,6.0,True
+3,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,0,partial correlation,,no,,no,[ 0.56819734],roc_auc,6.0,True
+4,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,0,partial correlation,,no,,no,[ 0.55599181],roc_auc,6.0,True
+5,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,0,partial correlation,,no,,no,[ 0.55565039],roc_auc,6.0,True
+6,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,0,tangent,,no,,no,[ 0.64749061],roc_auc,6.0,True
+7,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,0,tangent,,no,,no,[ 0.67651075],roc_auc,6.0,True
+8,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,0,tangent,,no,,no,[ 0.66899966],roc_auc,6.0,True
+9,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,1,correlation,,no,,no,[ 0.64962445],roc_auc,6.0,True
+10,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,1,correlation,,no,,no,[ 0.67625469],roc_auc,6.0,True
+11,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,1,correlation,,no,,no,[ 0.63955275],roc_auc,6.0,True
+12,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,1,partial correlation,,no,,no,[ 0.50930352],roc_auc,6.0,True
+13,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,1,partial correlation,,no,,no,[ 0.53849437],roc_auc,6.0,True
+14,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,1,partial correlation,,no,,no,[ 0.54028679],roc_auc,6.0,True
+15,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,1,tangent,,no,,no,[ 0.6242745],roc_auc,6.0,True
+16,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,1,tangent,,no,,no,[ 0.65005121],roc_auc,6.0,True
+17,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,1,tangent,,no,,no,[ 0.64177194],roc_auc,6.0,True
+18,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,2,correlation,,no,,no,[ 0.63596791],roc_auc,6.0,True
+19,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,2,correlation,,no,,no,[ 0.65261181],roc_auc,6.0,True
+20,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,2,correlation,,no,,no,[ 0.60771594],roc_auc,6.0,True
+21,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,2,partial correlation,,no,,no,[ 0.57681803],roc_auc,6.0,True
+22,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,2,partial correlation,,no,,no,[ 0.56000341],roc_auc,6.0,True
+23,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,2,partial correlation,,no,,no,[ 0.56162513],roc_auc,6.0,True
+24,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,2,tangent,,no,,no,[ 0.62854216],roc_auc,6.0,True
+25,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,2,tangent,,no,,no,[ 0.66797542],roc_auc,6.0,True
+26,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,2,tangent,,no,,no,[ 0.65798907],roc_auc,6.0,True
+27,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,3,correlation,,no,,no,[ 0.69230113],roc_auc,6.0,True
+28,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,3,correlation,,no,,no,[ 0.69750768],roc_auc,6.0,True
+29,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,3,correlation,,no,,no,[ 0.66464664],roc_auc,6.0,True
+30,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,3,partial correlation,,no,,no,[ 0.53192216],roc_auc,6.0,True
+31,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,3,partial correlation,,no,,no,[ 0.54301809],roc_auc,6.0,True
+32,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,3,partial correlation,,no,,no,[ 0.54327416],roc_auc,6.0,True
+33,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,3,tangent,,no,,no,[ 0.56503926],roc_auc,6.0,True
+34,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,3,tangent,,no,,no,[ 0.66225674],roc_auc,6.0,True
+35,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,3,tangent,,no,,no,[ 0.65730625],roc_auc,6.0,True
+36,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,4,correlation,,no,,no,[ 0.60114374],roc_auc,6.0,True
+37,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,4,correlation,,no,,no,[ 0.65619665],roc_auc,6.0,True
+38,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,4,correlation,,no,,no,[ 0.64612496],roc_auc,6.0,True
+39,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,4,partial correlation,,no,,no,[ 0.54617617],roc_auc,6.0,True
+40,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,4,partial correlation,,no,,no,[ 0.55044384],roc_auc,6.0,True
+41,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,4,partial correlation,,no,,no,[ 0.55163878],roc_auc,6.0,True
+42,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,4,tangent,,no,,no,[ 0.58578013],roc_auc,6.0,True
+43,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,4,tangent,,no,,no,[ 0.66575623],roc_auc,6.0,True
+44,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,4,tangent,,no,,no,[ 0.66293957],roc_auc,6.0,True
+45,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,5,correlation,,no,,no,[ 0.62393308],roc_auc,6.0,True
+46,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,5,correlation,,no,,no,[ 0.65807443],roc_auc,6.0,True
+47,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,5,correlation,,no,,no,[ 0.63852851],roc_auc,6.0,True
+48,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,5,partial correlation,,no,,no,[ 0.54592011],roc_auc,6.0,True
+49,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,5,partial correlation,,no,,no,[ 0.48694094],roc_auc,6.0,True
+50,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,5,partial correlation,,no,,no,[ 0.48822124],roc_auc,6.0,True
+51,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,5,tangent,,no,,no,[ 0.64757596],roc_auc,6.0,True
+52,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,5,tangent,,no,,no,[ 0.60046091],roc_auc,6.0,True
+53,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,5,tangent,,no,,no,[ 0.59790031],roc_auc,6.0,True
+54,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,6,correlation,,no,,no,[ 0.56888016],roc_auc,6.0,True
+55,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,6,correlation,,no,,no,[ 0.6039604],roc_auc,6.0,True
+56,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,6,correlation,,no,,no,[ 0.58782861],roc_auc,6.0,True
+57,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,6,partial correlation,,no,,no,[ 0.54540799],roc_auc,6.0,True
+58,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,6,partial correlation,,no,,no,[ 0.54993172],roc_auc,6.0,True
+59,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,6,partial correlation,,no,,no,[ 0.5519802],roc_auc,6.0,True
+60,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,6,tangent,,no,,no,[ 0.62546944],roc_auc,6.0,True
+61,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,6,tangent,,no,,no,[ 0.66421987],roc_auc,6.0,True
+62,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,6,tangent,,no,,no,[ 0.65781837],roc_auc,6.0,True
+63,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,7,correlation,,no,,no,[ 0.62410379],roc_auc,6.0,True
+64,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,7,correlation,,no,,no,[ 0.60933766],roc_auc,6.0,True
+65,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,7,correlation,,no,,no,[ 0.59098668],roc_auc,6.0,True
+66,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,7,partial correlation,,no,,no,[ 0.54720041],roc_auc,6.0,True
+67,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,7,partial correlation,,no,,no,[ 0.57297713],roc_auc,6.0,True
+68,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,7,partial correlation,,no,,no,[ 0.57323319],roc_auc,6.0,True
+69,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,7,tangent,,no,,no,[ 0.61761693],roc_auc,6.0,True
+70,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,7,tangent,,no,,no,[ 0.65619665],roc_auc,6.0,True
+71,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,7,tangent,,no,,no,[ 0.65184363],roc_auc,6.0,True
+72,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,8,correlation,,no,,no,[ 0.65090475],roc_auc,6.0,True
+73,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,8,correlation,,no,,no,[ 0.63622397],roc_auc,6.0,True
+74,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,8,correlation,,no,,no,[ 0.61309321],roc_auc,6.0,True
+75,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,8,partial correlation,,no,,no,[ 0.54745647],roc_auc,6.0,True
+76,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,8,partial correlation,,no,,no,[ 0.55223626],roc_auc,6.0,True
+77,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,8,partial correlation,,no,,no,[ 0.55351656],roc_auc,6.0,True
+78,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,8,tangent,,no,,no,[ 0.61923865],roc_auc,6.0,True
+79,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,8,tangent,,no,,no,[ 0.66993855],roc_auc,6.0,True
+80,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,8,tangent,,no,,no,[ 0.66934107],roc_auc,6.0,True
+81,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,9,correlation,,no,,no,[ 0.59508365],roc_auc,6.0,True
+82,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,9,correlation,,no,,no,[ 0.63494367],roc_auc,6.0,True
+83,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,9,correlation,,no,,no,[ 0.60728918],roc_auc,6.0,True
+84,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,9,partial correlation,,no,,no,[ 0.58484124],roc_auc,6.0,True
+85,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,9,partial correlation,,no,,no,[ 0.57135541],roc_auc,6.0,True
+86,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,9,partial correlation,,no,,no,[ 0.57178218],roc_auc,6.0,True
+87,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,9,tangent,,no,,no,[ 0.56290543],roc_auc,6.0,True
+88,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,9,tangent,,no,,no,[ 0.65389211],roc_auc,6.0,True
+89,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,9,tangent,,no,,no,[ 0.64877091],roc_auc,6.0,True
+90,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,10,correlation,,no,,no,[ 0.52748378],roc_auc,6.0,True
+91,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,10,correlation,,no,,no,[ 0.5699044],roc_auc,6.0,True
+92,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,10,correlation,,no,,no,[ 0.56546603],roc_auc,6.0,True
+93,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,10,partial correlation,,no,,no,[ 0.60361898],roc_auc,6.0,True
+94,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,10,partial correlation,,no,,no,[ 0.57289177],roc_auc,6.0,True
+95,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,10,partial correlation,,no,,no,[ 0.57434278],roc_auc,6.0,True
+96,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,10,tangent,,no,,no,[ 0.6039604],roc_auc,6.0,True
+97,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,10,tangent,,no,,no,[ 0.63494367],roc_auc,6.0,True
+98,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,10,tangent,,no,,no,[ 0.63221236],roc_auc,6.0,True
+99,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,11,correlation,,no,,no,[ 0.59055992],roc_auc,6.0,True
+100,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,11,correlation,,no,,no,[ 0.64228406],roc_auc,6.0,True
+101,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,11,correlation,,no,,no,[ 0.60592352],roc_auc,6.0,True
+102,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,11,partial correlation,,no,,no,[ 0.58842608],roc_auc,6.0,True
+103,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,11,partial correlation,,no,,no,[ 0.62367702],roc_auc,6.0,True
+104,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,11,partial correlation,,no,,no,[ 0.62453056],roc_auc,6.0,True
+105,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,11,tangent,,no,,no,[ 0.60745988],roc_auc,6.0,True
+106,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,11,tangent,,no,,no,[ 0.72115056],roc_auc,6.0,True
+107,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,11,tangent,,no,,no,[ 0.71679754],roc_auc,6.0,True
+108,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,12,correlation,,no,,no,[ 0.56896552],roc_auc,6.0,True
+109,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,12,correlation,,no,,no,[ 0.59849778],roc_auc,6.0,True
+110,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,12,correlation,,no,,no,[ 0.56341755],roc_auc,6.0,True
+111,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,12,partial correlation,,no,,no,[ 0.49155002],roc_auc,6.0,True
+112,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,12,partial correlation,,no,,no,[ 0.50110959],roc_auc,6.0,True
+113,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,12,partial correlation,,no,,no,[ 0.50153636],roc_auc,6.0,True
+114,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,12,tangent,,no,,no,[ 0.61343462],roc_auc,6.0,True
+115,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,12,tangent,,no,,no,[ 0.60848412],roc_auc,6.0,True
+116,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,12,tangent,,no,,no,[ 0.60310686],roc_auc,6.0,True
+117,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,13,correlation,,no,,no,[ 0.59994879],roc_auc,6.0,True
+118,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,13,correlation,,no,,no,[ 0.62888358],roc_auc,6.0,True
+119,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,13,correlation,,no,,no,[ 0.61744623],roc_auc,6.0,True
+120,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,13,partial correlation,,no,,no,[ 0.50273131],roc_auc,6.0,True
+121,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,13,partial correlation,,no,,no,[ 0.52680096],roc_auc,6.0,True
+122,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,13,partial correlation,,no,,no,[ 0.52714237],roc_auc,6.0,True
+123,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,13,tangent,,no,,no,[ 0.55479686],roc_auc,6.0,True
+124,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,13,tangent,,no,,no,[ 0.63852851],roc_auc,6.0,True
+125,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,13,tangent,,no,,no,[ 0.63306589],roc_auc,6.0,True
+126,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,14,correlation,,no,,no,[ 0.62564015],roc_auc,6.0,True
+127,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,14,correlation,,no,,no,[ 0.66072038],roc_auc,6.0,True
+128,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,14,correlation,,no,,no,[ 0.63955275],roc_auc,6.0,True
+129,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,14,partial correlation,,no,,no,[ 0.54139638],roc_auc,6.0,True
+130,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,14,partial correlation,,no,,no,[ 0.58313418],roc_auc,6.0,True
+131,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,14,partial correlation,,no,,no,[ 0.58321953],roc_auc,6.0,True
+132,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,14,tangent,,no,,no,[ 0.64723455],roc_auc,6.0,True
+133,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,14,tangent,,no,,no,[ 0.67548651],roc_auc,6.0,True
+134,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,14,tangent,,no,,no,[ 0.67113349],roc_auc,6.0,True
+135,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,15,correlation,,no,,no,[ 0.57545237],roc_auc,6.0,True
+136,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,15,correlation,,no,,no,[ 0.6295664],roc_auc,6.0,True
+137,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,15,correlation,,no,,no,[ 0.60122909],roc_auc,6.0,True
+138,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,15,partial correlation,,no,,no,[ 0.59312052],roc_auc,6.0,True
+139,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,15,partial correlation,,no,,no,[ 0.59158416],roc_auc,6.0,True
+140,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,15,partial correlation,,no,,no,[ 0.59235234],roc_auc,6.0,True
+141,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,15,tangent,,no,,no,[ 0.58117105],roc_auc,6.0,True
+142,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,15,tangent,,no,,no,[ 0.67275521],roc_auc,6.0,True
+143,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,15,tangent,,no,,no,[ 0.66951178],roc_auc,6.0,True
+144,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,16,correlation,,no,,no,[ 0.64288153],roc_auc,6.0,True
+145,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,16,correlation,,no,,no,[ 0.71381017],roc_auc,6.0,True
+146,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,16,correlation,,no,,no,[ 0.70100717],roc_auc,6.0,True
+147,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,16,partial correlation,,no,,no,[ 0.55291909],roc_auc,6.0,True
+148,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,16,partial correlation,,no,,no,[ 0.6409184],roc_auc,6.0,True
+149,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,16,partial correlation,,no,,no,[ 0.6421987],roc_auc,6.0,True
+150,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,16,tangent,,no,,no,[ 0.61454421],roc_auc,6.0,True
+151,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,16,tangent,,no,,no,[ 0.74018436],roc_auc,6.0,True
+152,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,16,tangent,,no,,no,[ 0.737197],roc_auc,6.0,True
+153,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,17,correlation,,no,,no,[ 0.64629566],roc_auc,6.0,True
+154,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,17,correlation,,no,,no,[ 0.68974053],roc_auc,6.0,True
+155,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,17,correlation,,no,,no,[ 0.64885626],roc_auc,6.0,True
+156,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,17,partial correlation,,no,,no,[ 0.51852168],roc_auc,6.0,True
+157,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,17,partial correlation,,no,,no,[ 0.5519802],roc_auc,6.0,True
+158,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,17,partial correlation,,no,,no,[ 0.55206555],roc_auc,6.0,True
+159,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,17,tangent,,no,,no,[ 0.59252305],roc_auc,6.0,True
+160,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,17,tangent,,no,,no,[ 0.6637931],roc_auc,6.0,True
+161,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,17,tangent,,no,,no,[ 0.66157392],roc_auc,6.0,True
+162,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,18,correlation,,no,,no,[ 0.63460225],roc_auc,6.0,True
+163,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,18,correlation,,no,,no,[ 0.64322294],roc_auc,6.0,True
+164,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,18,correlation,,no,,no,[ 0.61898259],roc_auc,6.0,True
+165,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,18,partial correlation,,no,,no,[ 0.54301809],roc_auc,6.0,True
+166,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,18,partial correlation,,no,,no,[ 0.56708774],roc_auc,6.0,True
+167,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,18,partial correlation,,no,,no,[ 0.56623421],roc_auc,6.0,True
+168,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,18,tangent,,no,,no,[ 0.57365995],roc_auc,6.0,True
+169,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,18,tangent,,no,,no,[ 0.63315125],roc_auc,6.0,True
+170,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,18,tangent,,no,,no,[ 0.62990782],roc_auc,6.0,True
+171,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,19,correlation,,no,,no,[ 0.64083305],roc_auc,6.0,True
+172,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,19,correlation,,no,,no,[ 0.67582793],roc_auc,6.0,True
+173,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,19,correlation,,no,,no,[ 0.64484466],roc_auc,6.0,True
+174,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,19,partial correlation,,no,,no,[ 0.58467054],roc_auc,6.0,True
+175,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,19,partial correlation,,no,,no,[ 0.5735746],roc_auc,6.0,True
+176,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,19,partial correlation,,no,,no,[ 0.57536702],roc_auc,6.0,True
+177,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,19,tangent,,no,,no,[ 0.61411745],roc_auc,6.0,True
+178,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,19,tangent,,no,,no,[ 0.6725845],roc_auc,6.0,True
+179,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,19,tangent,,no,,no,[ 0.66737794],roc_auc,6.0,True
+180,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,20,correlation,,no,,no,[ 0.59252305],roc_auc,6.0,True
+181,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,20,correlation,,no,,no,[ 0.61522704],roc_auc,6.0,True
+182,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,20,correlation,,no,,no,[ 0.59252305],roc_auc,6.0,True
+183,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,20,partial correlation,,no,,no,[ 0.59935131],roc_auc,6.0,True
+184,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,20,partial correlation,,no,,no,[ 0.56452714],roc_auc,6.0,True
+185,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,20,partial correlation,,no,,no,[ 0.56657562],roc_auc,6.0,True
+186,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,20,tangent,,no,,no,[ 0.61360533],roc_auc,6.0,True
+187,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,20,tangent,,no,,no,[ 0.65568453],roc_auc,6.0,True
+188,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,20,tangent,,no,,no,[ 0.65150222],roc_auc,6.0,True
+189,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,21,correlation,,no,,no,[ 0.61633663],roc_auc,6.0,True
+190,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,21,correlation,,no,,no,[ 0.64066234],roc_auc,6.0,True
+191,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,21,correlation,,no,,no,[ 0.61625128],roc_auc,6.0,True
+192,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,21,partial correlation,,no,,no,[ 0.52978832],roc_auc,6.0,True
+193,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,21,partial correlation,,no,,no,[ 0.55599181],roc_auc,6.0,True
+194,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,21,partial correlation,,no,,no,[ 0.55991806],roc_auc,6.0,True
+195,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,21,tangent,,no,,no,[ 0.57895186],roc_auc,6.0,True
+196,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,21,tangent,,no,,no,[ 0.61078867],roc_auc,6.0,True
+197,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,21,tangent,,no,,no,[ 0.60387504],roc_auc,6.0,True
+198,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,22,correlation,,no,,no,[ 0.69588597],roc_auc,6.0,True
+199,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,22,correlation,,no,,no,[ 0.67360874],roc_auc,6.0,True
+200,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,22,correlation,,no,,no,[ 0.643479],roc_auc,6.0,True
+201,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,22,partial correlation,,no,,no,[ 0.55095596],roc_auc,6.0,True
+202,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,22,partial correlation,,no,,no,[ 0.56828269],roc_auc,6.0,True
+203,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,22,partial correlation,,no,,no,[ 0.57016046],roc_auc,6.0,True
+204,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,22,tangent,,no,,no,[ 0.63690679],roc_auc,6.0,True
+205,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,22,tangent,,no,,no,[ 0.68735063],roc_auc,6.0,True
+206,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,22,tangent,,no,,no,[ 0.68624104],roc_auc,6.0,True
+207,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,23,correlation,,no,,no,[ 0.59124274],roc_auc,6.0,True
+208,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,23,correlation,,no,,no,[ 0.6270058],roc_auc,6.0,True
+209,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,23,correlation,,no,,no,[ 0.59371799],roc_auc,6.0,True
+210,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,23,partial correlation,,no,,no,[ 0.54353022],roc_auc,6.0,True
+211,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,23,partial correlation,,no,,no,[ 0.55880847],roc_auc,6.0,True
+212,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,23,partial correlation,,no,,no,[ 0.55983271],roc_auc,6.0,True
+213,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,23,tangent,,no,,no,[ 0.61334927],roc_auc,6.0,True
+214,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,23,tangent,,no,,no,[ 0.66899966],roc_auc,6.0,True
+215,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,23,tangent,,no,,no,[ 0.66609764],roc_auc,6.0,True
+216,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,24,correlation,,no,,no,[ 0.61104473],roc_auc,6.0,True
+217,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,24,correlation,,no,,no,[ 0.57724479],roc_auc,6.0,True
+218,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,24,correlation,,no,,no,[ 0.56614886],roc_auc,6.0,True
+219,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,24,partial correlation,,no,,no,[ 0.50264595],roc_auc,6.0,True
+220,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,24,partial correlation,,no,,no,[ 0.53115398],roc_auc,6.0,True
+221,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,24,partial correlation,,no,,no,[ 0.53072721],roc_auc,6.0,True
+222,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,24,tangent,,no,,no,[ 0.57852509],roc_auc,6.0,True
+223,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,24,tangent,,no,,no,[ 0.61522704],roc_auc,6.0,True
+224,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,24,tangent,,no,,no,[ 0.607972],roc_auc,6.0,True
+225,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,25,correlation,,no,,no,[ 0.62640833],roc_auc,6.0,True
+226,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,25,correlation,,no,,no,[ 0.65389211],roc_auc,6.0,True
+227,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,25,correlation,,no,,no,[ 0.63460225],roc_auc,6.0,True
+228,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,25,partial correlation,,no,,no,[ 0.60020485],roc_auc,6.0,True
+229,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,25,partial correlation,,no,,no,[ 0.58740184],roc_auc,6.0,True
+230,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,25,partial correlation,,no,,no,[ 0.58825538],roc_auc,6.0,True
+231,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,25,tangent,,no,,no,[ 0.64279618],roc_auc,6.0,True
+232,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,25,tangent,,no,,no,[ 0.67190167],roc_auc,6.0,True
+233,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,25,tangent,,no,,no,[ 0.66703653],roc_auc,6.0,True
+234,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,26,correlation,,no,,no,[ 0.64962445],roc_auc,6.0,True
+235,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,26,correlation,,no,,no,[ 0.6700239],roc_auc,6.0,True
+236,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,26,correlation,,no,,no,[ 0.63827245],roc_auc,6.0,True
+237,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,26,partial correlation,,no,,no,[ 0.52065551],roc_auc,6.0,True
+238,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,26,partial correlation,,no,,no,[ 0.5331171],roc_auc,6.0,True
+239,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,26,partial correlation,,no,,no,[ 0.53243428],roc_auc,6.0,True
+240,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,26,tangent,,no,,no,[ 0.64433254],roc_auc,6.0,True
+241,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,26,tangent,,no,,no,[ 0.63221236],roc_auc,6.0,True
+242,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,26,tangent,,no,,no,[ 0.6268351],roc_auc,6.0,True
+243,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,27,correlation,,no,,no,[ 0.66840219],roc_auc,6.0,True
+244,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,27,correlation,,no,,no,[ 0.66157392],roc_auc,6.0,True
+245,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,27,correlation,,no,,no,[ 0.62948105],roc_auc,6.0,True
+246,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,27,partial correlation,,no,,no,[ 0.56111301],roc_auc,6.0,True
+247,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,27,partial correlation,,no,,no,[ 0.57775691],roc_auc,6.0,True
+248,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,27,partial correlation,,no,,no,[ 0.57733015],roc_auc,6.0,True
+249,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,27,tangent,,no,,no,[ 0.6039604],roc_auc,6.0,True
+250,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,27,tangent,,no,,no,[ 0.65303858],roc_auc,6.0,True
+251,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,27,tangent,,no,,no,[ 0.64979515],roc_auc,6.0,True
+252,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,28,correlation,,no,,no,[ 0.63682144],roc_auc,6.0,True
+253,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,28,correlation,,no,,no,[ 0.64160123],roc_auc,6.0,True
+254,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,28,correlation,,no,,no,[ 0.61155685],roc_auc,6.0,True
+255,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,28,partial correlation,,no,,no,[ 0.53081256],roc_auc,6.0,True
+256,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,28,partial correlation,,no,,no,[ 0.54096961],roc_auc,6.0,True
+257,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,28,partial correlation,,no,,no,[ 0.54233527],roc_auc,6.0,True
+258,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,28,tangent,,no,,no,[ 0.62256743],roc_auc,6.0,True
+259,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,28,tangent,,no,,no,[ 0.60088767],roc_auc,6.0,True
+260,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,28,tangent,,no,,no,[ 0.59491294],roc_auc,6.0,True
+261,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,29,correlation,,no,,no,[ 0.70092182],roc_auc,6.0,True
+262,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,29,correlation,,no,,no,[ 0.71176169],roc_auc,6.0,True
+263,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,29,correlation,,no,,no,[ 0.6877774],roc_auc,6.0,True
+264,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,29,partial correlation,,no,,no,[ 0.53866507],roc_auc,6.0,True
+265,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,29,partial correlation,,no,,no,[ 0.58501195],roc_auc,6.0,True
+266,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,29,partial correlation,,no,,no,[ 0.58629225],roc_auc,6.0,True
+267,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,29,tangent,,no,,no,[ 0.63519973],roc_auc,6.0,True
+268,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,29,tangent,,no,,no,[ 0.69093547],roc_auc,6.0,True
+269,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,29,tangent,,no,,no,[ 0.68359508],roc_auc,6.0,True
+270,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,30,correlation,,no,,no,[ 0.59798566],roc_auc,6.0,True
+271,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,30,correlation,,no,,no,[ 0.58441448],roc_auc,6.0,True
+272,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,30,correlation,,no,,no,[ 0.55650393],roc_auc,6.0,True
+273,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,30,partial correlation,,no,,no,[ 0.56631956],roc_auc,6.0,True
+274,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,30,partial correlation,,no,,no,[ 0.56572209],roc_auc,6.0,True
+275,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,30,partial correlation,,no,,no,[ 0.56427108],roc_auc,6.0,True
+276,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,30,tangent,,no,,no,[ 0.55334585],roc_auc,6.0,True
+277,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,30,tangent,,no,,no,[ 0.62743257],roc_auc,6.0,True
+278,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,30,tangent,,no,,no,[ 0.6244452],roc_auc,6.0,True
+279,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,31,correlation,,no,,no,[ 0.60882554],roc_auc,6.0,True
+280,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,31,correlation,,no,,no,[ 0.66336634],roc_auc,6.0,True
+281,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,31,correlation,,no,,no,[ 0.62145784],roc_auc,6.0,True
+282,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,31,partial correlation,,no,,no,[ 0.5064015],roc_auc,6.0,True
+283,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,31,partial correlation,,no,,no,[ 0.56674633],roc_auc,6.0,True
+284,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,31,partial correlation,,no,,no,[ 0.5686241],roc_auc,6.0,True
+285,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,31,tangent,,no,,no,[ 0.62931034],roc_auc,6.0,True
+286,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,31,tangent,,no,,no,[ 0.66951178],roc_auc,6.0,True
+287,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,31,tangent,,no,,no,[ 0.66660976],roc_auc,6.0,True
+288,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,32,correlation,,no,,no,[ 0.54924889],roc_auc,6.0,True
+289,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,32,correlation,,no,,no,[ 0.5671731],roc_auc,6.0,True
+290,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,32,correlation,,no,,no,[ 0.54472516],roc_auc,6.0,True
+291,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,32,partial correlation,,no,,no,[ 0.53943325],roc_auc,6.0,True
+292,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,32,partial correlation,,no,,no,[ 0.55445545],roc_auc,6.0,True
+293,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,32,partial correlation,,no,,no,[ 0.55479686],roc_auc,6.0,True
+294,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,32,tangent,,no,,no,[ 0.60020485],roc_auc,6.0,True
+295,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,32,tangent,,no,,no,[ 0.59687607],roc_auc,6.0,True
+296,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,32,tangent,,no,,no,[ 0.59363264],roc_auc,6.0,True
+297,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,33,correlation,,no,,no,[ 0.65278252],roc_auc,6.0,True
+298,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,33,correlation,,no,,no,[ 0.64279618],roc_auc,6.0,True
+299,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,33,correlation,,no,,no,[ 0.61829976],roc_auc,6.0,True
+300,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,33,partial correlation,,no,,no,[ 0.56179583],roc_auc,6.0,True
+301,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,33,partial correlation,,no,,no,[ 0.56751451],roc_auc,6.0,True
+302,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,33,partial correlation,,no,,no,[ 0.57024582],roc_auc,6.0,True
+303,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,33,tangent,,no,,no,[ 0.62478662],roc_auc,6.0,True
+304,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,33,tangent,,no,,no,[ 0.64125982],roc_auc,6.0,True
+305,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,33,tangent,,no,,no,[ 0.63904063],roc_auc,6.0,True
+306,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,34,correlation,,no,,no,[ 0.58193923],roc_auc,6.0,True
+307,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,34,correlation,,no,,no,[ 0.5889382],roc_auc,6.0,True
+308,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,34,correlation,,no,,no,[ 0.56256402],roc_auc,6.0,True
+309,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,34,partial correlation,,no,,no,[ 0.58782861],roc_auc,6.0,True
+310,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,34,partial correlation,,no,,no,[ 0.58688972],roc_auc,6.0,True
+311,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,34,partial correlation,,no,,no,[ 0.58671902],roc_auc,6.0,True
+312,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,34,tangent,,no,,no,[ 0.62470126],roc_auc,6.0,True
+313,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,34,tangent,,no,,no,[ 0.65457494],roc_auc,6.0,True
+314,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,34,tangent,,no,,no,[ 0.64749061],roc_auc,6.0,True
+315,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,35,correlation,,no,,no,[ 0.64049164],roc_auc,6.0,True
+316,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,35,correlation,,no,,no,[ 0.64655172],roc_auc,6.0,True
+317,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,35,correlation,,no,,no,[ 0.61172755],roc_auc,6.0,True
+318,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,35,partial correlation,,no,,no,[ 0.58945032],roc_auc,6.0,True
+319,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,35,partial correlation,,no,,no,[ 0.61249573],roc_auc,6.0,True
+320,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,35,partial correlation,,no,,no,[ 0.61480027],roc_auc,6.0,True
+321,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,35,tangent,,no,,no,[ 0.63758962],roc_auc,6.0,True
+322,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,35,tangent,,no,,no,[ 0.69238648],roc_auc,6.0,True
+323,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,35,tangent,,no,,no,[ 0.68743598],roc_auc,6.0,True
+324,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,36,correlation,,no,,no,[ 0.62461591],roc_auc,6.0,True
+325,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,36,correlation,,no,,no,[ 0.62196996],roc_auc,6.0,True
+326,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,36,correlation,,no,,no,[ 0.60617958],roc_auc,6.0,True
+327,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,36,partial correlation,,no,,no,[ 0.56375896],roc_auc,6.0,True
+328,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,36,partial correlation,,no,,no,[ 0.56546603],roc_auc,6.0,True
+329,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,36,partial correlation,,no,,no,[ 0.56751451],roc_auc,6.0,True
+330,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,36,tangent,,no,,no,[ 0.6013998],roc_auc,6.0,True
+331,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,36,tangent,,no,,no,[ 0.65252646],roc_auc,6.0,True
+332,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,36,tangent,,no,,no,[ 0.64638102],roc_auc,6.0,True
+333,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,37,correlation,,no,,no,[ 0.59687607],roc_auc,6.0,True
+334,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,37,correlation,,no,,no,[ 0.59636395],roc_auc,6.0,True
+335,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,37,correlation,,no,,no,[ 0.56213725],roc_auc,6.0,True
+336,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,37,partial correlation,,no,,no,[ 0.55752817],roc_auc,6.0,True
+337,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,37,partial correlation,,no,,no,[ 0.56870946],roc_auc,6.0,True
+338,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,37,partial correlation,,no,,no,[ 0.5699044],roc_auc,6.0,True
+339,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,37,tangent,,no,,no,[ 0.60071697],roc_auc,6.0,True
+340,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,37,tangent,,no,,no,[ 0.64612496],roc_auc,6.0,True
+341,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,37,tangent,,no,,no,[ 0.63980881],roc_auc,6.0,True
+342,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,38,correlation,,no,,no,[ 0.5862069],roc_auc,6.0,True
+343,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,38,correlation,,no,,no,[ 0.61462957],roc_auc,6.0,True
+344,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,38,correlation,,no,,no,[ 0.60020485],roc_auc,6.0,True
+345,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,38,partial correlation,,no,,no,[ 0.55786958],roc_auc,6.0,True
+346,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,38,partial correlation,,no,,no,[ 0.57903721],roc_auc,6.0,True
+347,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,38,partial correlation,,no,,no,[ 0.57818368],roc_auc,6.0,True
+348,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,38,tangent,,no,,no,[ 0.63494367],roc_auc,6.0,True
+349,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,38,tangent,,no,,no,[ 0.64066234],roc_auc,6.0,True
+350,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,38,tangent,,no,,no,[ 0.6357972],roc_auc,6.0,True
+351,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,39,correlation,,no,,no,[ 0.60447252],roc_auc,6.0,True
+352,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,39,correlation,,no,,no,[ 0.65850119],roc_auc,6.0,True
+353,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,39,correlation,,no,,no,[ 0.64629566],roc_auc,6.0,True
+354,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,39,partial correlation,,no,,no,[ 0.56367361],roc_auc,6.0,True
+355,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,39,partial correlation,,no,,no,[ 0.56922158],roc_auc,6.0,True
+356,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,39,partial correlation,,no,,no,[ 0.56981905],roc_auc,6.0,True
+357,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,39,tangent,,no,,no,[ 0.57792762],roc_auc,6.0,True
+358,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,39,tangent,,no,,no,[ 0.65901332],roc_auc,6.0,True
+359,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,39,tangent,,no,,no,[ 0.65466029],roc_auc,6.0,True
+360,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,40,correlation,,no,,no,[ 0.61070331],roc_auc,6.0,True
+361,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,40,correlation,,no,,no,[ 0.65414817],roc_auc,6.0,True
+362,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,40,correlation,,no,,no,[ 0.6180437],roc_auc,6.0,True
+363,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,40,partial correlation,,no,,no,[ 0.55402868],roc_auc,6.0,True
+364,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,40,partial correlation,,no,,no,[ 0.54335951],roc_auc,6.0,True
+365,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,40,partial correlation,,no,,no,[ 0.53968931],roc_auc,6.0,True
+366,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,40,tangent,,no,,no,[ 0.5774155],roc_auc,6.0,True
+367,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,40,tangent,,no,,no,[ 0.64774667],roc_auc,6.0,True
+368,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,40,tangent,,no,,no,[ 0.63895527],roc_auc,6.0,True
+369,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,41,correlation,,no,,no,[ 0.6636224],roc_auc,6.0,True
+370,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,41,correlation,,no,,no,[ 0.64655172],roc_auc,6.0,True
+371,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,41,correlation,,no,,no,[ 0.63204165],roc_auc,6.0,True
+372,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,41,partial correlation,,no,,no,[ 0.58006145],roc_auc,6.0,True
+373,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,41,partial correlation,,no,,no,[ 0.57383066],roc_auc,6.0,True
+374,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,41,partial correlation,,no,,no,[ 0.57664732],roc_auc,6.0,True
+375,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,41,tangent,,no,,no,[ 0.66072038],roc_auc,6.0,True
+376,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,41,tangent,,no,,no,[ 0.68880164],roc_auc,6.0,True
+377,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,41,tangent,,no,,no,[ 0.68274155],roc_auc,6.0,True
+378,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,42,correlation,,no,,no,[ 0.60635029],roc_auc,6.0,True
+379,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,42,correlation,,no,,no,[ 0.59918061],roc_auc,6.0,True
+380,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,42,correlation,,no,,no,[ 0.57878115],roc_auc,6.0,True
+381,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,42,partial correlation,,no,,no,[ 0.57972004],roc_auc,6.0,True
+382,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,42,partial correlation,,no,,no,[ 0.58868214],roc_auc,6.0,True
+383,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,42,partial correlation,,no,,no,[ 0.5887675],roc_auc,6.0,True
+384,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,42,tangent,,no,,no,[ 0.59849778],roc_auc,6.0,True
+385,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,42,tangent,,no,,no,[ 0.62504268],roc_auc,6.0,True
+386,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,42,tangent,,no,,no,[ 0.61983612],roc_auc,6.0,True
+387,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,43,correlation,,no,,no,[ 0.63255377],roc_auc,6.0,True
+388,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,43,correlation,,no,,no,[ 0.67010925],roc_auc,6.0,True
+389,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,43,correlation,,no,,no,[ 0.64040628],roc_auc,6.0,True
+390,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,43,partial correlation,,no,,no,[ 0.54899283],roc_auc,6.0,True
+391,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,43,partial correlation,,no,,no,[ 0.56512462],roc_auc,6.0,True
+392,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,43,partial correlation,,no,,no,[ 0.5646125],roc_auc,6.0,True
+393,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,43,tangent,,no,,no,[ 0.62222602],roc_auc,6.0,True
+394,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,43,tangent,,no,,no,[ 0.66959713],roc_auc,6.0,True
+395,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,43,tangent,,no,,no,[ 0.66481734],roc_auc,6.0,True
+396,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,44,correlation,,no,,no,[ 0.63263913],roc_auc,6.0,True
+397,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,44,correlation,,no,,no,[ 0.642028],roc_auc,6.0,True
+398,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,44,correlation,,no,,no,[ 0.62214066],roc_auc,6.0,True
+399,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,44,partial correlation,,no,,no,[ 0.51818027],roc_auc,6.0,True
+400,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,44,partial correlation,,no,,no,[ 0.49778081],roc_auc,6.0,True
+401,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,44,partial correlation,,no,,no,[ 0.49812223],roc_auc,6.0,True
+402,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,44,tangent,,no,,no,[ 0.61855582],roc_auc,6.0,True
+403,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,44,tangent,,no,,no,[ 0.63878457],roc_auc,6.0,True
+404,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,44,tangent,,no,,no,[ 0.63528508],roc_auc,6.0,True
+405,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,45,correlation,,no,,no,[ 0.66328098],roc_auc,6.0,True
+406,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,45,correlation,,no,,no,[ 0.67821782],roc_auc,6.0,True
+407,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,45,correlation,,no,,no,[ 0.65278252],roc_auc,6.0,True
+408,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,45,partial correlation,,no,,no,[ 0.56469785],roc_auc,6.0,True
+409,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,45,partial correlation,,no,,no,[ 0.58398771],roc_auc,6.0,True
+410,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,45,partial correlation,,no,,no,[ 0.58330488],roc_auc,6.0,True
+411,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,45,tangent,,no,,no,[ 0.61744623],roc_auc,6.0,True
+412,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,45,tangent,,no,,no,[ 0.6802663],roc_auc,6.0,True
+413,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,45,tangent,,no,,no,[ 0.67505975],roc_auc,6.0,True
+414,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,46,correlation,,no,,no,[ 0.65687948],roc_auc,6.0,True
+415,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,46,correlation,,no,,no,[ 0.68880164],roc_auc,6.0,True
+416,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,46,correlation,,no,,no,[ 0.65363605],roc_auc,6.0,True
+417,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,46,partial correlation,,no,,no,[ 0.58407306],roc_auc,6.0,True
+418,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,46,partial correlation,,no,,no,[ 0.56640492],roc_auc,6.0,True
+419,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,46,partial correlation,,no,,no,[ 0.5673438],roc_auc,6.0,True
+420,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,46,tangent,,no,,no,[ 0.64143052],roc_auc,6.0,True
+421,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,46,tangent,,no,,no,[ 0.65815978],roc_auc,6.0,True
+422,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,46,tangent,,no,,no,[ 0.65141687],roc_auc,6.0,True
+423,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,47,correlation,,no,,no,[ 0.66541482],roc_auc,6.0,True
+424,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,47,correlation,,no,,no,[ 0.69588597],roc_auc,6.0,True
+425,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,47,correlation,,no,,no,[ 0.67104814],roc_auc,6.0,True
+426,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,47,partial correlation,,no,,no,[ 0.59055992],roc_auc,6.0,True
+427,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,47,partial correlation,,no,,no,[ 0.5711847],roc_auc,6.0,True
+428,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,47,partial correlation,,no,,no,[ 0.57255036],roc_auc,6.0,True
+429,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,47,tangent,,no,,no,[ 0.68197337],roc_auc,6.0,True
+430,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,47,tangent,,no,,no,[ 0.70527484],roc_auc,6.0,True
+431,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,47,tangent,,no,,no,[ 0.70305565],roc_auc,6.0,True
+432,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,48,correlation,,no,,no,[ 0.62137248],roc_auc,6.0,True
+433,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,48,correlation,,no,,no,[ 0.64791738],roc_auc,6.0,True
+434,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,48,correlation,,no,,no,[ 0.63127347],roc_auc,6.0,True
+435,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,48,partial correlation,,no,,no,[ 0.52816661],roc_auc,6.0,True
+436,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,48,partial correlation,,no,,no,[ 0.58151246],roc_auc,6.0,True
+437,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,48,partial correlation,,no,,no,[ 0.58142711],roc_auc,6.0,True
+438,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,48,tangent,,no,,no,[ 0.64791738],roc_auc,6.0,True
+439,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,48,tangent,,no,,no,[ 0.68683851],roc_auc,6.0,True
+440,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,48,tangent,,no,,no,[ 0.68333902],roc_auc,6.0,True
+441,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,49,correlation,,no,,no,[ 0.58458518],roc_auc,6.0,True
+442,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,49,correlation,,no,,no,[ 0.6281154],roc_auc,6.0,True
+443,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,49,correlation,,no,,no,[ 0.59346193],roc_auc,6.0,True
+444,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,49,partial correlation,,no,,no,[ 0.5673438],roc_auc,6.0,True
+445,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,49,partial correlation,,no,,no,[ 0.56282008],roc_auc,6.0,True
+446,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,49,partial correlation,,no,,no,[ 0.56341755],roc_auc,6.0,True
+447,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,49,tangent,,no,,no,[ 0.59209628],roc_auc,6.0,True
+448,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,49,tangent,,no,,no,[ 0.64962445],roc_auc,6.0,True
+449,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,49,tangent,,no,,no,[ 0.64544213],roc_auc,6.0,True
+450,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,50,correlation,,no,,no,[ 0.58202458],roc_auc,6.0,True
+451,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,50,correlation,,no,,no,[ 0.57263571],roc_auc,6.0,True
+452,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,50,correlation,,no,,no,[ 0.54028679],roc_auc,6.0,True
+453,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,50,partial correlation,,no,,no,[ 0.55471151],roc_auc,6.0,True
+454,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,50,partial correlation,,no,,no,[ 0.5228747],roc_auc,6.0,True
+455,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,50,partial correlation,,no,,no,[ 0.52227723],roc_auc,6.0,True
+456,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,50,tangent,,no,,no,[ 0.53448276],roc_auc,6.0,True
+457,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,50,tangent,,no,,no,[ 0.60822806],roc_auc,6.0,True
+458,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,50,tangent,,no,,no,[ 0.60336292],roc_auc,6.0,True
+459,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,51,correlation,,no,,no,[ 0.61061796],roc_auc,6.0,True
+460,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,51,correlation,,no,,no,[ 0.63135883],roc_auc,6.0,True
+461,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,51,correlation,,no,,no,[ 0.63007853],roc_auc,6.0,True
+462,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,51,partial correlation,,no,,no,[ 0.52833732],roc_auc,6.0,True
+463,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,51,partial correlation,,no,,no,[ 0.55266302],roc_auc,6.0,True
+464,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,51,partial correlation,,no,,no,[ 0.55172414],roc_auc,6.0,True
+465,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,51,tangent,,no,,no,[ 0.6244452],roc_auc,6.0,True
+466,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,51,tangent,,no,,no,[ 0.64800273],roc_auc,6.0,True
+467,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,51,tangent,,no,,no,[ 0.64561284],roc_auc,6.0,True
+468,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,52,correlation,,no,,no,[ 0.65167293],roc_auc,6.0,True
+469,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,52,correlation,,no,,no,[ 0.64962445],roc_auc,6.0,True
+470,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,52,correlation,,no,,no,[ 0.63417549],roc_auc,6.0,True
+471,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,52,partial correlation,,no,,no,[ 0.58065893],roc_auc,6.0,True
+472,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,52,partial correlation,,no,,no,[ 0.60182656],roc_auc,6.0,True
+473,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,52,partial correlation,,no,,no,[ 0.60148515],roc_auc,6.0,True
+474,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,52,tangent,,no,,no,[ 0.66328098],roc_auc,6.0,True
+475,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,52,tangent,,no,,no,[ 0.68581427],roc_auc,6.0,True
+476,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,52,tangent,,no,,no,[ 0.67890065],roc_auc,6.0,True
+477,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,53,correlation,,no,,no,[ 0.62282349],roc_auc,6.0,True
+478,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,53,correlation,,no,,no,[ 0.61838511],roc_auc,6.0,True
+479,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,53,correlation,,no,,no,[ 0.59508365],roc_auc,6.0,True
+480,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,53,partial correlation,,no,,no,[ 0.52688631],roc_auc,6.0,True
+481,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,53,partial correlation,,no,,no,[ 0.53499488],roc_auc,6.0,True
+482,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,53,partial correlation,,no,,no,[ 0.53670195],roc_auc,6.0,True
+483,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,53,tangent,,no,,no,[ 0.607972],roc_auc,6.0,True
+484,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,53,tangent,,no,,no,[ 0.63767497],roc_auc,6.0,True
+485,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,53,tangent,,no,,no,[ 0.6345169],roc_auc,6.0,True
+486,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,54,correlation,,no,,no,[ 0.57639126],roc_auc,6.0,True
+487,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,54,correlation,,no,,no,[ 0.64211335],roc_auc,6.0,True
+488,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,54,correlation,,no,,no,[ 0.63212701],roc_auc,6.0,True
+489,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,54,partial correlation,,no,,no,[ 0.57050188],roc_auc,6.0,True
+490,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,54,partial correlation,,no,,no,[ 0.60831342],roc_auc,6.0,True
+491,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,54,partial correlation,,no,,no,[ 0.60933766],roc_auc,6.0,True
+492,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,54,tangent,,no,,no,[ 0.6421987],roc_auc,6.0,True
+493,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,54,tangent,,no,,no,[ 0.68530215],roc_auc,6.0,True
+494,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,54,tangent,,no,,no,[ 0.68274155],roc_auc,6.0,True
+495,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,55,correlation,,no,,no,[ 0.64578354],roc_auc,6.0,True
+496,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,55,correlation,,no,,no,[ 0.68615568],roc_auc,6.0,True
+497,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,55,correlation,,no,,no,[ 0.67292591],roc_auc,6.0,True
+498,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,55,partial correlation,,no,,no,[ 0.5658928],roc_auc,6.0,True
+499,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,55,partial correlation,,no,,no,[ 0.57707409],roc_auc,6.0,True
+500,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,55,partial correlation,,no,,no,[ 0.57528167],roc_auc,6.0,True
+501,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,55,tangent,,no,,no,[ 0.61642199],roc_auc,6.0,True
+502,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,55,tangent,,no,,no,[ 0.6777057],roc_auc,6.0,True
+503,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,55,tangent,,no,,no,[ 0.67779105],roc_auc,6.0,True
+504,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,56,correlation,,no,,no,[ 0.6826562],roc_auc,6.0,True
+505,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,56,correlation,,no,,no,[ 0.64834414],roc_auc,6.0,True
+506,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,56,correlation,,no,,no,[ 0.6052407],roc_auc,6.0,True
+507,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,56,partial correlation,,no,,no,[ 0.53627518],roc_auc,6.0,True
+508,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,56,partial correlation,,no,,no,[ 0.51331512],roc_auc,6.0,True
+509,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,56,partial correlation,,no,,no,[ 0.51672926],roc_auc,6.0,True
+510,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,56,tangent,,no,,no,[ 0.66652441],roc_auc,6.0,True
+511,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,56,tangent,,no,,no,[ 0.6433083],roc_auc,6.0,True
+512,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,56,tangent,,no,,no,[ 0.6383578],roc_auc,6.0,True
+513,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,57,correlation,,no,,no,[ 0.64646637],roc_auc,6.0,True
+514,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,57,correlation,,no,,no,[ 0.64108911],roc_auc,6.0,True
+515,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,57,correlation,,no,,no,[ 0.61198361],roc_auc,6.0,True
+516,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,57,partial correlation,,no,,no,[ 0.60199727],roc_auc,6.0,True
+517,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,57,partial correlation,,no,,no,[ 0.59457153],roc_auc,6.0,True
+518,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,57,partial correlation,,no,,no,[ 0.59252305],roc_auc,6.0,True
+519,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,57,tangent,,no,,no,[ 0.63980881],roc_auc,6.0,True
+520,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,57,tangent,,no,,no,[ 0.68863093],roc_auc,6.0,True
+521,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,57,tangent,,no,,no,[ 0.68624104],roc_auc,6.0,True
+522,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,58,correlation,,no,,no,[ 0.6217139],roc_auc,6.0,True
+523,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,58,correlation,,no,,no,[ 0.65559918],roc_auc,6.0,True
+524,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,58,correlation,,no,,no,[ 0.62196996],roc_auc,6.0,True
+525,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,58,partial correlation,,no,,no,[ 0.48053943],roc_auc,6.0,True
+526,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,58,partial correlation,,no,,no,[ 0.56324684],roc_auc,6.0,True
+527,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,58,partial correlation,,no,,no,[ 0.56452714],roc_auc,6.0,True
+528,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,58,tangent,,no,,no,[ 0.58808467],roc_auc,6.0,True
+529,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,58,tangent,,no,,no,[ 0.66456128],roc_auc,6.0,True
+530,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,58,tangent,,no,,no,[ 0.66012291],roc_auc,6.0,True
+531,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,59,correlation,,no,,no,[ 0.57186753],roc_auc,6.0,True
+532,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,59,correlation,,no,,no,[ 0.62342096],roc_auc,6.0,True
+533,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,59,correlation,,no,,no,[ 0.60609423],roc_auc,6.0,True
+534,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,59,partial correlation,,no,,no,[ 0.51852168],roc_auc,6.0,True
+535,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,59,partial correlation,,no,,no,[ 0.53559235],roc_auc,6.0,True
+536,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,59,partial correlation,,no,,no,[ 0.53567771],roc_auc,6.0,True
+537,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,59,tangent,,no,,no,[ 0.5761352],roc_auc,6.0,True
+538,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,59,tangent,,no,,no,[ 0.61889723],roc_auc,6.0,True
+539,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,59,tangent,,no,,no,[ 0.61625128],roc_auc,6.0,True
+540,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,60,correlation,,no,,no,[ 0.6028508],roc_auc,6.0,True
+541,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,60,correlation,,no,,no,[ 0.63485831],roc_auc,6.0,True
+542,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,60,correlation,,no,,no,[ 0.62504268],roc_auc,6.0,True
+543,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,60,partial correlation,,no,,no,[ 0.55368727],roc_auc,6.0,True
+544,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,60,partial correlation,,no,,no,[ 0.58467054],roc_auc,6.0,True
+545,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,60,partial correlation,,no,,no,[ 0.58373165],roc_auc,6.0,True
+546,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,60,tangent,,no,,no,[ 0.63076135],roc_auc,6.0,True
+547,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,60,tangent,,no,,no,[ 0.64894162],roc_auc,6.0,True
+548,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,60,tangent,,no,,no,[ 0.64749061],roc_auc,6.0,True
+549,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,61,correlation,,no,,no,[ 0.55880847],roc_auc,6.0,True
+550,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,61,correlation,,no,,no,[ 0.58279276],roc_auc,6.0,True
+551,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,61,correlation,,no,,no,[ 0.55675999],roc_auc,6.0,True
+552,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,61,partial correlation,,no,,no,[ 0.51536361],roc_auc,6.0,True
+553,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,61,partial correlation,,no,,no,[ 0.54967566],roc_auc,6.0,True
+554,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,61,partial correlation,,no,,no,[ 0.55112666],roc_auc,6.0,True
+555,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,61,tangent,,no,,no,[ 0.60788665],roc_auc,6.0,True
+556,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,61,tangent,,no,,no,[ 0.60472858],roc_auc,6.0,True
+557,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,61,tangent,,no,,no,[ 0.60054626],roc_auc,6.0,True
+558,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,62,correlation,,no,,no,[ 0.59175487],roc_auc,6.0,True
+559,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,62,correlation,,no,,no,[ 0.64313759],roc_auc,6.0,True
+560,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,62,correlation,,no,,no,[ 0.61351997],roc_auc,6.0,True
+561,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,62,partial correlation,,no,,no,[ 0.5254353],roc_auc,6.0,True
+562,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,62,partial correlation,,no,,no,[ 0.56939228],roc_auc,6.0,True
+563,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,62,partial correlation,,no,,no,[ 0.5684534],roc_auc,6.0,True
+564,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,62,tangent,,no,,no,[ 0.58688972],roc_auc,6.0,True
+565,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,62,tangent,,no,,no,[ 0.64382042],roc_auc,6.0,True
+566,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,62,tangent,,no,,no,[ 0.64143052],roc_auc,6.0,True
+567,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,63,correlation,,no,,no,[ 0.5887675],roc_auc,6.0,True
+568,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,63,correlation,,no,,no,[ 0.64023558],roc_auc,6.0,True
+569,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,63,correlation,,no,,no,[ 0.63528508],roc_auc,6.0,True
+570,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,63,partial correlation,,no,,no,[ 0.52108228],roc_auc,6.0,True
+571,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,63,partial correlation,,no,,no,[ 0.55914988],roc_auc,6.0,True
+572,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,63,partial correlation,,no,,no,[ 0.55974735],roc_auc,6.0,True
+573,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,63,tangent,,no,,no,[ 0.59465688],roc_auc,6.0,True
+574,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,63,tangent,,no,,no,[ 0.62248208],roc_auc,6.0,True
+575,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,63,tangent,,no,,no,[ 0.61684875],roc_auc,6.0,True
+576,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,64,correlation,,no,,no,[ 0.56452714],roc_auc,6.0,True
+577,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,64,correlation,,no,,no,[ 0.6154831],roc_auc,6.0,True
+578,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,64,correlation,,no,,no,[ 0.58432912],roc_auc,6.0,True
+579,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,64,partial correlation,,no,,no,[ 0.58415842],roc_auc,6.0,True
+580,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,64,partial correlation,,no,,no,[ 0.60805736],roc_auc,6.0,True
+581,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,64,partial correlation,,no,,no,[ 0.60822806],roc_auc,6.0,True
+582,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,64,tangent,,no,,no,[ 0.67053602],roc_auc,6.0,True
+583,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,64,tangent,,no,,no,[ 0.67744964],roc_auc,6.0,True
+584,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,64,tangent,,no,,no,[ 0.66882895],roc_auc,6.0,True
+585,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,65,correlation,,no,,no,[ 0.63716285],roc_auc,6.0,True
+586,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,65,correlation,,no,,no,[ 0.68163196],roc_auc,6.0,True
+587,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,65,correlation,,no,,no,[ 0.66003756],roc_auc,6.0,True
+588,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,65,partial correlation,,no,,no,[ 0.52560601],roc_auc,6.0,True
+589,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,65,partial correlation,,no,,no,[ 0.55650393],roc_auc,6.0,True
+590,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,65,partial correlation,,no,,no,[ 0.55641857],roc_auc,6.0,True
+591,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,65,tangent,,no,,no,[ 0.690338],roc_auc,6.0,True
+592,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,65,tangent,,no,,no,[ 0.7196142],roc_auc,6.0,True
+593,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,65,tangent,,no,,no,[ 0.71773643],roc_auc,6.0,True
+594,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,66,correlation,,no,,no,[ 0.60643564],roc_auc,6.0,True
+595,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,66,correlation,,no,,no,[ 0.64382042],roc_auc,6.0,True
+596,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,66,correlation,,no,,no,[ 0.61744623],roc_auc,6.0,True
+597,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,66,partial correlation,,no,,no,[ 0.55513827],roc_auc,6.0,True
+598,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,66,partial correlation,,no,,no,[ 0.60071697],roc_auc,6.0,True
+599,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,66,partial correlation,,no,,no,[ 0.59952202],roc_auc,6.0,True
+600,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,66,tangent,,no,,no,[ 0.61889723],roc_auc,6.0,True
+601,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,66,tangent,,no,,no,[ 0.65303858],roc_auc,6.0,True
+602,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,66,tangent,,no,,no,[ 0.64979515],roc_auc,6.0,True
+603,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,67,correlation,,no,,no,[ 0.58817002],roc_auc,6.0,True
+604,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,67,correlation,,no,,no,[ 0.60370434],roc_auc,6.0,True
+605,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,67,correlation,,no,,no,[ 0.58159781],roc_auc,6.0,True
+606,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,67,partial correlation,,no,,no,[ 0.5494196],roc_auc,6.0,True
+607,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,67,partial correlation,,no,,no,[ 0.54506658],roc_auc,6.0,True
+608,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,67,partial correlation,,no,,no,[ 0.54250597],roc_auc,6.0,True
+609,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,67,tangent,,no,,no,[ 0.619324],roc_auc,6.0,True
+610,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,67,tangent,,no,,no,[ 0.60122909],roc_auc,6.0,True
+611,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,67,tangent,,no,,no,[ 0.59354729],roc_auc,6.0,True
+612,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,68,correlation,,no,,no,[ 0.66396381],roc_auc,6.0,True
+613,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,68,correlation,,no,,no,[ 0.6687436],roc_auc,6.0,True
+614,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,68,correlation,,no,,no,[ 0.64578354],roc_auc,6.0,True
+615,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,68,partial correlation,,no,,no,[ 0.60344828],roc_auc,6.0,True
+616,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,68,partial correlation,,no,,no,[ 0.60856948],roc_auc,6.0,True
+617,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,68,partial correlation,,no,,no,[ 0.60942301],roc_auc,6.0,True
+618,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,68,tangent,,no,,no,[ 0.68692386],roc_auc,6.0,True
+619,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,68,tangent,,no,,no,[ 0.70757938],roc_auc,6.0,True
+620,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,68,tangent,,no,,no,[ 0.70476272],roc_auc,6.0,True
+621,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,69,correlation,,no,,no,[ 0.62768863],roc_auc,6.0,True
+622,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,69,correlation,,no,,no,[ 0.68871629],roc_auc,6.0,True
+623,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,69,correlation,,no,,no,[ 0.6458689],roc_auc,6.0,True
+624,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,69,partial correlation,,no,,no,[ 0.59559577],roc_auc,6.0,True
+625,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,69,partial correlation,,no,,no,[ 0.56597815],roc_auc,6.0,True
+626,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,69,partial correlation,,no,,no,[ 0.56700239],roc_auc,6.0,True
+627,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,69,tangent,,no,,no,[ 0.63793103],roc_auc,6.0,True
+628,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,69,tangent,,no,,no,[ 0.68888699],roc_auc,6.0,True
+629,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,69,tangent,,no,,no,[ 0.68188802],roc_auc,6.0,True
+630,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,70,correlation,,no,,no,[ 0.60592352],roc_auc,6.0,True
+631,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,70,correlation,,no,,no,[ 0.66464664],roc_auc,6.0,True
+632,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,70,correlation,,no,,no,[ 0.63852851],roc_auc,6.0,True
+633,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,70,partial correlation,,no,,no,[ 0.50793786],roc_auc,6.0,True
+634,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,70,partial correlation,,no,,no,[ 0.57750085],roc_auc,6.0,True
+635,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,70,partial correlation,,no,,no,[ 0.57886651],roc_auc,6.0,True
+636,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,70,tangent,,no,,no,[ 0.60566746],roc_auc,6.0,True
+637,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,70,tangent,,no,,no,[ 0.6561113],roc_auc,6.0,True
+638,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,70,tangent,,no,,no,[ 0.6535507],roc_auc,6.0,True
+639,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,71,correlation,,no,,no,[ 0.63656538],roc_auc,6.0,True
+640,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,71,correlation,,no,,no,[ 0.67010925],roc_auc,6.0,True
+641,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,71,correlation,,no,,no,[ 0.66601229],roc_auc,6.0,True
+642,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,71,partial correlation,,no,,no,[ 0.5647832],roc_auc,6.0,True
+643,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,71,partial correlation,,no,,no,[ 0.58185388],roc_auc,6.0,True
+644,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,71,partial correlation,,no,,no,[ 0.58176852],roc_auc,6.0,True
+645,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,71,tangent,,no,,no,[ 0.66430522],roc_auc,6.0,True
+646,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,71,tangent,,no,,no,[ 0.70075111],roc_auc,6.0,True
+647,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,71,tangent,,no,,no,[ 0.70006828],roc_auc,6.0,True
+648,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,72,correlation,,no,,no,[ 0.58782861],roc_auc,6.0,True
+649,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,72,correlation,,no,,no,[ 0.63101741],roc_auc,6.0,True
+650,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,72,correlation,,no,,no,[ 0.6180437],roc_auc,6.0,True
+651,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,72,partial correlation,,no,,no,[ 0.59030386],roc_auc,6.0,True
+652,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,72,partial correlation,,no,,no,[ 0.54096961],roc_auc,6.0,True
+653,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,72,partial correlation,,no,,no,[ 0.5431888],roc_auc,6.0,True
+654,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,72,tangent,,no,,no,[ 0.60583817],roc_auc,6.0,True
+655,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,72,tangent,,no,,no,[ 0.63784568],roc_auc,6.0,True
+656,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,72,tangent,,no,,no,[ 0.6281154],roc_auc,6.0,True
+657,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,73,correlation,,no,,no,[ 0.559662],roc_auc,6.0,True
+658,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,73,correlation,,no,,no,[ 0.60216798],roc_auc,6.0,True
+659,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,73,correlation,,no,,no,[ 0.59960737],roc_auc,6.0,True
+660,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,73,partial correlation,,no,,no,[ 0.55744281],roc_auc,6.0,True
+661,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,73,partial correlation,,no,,no,[ 0.5545408],roc_auc,6.0,True
+662,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,73,partial correlation,,no,,no,[ 0.55752817],roc_auc,6.0,True
+663,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,73,tangent,,no,,no,[ 0.5508706],roc_auc,6.0,True
+664,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,73,tangent,,no,,no,[ 0.6242745],roc_auc,6.0,True
+665,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,73,tangent,,no,,no,[ 0.62307955],roc_auc,6.0,True
+666,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,74,correlation,,no,,no,[ 0.6282861],roc_auc,6.0,True
+667,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,74,correlation,,no,,no,[ 0.63622397],roc_auc,6.0,True
+668,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,74,correlation,,no,,no,[ 0.607972],roc_auc,6.0,True
+669,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,74,partial correlation,,no,,no,[ 0.52219187],roc_auc,6.0,True
+670,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,74,partial correlation,,no,,no,[ 0.54890748],roc_auc,6.0,True
+671,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,74,partial correlation,,no,,no,[ 0.54993172],roc_auc,6.0,True
+672,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,74,tangent,,no,,no,[ 0.57920792],roc_auc,6.0,True
+673,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,74,tangent,,no,,no,[ 0.64953909],roc_auc,6.0,True
+674,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,74,tangent,,no,,no,[ 0.64236941],roc_auc,6.0,True
+675,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,75,correlation,,no,,no,[ 0.64612496],roc_auc,6.0,True
+676,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,75,correlation,,no,,no,[ 0.64791738],roc_auc,6.0,True
+677,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,75,correlation,,no,,no,[ 0.62495732],roc_auc,6.0,True
+678,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,75,partial correlation,,no,,no,[ 0.53653124],roc_auc,6.0,True
+679,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,75,partial correlation,,no,,no,[ 0.57084329],roc_auc,6.0,True
+680,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,75,partial correlation,,no,,no,[ 0.5684534],roc_auc,6.0,True
+681,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,75,tangent,,no,,no,[ 0.63383407],roc_auc,6.0,True
+682,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,75,tangent,,no,,no,[ 0.67497439],roc_auc,6.0,True
+683,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,75,tangent,,no,,no,[ 0.67164561],roc_auc,6.0,True
+684,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,76,correlation,,no,,no,[ 0.65303858],roc_auc,6.0,True
+685,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,76,correlation,,no,,no,[ 0.62990782],roc_auc,6.0,True
+686,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,76,correlation,,no,,no,[ 0.59721748],roc_auc,6.0,True
+687,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,76,partial correlation,,no,,no,[ 0.57417207],roc_auc,6.0,True
+688,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,76,partial correlation,,no,,no,[ 0.57246501],roc_auc,6.0,True
+689,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,76,partial correlation,,no,,no,[ 0.57400137],roc_auc,6.0,True
+690,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,76,tangent,,no,,no,[ 0.6319563],roc_auc,6.0,True
+691,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,76,tangent,,no,,no,[ 0.65337999],roc_auc,6.0,True
+692,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,76,tangent,,no,,no,[ 0.6486002],roc_auc,6.0,True
+693,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,77,correlation,,no,,no,[ 0.63784568],roc_auc,6.0,True
+694,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,77,correlation,,no,,no,[ 0.61027654],roc_auc,6.0,True
+695,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,77,correlation,,no,,no,[ 0.58023216],roc_auc,6.0,True
+696,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,77,partial correlation,,no,,no,[ 0.64945374],roc_auc,6.0,True
+697,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,77,partial correlation,,no,,no,[ 0.61710481],roc_auc,6.0,True
+698,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,77,partial correlation,,no,,no,[ 0.61539775],roc_auc,6.0,True
+699,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,77,tangent,,no,,no,[ 0.60814271],roc_auc,6.0,True
+700,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,77,tangent,,no,,no,[ 0.65687948],roc_auc,6.0,True
+701,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,77,tangent,,no,,no,[ 0.64723455],roc_auc,6.0,True
+702,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,78,correlation,,no,,no,[ 0.63929669],roc_auc,6.0,True
+703,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,78,correlation,,no,,no,[ 0.6650734],roc_auc,6.0,True
+704,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,78,correlation,,no,,no,[ 0.62709116],roc_auc,6.0,True
+705,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,78,partial correlation,,no,,no,[ 0.57715944],roc_auc,6.0,True
+706,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,78,partial correlation,,no,,no,[ 0.57391601],roc_auc,6.0,True
+707,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,78,partial correlation,,no,,no,[ 0.57494025],roc_auc,6.0,True
+708,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,78,tangent,,no,,no,[ 0.56546603],roc_auc,6.0,True
+709,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,78,tangent,,no,,no,[ 0.64433254],roc_auc,6.0,True
+710,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,78,tangent,,no,,no,[ 0.64134517],roc_auc,6.0,True
+711,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,79,correlation,,no,,no,[ 0.6663537],roc_auc,6.0,True
+712,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,79,correlation,,no,,no,[ 0.67156026],roc_auc,6.0,True
+713,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,79,correlation,,no,,no,[ 0.64484466],roc_auc,6.0,True
+714,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,79,partial correlation,,no,,no,[ 0.53388529],roc_auc,6.0,True
+715,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,79,partial correlation,,no,,no,[ 0.52372823],roc_auc,6.0,True
+716,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,79,partial correlation,,no,,no,[ 0.52313076],roc_auc,6.0,True
+717,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,79,tangent,,no,,no,[ 0.61872653],roc_auc,6.0,True
+718,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,79,tangent,,no,,no,[ 0.64629566],roc_auc,6.0,True
+719,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,79,tangent,,no,,no,[ 0.63929669],roc_auc,6.0,True
+720,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,80,correlation,,no,,no,[ 0.62000683],roc_auc,6.0,True
+721,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,80,correlation,,no,,no,[ 0.62017753],roc_auc,6.0,True
+722,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,80,correlation,,no,,no,[ 0.57920792],roc_auc,6.0,True
+723,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,80,partial correlation,,no,,no,[ 0.57220895],roc_auc,6.0,True
+724,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,80,partial correlation,,no,,no,[ 0.5902185],roc_auc,6.0,True
+725,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,80,partial correlation,,no,,no,[ 0.59064527],roc_auc,6.0,True
+726,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,80,tangent,,no,,no,[ 0.64808808],roc_auc,6.0,True
+727,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,80,tangent,,no,,no,[ 0.66020826],roc_auc,6.0,True
+728,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,80,tangent,,no,,no,[ 0.65312393],roc_auc,6.0,True
+729,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,81,correlation,,no,,no,[ 0.5786958],roc_auc,6.0,True
+730,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,81,correlation,,no,,no,[ 0.60874018],roc_auc,6.0,True
+731,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,81,correlation,,no,,no,[ 0.5699044],roc_auc,6.0,True
+732,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,81,partial correlation,,no,,no,[ 0.61343462],roc_auc,6.0,True
+733,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,81,partial correlation,,no,,no,[ 0.53064186],roc_auc,6.0,True
+734,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,81,partial correlation,,no,,no,[ 0.52944691],roc_auc,6.0,True
+735,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,81,tangent,,no,,no,[ 0.5635029],roc_auc,6.0,True
+736,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,81,tangent,,no,,no,[ 0.59704677],roc_auc,6.0,True
+737,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,81,tangent,,no,,no,[ 0.5913281],roc_auc,6.0,True
+738,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,82,correlation,,no,,no,[ 0.59269375],roc_auc,6.0,True
+739,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,82,correlation,,no,,no,[ 0.61556845],roc_auc,6.0,True
+740,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,82,correlation,,no,,no,[ 0.5926084],roc_auc,6.0,True
+741,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,82,partial correlation,,no,,no,[ 0.50358484],roc_auc,6.0,True
+742,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,82,partial correlation,,no,,no,[ 0.50520656],roc_auc,6.0,True
+743,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,82,partial correlation,,no,,no,[ 0.50793786],roc_auc,6.0,True
+744,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,82,tangent,,no,,no,[ 0.60361898],roc_auc,6.0,True
+745,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,82,tangent,,no,,no,[ 0.59909525],roc_auc,6.0,True
+746,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,82,tangent,,no,,no,[ 0.5977296],roc_auc,6.0,True
+747,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,83,correlation,,no,,no,[ 0.66771936],roc_auc,6.0,True
+748,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,83,correlation,,no,,no,[ 0.67318197],roc_auc,6.0,True
+749,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,83,correlation,,no,,no,[ 0.63041994],roc_auc,6.0,True
+750,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,83,partial correlation,,no,,no,[ 0.60933766],roc_auc,6.0,True
+751,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,83,partial correlation,,no,,no,[ 0.58100034],roc_auc,6.0,True
+752,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,83,partial correlation,,no,,no,[ 0.58082963],roc_auc,6.0,True
+753,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,83,tangent,,no,,no,[ 0.63306589],roc_auc,6.0,True
+754,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,83,tangent,,no,,no,[ 0.68077842],roc_auc,6.0,True
+755,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,83,tangent,,no,,no,[ 0.67326733],roc_auc,6.0,True
+756,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,84,correlation,,no,,no,[ 0.62632298],roc_auc,6.0,True
+757,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,84,correlation,,no,,no,[ 0.64125982],roc_auc,6.0,True
+758,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,84,correlation,,no,,no,[ 0.62068966],roc_auc,6.0,True
+759,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,84,partial correlation,,no,,no,[ 0.58330488],roc_auc,6.0,True
+760,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,84,partial correlation,,no,,no,[ 0.60165586],roc_auc,6.0,True
+761,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,84,partial correlation,,no,,no,[ 0.59858313],roc_auc,6.0,True
+762,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,84,tangent,,no,,no,[ 0.63980881],roc_auc,6.0,True
+763,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,84,tangent,,no,,no,[ 0.66584158],roc_auc,6.0,True
+764,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,84,tangent,,no,,no,[ 0.66089109],roc_auc,6.0,True
+765,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,85,correlation,,no,,no,[ 0.61684875],roc_auc,6.0,True
+766,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,85,correlation,,no,,no,[ 0.68077842],roc_auc,6.0,True
+767,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,85,correlation,,no,,no,[ 0.66669512],roc_auc,6.0,True
+768,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,85,partial correlation,,no,,no,[ 0.55172414],roc_auc,6.0,True
+769,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,85,partial correlation,,no,,no,[ 0.57016046],roc_auc,6.0,True
+770,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,85,partial correlation,,no,,no,[ 0.57220895],roc_auc,6.0,True
+771,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,85,tangent,,no,,no,[ 0.61812905],roc_auc,6.0,True
+772,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,85,tangent,,no,,no,[ 0.69776374],roc_auc,6.0,True
+773,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,85,tangent,,no,,no,[ 0.69554455],roc_auc,6.0,True
+774,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,86,correlation,,no,,no,[ 0.64774667],roc_auc,6.0,True
+775,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,86,correlation,,no,,no,[ 0.65107545],roc_auc,6.0,True
+776,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,86,correlation,,no,,no,[ 0.6396381],roc_auc,6.0,True
+777,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,86,partial correlation,,no,,no,[ 0.54660294],roc_auc,6.0,True
+778,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,86,partial correlation,,no,,no,[ 0.54762718],roc_auc,6.0,True
+779,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,86,partial correlation,,no,,no,[ 0.5481393],roc_auc,6.0,True
+780,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,86,tangent,,no,,no,[ 0.56896552],roc_auc,6.0,True
+781,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,86,tangent,,no,,no,[ 0.65158757],roc_auc,6.0,True
+782,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,86,tangent,,no,,no,[ 0.64245476],roc_auc,6.0,True
+783,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,87,correlation,,no,,no,[ 0.61829976],roc_auc,6.0,True
+784,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,87,correlation,,no,,no,[ 0.64151588],roc_auc,6.0,True
+785,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,87,correlation,,no,,no,[ 0.6218846],roc_auc,6.0,True
+786,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,87,partial correlation,,no,,no,[ 0.56367361],roc_auc,6.0,True
+787,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,87,partial correlation,,no,,no,[ 0.58228064],roc_auc,6.0,True
+788,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,87,partial correlation,,no,,no,[ 0.58185388],roc_auc,6.0,True
+789,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,87,tangent,,no,,no,[ 0.60387504],roc_auc,6.0,True
+790,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,87,tangent,,no,,no,[ 0.68658245],roc_auc,6.0,True
+791,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,87,tangent,,no,,no,[ 0.68171731],roc_auc,6.0,True
+792,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,88,correlation,,no,,no,[ 0.62760328],roc_auc,6.0,True
+793,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,88,correlation,,no,,no,[ 0.65662342],roc_auc,6.0,True
+794,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,88,correlation,,no,,no,[ 0.6242745],roc_auc,6.0,True
+795,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,88,partial correlation,,no,,no,[ 0.58168317],roc_auc,6.0,True
+796,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,88,partial correlation,,no,,no,[ 0.582366],roc_auc,6.0,True
+797,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,88,partial correlation,,no,,no,[ 0.58245135],roc_auc,6.0,True
+798,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,88,tangent,,no,,no,[ 0.60865483],roc_auc,6.0,True
+799,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,88,tangent,,no,,no,[ 0.65875726],roc_auc,6.0,True
+800,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,88,tangent,,no,,no,[ 0.64988051],roc_auc,6.0,True
+801,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,89,correlation,,no,,no,[ 0.58595084],roc_auc,6.0,True
+802,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,89,correlation,,no,,no,[ 0.61070331],roc_auc,6.0,True
+803,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,89,correlation,,no,,no,[ 0.59184022],roc_auc,6.0,True
+804,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,89,partial correlation,,no,,no,[ 0.54839536],roc_auc,6.0,True
+805,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,89,partial correlation,,no,,no,[ 0.55274838],roc_auc,6.0,True
+806,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,89,partial correlation,,no,,no,[ 0.55522363],roc_auc,6.0,True
+807,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,89,tangent,,no,,no,[ 0.60874018],roc_auc,6.0,True
+808,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,89,tangent,,no,,no,[ 0.62717651],roc_auc,6.0,True
+809,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,89,tangent,,no,,no,[ 0.62367702],roc_auc,6.0,True
+810,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,90,correlation,,no,,no,[ 0.67087743],roc_auc,6.0,True
+811,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,90,correlation,,no,,no,[ 0.69204507],roc_auc,6.0,True
+812,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,90,correlation,,no,,no,[ 0.67429157],roc_auc,6.0,True
+813,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,90,partial correlation,,no,,no,[ 0.55786958],roc_auc,6.0,True
+814,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,90,partial correlation,,no,,no,[ 0.56888016],roc_auc,6.0,True
+815,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,90,partial correlation,,no,,no,[ 0.56956299],roc_auc,6.0,True
+816,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,90,tangent,,no,,no,[ 0.63050529],roc_auc,6.0,True
+817,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,90,tangent,,no,,no,[ 0.69119153],roc_auc,6.0,True
+818,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,90,tangent,,no,,no,[ 0.68743598],roc_auc,6.0,True
+819,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,91,correlation,,no,,no,[ 0.71099351],roc_auc,6.0,True
+820,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,91,correlation,,no,,no,[ 0.69562991],roc_auc,6.0,True
+821,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,91,correlation,,no,,no,[ 0.67147491],roc_auc,6.0,True
+822,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,91,partial correlation,,no,,no,[ 0.52628884],roc_auc,6.0,True
+823,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,91,partial correlation,,no,,no,[ 0.51160806],roc_auc,6.0,True
+824,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,91,partial correlation,,no,,no,[ 0.51229088],roc_auc,6.0,True
+825,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,91,tangent,,no,,no,[ 0.66148856],roc_auc,6.0,True
+826,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,91,tangent,,no,,no,[ 0.65440423],roc_auc,6.0,True
+827,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,91,tangent,,no,,no,[ 0.65056333],roc_auc,6.0,True
+828,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,92,correlation,,no,,no,[ 0.66934107],roc_auc,6.0,True
+829,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,92,correlation,,no,,no,[ 0.67779105],roc_auc,6.0,True
+830,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,92,correlation,,no,,no,[ 0.65039263],roc_auc,6.0,True
+831,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,92,partial correlation,,no,,no,[ 0.55718675],roc_auc,6.0,True
+832,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,92,partial correlation,,no,,no,[ 0.5711847],roc_auc,6.0,True
+833,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,92,partial correlation,,no,,no,[ 0.57109935],roc_auc,6.0,True
+834,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,92,tangent,,no,,no,[ 0.60302151],roc_auc,6.0,True
+835,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,92,tangent,,no,,no,[ 0.67087743],roc_auc,6.0,True
+836,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,92,tangent,,no,,no,[ 0.66660976],roc_auc,6.0,True
+837,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,93,correlation,,no,,no,[ 0.61403209],roc_auc,6.0,True
+838,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,93,correlation,,no,,no,[ 0.64364971],roc_auc,6.0,True
+839,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,93,correlation,,no,,no,[ 0.60498464],roc_auc,6.0,True
+840,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,93,partial correlation,,no,,no,[ 0.58706043],roc_auc,6.0,True
+841,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,93,partial correlation,,no,,no,[ 0.61113008],roc_auc,6.0,True
+842,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,93,partial correlation,,no,,no,[ 0.61087402],roc_auc,6.0,True
+843,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,93,tangent,,no,,no,[ 0.61821441],roc_auc,6.0,True
+844,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,93,tangent,,no,,no,[ 0.67087743],roc_auc,6.0,True
+845,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,93,tangent,,no,,no,[ 0.66985319],roc_auc,6.0,True
+846,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,94,correlation,,no,,no,[ 0.7080915],roc_auc,6.0,True
+847,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,94,correlation,,no,,no,[ 0.69375213],roc_auc,6.0,True
+848,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,94,correlation,,no,,no,[ 0.67377945],roc_auc,6.0,True
+849,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,94,partial correlation,,no,,no,[ 0.53823831],roc_auc,6.0,True
+850,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,94,partial correlation,,no,,no,[ 0.56649027],roc_auc,6.0,True
+851,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,94,partial correlation,,no,,no,[ 0.56905087],roc_auc,6.0,True
+852,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,94,tangent,,no,,no,[ 0.65013657],roc_auc,6.0,True
+853,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,94,tangent,,no,,no,[ 0.68956982],roc_auc,6.0,True
+854,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,94,tangent,,no,,no,[ 0.68402185],roc_auc,6.0,True
+855,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,95,correlation,,no,,no,[ 0.62205531],roc_auc,6.0,True
+856,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,95,correlation,,no,,no,[ 0.62837146],roc_auc,6.0,True
+857,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,95,correlation,,no,,no,[ 0.61266644],roc_auc,6.0,True
+858,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,95,partial correlation,,no,,no,[ 0.56256402],roc_auc,6.0,True
+859,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,95,partial correlation,,no,,no,[ 0.52022875],roc_auc,6.0,True
+860,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,95,partial correlation,,no,,no,[ 0.52176511],roc_auc,6.0,True
+861,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,95,tangent,,no,,no,[ 0.61411745],roc_auc,6.0,True
+862,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,95,tangent,,no,,no,[ 0.63827245],roc_auc,6.0,True
+863,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,95,tangent,,no,,no,[ 0.63400478],roc_auc,6.0,True
+864,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,96,correlation,,no,,no,[ 0.63750427],roc_auc,6.0,True
+865,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,96,correlation,,no,,no,[ 0.65150222],roc_auc,6.0,True
+866,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,96,correlation,,no,,no,[ 0.60711847],roc_auc,6.0,True
+867,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,96,partial correlation,,no,,no,[ 0.58757255],roc_auc,6.0,True
+868,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,96,partial correlation,,no,,no,[ 0.58040287],roc_auc,6.0,True
+869,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,96,partial correlation,,no,,no,[ 0.58262206],roc_auc,6.0,True
+870,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,96,tangent,,no,,no,[ 0.57690338],roc_auc,6.0,True
+871,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,96,tangent,,no,,no,[ 0.67480369],roc_auc,6.0,True
+872,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,96,tangent,,no,,no,[ 0.6649027],roc_auc,6.0,True
+873,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,97,correlation,,no,,no,[ 0.68197337],roc_auc,6.0,True
+874,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,97,correlation,,no,,no,[ 0.67121885],roc_auc,6.0,True
+875,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,97,correlation,,no,,no,[ 0.65184363],roc_auc,6.0,True
+876,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,97,partial correlation,,no,,no,[ 0.57451349],roc_auc,6.0,True
+877,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,97,partial correlation,,no,,no,[ 0.59397405],roc_auc,6.0,True
+878,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,97,partial correlation,,no,,no,[ 0.59482759],roc_auc,6.0,True
+879,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,97,tangent,,no,,no,[ 0.64996586],roc_auc,6.0,True
+880,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,97,tangent,,no,,no,[ 0.69878798],roc_auc,6.0,True
+881,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,97,tangent,,no,,no,[ 0.69554455],roc_auc,6.0,True
+882,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,98,correlation,,no,,no,[ 0.62982247],roc_auc,6.0,True
+883,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,98,correlation,,no,,no,[ 0.63426084],roc_auc,6.0,True
+884,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,98,correlation,,no,,no,[ 0.60208262],roc_auc,6.0,True
+885,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,98,partial correlation,,no,,no,[ 0.51357118],roc_auc,6.0,True
+886,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,98,partial correlation,,no,,no,[ 0.52833732],roc_auc,6.0,True
+887,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,98,partial correlation,,no,,no,[ 0.52808126],roc_auc,6.0,True
+888,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,98,tangent,,no,,no,[ 0.58962103],roc_auc,6.0,True
+889,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,98,tangent,,no,,no,[ 0.60950836],roc_auc,6.0,True
+890,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,98,tangent,,no,,no,[ 0.60080232],roc_auc,6.0,True
+891,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,99,correlation,,no,,no,[ 0.61949471],roc_auc,6.0,True
+892,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,99,correlation,,no,,no,[ 0.60848412],roc_auc,6.0,True
+893,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,99,correlation,,no,,no,[ 0.58757255],roc_auc,6.0,True
+894,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,99,partial correlation,,no,,no,[ 0.5380676],roc_auc,6.0,True
+895,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,99,partial correlation,,no,,no,[ 0.58117105],roc_auc,6.0,True
+896,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,99,partial correlation,,no,,no,[ 0.58040287],roc_auc,6.0,True
+897,harvard_oxford,pre-defined,svc_l1,yes,no,LedoitWolf,ABIDE,96,99,tangent,,no,,no,[ 0.66029362],roc_auc,6.0,True
+898,harvard_oxford,pre-defined,svc_l2,yes,no,LedoitWolf,ABIDE,96,99,tangent,,no,,no,[ 0.65380676],roc_auc,6.0,True
+899,harvard_oxford,pre-defined,ridge,yes,no,LedoitWolf,ABIDE,96,99,tangent,,no,,no,[ 0.65073404],roc_auc,6.0,True
