@@ -70,7 +70,7 @@ data_all = data_all.drop('Unnamed: 0', axis=1)
 
 # Choosing the optimal choice in dimensionality for each atlas
 dic_model_dim = OrderedDict([('ica', 80),
-                            ('kmeans', 120),
+                            ('kmeans', 100),
                             ('dictlearn', 60),
                             ('ward', 120),
                             ('aal_spm12', 116),

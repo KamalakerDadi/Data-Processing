@@ -14,10 +14,13 @@
 \usepackage{algorithmic}
 \usepackage{afterpage}
 \usepackage{url}
+\usepackage{tabularx}
 \usepackage[breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
 \usepackage[table]{xcolor}
 \usepackage{booktabs}  % For toprule
 \usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{lipsum}
 %\usepackage{stfloats} % To have double-column floats at the bottom
 % (without this, it {figure*}[b] is impossible
 
@@ -117,7 +120,7 @@ multiple phenotypes}
 
 
 %\author[parietal,cea]{Ga\"el Varoquaux\corref{corresponding}}
-\author[parietal,cea]{Kamalaker Dadi}
+\author[parietal,cea]{XXXXX}
 
 \cortext[corresponding]{Corresponding author}
 
@@ -143,9 +146,6 @@ France}
 \vspace*{-3em}%
 
 \sloppy % Fed up with messed-up line breaks
-
-% XXX: read other commentary paper, for instance the Frison one
-% Q: how much should I be citing things
 
 \section{Introduction}%
 
@@ -182,210 +182,415 @@ iv) Connectivity-based classification of the phenotypic target.
 %\paragraph{Previous results: cross-validation on brain images}
 
 
-\begin{figure*}[t]
-    \setlength{\fboxsep}{0pt}%
-    \begin{minipage}[T]{.26\paperwidth}
-     \includegraphics[height=.28\paperwidth]{pipeline.pdf}%
-     \llap{\raisebox{.265\paperwidth}{%
-	\parbox{.28\paperwidth}{\colorbox{white}{\bfseries\sffamily
-	\hspace*{-.15ex}\,\hspace{-2ex}}}}}%
-    \medskip
-    \end{minipage}
-    \caption{\textbf{Resting-state functional connectivity prediction pipeline}}
-
-    {\bfseries\sffamily 1} -- Defining Brain ROIs: involves using three
-    pre-defined atlases - Automated Anatomical Labeling (AAL) - Harvard Oxford
-    - Bootstrap Analysis of Stable Clusters (BASC) and using four data-driven
-    methods - Linear decomposition models: Group Independent Component
-    Analysis (Group ICA) - Online Dictionary Learning (DictLearn) and
-    Clustering models: KMeans - Agglomerative with Ward criterion. For each
-    data-driven method, we build the atlas on training data ($75\%$) on each
-    split (n=100) and use this atlas for the consecutive step. 
-    %
-    {\bfseries\sffamily 2} -- Timeseries signal extraction: For each atlas or
-    ROIs, from Step 1 are used in extracting subject specific timeseries signals.
-    %
-    {\bfseries\sffamily 3} -- Parameterizing functional connectivity between
-    ROIs,  using  correlation,  partial  correlation  or  tangent  space
-    embedding
-    %
-    {\bfseries\sffamily 4} -- Supervised learning: Classifiers, a classification
-    model is built to predict groups with two linear classifiers, SVC ($\ell_{1}$ or
-    $\ell_{2}$ penalization) and ridge regression ($\ell_{2}$ penalization).
-    %
-    Cross-validation for 100 splits with $75\%$ training set and remaining
-    $25\%$ test is used in Step 4, classification setting and reported scores
-    are Receiver Operating Characteristic and Area Under the Curve (ROC-AUC)
-    \label{fig:pipeline}
-\end{figure*}
-
-
+%begin{figure*}[t]
+%   \setlength{\fboxsep}{0pt}%
+%   \begin{minipage}[T]{.26\paperwidth}
+%    \includegraphics[height=.28\paperwidth]{pipeline.pdf}%
+%    \llap{\raisebox{.265\paperwidth}{%
+%   \parbox{.28\paperwidth}{\colorbox{white}{\bfseries\sffamily
+%   \hspace*{-.15ex}\,\hspace{-2ex}}}}}%
+%   \medskip
+%   \end{minipage}
+%   \caption{\textbf{Resting-state functional connectivity prediction pipeline}}
+%
+%   {\bfseries\sffamily 1} -- Defining Brain ROIs: involves using three
+%   pre-defined atlases - Automated Anatomical Labeling (AAL) - Harvard Oxford
+%   - Bootstrap Analysis of Stable Clusters (BASC) and using four data-driven
+%   methods - Linear decomposition models: Group Independent Component
+%   Analysis (Group ICA) - Online Dictionary Learning (DictLearn) and
+%   Clustering models: KMeans - Agglomerative with Ward criterion. For each
+%   data-driven method, we build the atlas on training data ($75\%$) on each
+%   split (n=100) and use this atlas for the consecutive step. 
+%   %
+%   {\bfseries\sffamily 2} -- Timeseries signal extraction: For each atlas or
+%   ROIs, from Step 1 are used in extracting subject specific timeseries signals.
+%   %
+%   {\bfseries\sffamily 3} -- Parameterizing functional connectivity between
+%   ROIs,  using  correlation,  partial  correlation  or  tangent  space
+%   embedding
+%   %
+%   {\bfseries\sffamily 4} -- Supervised learning: Classifiers, a classification
+%   model is built to predict groups with two linear classifiers, SVC ($\ell_{1}$ or
+%   $\ell_{2}$ penalization) and ridge regression ($\ell_{2}$ penalization).
+%   %
+%   Cross-validation for 100 splits with $75\%$ training set and remaining
+%   $25\%$ test is used in Step 4, classification setting and reported scores
+%   are Receiver Operating Characteristic and Area Under the Curve (ROC-AUC)
+%   \label{fig:pipeline}
+%end{figure*}
+%
 %\paragraph{Spread out predictions in a public challenge}
 
 %website\footnote{\url{https://www.kaggle.com/c/mlsp-2014-mri}}.
 \section{Results}
 
-%    \begin{tabular}{llccl}
-%    \toprule
-%    Dataset        &       atlas &          classifier &    measure &
-%    Score \\
-%	%strategy  &        size &    error bar &    error bar \\
-%    \toprule
-%    \multirow{8}{9ex}{ADNI} & AAL &  SVC{$\ell_{1}$} &  correlation & $0.64$ \\
-%                            &           BASC &  Ridge &   Tangent &    $0.71$ \\
-%                            & DictLearn &  SVC{$\ell_{2}$} &   Tangent & $0.75$ \\
-%                        &          Harvard Oxford &  Ridge & Tangent &   $0.66$ \\
-%                            & Group ICA & Ridge & Tangent & $0.75$ \\
-%                  & KMeans & Ridge & Tangent & $0.75$ \\
-%                 & Ward & Ridge & Tangent & $0.71$ \\
-%    \midrule                                            
-%    \multirow{8}{9ex}{} & 30 &   &  \\
-%                  &         100 &   &    \\
-%                  &         300 &   &    \\
-%	          &        1000 &   &    \\
-%    \bottomrule
-%    \end{tabular}}
-%
-%    \centering
-%    \caption{\textbf{Comparison of the atlas impact on prediction accuracy.}
-%        Reported values are the mean of AUC over 100 iterations.
-%        Best predictions are in bold.}
-%     \label{tab:accuracy}
-%     \begin{tabular}{ccccc}
-%         & COBRE & ADNI & ACPI & ADNIDOD \\
-%         \hline\\[-2mm]
-%         AAL       & $.81$ & $.64$ & $.55$ & $\bf .71$ \\
-%         BASC      & $.82$ & $0.71$ & $0.56$ & $0.67$ \\
-%         DictLearn & $\bf{ 0.85}$ & $\bf 0.75$  & $\bf 0.57$ & $\bf 0.68$ \\
-%         HO        & $0.72$ & $0.66$ & $0.57$ & $0.65$ \\
-%         ICA       & $0.83$ & $\bf 0.75$ & $0.55$ & $0.67$ \\
-%         K-Means   & $0.84$ & $\bf 0.75$ & $\bf 0.58$ & $0.68$ \\
-%         Ward      & $0.84$ & $0.71$ & $0.55$ & $\bf 0.69$ \\
-%     \end{tabular}
-% \end{table}
+\begin{table}[tb]
+\small
+\begin{tabularx}{\linewidth}{p{1.2cm}|l|c|c|c|c}
+    \rowcolor{gray!50}
+    Accuracy & COBRE & ADNI & ADNIDOD & ACPI & ABIDE \\ 
+    \hline
+    \rowcolor{gray!13}
+    {\centering $5^{th}$ \\ Percentile} & $74.3\%$ & $62.3\%$ &
+    $53.8\%$ & $41.4\%$ & $64.9\%$\\[.1ex]
+    Median& $87.1\%$ & $76.2\%$ & $67.1\%$ & $56.4\%$ & $70.2\%$\\
+    \rowcolor{gray!13}%
+    {\centering $95^{th}$ \\ Percentile} & $94\%$ & $89.1\%$ &
+    $77.2\%$ & $68.7\%$ & $73.8\%$\\
+    \hline
+\end{tabularx}
+    \caption{\textbf{
+            5th percentile, Median and 95th percentile of accuracy scores in AUC
+            over cross-validation folds ($n=100$) across multi rs-fMRI datasets.}
+            Accuracy scores reported are specific to optimal choices in
+            functional connectivity prediction pipeline: brain atlas,
+            connectivity parameterization, linear classifier as outlined
+            in -- \autoref{tab:pipeline}.
+            Best prediction is achieved with schizophrenia vs control
+            discrimination task on COBRE dataset at $87.1\%$ (median) and
+            $5^{th}$ percentile of scores are around $74.3\%$ and $95^{th}$
+            percentile of scores around $94\%$. Discrimination task on marijuana
+            users vs Non-marijuana users are at the chance level of $56.4\%$
+            (median) on ACPI
+            datasets. We achieved good accuracy with ADNI datasets of $76.2\%$
+            (median) discriminating AD vs MCI and autism vs control
+            discrimination was acheived of accuracy $70.2\%$ (median).
+            vs - versus, AD - Alzheimer's disease, MCI - Mild Cognitive
+            Impairment.}
+    \label{tab:scores}
+\end{table}
+
+%\begin{table}[tb]
+%\small
+%\begin{tabularx}{\linewidth}{p{2.0cm}|c|c|c}
+%    \rowcolor{gray!50}
+%    Dataset & $5^{th}$ Percentile & Median & $95^{th}$ Percentile \\
+%    \hline
+%    \rowcolor{gray!13}
+%    COBRE & $74.3\%$ & $87.1\%$ &  $94\%$ \\
+%    ADNI & $62.3\%$  & $76.2\%$ &  $89.1\%$ \\
+%    \rowcolor{gray!13}
+%    ADNIDOD & $53.8\%$ & $67.1\%$ & $77.2\%$ \\
+%    ACPI &  $41.4\%$ & $56.4\%$  & $68.7\%$ \\
+%    \rowcolor{gray!13}
+%    ABIDE & $64.9\%$ & $70.2\%$ & $73.8\%$  \\
+%    \hline
+%\end{tabularx}
+%\end{table}
+
+General formulation: What we are trying to show in this section. The pipeline
+prediction capability across diverse phenotypes and the recommendations of
+methods at each step which showed significant/consistent impact on diverse
+tasks. (Can be removed later).
+
+In this section, we outline the results obtained by systematic comparisons
+made on methodological choices employed at each step in the functional
+connectivity prediction pipeline over diverse phenotypes from multi
+rs-fMRI datasets.
+Particularly, we show which choices have made an significant impact in the
+prediction pipeline by measuring the relative change in the prediction
+scores (AUC), over all the choices at each step such as Brain ROIs,
+Connectivity Parameterization and Classification
+using Machine Learning. We start with results of relative change over:
+choices of classifiers, choices of connectivity parameterization and
+choices of brain atlases.
+
+We also report the best pipeline prediction accuracy scores in AUC across
+multi rs-fMRI datasets.
+
+\begin{table}[tb]
+\small
+\begin{tabularx}{\linewidth}{l|p{1.55cm}|c|c|c}
+    \rowcolor{gray!50}
+    Brain atlas  & Connectome & Classifier & Regions &
+    Dimensions \\
+    \hline
+    DictLearn & Tangent embedding &  SVC-$\ell{_2}$ &  Yes & 60 \\
+\end{tabularx}
+    \caption{\textbf{
+        Prediction choices at each step in resting state functional connectivity
+        pipeline: Brain atlas, Connectome, Classifier}.
+        The results are outlined after relatively comparing at each step, over the
+        choices of classifiers, connectivity parameterization methods and brain
+        atlases (pre-defined or data driven atlases) as shown in --
+        \autoref{fig:impact_classifier}, \autoref{fig:impact_connectivity} and
+        \autoref{fig:impact_atlas}. Functional brain atlases
+        learned using Online Dictionary Learning (DictLearn) with
+        number of resting state networks=$60$ and spliting networks to regions are
+        shown as good choices in the prediction pipeline with Tangent based
+        connectivity matrix parameterization and Support Vector Linear
+        Classifier with $\ell{_2}$ (SVC-$\ell{_2}$).}
+    \label{tab:pipeline}
+\end{table}
+
  \subsection{Choice of classifier}
+ \paragraph{Which classifier is good enough for a binary classification
+     problems but across diverse tasks ? Is it really important to address
+     this question ? How do you pick your choice of classifier which
+     is good enough to perform prediction given heterogeneity in the tasks ?}
+
+     The comparisons between three different choices of linear classifiers
+     (SVC-$\ell{_1}$, SVC-$\ell{_2}$, Ridge) are outlined in
+     \autoref{fig:impact_classifier}, shows the relative impact made in the
+     classification of diverse tasks (COBRE, ADNI, ADNIDOD, ACPI, ABIDE) measured
+     over all classifiers while demeaning the impact from other steps in the
+     pipeline (Brain ROIs, Connectivity Parameterization).
+
+     We chose to compare two most commonly used linear classifiers
+     (SVC, Ridge) in rs-fMRI prediction problems.
+     The choices of linear classifiers have shown significant variations in
+     relation to the prediction of diverse tasks.
+     From \autoref{fig:impact_classifier}, we summarize that $\ell{_2}$
+     regularized classifiers SVC and Ridge outperformed $\ell{_1}$ regularized
+     SVC classifier across tasks from multi rs-fMRI datasets. Both,
+     SVC-$\ell{_2}$ and Ridge showed almost equal impact in prediction across all
+     datasets. In almost all the predicition tasks, sparse classifier perform
+     less in finding good functional features discrimination at rest.
+     The most preferable choices in prediction of phenotypes at rest fMRI are
+     dense classifiers predicting significantly target features lying in dense
+     representations. The choice of classifier in diagnostic evaluation is
+     important.
 
 \begin{figure}
     \centerline{%
-    \includegraphics[width=.8\linewidth]{impact_plot_classifier.pdf}%
+    \includegraphics[width=0.8\linewidth]{figures/impact_plot_classifier.pdf}%
     }%
-    \caption[choice of classifier]{\textbf{Impact of classifier choices on
-    prediction scores}
-\label{fig:impact_classifier}}
+    \caption[choice of classifier]{\textbf{The impact of classifier
+            choices in functional connectivity prediction pipeline over
+            diverse tasks}:
+            The figure shows the relative change to mean in prediction scores
+            (AUC) over all the classifiers SVC-$\ell{_1}$, SVC-$\ell{_2}$,
+            Ridge. Each boxplot depicts the prediction
+            impact of each classifier grouped together for all datasets
+            (COBRE, ADNI, ADNIDOD, ACPI, ABIDE) whereas each data point on top
+            of each boxplot is a split of impact over each dataset.
+            From the baseline=$0.0$, $\ell{_2}$ regularized choices such as
+            SVC-$\ell{_2}$ and Ridge has
+            shown relatively positive impact in prediction, significant
+            across datasets. SVC-$\ell_{1}$ choice has shown negative impact in
+            prediction across all datasets. For each choice, the prediction pipeline
+            was ran in cross-validation framework with $n=100$ random splits
+            and shuffled with $75\%$ training set and $25\%$ test set.
+            } 
+\label{fig:impact_classifier}
 \end{figure}
 
 \subsection{Choice of connectivity parameterization}
+In \autoref{fig:impact_connectivity}, we show the relative impact of
+the measure of covariance matrix/connectome method made on the classification
+of diverse tasks from multi rs-fMRI datasets. We took the relatively mean over
+all the connectivity parameterization methods (Full correlation, Partial
+correlation, Tangent space parameterization) while demeaned the effect of
+variance from remaining steps in the pipeline such as Brain ROIs and Linear
+Classifiers.
+
+From \autoref{fig:impact_connectivity}, we summarize that connectomes built
+with tangent space parameterization outperformed other standard methods
+such as full correlations and partial correlations.
+Tangent space parameterization method has shown significantly positive impact
+and consistent in finding the covariances across pair of brain ROIs, able
+to use in discrimination across diverse tasks. From
+\autoref{fig:impact_connectivity}, it is also interesting to see comparisons
+between full correlation and partial correlation methods. Full correlation
+has made an positive prediction impact on ADNI dataset to discriminate
+between Alzheimer's disease (AD) and Mild Cognitive Impairment (MCI). Partial
+correlation performed well in discriminating Marijuana users and Non-marijuana
+users. Between full correlation and partial correlation, only predicting few
+tasks has high impact where tangent space parameterization has significant
+impact across diverse targets.
+
+These results suggest that probabilistic approach leads to finding good
+selection of connectivity features across brain regions to compare them across
+subjects.
 
 
 \begin{figure}
     \centerline{%
-    \includegraphics[width=\linewidth]{impact_plot_measure.pdf}%
+    \includegraphics[width=0.8\linewidth]{figures/impact_plot_measure.pdf}%
     }%
-    \caption[choice of classifier]{\textbf{Impact of connectivity
-            parameterization method choices on prediction scores}
+    \caption[choice of connectome]{\textbf{The impact of connectivity
+            parameterization methods in functional connectivity prediction
+            pipeline over diverse tasks}:
+            Boxplot (gray) ($x-axis$) is a relatively change in prediction scores
+            (AUC) over all the connectivity methods - Full correlation, Partial
+            correlation and Tangent space parameterization. Each boxplot
+            depicts the prediction impact of each connectivity method grouped
+            together for all datasets. Each data
+            point on top of each boxplot shows the impact separately
+            over each dataset (COBRE, ADNI, ADNIDOD, ACPI, ABIDE). Full and Partial
+            correlation based connectivity performed less, showed
+            large variations and minimal impact on predicting diverse tasks.
+            While prediction using tangent space based connectivity
+            parameterization has showed good impact and consistent where
+            data points are falling almost in the positive range from
+            baseline=$0.0$. For each choice, the prediction pipeline
+            was ran in cross-validation framework with $n=100$ random splits
+            and shuffled with $75\%$ training set and $25\%$ test set.
 \label{fig:impact_connectivity}}
 \end{figure}
 
-\subsection{Choice of atlas methods: Either regions or networks}
+\subsection{Choice of brain atlases}
+To understand better the choice of brain atlas in prediction pipeline,
+we first systematically compared the atlases composed of brain regions and
+networks across enormous learning dimensions and
+made an empirical choice of dimension on each atlas as outlined in
+\autoref{fig:effect_size_in_regions} and \autoref{fig:effect_size_in_networks}.
+Second, we adapted this comparison to study the relative impact of each
+brain atlas made in pipeline prediction over diverse tasks as
+outlined in \autoref{fig:impact_atlas}. Brain atlases have made a huge
+impact in the prediction pipeline and each atlas has showed its significant
+impact in predicting diverse tasks across all multi rs-fMRI datasets.
+Data-driven atlases such as Ward, K-Kmeans, GroupICA and Online Dictionary
+Learning had made a significant impact in predicting on COBRE and ADNI
+datasets. While pre-defined anatomical atlases such as AAL and Harvard Oxford
+have made less impact in predicting diverse tasks. Harvard Oxford is only
+performing good on ACPI datasets. Out of all atlases, Online dictionary
+learning had showed good positive impact where the relative scores across
+diverse tasks are of positive values except in ADNIDOD.
+
+\subsubsection{Choice of dimensionality with Brain regions}
+In \autoref{fig:effect_size_in_regions}, we show the impact of the
+learning dimensionality in brain atlases composed of regions
+made on prediction scores. The
+data-driven atlas extraction methods such as GroupICA (ICA), Online Dictionary
+Learning (DictLearn), KMeans with enormous dimensions varied in ${40, 60,
+80, 100, 120, 150, 200, 300}$, and a pre-defined functional atlas BASC built with
+dimensionality varied in ${36, 64, 122, 197, 325, 444}$ are used for
+comparisons to make an optimal choice of dimension for each method. From
+\autoref{fig:effect_size_in_regions}, we chose optimal choice of
+learning dimensionality with GroupICA as $80$, Online Dictionary Learning as
+$60$, KMeans as $100$, BASC as $122$. We made the choice of learning
+dimensionality which made high positive impact from the baseline=$0.0$ for
+all multi rs-fMRI datasets - COBRE, ADNI, ADNIDOD, ACPI, ABIDE. We did not
+study the already imposed spatially constrained Ward method in brain atlases
+comparisons composed of regions. 
+
+The choices of dimensionality learned for each atlas are further
+used in comparing
+for optimal choice between brain regions and brain networks as outlined in
+\autoref{fig:regions_vs_nonregions} to study the comparisons of choices of
+brain atlases.
 
 \begin{figure}
     \centerline{%
-    \includegraphics[width=\linewidth]{impact_plot_atlas.pdf}%
+    \includegraphics[width=\linewidth]{figures/impact_plot_atlas.pdf}%
     }%
-    \caption[choice of atlas]{\textbf{Impact of atlas choices
-        on prediction scores}
+    \caption[choice of atlas]{\textbf{The impact of brain atlases in
+            functional connectivity prediction pipeline over diverse tasks}:
+            Boxplot (gray) depicts the relatively change in prediction
+            scores response in AUC ($x-axis$) over all the atlas choices on
+            ($y-axis$) - AAL, Harvard Oxford, BASC, Ward, K-Means, Group ICA,
+            Online Dictionary Learning grouped for all the multi rs-fMRI
+            datasets. While each data point on top of each boxplot outlines
+            the prediction impact separately for each dataset - COBRE (black),
+            ADNI (green), ADNIDOD (dark red), ACPI (pink), ABIDE (brown).
+            Learning atlases on the brain data had showed positive prediction
+            impact significant over predicting diverse tasks, in particular,
+            Online Dictionary Learning. The impact of using pre-defined
+            anatomical atlases - AAL and Harvard Oxford is significantly less
+            and has huge variance in the prediction of diverse tasks (highly
+            dependant on the phenotype). The comparisons in this figure
+            are made on particular choice of dimension chosen for each
+            data-driven learning atlas: such as Ward of $120$ brain
+            parcellations, K-Means of $100$ brain parcellations, Group ICA of
+            $80$ brain networks and splitted into regions, Online Dictionary
+            Learning of $60$ brain networks splitted into regions. We also
+            pick dimension of one functional pre-defined atlas: BASC of $122$
+            brain networks split into regions. These choices are made after
+            systematic exploration across all dimensions used
+            in the experiments to build the brain atlases for prediction. As
+            showed in \autoref{fig:effect_size_in_regions} and
+            \autoref{fig:effect_size_in_networks}, where choices on dimensions
+            are made between regions or networks/parcellations. In
+            \autoref{fig:regions_vs_nonregions}, where choice is made between
+            regions or without regions. For all comparisons, the prediction
+            pipeline was ran in cross-validation framework with $n=100$
+            random splits and shuffled with $75\%$ training set and $25\%$
+            test set.
     \label{fig:impact_atlas}}
 \end{figure}
 
-\paragraph{Effect of dimensionality: Brain regions}
 
 \begin{figure}
     \centerline{%
-	\includegraphics[width=\linewidth]{dot_plot_n_regions_suppressed_background.pdf}%
+	\includegraphics[width=1.1\linewidth]{figures/dot_plot_n_regions_suppressed_background.pdf}%
     }%
-    \caption[]{\textbf{Effect of dimensionality: Choice of brain regions} {For
-            each of four atlases (ICA, DictLearn, KMeans, BASC) driven with region
-            extraction, we show the measure of effect on prediction scores obtained by
-            removing the mean effect of group relatively over all
-            cross-validation splits and datasets.
-
-            What we obtain then, is the demeaned score for each split and for each
-            dataset.
-
-            Given that, we plot here: for each atlas, we took the average of
-            calculated demeaned scores over all splits which is showed on y-axis
-            as choice of vary in dimensionality as showed on x-axis.
-            
-            For each atlas, we then see the effect of each dataset (each unique color)
-            by projecting an error bar plot with $95\%$ confidence interval on each
-            averaged score shown as violin plot in gray color.
-            
-            Given the plots, we choose here the best dimensionality in ICA of
-            $80$, and DictLearn of $60$, KMeans of $120$ and BASC of $122$.
-        
-            These references in finding an optimalilty dimensionalities are
-            then used for further comparisons of choosing the best atlas
-            method.}
+    \caption[]{\textbf{Impact of dimensionality in learning the prediction with atlas of
+            brain regions}: For each atlas - ICA, DictLearn, KMeans, BASC),
+            violinplot (gray) depicts the relatively mean change in prediction
+            scores response in AUC ($y-axis$) over all the dimensionalities
+            ($x-axis$). On top of each violinplot are the error bars with
+            $95\%$ confidence interval across all datasets - COBRE (black),
+            ADNI (green), ADNIDOD (dark red), ACPI (pink), ABIDE (brown).
+            The optimal dimensionality (vertical red arrow) with
+            ICA is $80$, DictLearn is $60$,
+            KMeans is $100$ and BASC is $122$ which has showed significantly
+            positive impact (above baseline=$0.0$) across all datasets. We
+            reduce the effect of variance by keeping the prediction scores
+            from the pipeline only to tangent space parameterization and
+            SVC-$\ell{_2}$ classifier. The pipeline prediction was ran in
+            cross-validation framework with $n=100$ random splits shuffled with
+            $75\%$ training set and $25\%$ test set.}
     %
     \label{fig:effect_size_in_regions}
-    }
 \end{figure}
 
-
-To understand better the choice of atlas defined with or without region
-extraction as a function of vary in dimensionality, we chose to see the mean
-effect on prediction scores overall the cross validation folds with respect to
-four reference atlases (ICA, Dictionary Learning, KMeans and BASC) with
-various dimensionalities. \autoref{fig:effect_size_in_regions} outlines to choose
-between the optimal dimensionality for each atlas as a function of regions.
-
-\paragraph{Effect of dimensionality: Brain networks/parcellations}
+\subsubsection{Choice of dimensionality with Brain networks or parcellations}
 %
+In \autoref{fig:effect_size_in_networks}, the
+atlas extraction methods such as GroupICA (ICA), Online Dictionary
+Learning (DictLearn), KMeans and Ward with enormous dimensions varied in ${40, 60,
+80, 100, 120, 150, 200, 300}$, and a pre-defined functional atlas BASC built with
+dimensionality varied in ${36, 64, 122, 197, 325, 444}$ are used for
+comparisons to make an optimal choice of dimension for each method (without
+regions). From
+\autoref{fig:effect_size_in_networks}, we chose optimal choice of
+learning dimensionality with GroupICA as $80$, Online Dictionary Learning as
+$60$, KMeans as $100$, Ward as $120$ and BASC as $122$. We made an empirical
+choice of learning dimensionality by choosing the atlases which made high
+positive impact
+for all multi rs-fMRI datasets - COBRE, ADNI, ADNIDOD, ACPI, ABIDE. If any of the
+both choice in each atlas have made an equal impact, we took the least
+probable dimensionality as an optimal choice.
+The choices of dimensionality learned for each atlas are further
+used in comparing
+for optimal choice between brain regions and brain networks as outlined in
+\autoref{fig:regions_vs_nonregions} to study the comparisons of choices of
+brain atlases.
 \begin{figure}
     \centerline{%
-	\includegraphics[width=\linewidth]{dot_plot_parcellations_suppressed_background2.pdf}%
+	\includegraphics[width=1.1\linewidth]{figures/dot_plot_parcellations_suppressed_background.pdf}%
     }%
-    \caption[]{\textbf{Effect of dimensionality: Choice of brain
-        networks/parcellations} {Atlases based on networks: ICA, DictLearn,
-            BASC whereas based on parcellations are KMeans and Ward. In total,
-            we are comparing here five brain atlases each driven without
-            region extraction.
-
-            We show the measure of effect on prediction scores obtained by
-            removing the mean effect of group relatively over all cross-validation
-            splits and datasets.
-
-            As demonstrated in \autoref{fig:effect_size_in_regions}, we show
-            the same the demeaned score for each split and for each dataset
-            but this time without region extraction.
-
-            Given that, we plot here: for each atlas, we took the average of
-            calculated demeaned scores over all splits which is showed on y-axis
-            as choice of vary in dimensionality as showed on x-axis.
-            
-            For each atlas, we then see the effect of each dataset (each unique color)
-            by projecting an error bar plot with $95\%$ confidence interval on each
-            averaged score shown as violin plot in gray color.
-            
-            Given the plots, we choose here the best dimensionality in
-            networks: ICA of $80$, and DictLearn of $60$, KMeans of $120$ and BASC
-            of $122$ and Ward of $120$.
-        
-            These references in finding an optimalilty dimensionalities without
-            region extraction are then used for further comparisons of choosing
-            the best atlas method.}
+    \caption[]{\textbf{Impact of dimensionality in learning the prediction
+            with atlas of brain networks/parcellations}
+            For each atlas composed of networks (ICA, DictLearn, BASC)
+             and parcellations (KMeans and Ward), violinplot (gray)
+             depicts the relatively mean change in prediction
+            scores response in AUC ($y-axis$) over all the dimensionalities
+            ($x-axis$). On top of each violinplot are the error bars with
+            $95\%$ confidence interval across all datasets - COBRE (black),
+            ADNI (green), ADNIDOD (dark red), ACPI (pink), ABIDE (brown).
+            The optimal dimensionality (vertical red arrow) with
+            ICA is $80$, DictLearn is $60$,
+            KMeans is $100$ , Ward is $120$ and BASC is $122$ which has
+            showed significantly
+            positive impact (above baseline=$0.0$) across all datasets. We
+            reduce the effect of variance by keeping the prediction scores
+            from the pipeline only to tangent space parameterization and
+            SVC-$\ell{_2}$ classifier. The pipeline prediction was ran in
+            cross-validation framework with $n=100$ random splits shuffled with
+            $75\%$ training set and $25\%$ test set.}
     %
     \label{fig:effect_size_in_networks}
-    }
 \end{figure}
 
-\paragraph{Which is better: Brain atlases with regions or without regions}
-Given the outlining the choice of optimal dimensionality of brain atlases with
-or without regions extracted as shown in \autoref{fig:effect_size_in_regions}
-and \autoref{fig:effect_size_in_networks}, we compare them to see which is
-better in prediction. Prediction using atlases build with regions or
-using atlases build with networks. As shown in
-\autoref{fig:regions_vs_nonregions}, and atlas GroupICA or ICA, predicting
+\subsubsection{Which is better: Brain atlases with regions or without regions}
+Given the outlined choices of optimal dimensionality in brain atlases composed
+of regions and networks as shown in \autoref{fig:effect_size_in_regions}
+and \autoref{fig:effect_size_in_networks}, we compare now to study which has
+better impact in prediction. Prediction using atlases composed of regions or
+networks. As shown in
+\autoref{fig:regions_vs_nonregions}, atlases with GroupICA or ICA, predicting
 using regions is better rather than using only networks. Whereas for
 Dictionary Learning, prediction using regions is better and same even with
 BASC atlases. Interesting, to see that BASC which is a pre-defined atlase
@@ -395,12 +600,25 @@ prediction. With KMeans, using parcellations without regions or
 inter-hemispheric separation is better for prediction tasks of resting state
 fMRI.
 
+%\begin{table}[tb]
+%\footnotesize%
+%\small
+%\rowcolors{2}{gray!15}{white}%
+%\begin{tabularx}{\linewidth}{p{1.0cm}|l|l|l|l}
+%    \textbf{Brain atlas} & \textbf{Connectivity}
+%    & \textbf{Classifier} & \textbf{Regions} & \textbf{Dimensions} \\
+%    %\hline
+%    DictLearn & Tangent Embedding & SVC-$\ell{_2}$ & Yes & 60 \\
+%    %\bottomrule
+%\end{tabularx}
+%\end{table}
+
 \begin{figure}
     \centerline{%
-	\includegraphics[width=\linewidth]{violin_plot_mean_score_region_extraction_ica_dict_kmeans.pdf}%
+	\includegraphics[width=1.\linewidth]{figures/violin_plot_mean_score_region_extraction_ica_dict_kmeans.pdf}%
     }%
-    \caption[regions vs non regions]{\textbf{Which is better for prediction: regions or
-        without regions}
+    \caption[regions vs non regions]{\textbf{Which is better for prediction:
+            Brain regions or Brain networks}
         For each atlas (ICA, DictLearn, KMeans and BASC), we show here the
         best setting for prediction by measuring its impact on prediction
         accuracy for each dataset.
@@ -425,91 +643,26 @@ fMRI.
     }
 \end{figure}
 
-\section{Supplementary material}
 
-\begin{figure}
-    \centerline{%
-	\includegraphics[width=.8\linewidth]{n_regions_vs_dimensionality.pdf}%
-    }%
-    \caption{\textbf{Number of regions extracted with dimensionality}
-    %
-    %
-    \label{fig:n_regions_dim}
-    }
-\end{figure}
-
-\begin{table}[t]
-    \begin{tabular}{llllrlll}
-        \toprule
-        & Atlas &    Classifier & Measure &  Dimensionality & Regions & 
-        ROC\textunderscore AUC &  Dataset \\
-        \midrule
-        &  Online Dictionary Learning & SVC-$\ell{_2}$ & Tangent & 60 & yes &
-        0.86\$\textbackslashpm\$0.06 &    COBRE \\
-        & K-Means & Ridge & Tangent & 120 & no &
-        0.76\$\textbackslashpm\$0.09 &
-        ADNI \\
-        &                            AAL &  SVM-\$\textbackslashell\_1\$ &
-        Tangent &             116 &      no &  0.72\$\textbackslashpm\$0.08 &
-        ADNIDOD \\
-        &                        K-Means &  SVM-\$\textbackslashell\_2\$ &
-        Partial \textbackslashn Correlation &             120 &      no &
-        0.58\$\textbackslashpm\$0.08 &     ACPI \\
-        &                            ICA &  SVM-\$\textbackslashell\_2\$ &
-        Tangent &              80 &     yes &   0.7\$\textbackslashpm\$0.03 &
-        ABIDE \\
-        \bottomrule
-    \end{tabular}
-\end{table}
 %\begin{figure}
-%    \includegraphics[width=\linewidth]{figures/performance_vs_size_2.pdf}%
-%    \caption{\textbf{Reported accuracy and sample size}
-    %
-%    The various plots show reported prediction accuracy as a
-%    function of sample size for the studies in different the
-%    reviews considered in \autoref{fig:sample_size}.
-    %
-%    The black line and grey area represent the $p=0.05$ threshold with a
-%    binomial null model, which, as shown in the results section, is
-%    likely to be optimistic.
-    %
-%    The lines are Lowess fit to the data: robust non-parametric local
-%    regression.
-    %
-%    \label{fig:reported_accuracy}
+%    \centerline{%
+%	\includegraphics[width=.8\linewidth]{n_regions_vs_dimensionality.pdf}%
+%    }%
+%    \caption{\textbf{Number of regions extracted with dimensionality}
+%    %
+%    %
+%    \label{fig:n_regions_dim}
 %    }
 %\end{figure}
+\paragraph{Choice of brain atlas}
+
+\section{Discussion:}
+
+In this section, we talk about the right trends and recommendations which
+should be made at each step in the functional connectivity prediction
+pipeline.
 
 \section{Conclusion:}
-
-% Acquiring large quality datasets is intrinsically a challenge in
-% neuroimaging, whether it is psychiatric or cognitive
-% (repetition effects)
-
-%%% Position with regards to papers
-
-% Recall the power-failure paper. Stress that the problem that I report
-% is not a failure of the predictive models, which is also a risk. 
-% The intuitions that we gain from standard statistics do not carry over
-% well: One difference with standard statistics (as in the power-failure paper)
-% is that the effect size matter. On the opposite, in classification,
-% only correct vs incorrect is counted, which is the power and the
-% limitation of the methods
-
-% The paper by poldrack 
-%\cite{poldrack2016scanning}
-
-
-% cite Braga-Neto, "Is cross-validation valid for small-sample
-% microarray classification?" to underline that this has been seen in
-% genomics
-
-% Stress that the problem is not fixed by better classifiers (my sport)
-
-% Say that I have myself been overly optimistic and confident in my
-% results in the development of decoders, some of which have not
-% reproduced \cite{michelsupervised} though the core mathematical
-% intuitions were correct \cite{rena}
 
 \subsection*{Acknowledgments}
 
@@ -518,60 +671,9 @@ Funded by NiConnect project (ANR-11-BINF-0004\_NiConnect) and CATI.
 % references section
 
 
-\small
+\section{Supplementary material}
 %\bibliographystyle{elsarticle-num-names}
 \bibliography{biblio}
-
-%\appendix
-%\renewcommand{\thefigure}{A\arabic{figure}}
-%\setcounter{figure}{0}
-%\renewcommand{\thetable}{A\arabic{table}}
-%\setcounter{table}{0}
-
-%\begin{figure}%
-    %\center%
-    %\includegraphics[width=.7\linewidth]{github_code/sem_vs_error.pdf}%
-    %\medskip
-
-%    {\small\sffamily%
-%    \begin{tabular}{llrrr}
-    %\toprule
-%	CV        &       train &          SEM &    empirical \\
-%	strategy  &        size &    error bar &    error bar \\
-%    \toprule
-%    \multirow{4}{9ex}{LOO} & 30 &  $\pm 13.8\%$ &  $\pm 18.9\%$ \\
-%		&           100 &  $\pm 7.4\%$ &   $\pm 10.3\%$ \\
-%	        &           300 &  $\pm 4.1\%$ &   $\pm  5.9\%$ \\
-%		&          1000 &  $\pm 2.2\%$ &   $\pm  2.9\%$ \\
-%    \midrule                                            
-%    \multirow{4}{9ex}{50 splits,\\20\% test} & 30 &  $\pm 3.4\%$ & $\pm 15.3\%$ \\
-%                  &         100 &  $\pm 2.0\%$ &   $\pm  8.1\%$ \\
-%                  &         300 &  $\pm 1.1\%$ &   $\pm  4.1\%$ \\
-%	          &        1000 &  $\pm 0.6\%$ &   $\pm  2.1\%$ \\
-    %\bottomrule
-%    \end{tabular}}
-%    \caption{\textbf{}
-%    \label{fig:error_vs_sem}}
-%\end{figure}
-
-
-
-%\begin{figure}[t]
-%    \centerline{%
-%     \includegraphics[width=.8\linewidth]{github_code/dimensionality_results.pdf}%
-%     \llap{\raisebox{.72\linewidth}{%
-%	\parbox{.86\linewidth}{\bfseries\sffamily Binomial\\law}}}%
-%    }%
-%
-%    \caption{\textbf{Distribution of errors as given by a binomial law}
-%    Different between the observation prediction error and the 
-%    population value of the probability of error for different sample sizes.
-%    The bar and whiskers indicate the median
-%    and the 5\raisebox{.5ex}{\tiny th} and 95\raisebox{.5ex}{\tiny th}
-%    percentile. 
-%    \label{fig:binomial}}
-%\end{figure}
-
 
 \end{document}
 
