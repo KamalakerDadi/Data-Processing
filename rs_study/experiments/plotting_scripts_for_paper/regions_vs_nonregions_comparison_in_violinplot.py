@@ -54,7 +54,7 @@ def stripplot_mean_score(df, save_path, atlas=None, suffix=None, x=None,
                    width=0.5, ax=axx)
 
     sns.stripplot(data=df, x=x, y=y, hue=hue, edgecolor='gray',
-                  size=5, split=True, palette=datasets_palette, jitter=jitter,
+                  size=3, split=True, palette=datasets_palette, jitter=jitter,
                   ax=axx)
 
     axx.set_xlabel('')
@@ -66,9 +66,9 @@ def stripplot_mean_score(df, save_path, atlas=None, suffix=None, x=None,
     axx_xticklabels = []
     for x in axx.get_xticks():
         if x > 0:
-            axx_xticklabels.append('+' + str(x) + '$\%$')
+            axx_xticklabels.append('+' + str(x))
         else:
-            axx_xticklabels.append(str(x) + '$\%$')
+            axx_xticklabels.append(str(x))
     axx.set_xticklabels(axx_xticklabels)
     # xticklabels=string.capitalize()
     # yticklabels=string.capitalize(axx.get_yticklabels())
@@ -155,7 +155,7 @@ for i, (key, ax) in enumerate(zip(atlases, axes)):
     demeaned_scores = df.groupby(['classifier', 'measure', 'dataset',
                                   'dimensionality'])['scores'].transform(demean)
 
-    df['demeaned_scores'] = demeaned_scores * 100
+    df['demeaned_scores'] = demeaned_scores
 
     ########################################################################
     # plot to pdf, png and svg

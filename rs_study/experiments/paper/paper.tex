@@ -226,26 +226,34 @@ iv) Connectivity-based classification of the phenotypic target.
 
 \begin{table}[tb]
 \small
-\begin{tabularx}{\linewidth}{p{1.2cm}|l|c|c|c|c}
+\begin{tabularx}{\linewidth}{p{1.2cm}|p{1.0cm}|p{0.7cm}|p{1.42cm}|l|l}
     \rowcolor{gray!50}
-    Accuracy & COBRE & ADNI & ADNIDOD & ACPI & ABIDE \\ 
+    \centering{Accuracy} & COBRE & ADNI & ADNIDOD & ACPI & ABIDE \\
     \hline
     \rowcolor{gray!13}
+    Median& $87.1\%$ & $76.2\%$ & $67.1\%$ & $56.4\%$ & $70.2\%$\\
+    % \rowcolor{gray!13}%
     {\centering $5^{th}$ \\ Percentile} & $74.3\%$ & $62.3\%$ &
     $53.8\%$ & $41.4\%$ & $64.9\%$\\[.1ex]
-    Median& $87.1\%$ & $76.2\%$ & $67.1\%$ & $56.4\%$ & $70.2\%$\\
-    \rowcolor{gray!13}%
+    \rowcolor{gray!13}
     {\centering $95^{th}$ \\ Percentile} & $94\%$ & $89.1\%$ &
     $77.2\%$ & $68.7\%$ & $73.8\%$\\
     \hline
 \end{tabularx}
     \caption{\textbf{
-            5th percentile, Median and 95th percentile of accuracy scores in AUC
+            Median, 5th percentile and 95th percentile of accuracy scores in AUC
             over cross-validation folds ($n=100$) across multi rs-fMRI datasets.}
             Accuracy scores reported are specific to optimal choices in
             functional connectivity prediction pipeline: brain atlas,
-            connectivity parameterization, linear classifier as outlined
-            in -- \autoref{tab:pipeline}.
+            connectivity parameterization, linear classifier as studied
+            from -- \autoref{fig:impact_classifier},
+            \autoref{fig:impact_connectivity}, \autoref{fig:impact_atlas}.
+            Functional brain atlases
+            learned using Online Dictionary Learning (DictLearn) with
+            number of resting state networks=$60$ and spliting networks to regions are
+            shown as good choices in the prediction pipeline with Tangent based
+            connectivity matrix parameterization and Support Vector Linear
+            Classifier with $\ell{_2}$ (SVC-$\ell{_2}$).
             Best prediction is achieved with schizophrenia vs control
             discrimination task on COBRE dataset at $87.1\%$ (median) and
             $5^{th}$ percentile of scores are around $74.3\%$ and $95^{th}$
@@ -298,30 +306,30 @@ choices of brain atlases.
 We also report the best pipeline prediction accuracy scores in AUC across
 multi rs-fMRI datasets.
 
-\begin{table}[tb]
-\small
-\begin{tabularx}{\linewidth}{l|p{1.55cm}|c|c|c}
-    \rowcolor{gray!50}
-    Brain atlas  & Connectome & Classifier & Regions &
-    Dimensions \\
-    \hline
-    DictLearn & Tangent embedding &  SVC-$\ell{_2}$ &  Yes & 60 \\
-\end{tabularx}
-    \caption{\textbf{
-        Prediction choices at each step in resting state functional connectivity
-        pipeline: Brain atlas, Connectome, Classifier}.
-        The results are outlined after relatively comparing at each step, over the
-        choices of classifiers, connectivity parameterization methods and brain
-        atlases (pre-defined or data driven atlases) as shown in --
-        \autoref{fig:impact_classifier}, \autoref{fig:impact_connectivity} and
-        \autoref{fig:impact_atlas}. Functional brain atlases
-        learned using Online Dictionary Learning (DictLearn) with
-        number of resting state networks=$60$ and spliting networks to regions are
-        shown as good choices in the prediction pipeline with Tangent based
-        connectivity matrix parameterization and Support Vector Linear
-        Classifier with $\ell{_2}$ (SVC-$\ell{_2}$).}
-    \label{tab:pipeline}
-\end{table}
+%\begin{table}[tb]
+%\small
+%\begin{tabularx}{\linewidth}{l|p{1.55cm}|c|c|c}
+%    \rowcolor{gray!50}
+%    Brain atlas  & Connectome & Classifier & Regions &
+%    Dimensions \\
+%    \hline
+%    DictLearn & Tangent embedding &  SVC-$\ell{_2}$ &  Yes & 60 \\
+%\end{tabularx}
+%    \caption{\textbf{
+%        Prediction choices at each step in resting state functional connectivity
+%        pipeline: Brain atlas, Connectome, Classifier}.
+%        The results are outlined after relatively comparing at each step, over the
+%        choices of classifiers, connectivity parameterization methods and brain
+%        atlases (pre-defined or data driven atlases) as shown in --
+%        \autoref{fig:impact_classifier}, \autoref{fig:impact_connectivity} and
+%        \autoref{fig:impact_atlas}. Functional brain atlases
+%        learned using Online Dictionary Learning (DictLearn) with
+%        number of resting state networks=$60$ and spliting networks to regions are
+%        shown as good choices in the prediction pipeline with Tangent based
+%        connectivity matrix parameterization and Support Vector Linear
+%        Classifier with $\ell{_2}$ (SVC-$\ell{_2}$).}
+%    \label{tab:pipeline}
+%\end{table}
 
  \subsection{Choice of classifier}
  \paragraph{Which classifier is good enough for a binary classification
@@ -615,7 +623,7 @@ fMRI.
 
 \begin{figure}
     \centerline{%
-	\includegraphics[width=1.\linewidth]{figures/violin_plot_mean_score_region_extraction_ica_dict_kmeans.pdf}%
+	\includegraphics[width=1.\linewidth]{figures/regions_nonregions_difference_distribution.pdf}%
     }%
     \caption[regions vs non regions]{\textbf{Which is better for prediction:
             Brain regions or Brain networks}
@@ -644,16 +652,17 @@ fMRI.
 \end{figure}
 
 
-%\begin{figure}
-%    \centerline{%
-%	\includegraphics[width=.8\linewidth]{n_regions_vs_dimensionality.pdf}%
-%    }%
-%    \caption{\textbf{Number of regions extracted with dimensionality}
-%    %
-%    %
-%    \label{fig:n_regions_dim}
-%    }
-%\end{figure}
+\begin{figure}
+    \centerline{%
+	\includegraphics[width=0.5\paperwidth]{figures/brainrois.pdf}%
+    }%
+    \caption{\textbf{Brain regions/parcellations using ICA, DictLearn, KMeans,
+        Ward}
+    %
+    %
+    \label{fig:brain_rois}
+    }
+\end{figure}
 \paragraph{Choice of brain atlas}
 
 \section{Discussion:}
