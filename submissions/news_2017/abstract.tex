@@ -1,0 +1,89 @@
+%\documentstyle[12pt]{article}
+\documentclass[12pt]{article}
+
+\begin{document}
+
+\begin{center}
+{\large\bf Towards a better predictive model from rest fMRI: benchmarks across
+multiple phenotypes}\\[4mm]
+\end{center}
+
+\begin{center}
+Kamalaker Dadi$^a$$^b$, Darya Chyzhyk$^a$$^b$, Alexandre Abraham$^a$$^b$,
+Mehdi Rahim$^a$$^b$, Bertrand Thirion$^a$$^b$, Ga\"el Varoquaux$^a$$^b$\\
+\end{center}
+
+\begin{center}
+{\small \em $^a$Parietal Team, INRIA, Paris-Saclay
+University, France.}\\
+{\small \em $^b$CEA, DSV, I$^{2}$BM, Neurospin Center,
+Paris-Saclay University, 91191, Gif-sur-Yvette, France.}\\
+\end{center}
+
+% Here is the abstract.
+\begin{abstract}
+	Psychiatry and psychology are based on assessing individuals traits,
+    characterized through behavioral testing and questionnaires. Imaging of
+    brain activity raises the hope of measuring the physiological differences
+    that underlie these psychological variations \cite{smith} \cite{miller}. In
+    \cite{abraham}, we have
+    introduced an automated pipeline capable of learning this link across
+    individuals using large cohorts of functional magnetic resonance images
+    acquired during rest (Rest fMRI). We present an openly available
+    implementation of this pipeline and how we used it to draw best practices
+    from its application on various problems. Rest fMRI is a promising
+    universal marker of brain function \cite{bharat}, as it can easily be acquired on
+    many different individuals and is applicable to disease populations. It is
+    used to capture functional-connectivity information, i.e. interaction
+    patterns in brain activity. The challenge is then to relate it to behavior
+    and pathology. Our pipeline successively defines regions from rest fMRI,
+    build connectomes from time series signals extracted upon on these regions
+    of interests, and compares connectomes across subjects using machine
+    learning. We applied it on five datasets to i) determine the steps to
+    obtain the best prediction, and ii) predict phenotypic information with
+    good accuracy. Through systematic comparisons, we outline dominant choices
+    for each pipeline step. Our results show that this analysis pipeline can
+    be adapted to various psychological questions for instance in
+    epidemiological studies \cite{miller}, moving imaging closer to a diagnosis tools in
+    clinical settings.
+
+     
+
+%    [1] Smith, Stephen et al. A positive-negative mode of population
+%    covariation links brain connectivity, demographics and behavior. Nature
+%    Neuroscience, 2015.
+
+%    [2] Miller Karla et al. Multimodal population brain imaging in the UK
+%    Biobank prospective epidemiological study. Nature Neuroscience, 2016.
+
+%    [3] Bharat Biswal et al. Toward discovery science of human brain function.
+%    PNAS, 2010.
+%    [4] Alexandre Abraham et al. Deriving reproducible biomarkers from
+%    multi-site resting-state data: An Autism-based example. NeuroImage, 2016.
+
+\end{abstract}
+%----
+\begin{thebibliography}{9}
+    \bibitem{smith} 
+        Smith, Stephen et al. 
+        \textit{A positive-negative mode of population covariation links brain
+        connectivity, demographics and behavior}. 
+        Nature Neuroscience, 2015.
+         
+    \bibitem{miller} 
+        Miller Karla et al. 
+        \textit{{Multimodal population brain imaging in the UK Biobank prospective
+    epidemiological study}}. Nature Neuroscience, 2016.
+         
+    \bibitem{bharat} 
+        Bharat Biswal et al.
+        \textit{Toward discovery science of human brain function}.
+        Proceedings of the National Academy of Sciences, 2010.
+
+    \bibitem{abraham} 
+        Alexandre Abraham et al.
+        \textit{Deriving reproducible biomarkers from multi-site
+        resting-state data: An Autism-based example}.
+        Neuroimage, 2016.
+\end{thebibliography}
+\end{document}
