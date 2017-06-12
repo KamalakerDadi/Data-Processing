@@ -115,7 +115,7 @@
 %\renewcommand\linenumberfont{\normalfont\tiny\sffamily\color{black!50}}
 
 \journal{NeuroImage}
-\title{Towards a better predictive model of rest fMRI: benchmarks across
+\title{Towards a better predictive model from rest fMRI: benchmarks across
 multiple phenotypes}
 
 
@@ -149,23 +149,37 @@ France}
 
 \section{Introduction}%
 
-% Start positive
-
-% Introduce cross-validation
-% State the problem
-% Explain what I do, and our conclusion
-
-% XXX: TODO: announce the content of the paper
 
 \section{Methods}
 
-\subsection{Overview of the pipeline}
-\autoref{fig:pipeline}  depicts  our  prediction  pipeline.  It  consists  of  four
-steps: i) Definition  of  brain  regions  of  interest  (ROIs),
-ii) Extraction  of  the  time  series  associated  with  these  ROIs,
-iii) Estimation  of  FC  metrics  from  these  time  series,
-iv) Connectivity-based classification of the phenotypic target.
-\subsection{Definition of brain regions or networks}
+%\subsection{Resting State fMRI (rs-fMRI) prediction pipeline}
+\autoref{fig:pipeline}  depicts  our  prediction  pipeline consists of
+defining brain ROIs, connectivity parameterization and classification using
+machine learning. We used this pipeline to study the various choices
+at each
+step by measuring the impact of each choice made across diverse prediction
+tasks from five different rs-fMRI datasets. In below sections, we outline
+about the choices used at each step, rs-fMRI datasets with the prediction task
+in each dataset and cross-validation framework to prediction accuracy.
+
+%trategy where at step i), we defined brain ROIs from training set of
+%rs-fMRI images where the same set is used for training a linear
+%model classifier in prediction tasks at step iii).
+\subsection{Definition of brain regions of interest (ROIs)}
+There exists many different approaches to define brain ROIs as overviewed
+in \cite{thirion2014}. Here, we choose to
+define brain ROIs using pre-defined brain atlases based on
+anatomical and functional and using data-driven methods. For each type of
+defining brain ROIs, we chose six variety of various
+choices out of which three
+pre-defined atlases - Automated Anatomical Labeling (AAL) - Harvard Oxford
+- Bootstrap Analysis of Stable Clusters (BASC) and using four data-driven
+methods - Linear decomposition models: Group Independent Component
+Analysis (Group ICA) - Online Dictionary Learning (DictLearn) and
+Clustering models: KMeans - Agglomerative with Ward criterion. For each
+data-driven method, we build the atlas on training data ($75\%$) on each
+split (n=100) and use this atlas for the consecutive step.
+
 
 \subsection{Parameterizing connectivity}
 
@@ -182,42 +196,42 @@ iv) Connectivity-based classification of the phenotypic target.
 %\paragraph{Previous results: cross-validation on brain images}
 
 
-%begin{figure*}[t]
-%   \setlength{\fboxsep}{0pt}%
-%   \begin{minipage}[T]{.26\paperwidth}
-%    \includegraphics[height=.28\paperwidth]{pipeline.pdf}%
-%    \llap{\raisebox{.265\paperwidth}{%
-%   \parbox{.28\paperwidth}{\colorbox{white}{\bfseries\sffamily
-%   \hspace*{-.15ex}\,\hspace{-2ex}}}}}%
-%   \medskip
-%   \end{minipage}
-%   \caption{\textbf{Resting-state functional connectivity prediction pipeline}}
-%
-%   {\bfseries\sffamily 1} -- Defining Brain ROIs: involves using three
-%   pre-defined atlases - Automated Anatomical Labeling (AAL) - Harvard Oxford
-%   - Bootstrap Analysis of Stable Clusters (BASC) and using four data-driven
-%   methods - Linear decomposition models: Group Independent Component
-%   Analysis (Group ICA) - Online Dictionary Learning (DictLearn) and
-%   Clustering models: KMeans - Agglomerative with Ward criterion. For each
-%   data-driven method, we build the atlas on training data ($75\%$) on each
-%   split (n=100) and use this atlas for the consecutive step. 
-%   %
-%   {\bfseries\sffamily 2} -- Timeseries signal extraction: For each atlas or
-%   ROIs, from Step 1 are used in extracting subject specific timeseries signals.
-%   %
-%   {\bfseries\sffamily 3} -- Parameterizing functional connectivity between
-%   ROIs,  using  correlation,  partial  correlation  or  tangent  space
-%   embedding
-%   %
-%   {\bfseries\sffamily 4} -- Supervised learning: Classifiers, a classification
-%   model is built to predict groups with two linear classifiers, SVC ($\ell_{1}$ or
-%   $\ell_{2}$ penalization) and ridge regression ($\ell_{2}$ penalization).
-%   %
-%   Cross-validation for 100 splits with $75\%$ training set and remaining
-%   $25\%$ test is used in Step 4, classification setting and reported scores
-%   are Receiver Operating Characteristic and Area Under the Curve (ROC-AUC)
-%   \label{fig:pipeline}
-%end{figure*}
+\begin{figure*}[tb]
+   \setlength{\fboxsep}{0pt}%
+   \begin{minipage}[T]{.26\paperwidth}
+    \includegraphics[height=.14\paperwidth]{figures/pipeline.pdf}%
+    \llap{\raisebox{.11\paperwidth}{%
+   \parbox{.28\paperwidth}{\colorbox{white}{\bfseries\sffamily
+   \hspace*{-.15ex}\,\hspace{-2ex}}}}}%
+   \medskip
+   \end{minipage}
+   \caption{\textbf{Resting-state functional connectivity prediction pipeline}
+   Overview of the pipeline. Pipeline consists of three main steps:
+   {\bfseries\sffamily 1}) defines brain regions (ROIs) from
+   rs-fMRI images or using already defined reference atlases,
+   {\bfseries\sffamily 2}) builds
+   connectomes from time series signals extracted from these ROIs
+   and {\bfseries\sffamily 3}) compares connectomes across subjects using supervised learning.
+   The term connectome is referred to functional connectivity matrix between
+   set of brain ROIs. In other words, we call this pipeline as connectome
+   based prediction pipeline.}
+
+  % {\bfseries\sffamily 2} -- Timeseries signal extraction: For each atlas or
+  % ROIs, from Step 1 are used in extracting subject specific timeseries signals.
+  % %
+  % {\bfseries\sffamily 3} -- Parameterizing functional connectivity between
+  % ROIs,  using  correlation,  partial  correlation  or  tangent  space
+  % embedding
+  % %
+  % {\bfseries\sffamily 4} -- Supervised learning: Classifiers, a classification
+  % model is built to predict groups with two linear classifiers, SVC ($\ell_{1}$ or
+  % $\ell_{2}$ penalization) and ridge regression ($\ell_{2}$ penalization).
+  % %
+  % Cross-validation for 100 splits with $75\%$ training set and remaining
+  % $25\%$ test is used in Step 4, classification setting and reported scores
+  % are Receiver Operating Characteristic and Area Under the Curve (ROC-AUC)
+   \label{fig:pipeline}
+\end{figure*}
 %
 %\paragraph{Spread out predictions in a public challenge}
 
