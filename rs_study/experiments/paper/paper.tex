@@ -153,33 +153,58 @@ France}
 \section{Methods}
 
 %\subsection{Resting State fMRI (rs-fMRI) prediction pipeline}
-\autoref{fig:pipeline}  depicts  our  prediction  pipeline consists of
-defining brain ROIs, connectivity parameterization and classification using
-machine learning. We used this pipeline to study the various choices
-at each
-step by measuring the impact of each choice made across diverse prediction
-tasks from five different rs-fMRI datasets. In below sections, we outline
-about the choices used at each step, rs-fMRI datasets with the prediction task
-in each dataset and cross-validation framework to prediction accuracy.
+\autoref{fig:pipeline}  depicts  our  functional-connectivity based
+prediction  pipeline and consists of
+i) defining brain ROIs and extraction of timeseries signals with these
+ROIs, ii) connectivity parameterization between pair of ROIs and
+iii) connectivity-based classification of phenotypic target using
+machine learning.
+We rely on this pipeline to study the various choices at each
+step in the pipeline by measuring the impact of each choice
+made across diverse phenotypic targets from five different
+rs-fMRI datasets.
+
+In below sections, we describe about the methods used at each step
+in the pipeline, rs-fMRI datasets and the phenotypic target used
+within each dataset and cross-validation framework to reporting
+prediction accuracy scores.
 
 %trategy where at step i), we defined brain ROIs from training set of
 %rs-fMRI images where the same set is used for training a linear
 %model classifier in prediction tasks at step iii).
 \subsection{Definition of brain regions of interest (ROIs)}
-There exists many different approaches to define brain ROIs as overviewed
-in \cite{thirion2014}. Here, we choose to
-define brain ROIs using pre-defined brain atlases based on
-anatomical and functional and using data-driven methods. For each type of
-defining brain ROIs, we chose six variety of various
-choices out of which three
+The first step of the pipeline consists in reducing the
+dimensionality of the problem by aggregating whole brain voxels into
+set of voxels forming a brain ROIs. Each ROI represents a meaningful structure
+of the whole brain where we can use this structure to learn the connectivity
+interactions to study the classification of phenotypic targets, for instance.
+There exists many different kinds of approaches to define brain ROIs
+as overviewed in \cite{thirion2014}. We choose to define brain ROIs
+using two specific approaches. One approach is using reference atlases
+where ROIs are pre-defined while the another approach is
+using data-driven methods where ROIs are defined by directly learning
+on the data. For each approach, we used various choices in
+reference atlases and data-driven methods to study the impact of each
+choice in the prediction pipeline on diverse phenotypic targets. The
+question underlying atlas selection is whether different brain
+disorders lead to a consistent choice, and whether genericity
+should be preferred to adaptative strategies.
+
+generated on another anatomical and functional datasets which are not
+included in this study. Another approach is using
+data-driven methods where ROIs are defined by directly learning on the
+data. For each approach, we used various
+choices to study the impact of each approach in the prediction pipeline on
+diverse prediction tasks.
+
+We outline here various choices used, out of which three are
 pre-defined atlases - Automated Anatomical Labeling (AAL) - Harvard Oxford
-- Bootstrap Analysis of Stable Clusters (BASC) and using four data-driven
+- Bootstrap Analysis of Stable Clusters (BASC) and four data-driven
 methods - Linear decomposition models: Group Independent Component
 Analysis (Group ICA) - Online Dictionary Learning (DictLearn) and
 Clustering models: KMeans - Agglomerative with Ward criterion. For each
-data-driven method, we build the atlas on training data ($75\%$) on each
-split (n=100) and use this atlas for the consecutive step.
-
+data-driven method, we learn ROIs on training set of rs-fMRI images
+and 
 
 \subsection{Parameterizing connectivity}
 
