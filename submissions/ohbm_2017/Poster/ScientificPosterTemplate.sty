@@ -1,0 +1,135 @@
+%% ScientificPosterTemplate.sty version 1.0
+%% Package for creating a scientific poster
+%% ---
+%% Created and maintained by:
+%% Gael Beaunée
+%% URL: https://www.gaelbn.com
+%% ---
+%% LICENSE
+%% The ScientificPosterTemplate package has been published under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+%% (http://creativecommons.org/licenses/by-nc-sa/4.0/deed.en).
+%% ---
+%% Updated 2013/12/01
+%% ---
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{ScientificPosterTemplate}[2013/12/01 v1.2 Package for creating a scientific poster]
+
+%%% These packages are required
+% color for colors
+\RequirePackage{color}
+% ifthen for conditional formatting
+\RequirePackage{ifthen}
+
+%%% Font declarations
+% Set the font encoding
+\usepackage[utf8]{inputenc}
+\RequirePackage[T1]{fontenc}
+\RequirePackage{lmodern}
+\RequirePackage{textcomp}
+
+%% Optional:
+%% Set the serif font
+%\RequirePackage{newcent}
+%% Set the sans serif font
+%\RequirePackage[scaled]{helvet}
+%% Sets the typewriter font
+%\renewcommand*{\ttdefault}{txtt}
+
+\RequirePackage[super]{natbib}
+\RequirePackage[footnotesize]{caption}
+\RequirePackage{paralist}
+\RequirePackage{setspace}
+
+
+\DeclareOption{A0}{%
+	\newcommand{\sectionspace}{15mm} % Free space before each section inside a minipage
+	\newcommand{\figurespace}{15mm} % Free space around figures inside a minipage (where floats are not allowed)
+
+	\renewcommand{\captionfont}{\sf \normalsize}
+	\renewcommand{\captionlabelfont}{\sf \normalsize}
+
+	\let\olditem\item
+	\renewenvironment{thebibliography}[1]{%
+  		\subsubsection*{\sf\Large\refname}
+  		\let\par\relax\let\newblock\relax\normalsize
+
+  		\renewcommand{\item}[1][]{\olditem}%
+  		\inparaenum[1{.}]}{\endinparaenum}
+}
+
+\DeclareOption{A1}{%
+	\newcommand{\sectionspace}{10mm} % Free space before each section inside a minipage
+	\newcommand{\figurespace}{10mm} % Free space around figures inside a minipage (where floats are not allowed)
+
+	\renewcommand{\captionfont}{\sf \footnotesize}
+	\renewcommand{\captionlabelfont}{\sf \footnotesize}
+
+	\let\olditem\item
+	\renewenvironment{thebibliography}[1]{%
+  		\subsubsection*{\sf\normalsize\refname}
+  		\let\par\relax\let\newblock\relax\footnotesize
+
+  		\renewcommand{\item}[1][]{\olditem}%
+  		\inparaenum[1{.}]}{\endinparaenum}
+}
+
+
+%%% Declare options for the color media
+% RGB
+\DeclareOption{RGB}{%
+	% Basic colors
+	\definecolor{posterBlack}{RGB}{0,0,0}%
+	\definecolor{posterGray}{RGB}{146,139,129}%
+	\definecolor{posterRed}{RGB}{237,41,57}%
+	\definecolor{posterBlue}{RGB}{0,101,189}%
+	\definecolor{posterYellow}{RGB}{254,203,0}%
+	% Additional colors
+	\definecolor{posterPurple}{RGB}{102,57,183}%
+	\definecolor{posterTurquoise}{RGB}{0,168,180}%
+	\definecolor{posterGreen}{RGB}{0,155,58}%
+	\definecolor{posterLightGreen}{RGB}{105,190,40}%
+	\definecolor{posterOrange}{RGB}{255,121,0}%
+	\definecolor{posterFuchsia}{RGB}{177,5,157}%
+}
+% Coated
+\DeclareOption{Coated}{%
+	% Basic colors
+	\definecolor{posterBlack}{cmyk}{0,0,0,1}%
+	\definecolor{posterGray}{cmyk}{0.18,0.22,0.26,0.49}%
+	\definecolor{posterRed}{cmyk}{0,0.9,0.65,0}%
+	\definecolor{posterBlue}{cmyk}{1.0,0.5,0,0}%
+	\definecolor{posterYellow}{cmyk}{0,0.12,1.0,0}%
+	% Additional colors
+	\definecolor{posterPurple}{cmyk}{0.80,0.94,0,0}%
+	\definecolor{posterTurquoise}{cmyk}{1,0,0.3,0}%
+	\definecolor{posterGreen}{cmyk}{0.94,0,1,0}%
+	\definecolor{posterLightGreen}{cmyk}{0.7,0,1,0}%
+	\definecolor{posterOrange}{cmyk}{0,0.64,1,0}%
+	\definecolor{posterFuchsia}{cmyk}{0.37,0.95,0,0}%
+}
+% Uncoated
+\DeclareOption{Uncoated}{%
+	% Basic colors
+	\definecolor{posterBlack}{cmyk}{0,0,0,1}%
+	\definecolor{posterGray}{cmyk}{0.11,0.11,0.13,0.36}%
+	\definecolor{posterRed}{cmyk}{0,0.8,0.65,0}%
+	\definecolor{posterBlue}{cmyk}{1.0,0.3,0,0}%
+	\definecolor{posterYellow}{cmyk}{0,0.06,1.0,0}%
+	% Additional colors
+	\definecolor{posterPurple}{cmyk}{0.53,0.65,0,0}%
+	\definecolor{posterTurquoise}{cmyk}{0.95,0,0.25,0}%
+	\definecolor{posterGreen}{cmyk}{0.82,0,0.92,0}%
+	\definecolor{posterLightGreen}{cmyk}{0.5,0,0.8,0}%
+	\definecolor{posterOrange}{cmyk}{0,0.43,0.82,0}%
+	\definecolor{posterFuchsia}{cmyk}{0.22,0.72,0,0}%
+}
+
+%% Default options
+\ExecuteOptions{RGB}
+
+%% Process options
+\ProcessOptions*\relax
+
+
+
