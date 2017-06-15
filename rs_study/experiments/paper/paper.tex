@@ -154,14 +154,15 @@ France}
 
 %\subsection{Resting State fMRI (rs-fMRI) prediction pipeline}
 \autoref{fig:pipeline}  depicts  our  functional-connectivity based
-prediction  pipeline and consists of
-i) defining brain ROIs and extraction of timeseries signals with these
-ROIs, ii) connectivity parameterization between pair of ROIs and
+prediction  pipeline \citep{abraham2017deriving} and consists of
+following steps: i) defining brain ROIs and extraction of timeseries
+signals from these ROIs,
+ii) connectivity parameterization between pair of ROIs and
 iii) connectivity-based classification of phenotypic target using
 machine learning.
-We rely on this pipeline to study the various choices at each
-step in the pipeline by measuring the impact of each choice
-made across diverse phenotypic targets from five different
+We study various methods at each
+step in the pipeline by measuring the impact of each method
+made in predicting diverse phenotypic targets across five different
 rs-fMRI datasets.
 
 In below sections, we describe about the methods used at each step
@@ -169,42 +170,152 @@ in the pipeline, rs-fMRI datasets and the phenotypic target used
 within each dataset and cross-validation framework to reporting
 prediction accuracy scores.
 
+As the methods used in the pipeline are well known therefore explaining the
+technical details is out of reach in this paper. The main intention here is to
+tell how we used the methods rather than what each method is.
 %trategy where at step i), we defined brain ROIs from training set of
 %rs-fMRI images where the same set is used for training a linear
 %model classifier in prediction tasks at step iii).
 \subsection{Definition of brain regions of interest (ROIs)}
 The first step of the pipeline consists in reducing the
 dimensionality of the problem by aggregating whole brain voxels into
-set of voxels forming a brain ROIs. Each ROI represents a meaningful structure
-of the whole brain where we can use this structure to learn the connectivity
-interactions to study the classification of phenotypic targets, for instance.
+each set of voxels forming a brain ROIs. Each ROI has a meaningful structure
+underlying in it where we can use this structure to learn the connectivity
+interactions to study the classification of phenotypic targets.
 There exists many different kinds of approaches to define brain ROIs
-as overviewed in \cite{thirion2014}. We choose to define brain ROIs
+as overviewed in \citep{thirion2014}. We choose to define brain ROIs
 using two specific approaches. One approach is using reference atlases
 where ROIs are pre-defined while the another approach is
 using data-driven methods where ROIs are defined by directly learning
-on the data. For each approach, we used various choices in
-reference atlases and data-driven methods to study the impact of each
-choice in the prediction pipeline on diverse phenotypic targets. The
-question underlying atlas selection is whether different brain
+on the data in a \textbf{multi-subject level}. For each approach, we used
+various choices in reference atlases and data-driven methods to study the
+impact of each choice in the prediction pipeline on diverse phenotypic targets.
+The question underlying ROIs selection is whether different brain
 disorders lead to a consistent choice, and whether genericity
 should be preferred to adaptative strategies.
 
-generated on another anatomical and functional datasets which are not
-included in this study. Another approach is using
-data-driven methods where ROIs are defined by directly learning on the
-data. For each approach, we used various
-choices to study the impact of each approach in the prediction pipeline on
-diverse prediction tasks.
+\paragraph{Choices of pre-defined atlases}
+We considered three reference atlases: i) \textbf{Automated Anatomical Labeling
+(AAL)} \citep{tzourio-mazoyer2002a}, a structural atlas obtained on
+unseen single-subject high-resolution T1 image of 116 ROIs,
+ii) \textbf{Harvard Oxford}
+\citep{desikan2006}, a probabilistic cortical segmented structural
+atlas learned on unseen 40 subjects T1 images, contains of 48 ROIs in
+each hemisphere of total 96 ROIs. iii) \textbf{Bootstrap Analysis of
+Stable Clusters (BASC)} \citep{bellec2010}, a multi scale functional atlas
+extracted using K-Means clustering on rs-fMRI dataset which
+consists of 43 healthy subjects. We considered exploring various scales set
+in $\{036, 064, 122, 197, 325, 444\}$.
 
-We outline here various choices used, out of which three are
-pre-defined atlases - Automated Anatomical Labeling (AAL) - Harvard Oxford
-- Bootstrap Analysis of Stable Clusters (BASC) and four data-driven
-methods - Linear decomposition models: Group Independent Component
-Analysis (Group ICA) - Online Dictionary Learning (DictLearn) and
-Clustering models: KMeans - Agglomerative with Ward criterion. For each
-data-driven method, we learn ROIs on training set of rs-fMRI images
-and 
+\paragraph{Choices of data-driven atlases}
+We considered four popular data exploratory methods most widely used in the
+fMRI community to learn the functional connectivity of the human brain driven
+by intrinsic activity from these ROIs \citep{yeo2011, kahnt2012, thirion2014}
+\citep{calhoun2001a, beckmann2004, varoquaux2011, abraham2013}.
+Inspired from these research methods, we choose to build brain
+atlases from multi-subject rs-fMRI images using \textbf{two clustering
+methods} mainly:
+i) \textbf{K-Means} \citep{sculley2010}, and ii) hierarchical agglomerative
+clustering using \textbf{Ward’s algorithm} \citep{ward1963} added with
+spatial connectivity matrix to map together all neighboring voxels sharing
+the same information, and \textbf{two
+are data decomposition linear methods} where these two methods have quite
+different approach in extraction of brain ROIs, namely: iii) \textbf{
+Canonical Independent Component Analysis (GroupICA) or (CanICA)}
+\citep{varoquaux2010}, iv) \textbf{Online Dictionary Learning
+(DictLearn)} \citep{mensch2016}.
+
+\paragraph{Choices of dimensionalities and dimensionality reduction}
+Prior to defining brain ROIs with clustering methods
+i.e., K-Means and Ward, we reduced the dimensionality
+of the multi-subject rs-fMRI images in a group level using Principal Component
+Analysis (PCA) \citep{smith2014} to $n=100$ components.
+Given these PCA components, we define the brain ROIs with
+varying in cluster dimensions in $dim=\{40, 60, 80, 100, 120, 150, 200, 300\}$
+where our intention also lies in studying the
+impact of dimensionality in building brain ROIs used for prediction of
+diverse phenotypic targets.
+
+While with data decomposition methods i.e., CanICA and DictLearn,
+we vary the dimensionality reduction components $n$
+according to brain ROIs defining dimensions in $dim=\{40, 60, 80, 100, 120,
+150\}$\footnote{For less ambiguity, we focussed to report results with less
+    dimensions especially for CanICA and DictLearn where the computational
+    cost is high in defining brain ROIs. However, we also investigated
+for higher dimensions in $dim=\{200, 300\}$ without any improvements in the
+results}.
+We share almost common parameters across each pair of data-driven methods
+to compare them efficiently between clustering methods or
+between data decomposition methods. Also, all data-driven methods altogether.
+
+For each data-driven method, we
+learn brain ROIs on training set of rs-fMRI images to overcome overfitting
+results \citep{abraham2017deriving}.
+The ratio of training set used to learn brain ROIs is described below in section
+Experimental study. We also used Gaussian smoothing on rs-fMRI images
+with Full Width Half Maximum (FWHM) of $6mm$ for all
+data-driven methods prior to learning brain ROIs. We used common smoothing to
+avoid possible variance with the definition of ROIs which may arise while
+varying the smoothness on the rs-fMRI images.
+
+\paragraph{Choices of regions or networks}
+While defining brain ROIs, we are also interested to study the
+impact on the prediction driven by brain ROIs defined with either regions
+or networks. Regions implies separating the
+biggest connected components or networks in the brain extracted to independent
+regions which are
+spatially contiguous \citep{abraham2014region}. For example, separating
+bi-hemispheric brain network to regions onto each hemisphere or separating default
+mode network (DMN) to each a independent region.
+Whereas networks implies using directly as it is without implying any regions
+method.
+
+We used a Random Walker segmentation approach to extract regions in the
+brain networks decomposed by methods in CanICA and DictLearn as proposed in
+\citep{abraham2014region}. While for BASC and K-Means, we used simple
+label\footnote{For label reassignment approach, we used multidimensional
+module named as ndimage.label from scipy software.}
+reassignment approach to extract the biggest connected components to regions
+assigned with new label. In particular we compare in regions or networks with
+all methods except AAL, Harvard Oxford and Ward.
+During this procedure, we remove
+spurious regions of size $< 1500 mm^{3}$. An example of the brain atlases obtained
+through data-driven methods on ADNI rs-fMRI dataset is presented in
+\autoref{fig:brain_rois}.
+
+\paragraph{Time-series signals extraction}
+After definition of brain ROIs, we extract a representative time-series
+for each ROI in each subject. For atlases composed of non-overlapping
+ROIs as can be seen in \autoref{fig:brain_rois} (bottom row), we simply
+compute the weighted average of the fMRI
+time series signals over all voxels within that specific region.
+For fuzzy overlapping ROIs, such as the components extracted
+by CanICA and DictLearn as shown in \autoref{fig:brain_rois} (top row),
+we use a linear model to unmix the
+signal in each voxel as the additive decomposition of signals
+over several overlapping ROIs.
+
+Standard pre-processing steps are applied on a signal extraction level
+to regress out confounds or nuisance signals. We extracted $10$ CompCor
+high-variance confounds on the whole brain using similar method as
+proposed in \citep{behzadi2007} and also used $6$ motion confounds pre-extracted
+during motion realignment in $6$ directions while pre-processing raw rs-fMRI
+images\footnote{\url{https://github.com/neurospin/pypreprocess}}.
+We have not used any motion
+confounds for ABIDE \citep{dimartino2014autism} and
+ACPI\footnote{\url{http://fcon_1000.projects.nitrc.org/indi/ACPI/html/}}
+rs-fMRI images as the data is already
+pre-processed using standard preprocessed initiative protocols.
+More details on pre-processing steps used for raw rs-fMRI
+images can be in Section Experimental study.
+The signal of each region is also
+then normalized, detrended and bandpass-filtered between 0.01
+and 0.1 Hz. The primary motivation using pre-processing on a signal extraction
+level is to reject non-neural information i.e., information corresponding to
+acquisition noise or cardiac activity or physiological random noise and get
+cleaned timeseries as much as possible to learn the functional-connectivity
+interactions which are crucial for classification step in supervised learning
+as proposed in \citep{varoquaux2013connectomes}.
 
 \subsection{Parameterizing connectivity}
 
@@ -693,10 +804,13 @@ fMRI.
 
 \begin{figure}
     \centerline{%
-	\includegraphics[width=0.5\paperwidth]{figures/brainrois.pdf}%
+	\includegraphics[width=1.2\linewidth]{figures/rois2.pdf}%
     }%
     \caption{\textbf{Brain regions/parcellations using ICA, DictLearn, KMeans,
-        Ward}
+        Ward} Brain atlas with Dictionary Learning is chosen with
+        $n=60$ resting state networks separated to regions whereas same with
+        ICA but $n=80$ resting state networks. For KMeans and Ward, brain
+        parcellations are chosen for $n=120$ dimensions.
     %
     %
     \label{fig:brain_rois}
@@ -704,13 +818,13 @@ fMRI.
 \end{figure}
 \paragraph{Choice of brain atlas}
 
-\section{Discussion:}
+\section{Discussion}
 
 In this section, we talk about the right trends and recommendations which
 should be made at each step in the functional connectivity prediction
 pipeline.
 
-\section{Conclusion:}
+\section{Conclusion}
 
 \subsection*{Acknowledgments}
 
@@ -718,8 +832,8 @@ Funded by NiConnect project (ANR-11-BINF-0004\_NiConnect) and CATI.
 
 % references section
 
-
-\section{Supplementary material}
+\section{References}
+\small
 %\bibliographystyle{elsarticle-num-names}
 \bibliography{biblio}
 
