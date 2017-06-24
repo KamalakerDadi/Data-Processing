@@ -1,3 +1,4 @@
+\pdfminorversion=4
 \documentclass[portrait,a0,final]{a0poster} % a0poster class sets the paper size
 \usepackage[RGB,A0]{ScientificPosterTemplate} % RGB, Coated, Uncoated
 \usepackage[english]{babel}
@@ -9,6 +10,7 @@
 \usepackage{tabularx}
 \usepackage{lipsum} % Lorem ipsum generator
 \usepackage{floatrow}
+
 
 
 \definecolor{bleu}{RGB}{0,140,189}%
@@ -57,18 +59,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
-
-
-
-
-
-
-
-
 \begin{document}
-
-
 
 \thispagestyle{empty} % Removes the page number
 
@@ -82,28 +73,39 @@
 
 %% Title: use \baselinestretch to change linespacing, \textit{} for italic text, \textcolor for colored text
 % More conservative title, upright and black
-{\renewcommand{\baselinestretch}{0.85} % Changes the baseline skip smaller for the title
-\VeryHuge{\bfseries{\textsf{\textcolor{bleu}{Towards a better predictive model
-from rest fMRI: benchmarks across multiple phenotypes}}}} % Text size for a1 posters
+{\renewcommand{\baselinestretch}{0.8} % Changes the baseline skip smaller for the title
+\VeryHuge{\bfseries{\textsf{\textcolor{bleu}{Predictive models based on
+functional connectivity: a benchmark across multiple datasets}}}} % Text size for a1 posters
 \par} % <- for \baselinestretch
 
 \vspace{0.02\linewidth} % Empty space after the title
 
-\Large{\textsf{\bfseries{\underline{Kamalaker Dadi}$^{1*}$, Darya Chyzhyk$^1$,
-Alexandre Abraham$^1$, Mehdi Rahim$^1$, Bertrand Thirion$^1$,
-Gael Varoquaux$^1$}}} % Text size for a1 posters
+\Large{\textsf{\bfseries{Kamalaker DADI$^{1}$, Alexandre ABRAHAM$^1$,
+Mehdi RAHIM$^1$, Darya CHYZHYK$^1$, Bertrand THIRION$^1$,
+Ga{\"e}l VAROQUAUX$^1$}}} % Text size for a1 posters
 
 \vspace{0.01\linewidth}
 \Large{\textcolor{posterBlack}{\textsf{%\bfseries{
-            $^1$Parietal team, Neurospin -- I${^2}$BM -- CEA, INRIA, Paris-Saclay, France \\ $^*$kamalaker-reddy.dadi@inria.fr%}
+            $^1$Parietal team, Neurospin -- CEA, INRIA, Paris-Saclay, France%}
 }}}
 %
 \end{minipage}
-\hspace{0.08\linewidth}
-%\begin{minipage}{0.15\linewidth} % logo
+\begin{minipage}{0.76\paperwidth}
+\vspace{-0.035\linewidth}
+\begin{flushright}
+\includegraphics[height=15mm, angle=0]{figures/logos/parietal_web_page.png}
+\qquad \quad
+\includegraphics[height=15mm, angle=0]{figures/logos/neurospin.jpg}
+\qquad \quad
+\includegraphics[height=26mm, angle=0]{figures/logos/logo-inria2.jpg}
+\end{flushright}
+\end{minipage} % No empty line before the second begin!
+%\hspace{0.01\linewidth}
+%\begin{minipage}{0.95\linewidth} % logo
+%    \hfill
 %\vspace{0pt} % Alingns the parallel minipages on top
 %\begin{flushright}
-%\includegraphics[width=0.30\linewidth,
+%\includegraphics[width=0.20\linewidth,
 %angle=0]{figures/logos/parietal_web_page.png}
 %\end{flushright}
 
@@ -111,62 +113,46 @@ Gael Varoquaux$^1$}}} % Text size for a1 posters
 
 \end{minipage}
 
-
-
-
-
-
-
-
-
-
 %% Two columns
 
 % Space according to the visual identity guidelines...
-\vspace{0.04\linewidth}
+\vspace{0.03\linewidth}
 
 % Centering helps in placement
 \centering
 \Large % Text size for a1 posters
 \sffamily % font sans serif
 
-
 \begin{minipage}{0.98\linewidth}
 
 \begin{minipage}[t]{0.48\linewidth}
 \setlength{\parindent}{10mm} % Paragraph indent
 
-
-
-
-
-
-
-
-
-
-
-
-
 \section{Introduction}
-Psychiatry and psychology are based on assessing individuals traits,
-characterized through
-behavioral testing and questionnaires. Imaging of brain activity raises the
-hope of measuring
-the physiological differences that underlie these psychological variations
-\cite{miller}. In \cite{abraham}, we have
-introduced an automated pipeline capable of learning this link across
-individuals using large
-cohorts of functional magnetic resonance images acquired during rest (Rest
-fMRI). We present the outline of this pipeline
-and how we used it to draw best practices from its application on various problems.
+\begin{itemize}
+    \item Psychiatry and psychology are based on assessing individuals traits
+        characterized through \textbf{behavioral testing} and
+        \textbf{questionnaires}.
+    \item \textbf{Imaging of brain activity} measures the physiological
+        differences that underlie these \textbf{psychological
+        variations}\cite{miller}.
+    \item Introduction of \textbf{automated pipeline}\cite{abraham}.
+        \begin{itemize}
+            \item  Learning the \textbf{link} across individuals.
+            \item Large cohorts of functional magnetic resonance images at
+                rest \textbf{(Rest-fMRI)}.
+        \end{itemize}
+    \item We present the \textbf{outline} of this pipeline
+        and how we used it to \textbf{draw best practices} from the
+        application of pipeline on
+        various problems.
+\end{itemize}
 
-
-\vspace{0.8\sectionspace}
+\vspace{0.3\sectionspace}
 \section{A connectome classification pipeline}
-We applied the pipeline on five datasets to i) determine the steps to obtain
-the best
-prediction, and ii) predict phenotypic information with good accuracy.
+%We applied the pipeline on five datasets to i) determine the steps to obtain
+%the best
+%prediction, and ii) predict phenotypic information with good accuracy.
 
 %\vspace{\figurespace}
 \begin{center}
@@ -180,7 +166,7 @@ machine learning. \label{fig_1}}
 %\vspace{\figurespace}
 
 
-\vspace{0.6\sectionspace}
+\vspace{0.0991\sectionspace}
 \section{Rest fMRI datasets}
 
 \begin{center}
@@ -197,8 +183,8 @@ machine learning. \label{fig_1}}
         ABIDE & $402/464$ & Autism vs Control
     \end{tabular}
 \end{center}
-\captionof{table}{Description of the five rs-fMRI
-    datasets used.
+\captionof{table}{Description of the \textbf{five rs-fMRI
+    datasets} used.
     AD - Alzheimer's Disease, MCI - Mild
     Cognitive Impairment,
     PTSD - Post Traumatic Stress Disorder.}
@@ -212,7 +198,7 @@ machine learning. \label{fig_1}}
     %\end{enumerate}
 %\vspace{\figurespace}
 \begin{center}
-\includegraphics[width=0.7\linewidth]{figures/only_pipeline_choices.pdf}
+\includegraphics[width=0.7\linewidth]{figures/only_pipeline_choices2.pdf}
 \end{center}
 \captionof{figure}{{\bfseries\sffamily 1 -- Defining Brain ROIs} can be done using
     three pre-defined atlases: two anatomical - Automated Anatomical Labeling
@@ -232,13 +218,11 @@ classification
 
 
 %\begin{centering}
-\begin{minipage}{0.22\textwidth}
-\begin{minipage}{1.5\linewidth}
+\begin{minipage}{0.38\linewidth}
 \begin{center}
-\includegraphics[width=2.22\linewidth]{figures/rois2.pdf}
+\includegraphics[width=2.5\linewidth]{figures/rois2.pdf}
 %\captionof{figure}{Definition of Brain regions. \label{fig_3}}
 \end{center}
-\end{minipage}
 \end{minipage}
 %\end{centering}
 %\vspace{\figurespace}
@@ -256,15 +240,6 @@ classification
 \hspace{0.02\linewidth} % Middle margin
 \begin{minipage}[t]{0.48\linewidth}
 \setlength{\parindent}{10mm} % Paragraph indent
-
-
-
-
-
-
-
-
-
 
 \section{Results}
 \subsection{Prediction scores in AUC}
@@ -350,69 +325,62 @@ GroupICA (80 networks to regions) -- DictLearn (60 networks to regions)
 \bibliography{references}
 \end{spacing}
 
+\begin{spacing}{0.7}
+\begin{minipage}[c]{0.675\linewidth}
+    \begin{center}
+\vspace{0.1\linewidth}
+\textbf{\large Acknowledgments:}\\
+\vspace{0.02\linewidth}
+\large{ANR-11-BINF-0004\_NiConnect and CATI project}.
+%\vspace{0.02\linewidth}
+%\textcolor{posterGray}{\hrule}
+%\vspace{0.02\textwidth}
+%See Also Posters: \textbf{$\#1656$, $\#1829$, $\#3934$}
+\end{center}
 
+\end{minipage}
+\end{spacing}
 
-
-
-
-
-
-
+\begin{minipage}[c]{0.995\linewidth}
+\vspace{0pt}
+\begin{flushright}
+\vspace{-0.03\linewidth}
+\includegraphics[height=64mm, angle=0]{figures/logos/nilearn-logo.png}
+\end{flushright}
+\end{minipage}
 
 \end{minipage}
 \end{minipage} % minipage for the two columns (minipages)
 
-
-
-
-
-
-
-
-
-
 \vfill % Fill the free space until the footer minipages
 
+%\begin{minipage}{0.98\textwidth} % Minipages for the footers
 
+%\large % Text size for footers
 
+%\begin{minipage}[c]{0.475\linewidth}% Footer #1
+%\vspace{0pt}
+%\begin{center}
+%\textcolor{posterGray}{\hrule}
+%\vspace{0pt}
+%\includegraphics[height=17mm, angle=0]{figures/logos/parietal_web_page.png}
+%\qquad \quad
+%\includegraphics[height=17mm, angle=0]{figures/logos/neurospin.jpg}
+%\qquad \quad
+%\includegraphics[height=29mm, angle=0]{figures/logos/logo-inria2.jpg}
+%\end{center}
+%\end{minipage} % No empty line before the second begin!
+%\hspace{0.01\linewidth}
+%\begin{minipage}[c]{0.575\linewidth} % Footer #2
+%    \begin{center}
+%\vspace{0pt}
+%\textbf{\sffamily Acknowledgments:}\\
+%ANR-11-BINF-0004\_NiConnect and
+%CATI project.
+%\end{center}
+%\end{minipage}
 
-
-
-
-
-
-
-\begin{minipage}{0.98\textwidth} % Minipages for the footers
-
-\large % Text size for footers
-
-\begin{minipage}[c]{0.475\linewidth}% Footer #1
-\vspace{0pt}
-\begin{center}
-\textcolor{posterGray}{\hrule}
-\vspace{0pt}
-\includegraphics[height=17mm, angle=0]{figures/logos/parietal_web_page.png}
-\qquad \quad
-\includegraphics[height=17mm, angle=0]{figures/logos/neurospin.jpg}
-\qquad \quad
-\includegraphics[height=29mm, angle=0]{figures/logos/logo-inria2.jpg}
-\end{center}
-\end{minipage} % No empty line before the second begin!
-\hspace{0.01\linewidth}
-\begin{minipage}[c]{0.575\linewidth} % Footer #2
-    \begin{center}
-\vspace{0pt}
-\textbf{\sffamily Acknowledgments:}\\
-ANR-11-BINF-0004\_NiConnect and
-CATI project.
-\end{center}
-\end{minipage}
-
-\end{minipage}
-
-
-
-
+%\end{minipage}
 
 \vspace*{0.03\linewidth} % Increase the bottom margins
 
