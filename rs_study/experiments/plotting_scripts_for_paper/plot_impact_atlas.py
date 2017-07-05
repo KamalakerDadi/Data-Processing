@@ -75,7 +75,7 @@ def stripplot_mean_score(df, save_path, dic_model_dim, suffix=None, x=None,
     axx.axvline(x=0, linewidth=4, zorder=0, color='0.6')
 
     plot = sns.boxplot(data=df, x=x, y=y, fliersize=0, linewidth=2,
-                       boxprops={'facecolor': '0.8', 'edgecolor': '.0'},
+                       boxprops={'facecolor': 'c', 'edgecolor': '.0'},
                        width=0.8, ax=axx)
     width_of_boxplot = 0.8
     offset = width_of_boxplot / n_datasets
